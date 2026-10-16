@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mises à jour sans serveur (phase 14) -->
+    <string name="update_title">Mise à jour</string>
+    <string name="update_state_current">À jour</string>
+    <string name="update_state_available">Version %1$s disponible</string>
+    <string name="update_state_downloading">Téléchargement %1$d %%</string>
+    <string name="update_state_installing">Installation…</string>
+    <string name="update_state_failed">Échec</string>
+    <string name="update_body">Les mises à jour viennent de vos contacts, par Tor, sans serveur. Chaque version est signée par le développeur : Whospair vérifie la signature avant de télécharger, puis le fichier reçu, et Android vérifie qu\'il est signé par la même clé que votre app. Une app modifiée est toujours refusée.</string>
+    <string name="update_available_body">La version %1$s (%2$s) est proposée par un de vos contacts. Elle se télécharge app ouverte ; si la connexion tombe, elle reprend où elle s\'était arrêtée.</string>
+    <string name="update_download">Télécharger et installer</string>
+    <string name="update_cancel">Annuler</string>
+    <string name="update_retry">Réessayer</string>
+    <string name="update_permission_hint">Android doit d\'abord autoriser Whospair à installer des mises à jour. Autorisez, revenez, puis touchez de nouveau.</string>
+    <string name="update_permission_allow">Autoriser</string>
+    <string name="update_relaying">Vous transmettez la version %1$s à vos contacts confirmés.</string>
+    <string name="update_import">Importer un paquet de mise à jour (.wup)</string>
+    <string name="update_import_unreadable">Fichier illisible.</string>
+    <string name="update_import_invalid">Ce paquet n\'est pas signé par le développeur de Whospair, ou il est abîmé. Rien n\'a été installé.</string>
+    <string name="update_import_installing">Signature vérifiée. Android va vous demander de confirmer l\'installation.</string>
+    <string name="update_import_relaying">Signature vérifiée. Ce téléphone transmet désormais cette version à vos contacts confirmés.</string>
+    <string name="update_import_mismatch">C\'est bien votre version, mais l\'app installée ici n\'est pas le même fichier. Rien à transmettre.</string>
+    <string name="update_import_older">Ce paquet est plus ancien que votre version. Rien n\'a été installé.</string>
+    <string name="update_failed_memory">Pas assez de mémoire pour la télécharger.</string>
+    <string name="update_failed_corrupt">Le fichier reçu ne correspond pas à la signature. Il a été écarté.</string>
+    <string name="update_failed_install">Android a refusé l\'installation.</string>
+    <string name="update_failed_signature">Cette version n\'est pas signée par la même clé que votre app. Refusée.</string>
+    <string name="update_banner">Mise à jour disponible</string>
+    <string name="update_notes_title">Nouveautés</string>
+    <string name="update_diffuser_retry">Source injoignable, nouvel essai dans 10 s</string>
+    <string name="update_mandatory_title">Mise à jour obligatoire</string>
+    <string name="update_mandatory_body">Une version plus récente de Whospair est disponible depuis plus de 5 jours. Installez-la pour continuer à utiliser l\'app : vos contacts à jour n\'acceptent plus les anciennes versions.</string>
+    <string name="update_interrupted">Mise à jour interrompue, nouvel essai dans 30 min</string>
+</resources>

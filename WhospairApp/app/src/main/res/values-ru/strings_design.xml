@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Сообщения</string>
+    <string name="search_contact">Найти контакт</string>
+    <string name="conversations_empty_title">Бесед пока нет</string>
+    <string name="conversations_empty_body">Добавьте кого-нибудь, отсканировав его код при встрече. Писать можно, когда у обоих открыто приложение.</string>
+    <string name="search_no_result">Контакта с таким именем нет.</string>
+    <string name="add_contact">Добавить контакт</string>
+    <string name="scan_code">Отсканировать код</string>
+    <string name="message_retry">Повторить</string>
+    <string name="message_sent">Отправлено</string>
+    <string name="message_delivered">Доставлено</string>
+    <string name="read_lock_preview">Чтение скрыто</string>
+    <string name="message_expires_in">Исчезнет через %1$s</string>
+    <string name="ttl_button">Срок жизни сообщения: %1$s</string>
+    <string name="send">Отправить</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
+    <string name="confirm_identity">Подтвердить личность</string>
+    <string name="delete_contact_and_chat">Удалить контакт и беседу</string>
+    <string name="preview_none">Нет сообщений</string>
+    <string name="preview_encrypted">Зашифрованное сообщение</string>
+    <string name="duration_days">%1$d дн.</string>
+    <string name="message_placeholder">Напишите сообщение</string>
+    <string name="discover_code_caption">Этот код содержит ваши открытые ключи и ваш адрес Tor. Больше ничего.</string>
+    <string name="share_link">Поделиться ссылкой</string>
+    <string name="copy_link">Скопировать ссылку</string>
+    <string name="link_copied">Ссылка скопирована</string>
+    <string name="memory_advice_title">Память телефона</string>
+    <string name="memory_advice_body">Whospair держит ключи в памяти, только пока приложение открыто. Но некоторые телефоны копируют часть памяти в хранилище, чтобы казаться больше («виртуальная память», «расширение памяти»). Скопированный так ключ может остаться в телефоне после закрытия Whospair.</string>
+    <string name="memory_advice_how">Чтобы отключить: найдите «виртуальная память» или «расширение памяти» в настройках телефона, отключите и перезагрузите телефон.</string>
+    <string name="voice_record">Записать голосовое сообщение</string>
+    <string name="voice_cancel">Удалить запись</string>
+    <string name="voice_recording">до %1$s</string>
+    <string name="voice_send">Отправить голосовое сообщение</string>
+    <string name="voice_play">Воспроизвести</string>
+    <string name="voice_pause">Пауза</string>
+    <string name="voice_receiving">Получение…</string>
+    <string name="voice_preview">Голосовое сообщение %1$s</string>
+    <string name="mic_denied">Микрофон для Whospair выключен. Разрешите его в настройках Android, чтобы отправить голосовое сообщение.</string>
+</resources>

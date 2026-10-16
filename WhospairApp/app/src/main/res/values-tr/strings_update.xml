@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">Güncelleme</string>
+    <string name="update_state_current">Güncel</string>
+    <string name="update_state_available">%1$s sürümü mevcut</string>
+    <string name="update_state_downloading">İndiriliyor %1$d %%</string>
+    <string name="update_state_installing">Kuruluyor…</string>
+    <string name="update_state_failed">Başarısız</string>
+    <string name="update_body">Güncellemeler kişilerinizden, Tor üzerinden, sunucu olmadan gelir. Her sürüm geliştirici tarafından imzalanır: Whospair indirmeden önce imzayı, sonra dosyayı ona göre denetler; Android de sahip olduğunuz uygulamayla aynı anahtarla imzalandığını denetler. Değiştirilmiş bir uygulama her zaman reddedilir.</string>
+    <string name="update_available_body">%1$s sürümü (%2$s) kişilerinizden biri tarafından sunuluyor. Whospair açıkken indirilir; bağlantı koparsa kaldığı yerden devam eder.</string>
+    <string name="update_download">İndir ve kur</string>
+    <string name="update_cancel">İptal</string>
+    <string name="update_retry">Tekrar dene</string>
+    <string name="update_permission_hint">Önce Android\'in Whospair\'in güncelleme kurmasına izin vermesi gerekir. İzin verin, geri gelin ve tekrar dokunun.</string>
+    <string name="update_permission_allow">İzin ver</string>
+    <string name="update_relaying">%1$s sürümünü onaylı kişilerinize aktarıyorsunuz.</string>
+    <string name="update_import">Güncelleme paketi içe aktar (.wup)</string>
+    <string name="update_import_unreadable">Okunamayan dosya.</string>
+    <string name="update_import_invalid">Bu paket Whospair geliştiricisi tarafından imzalanmamış ya da bozuk. Hiçbir şey kurulmadı.</string>
+    <string name="update_import_installing">İmza doğrulandı. Android kurulumu onaylamanızı isteyecek.</string>
+    <string name="update_import_relaying">İmza doğrulandı. Bu telefon artık bu sürümü onaylı kişilerinize aktarıyor.</string>
+    <string name="update_import_mismatch">Bu sizin sürümünüz, ama burada kurulu uygulama aynı dosya değil. Aktarılacak bir şey yok.</string>
+    <string name="update_import_older">Bu paket sizin sürümünüzden eski. Hiçbir şey kurulmadı.</string>
+    <string name="update_failed_memory">İndirmek için yeterli bellek yok.</string>
+    <string name="update_failed_corrupt">Alınan dosya imzayla eşleşmiyor. Atıldı.</string>
+    <string name="update_failed_install">Android kurulumu reddetti.</string>
+    <string name="update_failed_signature">Bu sürüm uygulamanızla aynı anahtarla imzalanmamış. Reddedildi.</string>
+    <string name="update_banner">Güncelleme mevcut</string>
+    <string name="update_notes_title">Yenilikler</string>
+    <string name="update_diffuser_retry">Kaynağa ulaşılamıyor, 10 sn sonra yeniden denenecek</string>
+    <string name="update_interrupted">Güncelleme kesildi, 30 dk sonra yeniden denenecek</string>
+    <string name="update_mandatory_title">Güncelleme zorunlu</string>
+    <string name="update_mandatory_body">Whospair\'in daha yeni bir sürümü 5 günden uzun süredir mevcut. Uygulamayı kullanmaya devam etmek için yükleyin: güncel kişileriniz artık eski sürümleri kabul etmiyor.</string>
+</resources>

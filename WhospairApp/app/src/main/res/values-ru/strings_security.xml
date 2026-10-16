@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Выберите PIN-код</string>
+    <string name="lock_hint_setup">Не меньше 6 цифр. Восстановить его нельзя — забудете, и всё будет потеряно.</string>
+    <string name="lock_title_confirm">Введите ещё раз</string>
+    <string name="lock_mismatch">Введённые коды не совпадают. Начните заново.</string>
+    <string name="lock_title_unlock">Введите PIN-код</string>
+    <string name="lock_wrong">Неверный PIN-код</string>
+    <string name="lock_attempts_left">Осталось попыток до полного стирания: %1$d</string>
+    <string name="lock_busy">Проверка…</string>
+    <string name="lock_error">При открытии что-то пошло не так. Попробуйте снова.</string>
+    <string name="settings_lock_now">Заблокировать сейчас</string>
+    <string name="settings_duress_title">Экстренный PIN-код</string>
+    <string name="settings_duress_body">Второй PIN-код для экстренных случаев. Его ввод на экране блокировки стирает всё — ключи, контакты, сообщения, — и приложение начинает заново, как только что установленное.</string>
+    <string name="settings_duress_current">Текущий PIN-код</string>
+    <string name="settings_duress_new">Экстренный PIN-код</string>
+    <string name="settings_duress_saved">Экстренный PIN-код задан.</string>
+    <string name="settings_duress_failed">Не задан: текущий PIN неверен, либо экстренный PIN слишком короткий, совпадает с основным или другой длины.</string>
+</resources>

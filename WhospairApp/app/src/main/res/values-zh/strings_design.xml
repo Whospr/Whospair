@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">消息</string>
+    <string name="search_contact">搜索联系人</string>
+    <string name="conversations_empty_title">还没有对话</string>
+    <string name="conversations_empty_body">当面扫描对方的码来添加联系人。当双方都打开应用时，就可以给对方发消息。</string>
+    <string name="search_no_result">没有这个名字的联系人。</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="scan_code">扫码</string>
+    <string name="message_retry">重试</string>
+    <string name="message_sent">已发送</string>
+    <string name="message_delivered">已送达</string>
+    <string name="read_lock_preview">阅读已隐藏</string>
+    <string name="message_expires_in">%1$s 后消失</string>
+    <string name="ttl_button">消息有效期：%1$s</string>
+    <string name="send">发送</string>
+    <string name="back">返回</string>
+    <string name="close">关闭</string>
+    <string name="confirm_identity">确认身份</string>
+    <string name="delete_contact_and_chat">删除联系人和对话</string>
+    <string name="preview_none">没有消息</string>
+    <string name="preview_encrypted">加密消息</string>
+    <string name="duration_days">%1$d 天</string>
+    <string name="message_placeholder">输入消息</string>
+    <string name="discover_code_caption">此码包含您的公钥和 Tor 地址，别无其他。</string>
+    <string name="share_link">分享我的链接</string>
+    <string name="copy_link">复制链接</string>
+    <string name="link_copied">链接已复制</string>
+    <string name="memory_advice_title">手机内存</string>
+    <string name="memory_advice_body">Whospair 只在应用打开时把密钥保存在内存中。但有些手机会把部分内存复制到存储中，让内存看起来更大（“虚拟内存”“内存扩展”）。这样被复制的密钥可能会在 Whospair 关闭后仍留在手机上。</string>
+    <string name="memory_advice_how">关闭方法：在手机设置中找到“虚拟内存”或“内存扩展”，将其关闭，然后重启手机。</string>
+    <string name="voice_record">录制语音消息</string>
+    <string name="voice_cancel">放弃录音</string>
+    <string name="voice_recording">最长 %1$s</string>
+    <string name="voice_send">发送语音消息</string>
+    <string name="voice_play">播放</string>
+    <string name="voice_pause">暂停</string>
+    <string name="voice_receiving">接收中…</string>
+    <string name="voice_preview">语音消息 %1$s</string>
+    <string name="mic_denied">Whospair 的麦克风已关闭。请在 Android 设置中允许后再发送语音消息。</string>
+</resources>

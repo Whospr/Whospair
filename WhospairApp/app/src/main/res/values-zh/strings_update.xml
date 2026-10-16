@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">更新</string>
+    <string name="update_state_current">已是最新</string>
+    <string name="update_state_available">有新版本 %1$s</string>
+    <string name="update_state_downloading">正在下载 %1$d %%</string>
+    <string name="update_state_installing">正在安装…</string>
+    <string name="update_state_failed">失败</string>
+    <string name="update_body">更新来自您的联系人，经由 Tor，没有服务器。每个版本都由开发者签名：Whospair 在下载前先验证签名，再用签名核对文件；Android 会检查它与您现有应用使用的是同一把签名密钥。被修改的应用一律拒绝。</string>
+    <string name="update_available_body">您的一位联系人提供了版本 %1$s（%2$s）。它会在 Whospair 打开时下载；如果连接中断，会从中断处继续。</string>
+    <string name="update_download">下载并安装</string>
+    <string name="update_cancel">取消</string>
+    <string name="update_retry">重试</string>
+    <string name="update_permission_hint">Android 需要先允许 Whospair 安装更新。请允许，返回后再轻触一次。</string>
+    <string name="update_permission_allow">允许</string>
+    <string name="update_relaying">您正在把版本 %1$s 传给已确认的联系人。</string>
+    <string name="update_import">导入更新包（.wup）</string>
+    <string name="update_import_unreadable">无法读取的文件。</string>
+    <string name="update_import_invalid">此更新包不是由 Whospair 开发者签名的，或已损坏。未安装任何内容。</string>
+    <string name="update_import_installing">签名已验证。Android 会请您确认安装。</string>
+    <string name="update_import_relaying">签名已验证。这部手机现在会把此版本传给您已确认的联系人。</string>
+    <string name="update_import_mismatch">这是您的版本，但这里安装的应用不是同一个文件。没有可传递的内容。</string>
+    <string name="update_import_older">此更新包比您的版本旧。未安装任何内容。</string>
+    <string name="update_failed_memory">内存不足，无法下载。</string>
+    <string name="update_failed_corrupt">收到的文件与签名不符，已丢弃。</string>
+    <string name="update_failed_install">Android 拒绝了安装。</string>
+    <string name="update_failed_signature">此版本与您的应用不是用同一把密钥签名的。已拒绝。</string>
+    <string name="update_banner">有可用更新</string>
+    <string name="update_notes_title">新内容</string>
+    <string name="update_diffuser_retry">无法连接来源，10 秒后重试</string>
+    <string name="update_interrupted">更新已中断，30 分钟后重试</string>
+    <string name="update_mandatory_title">需要更新</string>
+    <string name="update_mandatory_body">Whospair 的新版本已发布超过 5 天。请安装后继续使用：已更新的联系人不再接受旧版本。</string>
+</resources>

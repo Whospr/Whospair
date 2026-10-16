@@ -1,0 +1,561 @@
+splash_tagline	الخصوصية في صميم التصميم
+tos_title	قبل أن تبدأ
+tos_warning	اقرأ هذا بعناية. لا يعمل Whospair مثل تطبيقات المراسلة التي تعرفها، وبعض هذه الاختلافات لا رجعة فيه.
+tos_s1_title	١. من جهاز إلى جهاز بطبيعته
+tos_s1_body	ليس لدى Whospair خادم. تنتقل الرسائل والمكالمات مباشرة بين الأجهزة. لا أحد — ولا نحن — يقف في المنتصف أو يخزّن بياناتك أو يستطيع تسليمها.
+tos_s2_title	٢. أنت المسؤول
+tos_s2_body	لا توجد جهة مشغّلة وراء هذا التطبيق. ما ترسله، ولمن، وما تفعله بما تتلقاه هو مسؤوليتك بالكامل. Whospair أداة: لا يمكن تحميل مؤلفيه مسؤولية طريقة استخدامك له ولا عواقبها.
+tos_s3_title	٣. لا إشراف على المحتوى
+tos_s3_body	لا توجد جهة تراجع المحتوى أو ترشّحه أو تحذفه. لا يوجد زر إبلاغ يصل إلى أحد، لأنه لا يوجد أحد في الطرف الآخر.
+tos_s4_title	٤. تشفير تام بين الطرفين
+tos_s4_body	الرسائل مشفّرة تشفيرًا تامًا بين الطرفين (X25519 وAES-256-GCM) وموقّعة. تمر المكالمات عبر Tor، مشفّرة بمفتاح يتغيّر كل عشر ثوانٍ تقريبًا.
+tos_s5_title	٥. لا شيء يُخزَّن عن بُعد
+tos_s5_body	هويتك وجهات اتصالك ورسائلك موجودة على هذا الجهاز فقط. إلغاء تثبيت التطبيق يمحوها.
+tos_s6_title	٦. لا استعادة
+tos_s6_body	هويتك مفتاح تشفير، وليست حسابًا. إن فقدته، ضاع. لا إعادة تعيين لكلمة المرور، ولا دعم، ولا نسخة احتياطية يمكن استعادتها.
+tos_s7_title	٧. للاستخدام المشروع فقط
+tos_s7_body	أدوات الخصوصية تحمي المحادثات المشروعة. استخدام Whospair لمخالفة القانون يبقى مخالفة للقانون.
+tos_s8_title	٨. بلا ضمان
+tos_s8_body	يُقدَّم هذا البرنامج كما هو، دون ضمان للتوفّر أو الصحة أو الملاءمة لغرض معيّن.
+tos_s9_title	٩. للأمان حدود
+tos_s9_body	يحمي التشفير البيانات أثناء نقلها. ولا يمكنه حماية جهاز مخترق أصلًا ببرمجية خبيثة أو أداة تجسّس، أو جهاز يمسكه شخص آخر.
+tos_s10_title	١٠. القبول
+tos_s10_body	المتابعة تعني أنك تفهم ما سبق، وخصوصًا أن الهوية المفقودة لا يمكن استعادتها.
+tos_checkbox	قرأت هذه الشروط وأوافق عليها
+tos_accept	موافقة
+tos_decline	رفض
+tos_decline_dialog_title	رفض الشروط؟
+tos_decline_dialog_body	لا يمكن لـ Whospair العمل دون الموافقة. سيُغلق التطبيق.
+tos_decline_confirm	إغلاق التطبيق
+tos_decline_cancel	رجوع
+tutorial_skip	تخطٍّ
+tutorial_next	التالي
+tutorial_back	رجوع
+tutorial_start	ابدأ
+tutorial_page_counter	%1$d من %2$d
+tutorial_p1_title	مرحبًا بك في Whospair
+tutorial_p1_body	رسائل ومكالمات لا تترك أثرًا على أي خادم، لأنه لا يوجد خادم.
+tutorial_p1_f1	تشفير تام بين الطرفين
+tutorial_p1_f2	بلا خوادم ولا حسابات
+tutorial_p1_f3	تنتهي الرسائل من تلقاء نفسها
+tutorial_p1_f4	كل المفاتيح بين يديك
+tutorial_p2_title	إضافة شخص
+tutorial_p2_body	لا أسماء مستخدمين ولا أرقام هواتف. تتبادلون المفاتيح مباشرة.
+tutorial_p2_s1	افتح تبويب «إضافة»
+tutorial_p2_s2	امسح رمزه، أو دعه يمسح رمزك
+tutorial_p2_s3	المحادثة جاهزة
+tutorial_p2_note	هوية جديدة تعني رمزًا جديدًا. مشاركته من جديد هي الطريقة الوحيدة لاستعادة الاتصال.
+tutorial_p3_title	إرسال رسالة
+tutorial_p3_body	لكل رسالة مدة صلاحية تبدأ لحظة إرسالها.
+tutorial_p3_s1	افتح محادثة
+tutorial_p3_s2	اكتب، ثم اختر مدة بقائها
+tutorial_p3_s3	أرسل
+tutorial_p4_title	مدة الصلاحية
+tutorial_p4_body	اختر المدة المناسبة لما تقوله. عند انتهائها، تُحذف الرسالة من الجهازين.
+tutorial_p4_note	الأقصر أكثر أمانًا. ما يزال على الشاشة ما يزال على القرص.
+tutorial_p5_title	السيطرة بيدك
+tutorial_p5_body	بعض الأمور التي تستحق المعرفة قبل أن تبدأ.
+tutorial_p5_f1	احظر أي جهة اتصال أو احذفها
+tutorial_p5_f2	احذف محادثة كاملة دفعة واحدة
+tutorial_p5_f3	اقفل التطبيق برمز PIN
+tutorial_p5_f4	المفاتيح لا تغادر هذا الجهاز أبدًا
+identity_creating_title	جارٍ إنشاء هويتك
+identity_creating_body	جارٍ توليد زوج مفاتيح على هذا الجهاز. يستغرق ذلك لحظة.
+identity_ready_title	هذا أنت
+identity_ready_body	مفاتيحك جاهزة. اختر الآن رمز PIN: فهو الذي يختمها. سيكون رمز QR الخاص بك بانتظارك في «إضافة».
+identity_warning	يبقى مفتاحك الخاص على هذا الجهاز ولا يُعرض أبدًا. إن فقدت هذا الجهاز، تضيع هذه الهوية إلى الأبد.
+identity_continue	متابعة
+identity_error_title	تعذّر إنشاء هويتك
+identity_retry	إعادة المحاولة
+nav_home	الرسائل
+nav_contacts	جهات الاتصال
+nav_calls	المكالمات
+nav_discover	إضافة
+nav_settings	الإعدادات
+ttl_5m	٥ دقائق
+ttl_15m	١٥ دقيقة
+ttl_1h	ساعة
+ttl_5h	٥ ساعات
+ttl_8h	٨ ساعات
+ttl_24h	٢٤ ساعة
+ttl_7d	٧ أيام
+discover_title	إضافة جهة اتصال
+discover_subtitle	أرِ رمزك للشخص، أو امسح رمزه. وجهًا لوجه، تعرف مع من تتحدث.
+discover_scan_title	امسح رمزه
+discover_scan_body	وجّه الكاميرا نحو رمز QR الخاص به
+discover_mycode_title	أظهر رمزي
+discover_mycode_body	دع شخصًا يضيفك
+discover_manual_title	أو الصق رابطًا تلقيته
+discover_manual_hint	whospair:… أو 64 حرفًا ست عشريًا
+discover_add	أضف جهة الاتصال هذه
+discover_fingerprint	بصمة للمقارنة بصوت عالٍ
+discover_copy_link	انسخ رابط الدعوة
+add_ok	تمت إضافة %1$s. يمكنك بدء محادثة.
+add_already	%1$s موجود بالفعل في جهات اتصالك.
+add_blocked	%1$s في جهات اتصالك لكنه محظور.
+add_self	هذا مفتاحك أنت. لا يمكنك إضافة نفسك.
+add_malformed	هذا المفتاح غير صالح. المفتاح العام مكوّن من 64 حرفًا ست عشريًا.
+add_not_whisper	هذا الرمز ليس مفتاح Whospair.
+add_unblock	إلغاء الحظر
+add_unblocked	أُلغي حظر %1$s.
+scan_instruction	وجّه نحو رمز QR الذي تريد إضافته
+scan_permission_title	مطلوب الوصول إلى الكاميرا
+scan_permission_body	مسح الرمز يتطلب الكاميرا. لا يُسجَّل شيء ولا يُرسل إلى أي مكان.
+scan_permission_denied	رُفض الوصول إلى الكاميرا. يمكنك تفعيله من إعدادات الجهاز، أو لصق المفتاح يدويًا.
+scan_permission_grant	السماح بالكاميرا
+scan_use_manual	لصق مفتاح بدلًا من ذلك
+contact_block	حظر
+contact_unblock	إلغاء الحظر
+contact_delete	حذف جهة الاتصال
+contact_delete_confirm	حذف جهة الاتصال هذه والمحادثة كاملة؟ لا يمكن التراجع عن ذلك.
+contact_blocked_notice	محظور. تُرفض الرسائل من جهة الاتصال هذه.
+common_dismiss	إغلاق
+common_loading	جارٍ التحميل…
+common_cancel	إلغاء
+common_error	حدث خطأ ما
+chat_today	اليوم
+chat_yesterday	أمس
+message_pending	جارٍ الإرسال
+message_failed	لم تُرسل، جهة الاتصال غير متاحة
+tutorial_pin_title	رمز PIN الخاص بك، ولا شيء سواه
+tutorial_pin_body	كل شيء في Whospair مقفل خلف رمز PIN تختاره في الخطوة التالية. إن نسيته، لا يمكن استعادة أي شيء.
+tutorial_pin_f1	عشر محاولات خاطئة تمحو كل شيء
+tutorial_pin_f2	رمز PIN للطوارئ (يُضبط في الإعدادات) يمحو كل شيء عند إدخاله: استخدمه إن كنت مُكرهًا أو في خطر
+tutorial_pin_f3	لا بصمة ولا تعرّف على الوجه: يمكن إجبار إصبعك على المستشعر، لكن لا يمكن انتزاع رمز منك
+tutorial_pin_note	عندما ينتقل التطبيق إلى الخلفية، يقفل نفسه.
+call_action	اتصال
+call_connecting	جارٍ الوصول عبر Tor…
+call_ringing	يرن…
+call_incoming	مكالمة واردة
+call_answer	رد
+call_decline	رفض
+call_cancel	إلغاء
+call_hang_up	إنهاء
+call_mute	كتم
+call_unmute	إلغاء الكتم
+call_speaker	مكبّر الصوت
+call_earpiece	سماعة الأذن
+call_delay_hint	عبر Tor، يصل صوتك متأخرًا بنحو ثانية. اترك وقفة قصيرة قبل الرد.
+call_ended	انتهت المكالمة
+call_declined	مرفوضة
+call_busy	في مكالمة بالفعل
+call_no_answer	لا رد
+call_unreachable	غير متاح الآن. حاول مرة أخرى بعد قليل.
+call_lost	انقطع الاتصال
+call_mic_denied	الميكروفون معطّل لـ Whospair. اسمح به في إعدادات Android لإجراء المكالمات.
+call_not_confirmed	أكّد جهة الاتصال هذه أولًا. يمكن فقط لجهات الاتصال المؤكَّدة الاتصال ببعضها.
+call_log_outgoing	مكالمة صادرة · %1$s
+call_log_incoming	مكالمة واردة · %1$s
+call_log_missed	مكالمة فائتة
+call_log_refused	مكالمة مرفوضة
+call_log_no_answer	مكالمة دون رد
+call_log_busy	مكالمة: كان الطرف الآخر في مكالمة
+call_log_unreachable	لم تتم المكالمة
+call_log_cancelled	أُلغيت المكالمة
+messages_title	الرسائل
+search_contact	ابحث عن جهة اتصال
+conversations_empty_title	لا محادثات بعد
+conversations_empty_body	أضف شخصًا بمسح رمزه، وجهًا لوجه. يمكنك مراسلته عندما يكون التطبيق مفتوحًا لديكما.
+search_no_result	لا توجد جهة اتصال بهذا الاسم.
+add_contact	إضافة جهة اتصال
+scan_code	مسح رمز
+message_retry	إعادة المحاولة
+message_sent	أُرسلت
+message_delivered	وصلت
+read_lock_preview	القراءة مخفية
+message_expires_in	تختفي بعد %1$s
+ttl_button	مدة الرسالة: %1$s
+send	إرسال
+back	رجوع
+close	إغلاق
+confirm_identity	تأكيد الهوية
+delete_contact_and_chat	حذف جهة الاتصال والمحادثة
+preview_none	لا رسائل
+preview_encrypted	رسالة مشفّرة
+duration_days	%1$d ي
+message_placeholder	اكتب رسالة
+discover_code_caption	يحتوي هذا الرمز على مفاتيحك العامة وعنوانك على Tor. لا شيء غير ذلك.
+share_link	مشاركة رابطي
+copy_link	نسخ الرابط
+link_copied	نُسخ الرابط
+memory_advice_title	ذاكرة الهاتف
+memory_advice_body	يحتفظ Whospair بمفاتيحه في الذاكرة فقط أثناء فتح التطبيق. لكن بعض الهواتف تنسخ جزءًا من ذاكرتها إلى وحدة التخزين لتبدو أكبر («الذاكرة الافتراضية»، «توسيع الذاكرة»). قد يبقى مفتاح نُسخ بهذه الطريقة على الهاتف بعد إغلاق Whospair.
+memory_advice_how	لإيقافه: ابحث عن «الذاكرة الافتراضية» أو «توسيع الذاكرة» في إعدادات الهاتف، أوقفه، ثم أعد تشغيل الهاتف.
+voice_record	تسجيل رسالة صوتية
+voice_cancel	تجاهل التسجيل
+voice_recording	حتى %1$s
+voice_send	إرسال الرسالة الصوتية
+voice_play	تشغيل
+voice_pause	إيقاف مؤقت
+voice_receiving	جارٍ الاستلام…
+voice_preview	رسالة صوتية %1$s
+mic_denied	الميكروفون معطّل لـ Whospair. اسمح به في إعدادات Android لإرسال رسالة صوتية.
+tor_state_live	Tor يعمل
+tor_state_connecting	جارٍ الاتصال بـ Tor
+tor_state_offline	Tor متوقف
+presence_reachable	متاح
+ring_action	تنبيه
+ring_calling	جارٍ تنبيه %1$s…
+ring_incoming	%1$s ينبّهك
+ring_accept	رد
+ring_decline	تجاهل
+ring_cancel	إيقاف
+ring_declined	تجاهل %1$s التنبيه
+ring_timeout	لا رد
+ring_peer_offline	%1$s ليس في التطبيق الآن
+ring_busy	توجد جلسة مفتوحة بالفعل
+indicator_title	ماذا يعني هذا
+indicator_channel_live	يعمل Tor وعنوانك منشور. يمكن لجهات الاتصال التي فتحت التطبيق أيضًا الوصول إليك، ويمكنك الوصول إليها.
+indicator_channel_none	Tor غير جاهز. لا يمكن إرسال أو استلام أي شيء، ولا يُحتفظ بشيء في أي مكان لوقت لاحق.
+indicator_tunnel_on	تخرج بياناتك عبر واجهة VPN. يستطيع Whospair رؤية ذلك فقط لا أكثر: لا يعرف أي مزوّد هو، ولا إن كان النفق يسرّب البيانات.
+indicator_tunnel_off	تخرج بياناتك مباشرة. يستطيع مزوّد الشبكة أن يرى أن هذا الجهاز يستخدم Tor ومتى، لا مع من تتحدث ولا ما يُقال.
+indicator_dismiss	إغلاق
+vpn_advice_title	عن شبكتك
+vpn_advice_body	يشفّر Whospair ما تقوله، ويُخفي Tor لمن تقوله. لا أحد منهما يُخفي أنك تستخدم Tor: من ينقل بياناتك يرى ذلك، وفي أي أوقات، وكم مرة. تنقل الـ VPN هذه الرؤية إلى مشغّل النفق. هذا تغيير حقيقي عندما يكون الطرف المراقِب هو من تخشاه تحديدًا.
+vpn_advice_caveat	الـ VPN ليست ضمانًا. أنت تختار من يراقب، لا تُزيل المراقِب. اختر واحدة لديك سبب للثقة بها، وفضّل المدفوعة على تلك التي تموّل نفسها ببياناتك.
+contacts_title	جهات الاتصال
+contacts_empty	قائمة جهات اتصالك فارغة.
+contact_unconfirmed	غير مؤكَّدة
+contact_blocked	محظورة
+chat_settings	إعدادات المحادثة
+chat_unconfirmed_banner	أضافك هذا الشخص عبر رابطك. لم تؤكّد هويته بعد.
+chat_confirm	تأكيد
+chat_block	حظر
+chat_unblock	إلغاء الحظر
+chat_blocked_banner	محظور. لم يعد بإمكانه الوصول إليك.
+settings_rename	الاسم
+settings_rename_hint	أنت فقط ترى هذا الاسم.
+settings_save	حفظ
+settings_safety_number	رقم الأمان
+settings_safety_hint	قارِنه مع جهة اتصالك شخصيًا أو في مكالمة. الرقم نفسه على الهاتفين = لا أحد في المنتصف.
+settings_confirm_trust	لقد تحقّقت — أكّد جهة الاتصال هذه
+settings_trusted	جهة اتصال مؤكَّدة
+settings_block_hint	لا تستطيع جهة الاتصال المحظورة الاتصال بك أو مراسلتك بعد الآن.
+settings_delete	حذف جهة الاتصال
+settings_delete_confirm	حذف جهة الاتصال هذه وجميع الرسائل؟ إن كان رابطك ما يزال لديها، فقد تعود كغير مؤكَّدة — احظرها لمنع ذلك.
+settings_delete_action	حذف
+settings_section_profile	الملف الشخصي
+profile_photo	صورة الملف الشخصي
+profile_photo_hint	تُقصّ إلى 256 بكسل، وتُزال بياناتها الوصفية، وتُرسل عبر Tor فقط.
+profile_photo_choose	اختيار
+profile_photo_remove	إزالة
+profile_photo_error	تعذّرت قراءة هذه الصورة.
+profile_photo_visibility	من يرى صورتي
+profile_photo_everyone	كل من يصل إليّ
+profile_photo_everyone_hint	بما في ذلك جهات الاتصال غير المؤكَّدة
+profile_photo_confirmed	جهات الاتصال المؤكَّدة
+profile_photo_hidden	لا أحد
+settings_gaze_shield	شاشة تخفيها الكاميرا
+settings_gaze_shield_body	تنظر الكاميرا الأمامية إلى من يقف أمام الشاشة. كل شيء يبقى على الهاتف: لا تُحفظ أي صورة ولا تُرسل. يبقى مؤشر الكاميرا في Android مضاءً طالما Whospair مفتوح، وتنفد البطارية أسرع. قلب الهاتف على وجهه فوق الطاولة يُطفئ الشاشة دائمًا.
+settings_off	معطّل
+settings_gaze_look_away	عندما أشيح بنظري
+settings_gaze_onlooker	عندما ينظر شخص آخر
+settings_gaze_onlooker_hint	وجه ثانٍ خلفك. يقلّل الخطر دون أن يزيله: قد لا يُلاحظ وجه يُرى من الجانب أو من بعيد أو في الظلام.
+alert_someone	شخص ما يحاول الوصول إليك
+alert_bip	%1$s ينبّهك
+alert_open	فتح
+nudge_title	لفت الانتباه
+nudge_hint	اجعل Whospair لديه يهتز.
+nudge_action	لفت الانتباه
+nudge_sent	أُرسل التنبيه.
+nudge_unreachable	غير متاح الآن: Whospair مغلق لديه.
+nudge_received	%1$s يلفت انتباهك
+private_mode_title	الوضع الخاص
+private_mode_off_hint	أنت متصل ومتاح في هذه المحادثة.
+private_mode_on_hint	لم تعد متاحًا في هذه المحادثة.
+private_mode_enable	تفعيل الوضع الخاص
+private_mode_disable	إيقاف الوضع الخاص
+private_mode_banner	الوضع الخاص مفعّل في هذه المحادثة. لا يمكن الوصول إليك إلا لمدة دقيقة بعد إرسال رسالة. لتبقى متاحًا، أوقف الوضع الخاص.
+file_generic	ملف
+file_attach	إرفاق ملف
+file_view_once	عرض لمرة واحدة
+file_sending	جارٍ الإرسال %1$d %%
+file_receiving	جارٍ الاستلام %1$d %%
+file_send_title	إرسال هذا الملف؟
+file_allow_save	السماح بالحفظ
+file_allow_save_hint	وإلا فلن يُفتح إلا داخل Whospair.
+file_view_once_option	عرض لمرة واحدة
+file_view_once_hint	يُمحى من هاتف جهة اتصالك بعد أول فتح.
+file_send	إرسال
+file_too_big	الملف كبير جدًا: 25 ميغابايت كحد أقصى.
+file_unreadable	ملف غير مقروء.
+file_viewer_pending	سيُفتح هذا النوع من الملفات قريبًا داخل Whospair.
+input_more	المزيد: المدة %1$s، تنبيه، ملف
+input_ttl	المدة · %1$s
+input_file	ملف
+notice_forwarded	أعاد %1$s توجيه "%2$s" إلى جهة اتصال أخرى
+notice_shared	شارك %1$s "%2$s" مع تطبيق آخر
+notice_saved	حفظ %1$s "%2$s" على هاتفه
+notice_opened	فتح %1$s "%2$s" في تطبيق آخر
+notice_viewed	شاهد %1$s "%2$s" (عرض لمرة واحدة)
+notice_you_forwarded	أعدت توجيه "%1$s"؛ يُبلَّغ المرسل
+notice_you_shared	شاركت "%1$s"؛ يُبلَّغ المرسل
+notice_you_saved	حفظت "%1$s"؛ يُبلَّغ المرسل
+notice_you_opened	فتحت "%1$s" في مكان آخر؛ يُبلَّغ المرسل
+notice_you_viewed	شاهدت "%1$s"؛ لقد مُحي
+notice_preview	إشعار حول ملف
+file_share	مشاركة
+file_open_with	فتح باستخدام…
+file_open_elsewhere_hint	لا يستطيع Whospair عرض هذا الملف. «فتح باستخدام…» في الأعلى يُعيره لتطبيق آخر للحظة دون نسخه؛ ويُبلَّغ المرسل.
+media_play	تشغيل
+media_pause	إيقاف مؤقت
+share_forward	إرسال إلى جهة اتصال
+share_outside	مشاركة مع تطبيق آخر
+share_save	حفظ على الهاتف
+share_sender_told	سيُبلَّغ المرسل، دون أن يعرف لمن ترسله.
+forward_title	إرسال إلى…
+forward_none	لا توجد جهة اتصال مؤكَّدة أخرى.
+selection_count	تم تحديد %1$d
+selection_cancel	إلغاء التحديد
+delete_selected_title	حذف %1$d عنصر؟
+delete_selected_body	تُمحى من هذا الهاتف فورًا، دون انتظار انتهاء مدتها. ما لم يُرسل بعد لن يُرسل. تختفي نسخة جهة اتصالك عند انتهاء مدتها الخاصة.
+delete_selected_action	حذف
+file_cancel	إلغاء الإرسال
+notice_cancelled	ألغى %1$s إرسال ملف
+notice_you_cancelled	ألغيت إرسال ملف
+file_incoming	ملف في الطريق…
+settings_stay_reachable	البقاء متاحًا
+settings_on	مفعّل
+settings_stay_reachable_body	عندما يكون التطبيق مغلقًا، يبقى عنوانك متصلًا. يمكن لجهات اتصالك مراسلتك والاتصال بك.\n\nتُخزَّن الرسائل الواردة كما هي، مشفّرة، وتُختم مرة ثانية: لا تُفتح إلا برمز PIN الخاص بك. على الغرباء الذين لديهم رابطك الانتظار حتى يُفتح التطبيق.\n\nيقول الإشعار فقط «Whospair ينبّهك»: بلا اسم ولا محتوى. للمكالمة، افتح Whospair، أدخل رمز PIN، ثم أجب — يواصل جهة اتصالك الاتصال لمدة دقيقة.
+settings_stay_reachable_costs	الثمن: يبقى مفتاح onion الخاص بك في الذاكرة أثناء إغلاق التطبيق، ويعرض Android إشعارًا دائمًا، ويبقى عنوانك متصلًا على مدار الساعة، وتنفد البطارية أسرع. بعد إعادة تشغيل الهاتف، لا يعمل شيء حتى تُدخل رمز PIN.
+settings_reach_enable	تفعيل
+settings_reach_disable	إيقاف
+settings_reach_battery	السماح في الخلفية
+settings_reach_battery_hint	بدون ذلك، قد يُنيم Android تطبيق Whospair وتتوقف عن كونك متاحًا.
+settings_reach_notifications_off	الإشعارات معطّلة لـ Whospair: ستنتظر الرسائل رمز PIN، لكن لن يخبرك شيء بوصولها.
+settings_reach_notifications_allow	تفعيل الإشعارات
+settings_reach_hide_hint	يفرض Android إشعار «متاح» طالما بقي Whospair متاحًا. يمكنك إخفاؤه: تستمر الخدمة في العمل، وتظهر الحالة في التطبيق بجانب Tor.
+settings_reach_hide	إخفاء الإشعار
+reach_channel_service	البقاء متاحًا
+reach_channel_alert	شخص ما يحاول الوصول إليك
+reach_channel_call	المكالمات الواردة
+reach_service_title	Whospair
+reach_service_text	متاح
+reach_alert_title	Whospair ينبّهك
+reach_call_title	Whospair ينبّهك
+reach_call_text	افتح Whospair وأدخل رمز PIN للرد.
+new_chat	محادثة جديدة
+contacts_group_confirmed	مؤكَّدة
+contacts_group_unconfirmed	بانتظار التأكيد
+contacts_group_blocked	محظورة
+contacts_scan	مسح رمز QR
+contacts_show_qr	إظهار رمز QR الخاص بي
+profile_title	ملفي الشخصي
+profile_photo_change	تغيير الصورة
+settings_appearance	المظهر
+appearance_auto	تلقائي
+appearance_auto_hint	وفق إعدادات النظام
+appearance_day	نهاري
+appearance_night	ليلي
+settings_background	خلفية المحادثات
+settings_background_hint	واحدة لكل المحادثات. تأخذ الشاشات الرئيسية ألوانها.
+bg_ink	حبر
+bg_sage	مريمية
+bg_slate	أردواز
+bg_plum	برقوق
+bg_sand	رمل
+bg_plain	سادة
+settings_page_lock	القفل
+settings_page_lock_sub	PIN، PIN الطوارئ، القفل الآن
+settings_page_discretion	التكتّم
+settings_page_discretion_sub	مدة الرسائل، الشاشة المخفية، الصورة
+settings_page_network	الشبكة
+settings_page_identity_sub	رمز QR، هوية جديدة
+settings_page_about_sub	الخصوصية، الإصدار
+reach_short	متاح والتطبيق مغلق
+lock_title_setup	اختر رمز PIN
+lock_hint_setup	6 أرقام على الأقل. لا يمكن استعادته — إن نسيته، يضيع كل شيء.
+lock_title_confirm	أدخله مرة أخرى
+lock_mismatch	الإدخالان غير متطابقين. ابدأ من جديد.
+lock_title_unlock	أدخل رمز PIN
+lock_wrong	رمز PIN خاطئ
+lock_attempts_left	المحاولات المتبقية قبل محو كل شيء: %1$d
+lock_busy	جارٍ التحقق…
+lock_error	حدث خطأ أثناء الفتح. حاول مرة أخرى.
+settings_lock_now	القفل الآن
+settings_duress_title	رمز PIN للطوارئ
+settings_duress_body	رمز PIN ثانٍ لحالات الطوارئ. إدخاله على شاشة القفل يمحو كل شيء — المفاتيح وجهات الاتصال والرسائل — ويبدأ التطبيق من جديد كأنه مثبّت للتو.
+settings_duress_current	رمز PIN الحالي
+settings_duress_new	رمز PIN للطوارئ
+settings_duress_saved	ضُبط رمز PIN للطوارئ.
+settings_duress_failed	لم يُضبط: رمز PIN الحالي خاطئ، أو رمز الطوارئ قصير جدًا أو مطابق أو بطول مختلف.
+read_lock_title	القراءة
+read_lock_off_hint	تبقى الرسائل مقروءة عند عودتك إلى هذه المحادثة.
+read_lock_on_hint	الرسائل مخفية. أدخل الرمز لقراءتها خلال هذه الزيارة.
+read_lock_open_hint	مقروءة حتى تغادر هذه المحادثة.
+read_lock_enable	إخفاء الرسائل برمز
+read_lock_unlock	فتح القراءة
+read_lock_disable	إيقاف إخفاء الرسائل
+read_lock_banner	الرسائل مخفية. افتح القراءة من الإعدادات.
+read_lock_masked	••••••
+message_unreadable	[رسالة غير مقروءة]
+read_code_new	اختر رمزًا من 4 أرقام
+read_code_confirm	أدخله مرة أخرى
+read_code_enter	رمز القراءة
+read_code_mismatch	الرمزان مختلفان. ابدأ من جديد.
+read_code_wrong	رمز خاطئ
+settings_section_security	الأمان
+settings_section_identity	هويتي
+settings_section_network	الشبكة
+settings_section_about	حول
+settings_change_pin	تغيير رمز PIN
+settings_new_pin	رمز PIN جديد
+settings_pin_changed	تم تغيير رمز PIN.
+settings_pin_changed_duress_removed	تم تغيير رمز PIN. تغيّر طوله، لذا أُزيل رمز الطوارئ: اضبطه من جديد بالطول نفسه.
+settings_pin_rejected	لم يُغيَّر: هذا الرمز قصير جدًا أو هو رمز الطوارئ.
+settings_duress_same_length	عدد الأرقام نفسه في رمز PIN الخاص بك.
+settings_default_ttl	مدة الرسائل الافتراضية
+settings_default_ttl_hint	تُستخدم في كل المحادثات حتى تختار غيرها في إحداها.
+settings_mask_all	إخفاء القراءة في كل مكان
+settings_mask_all_hint	رمز واحد لكل المحادثات غير المخفية بعد. المحادثات التي لها رمز تحتفظ به.
+settings_mask_all_done	تم. كل محادثة تطلب الرمز الآن.
+settings_wipe_now	محو كل شيء الآن
+settings_wipe_confirm	محو المفاتيح وجهات الاتصال والرسائل الآن؟ لا يمكن استعادة أي شيء. سيبدأ التطبيق من جديد كأنه مثبّت للتو.
+settings_wipe_action	محو كل شيء
+settings_my_qr	رمز QR ورابطي
+settings_new_identity	هوية جديدة
+settings_new_identity_confirm	مفاتيح جديدة وعنوان جديد: يتوقف رابطك ورمز QR الحاليان عن العمل. تُمحى كل جهات الاتصال والرسائل — سيحتاج جهات اتصالك إلى إضافتك من جديد. يُعاد تشغيل التطبيق.
+settings_new_identity_action	إنشاء هوية جديدة
+settings_tor_state	Tor
+tor_state_ready	متصل
+tor_state_starting	جارٍ البدء… %1$d%%
+tor_state_failed	فشل — المس لإعادة التشغيل
+tor_state_off	متوقف
+tor_state_reconnecting	انقطعت الشبكة — جارٍ إعادة الاتصال…
+settings_restart_tor_confirm	إعادة تشغيل Tor تُعيد تشغيل التطبيق. ستُدخل رمز PIN مرة أخرى.
+settings_restart_tor_action	إعادة التشغيل
+about_title	ما هو Whospair
+about_body	تطبيق مراسلة لمن لديهم أمور حساسة يقولونها لبعضهم. ما يُقال في Whospair لا يوجد إلا على الهاتفين، طوال المدة المختارة، ولا في أي مكان آخر.\n\nبلا خادم. لا يوجد خادم ينقل مراسلاتك أو يخزّنها أو يراها. كل هاتف هو نقطة الوصول الخاصة به على شبكة Tor؛ تنتقل الرسائل مباشرة من هاتف إلى آخر.\n\nبلا حساب. لا رقم، ولا بريد إلكتروني، ولا اسم حقيقي. هويتك زوج مفاتيح أُنشئ على هذا الهاتف. تتبادلون الإضافة بمسح رمز QR، شخصيًا أو عبر رابط.\n\nتشفير تام بين الطرفين. تُشفَّر الرسائل والملاحظات الصوتية والملفات والمكالمات قبل أن تغادر الهاتف، ثم تمر عبر Tor الذي يُخفي عنوان IP الخاص بك.\n\nزائل. لكل رسالة مدة مختارة، ثم تختفي من الطرفين. لا يُحفظ شيء في أي مكان آخر.\n\nمباشر. لا يمكنك الوصول إلا إلى من فتح التطبيق أو فعّل «البقاء متاحًا».\n\nمحمي على الهاتف. كل شيء مشفّر برمز PIN الخاص بك. عشرة رموز خاطئة، أو رمز الطوارئ، تمحو كل شيء.\n\nتنبيه. Whospair أداة. طريقة استخدامك له مسؤوليتك وحدك. يُقدَّم كما هو، دون ضمان، ولا يمكن تحميل مؤلفيه مسؤولية استخدامه ولا عواقبه.
+privacy_title	سياسة الخصوصية
+privacy_body	لا يجمع Whospair أي شيء. لا يستقبل أي خادم بياناتك: وبالتالي لا أحد يحلّلها أو يسلّمها لطرف ثالث.\n\nما لا يفعله التطبيق أبدًا: تنميط المستخدمين، بيع البيانات، إعلانات، شيفرة تتبّع، إرسال تقارير أعطال، قراءة دفتر العناوين، تحديد الموقع. لا تتلقى أي شركة خارجية أي شيء، لا بيانات ولا إشارات استخدام: لا يتواصل التطبيق إلا مع شبكة Tor وجهات اتصالك وموزّع تحديثاته.\n\nما يبقى على هذا الهاتف، مشفّرًا: مفاتيحك وجهات اتصالك ورسائلك وملفاتك — حتى انتهاء مدتها، أو حذفك لها، أو بعد 10 رموز PIN خاطئة. تُزال البيانات الوصفية من الصور المرسلة (الموقع، طراز الجهاز).\n\nما يمكن للآخرين رؤيته: يستطيع مشغّل شبكتك أن يرى أن هذا الهاتف يستخدم Tor، لا مع من ولا ماذا. ترى جهة اتصالك ما ترسله إليها، وصورة ملفك الشخصي إن سمحت بذلك.\n\nالتحديثات. مرة واحدة في اليوم، يسأل التطبيق بهدوء، عبر Tor، إن كان هناك إصدار أحدث. لا يحتوي هذا الطلب إلا على رقم الإصدار: لا هوية، ولا جهات اتصال، ولا رسائل.\n\nلماذا كل يوم؟ لأن الإصدار المحدَّث يرفض التواصل مع إصدار قديم جدًا. هذا مقصود: فقد يحتوي الإصدار القديم على ثغرة. من دون تحديث، لن تتمكن بعد ذلك من التواصل مع أقاربك أو زملائك؛ ولن يصلك سوى التحديث.\n\nيتطور Whospair باستمرار، ومن هنا كثرة التحديثات. قد تُكتشف ثغرة وتُستغل قبل أن يلاحظها أحد. التصحيح السريع يمنع وصول بياناتك إلى الأيدي الخطأ.\n\nحقوقك. لأن شيئًا لا يُجمع، لا يوجد لدينا ما يُعرض أو يُصحّح أو يُحذف. كل شيء بين يديك: إلغاء تثبيت التطبيق يمحو كل شيء.\n\nالمسؤولية. أنت وحدك المسؤول عمّا ترسله، ولمن، وعمّا تفعله بما تتلقاه. يُقدَّم Whospair كما هو، دون ضمان.
+version_title	الإصدار
+version_fingerprint_hint	بصمة الشهادة التي وقّعت هذا التطبيق. قارنها بالبصمة التي نشرها المؤلف: إن اختلفت، فهذا ليس التطبيق الأصلي.
+update_title	التحديث
+update_state_current	محدّث
+update_state_available	الإصدار %1$s متاح
+update_state_downloading	جارٍ التنزيل %1$d %%
+update_state_installing	جارٍ التثبيت…
+update_state_failed	فشل
+update_body	تصل التحديثات من جهات اتصالك، عبر Tor، بلا خادم. كل إصدار موقّع من المطوّر: يتحقق Whospair من التوقيع قبل التنزيل، ثم من الملف مقابله، ويتحقق Android من أنه موقّع بالمفتاح نفسه الذي وُقّع به تطبيقك. يُرفض دائمًا أي تطبيق معدَّل.
+update_available_body	يعرض أحد جهات اتصالك الإصدار %1$s (%2$s). يُنزَّل أثناء فتح Whospair؛ إن انقطع الاتصال، يُستأنف من حيث توقّف.
+update_download	تنزيل وتثبيت
+update_cancel	إلغاء
+update_retry	إعادة المحاولة
+update_permission_hint	يجب أن يسمح Android أولًا لـ Whospair بتثبيت التحديثات. اسمح بذلك، ثم عُد والمس مرة أخرى.
+update_permission_allow	سماح
+update_relaying	أنت تمرّر الإصدار %1$s إلى جهات اتصالك المؤكَّدة.
+update_import	استيراد حزمة تحديث (.wup)
+update_import_unreadable	ملف غير مقروء.
+update_import_invalid	هذه الحزمة غير موقّعة من مطوّر Whospair، أو أنها تالفة. لم يُثبَّت شيء.
+update_import_installing	تم التحقق من التوقيع. سيطلب منك Android تأكيد التثبيت.
+update_import_relaying	تم التحقق من التوقيع. يمرّر هذا الهاتف الآن هذا الإصدار إلى جهات اتصالك المؤكَّدة.
+update_import_mismatch	هذا إصدارك، لكن التطبيق المثبّت هنا ليس الملف نفسه. لا شيء لتمريره.
+update_import_older	هذه الحزمة أقدم من إصدارك. لم يُثبَّت شيء.
+update_failed_memory	الذاكرة غير كافية لتنزيله.
+update_failed_corrupt	الملف المستلم لا يطابق التوقيع. تم تجاهله.
+update_failed_install	رفض Android التثبيت.
+update_failed_signature	هذا الإصدار غير موقّع بالمفتاح نفسه الذي وُقّع به تطبيقك. مرفوض.
+update_banner	تحديث متاح
+settings_language	اللغة
+language_auto	لغة الهاتف
+tutorial_live_title	متاح مباشرةً فقط
+tutorial_live_body	لا يترك Whospair شيئًا بانتظارك على خادم. تُرسل الرسالة عندما يكون التطبيق مفتوحًا لدى جهة اتصالك، أو عندما يفعّل «البقاء متاحًا».
+tutorial_live_f1	النقطة بجانب Tor: خضراء، أنت متصل؛ برتقالية، جارٍ الاتصال
+tutorial_live_f2	قد يستغرق الاتصال الأول بضع ثوانٍ، وأحيانًا دقيقة
+tutorial_live_f3	«متاح» تحت الاسم: جهة الاتصال موجودة الآن
+tutorial_confirm_title	تأكيد جهة اتصال
+tutorial_confirm_body	مسح واحد يكفي للتحدث. لكن من لديه رابطك فقط يظهر «بانتظار التأكيد».
+tutorial_confirm_f1	قارن رقم الأمان شخصيًا أو في مكالمة
+tutorial_confirm_f2	الرقم نفسه على الهاتفين: لا أحد في المنتصف
+tutorial_confirm_f3	جهات الاتصال المؤكَّدة فقط يمكنها الاتصال بك ولفت انتباهك
+tutorial_discreet_title	التكتّم
+tutorial_discreet_body	حماية للّحظات التي يكون فيها أحد بجانبك.
+tutorial_discreet_f1	قلب الهاتف على وجهه فوق الطاولة: تصبح الشاشة سوداء
+tutorial_discreet_f2	رمز القراءة: تبقى المحادثة مخفية حتى إدخال الرمز
+tutorial_discreet_f3	الوضع الخاص: لا تصل إليك جهة الاتصال هذه إلا عندما تراسلها
+update_check	البحث عن تحديث
+update_checking	جارٍ البحث…
+chat_peer_outdated	تستخدم جهة الاتصال هذه إصدارًا قديمًا جدًا من Whospair. لا يمر شيء حتى تحدّثه، أما التحديث نفسه فيصل إليها.
+ttl_never	أبدًا
+reply_cancel	إلغاء الرد
+input_emoji	الرموز التعبيرية
+reply_you	أنتم
+share_app	مشاركة Whospair
+share_app_sub	أرسل التطبيق نفسه، دون متجر تطبيقات
+copy_action	نسخ
+copy_title	حدّد الجزء المراد نسخه
+copy_all	نسخ الكل
+copy_done	تم النسخ
+delete_everyone_body	«للجميع» يمحو أيضًا نسخة جهة الاتصال، دون أي إشعار. إن تعذّر الوصول إليها، يُرسَل المحو فور توفّرها، ما دام Whospair مفتوحًا.
+select_more	تحديد عدة عناصر
+delete_everyone_action	حذف لدى الجميع
+licenses_title	التراخيص
+update_notes_title	الجديد
+tut_welcome_title	مرحبًا بك في Whospair
+tut_welcome_body	رسائل ومكالمات لا تترك أي أثر على خادم، لأنه لا يوجد خادم.
+tut_welcome_f1	مشفّر من طرف إلى طرف، بلا حساب: المفاتيح ملكك
+tut_welcome_f2	تنطلق الرسالة عندما يكون التطبيق مفتوحًا لدى جهة اتصالك، أو عندما يكون «البقاء متاحًا» مفعّلًا
+tut_welcome_f3	النقطة بجانب Tor: خضراء، متصل؛ برتقالية، جارٍ الاتصال (أحيانًا دقيقة)
+tut_add_title	الإضافة والثقة
+tut_add_body	لا اسم مستخدم ولا رقم هاتف: تتبادلان المفاتيح. امسح رمزه أو دعه يمسح رمزك.
+tut_add_f1	بانتظار التأكيد: وصل برابطك فقط. تصل رسائله، لكنه لا يستطيع الاتصال ولا التنبيه
+tut_add_f2	مؤكَّد: أنت أضفته أو قبلته
+tut_add_f3	موثَّق: وجهًا لوجه، مسحتما رمزي الأمان لبعضكما. لم يتسلل أحد بينكما
+tut_write_title	اكتب ثم امسح
+tut_write_body	لكل رسالة مدة حياة تُختار عند الإرسال؛ وعند انتهائها تختفي من الطرفين.
+tut_write_f1	الأقصر أكثر أمانًا: ما يظهر على الشاشة لا يزال على الذاكرة
+tut_write_f2	حذف لدى الجميع: يزيل رسائلك من هاتف جهة اتصالك
+tut_write_f3	المسح المشترك: إذا وافقتما كلاكما، يستطيع أيٌّ منكما مسح كل شيء، لدى الطرفين، في أي وقت
+tutorial_discreet_f5	مربع «قفل Whospair» في الإعدادات السريعة: يُغلق التطبيق بلمسة واحدة
+tile_lock	قفل Whospair
+contact_verified	موثَّق
+verify_title	التوثيق وجهًا لوجه
+verify_hint	وجهًا لوجه، امسح كلٌّ منكما رمز الآخر
+verify_done	موثَّق وجهًا لوجه
+verify_body	اعرض هذا الرمز على جهة اتصالك وامسح رمزها. إذا تطابقا، فلم يتسلل أحد بينكما.
+verify_scan	مسح رمزه
+verify_ok	الرمزان متطابقان: جهة الاتصال موثَّقة.
+verify_fail	هذا الرمز غير مطابق. لا تثق بجهة الاتصال هذه حتى يتضح الأمر.
+wipe_title	المسح المشترك
+wipe_off	معطَّل. إذا اقترحته، فعلى جهة اتصالك أن توافق.
+wipe_asked	بانتظار موافقة جهة اتصالك.
+wipe_to_answer	تقترح جهة اتصالك أن يستطيع أيٌّ منكما مسح كل شيء، لدى الطرفين، في أي وقت.
+wipe_on	مفعَّل: يستطيع أيٌّ منكما مسح كل شيء، لدى الطرفين، في أي وقت.
+wipe_propose	اقتراح
+wipe_accept	قبول
+wipe_refuse	رفض
+wipe_cancel	إلغاء الطلب
+wipe_disable	تعطيل
+wipe_now	مسح المحادثة لدى الطرفين
+wipe_confirm	ستُمسح المحادثة كلها على الهاتفين. لا يمكن التراجع.
+wipe_action	مسح كل شيء
+wipe_banner	%1$s يقترح المسح المشترك
+settings_gaze_owner	وجهي فقط
+settings_gaze_owner_hint	لا تُفتح الشاشة إلا لك
+face_intro_title	وجهي فقط
+face_intro_body	لا تُفتح الشاشة إلا عندما تكون أنت من ينظر إليها. لأي شخص آخر، أو إذا لم ينظر أحد، تبقى سوداء.\n\nإذا تغيّر وجهك (إصابة، تورّم، لحية، نظارة) فقد لا يُتعرَّف عليه وتبقى الشاشة سوداء. في أسفل الشاشة، يعمل «إيقاف الإخفاء برمز PIN» دائمًا برمز فتح القفل. ويمكنك بعد ذلك تسجيل وجهك من جديد.\n\nيخضع هذا الزر للقواعد نفسها التي تخضع لها شاشة القفل: رمز الإكراه، إن كُتب هنا، يمسح كل شيء، وكذلك 10 رموز خاطئة.\n\nإنها حماية من الأعين المتطفلة وليست قفلًا: رمز PIN يبقى الحماية الحقيقية. كل شيء يجري على الهاتف: يُحفظ وجهك أرقامًا مشفّرة، لا صورة أبدًا.
+face_intro_ok	فهمت
+face_enroll_title	تسجيل وجهي
+face_enroll_body	انظر إلى الشاشة بضع ثوانٍ ووجهك مضاء جيدًا.
+face_enroll_ok	تم تسجيل وجهك.
+face_enroll_fail	لم يُتعرَّف على الوجه. انتقل إلى مكان مضاء، وانظر مباشرة إلى الشاشة، ثم أعد المحاولة.
+face_reenroll	إعادة تسجيل وجهي
+face_disable_pin	إيقاف الإخفاء برمز PIN
+tutorial_discreet_f4	الكاميرا (اختياري): تُخفى الشاشة عندما تشيح بنظرك، أو عندما ينظر شخص آخر، أو حين لا يكون الوجه وجهك. كل شيء يجري على الهاتف، ولا يُسجَّل شيء
+conv_pin	تثبيت
+conv_unpin	إلغاء التثبيت
+conv_pinned	مثبَّتة
+update_diffuser_retry	المصدر غير متاح، محاولة جديدة خلال 10 ث
+update_mandatory_title	التحديث إلزامي
+update_mandatory_body	يتوفر إصدار أحدث من Whospair منذ أكثر من 5 أيام. ثبّته لمواصلة استخدام التطبيق: جهات اتصالك المحدّثة لم تعد تقبل الإصدارات القديمة.
+gaze_manual	يدوي
+gaze_manual_hint	رمز PIN يوقفه، مثلًا في مكان مظلم.
+gaze_auto	تلقائي
+gaze_auto_hint	متوقف من 8 مساءً إلى 6 صباحًا، حين يقلّ الضوء.
+shield_choice_title	إيقاف الإخفاء
+shield_pause_10	لمدة 10 دقائق
+shield_disable_all	إيقاف كامل
+shield_pause_over_title	انتهت الاستراحة
+shield_pause_over_body	الإخفاء نشط من جديد.
+shield_keep_paused	إبقاؤه متوقفًا الآن
+update_interrupted	توقف التحديث، محاولة جديدة خلال 30 دقيقة

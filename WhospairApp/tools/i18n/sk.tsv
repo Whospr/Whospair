@@ -1,0 +1,561 @@
+splash_tagline	Súkromné už v návrhu
+tos_title	Skôr než začnete
+tos_warning	Pozorne si to prečítajte. Whospair nefunguje ako aplikácie na správy, ktoré poznáte, a niektoré z týchto rozdielov sú nezvratné.
+tos_s1_title	1. Priamo, zo zariadenia na zariadenie
+tos_s1_body	Whospair nemá server. Správy a hovory putujú priamo zo zariadenia na zariadenie. Nikto — ani my — nestojí medzi nimi, neuchováva Vaše údaje ani ich nemôže odovzdať.
+tos_s2_title	2. Zodpovednosť nesiete Vy
+tos_s2_body	Za touto aplikáciou nestojí žiadny prevádzkovateľ. Čo posielate, komu a čo robíte s prijatým, je výlučne Vaša zodpovednosť. Whospair je nástroj: jeho autori nezodpovedajú za to, ako ho používate, ani za následky.
+tos_s3_title	3. Bez moderovania
+tos_s3_body	Žiadny orgán nekontroluje, nefiltruje ani neodstraňuje obsah. Neexistuje tlačidlo nahlásenia, ktoré by sa k niekomu dostalo, pretože na druhej strane nikto nie je.
+tos_s4_title	4. Šifrovanie od začiatku do konca
+tos_s4_body	Správy sú šifrované od začiatku do konca (X25519 a AES-256-GCM) a podpísané. Hovory idú cez Tor, šifrované kľúčom, ktorý sa mení približne každých desať sekúnd.
+tos_s5_title	5. Nič sa neukladá na diaľku
+tos_s5_body	Vaša identita, kontakty a správy existujú len v tomto zariadení. Odinštalovanie aplikácie ich vymaže.
+tos_s6_title	6. Bez obnovy
+tos_s6_body	Vaša identita je kryptografický kľúč, nie účet. Ak ho stratíte, je preč. Žiadne obnovenie hesla, žiadna podpora, žiadna záloha na obnovenie.
+tos_s7_title	7. Len zákonné použitie
+tos_s7_body	Nástroje na ochranu súkromia chránia legitímne rozhovory. Porušovať zákon pomocou Whospair je stále porušovanie zákona.
+tos_s8_title	8. Bez záruky
+tos_s8_body	Tento softvér sa poskytuje tak, ako je, bez záruky dostupnosti, správnosti či vhodnosti na konkrétny účel.
+tos_s9_title	9. Bezpečnosť má hranice
+tos_s9_body	Šifrovanie chráni údaje pri prenose. Nemôže ochrániť zariadenie, ktoré už je napadnuté škodlivým softvérom, rootkitom alebo ho drží v ruke niekto iný.
+tos_s10_title	10. Súhlas
+tos_s10_body	Pokračovaním potvrdzujete, že rozumiete uvedenému, a najmä tomu, že stratenú identitu nemožno obnoviť.
+tos_checkbox	Prečítal/a som si tieto podmienky a súhlasím s nimi
+tos_accept	Súhlasím
+tos_decline	Odmietam
+tos_decline_dialog_title	Odmietnuť podmienky?
+tos_decline_dialog_body	Bez Vášho súhlasu Whospair nemôže fungovať. Aplikácia sa zatvorí.
+tos_decline_confirm	Zavrieť aplikáciu
+tos_decline_cancel	Späť
+tutorial_skip	Preskočiť
+tutorial_next	Ďalej
+tutorial_back	Späť
+tutorial_start	Začať
+tutorial_page_counter	%1$d z %2$d
+tutorial_p1_title	Vitajte vo Whospair
+tutorial_p1_body	Správy a hovory, ktoré nezanechajú stopu na žiadnom serveri, pretože server neexistuje.
+tutorial_p1_f1	Šifrované od začiatku do konca
+tutorial_p1_f2	Žiadne servery, žiadne účty
+tutorial_p1_f3	Správy samy vypršia
+tutorial_p1_f4	Všetky kľúče máte Vy
+tutorial_p2_title	Pridanie osoby
+tutorial_p2_body	Neexistujú používateľské mená ani telefónne čísla. Kľúče sa vymieňajú priamo.
+tutorial_p2_s1	Otvorte kartu Pridať
+tutorial_p2_s2	Naskenujte jej kód alebo ju nechajte naskenovať ten Váš
+tutorial_p2_s3	Rozhovor je pripravený
+tutorial_p2_note	Nová identita znamená nový kód. Opätovné zdieľanie je jediný spôsob, ako sa znova spojiť.
+tutorial_p3_title	Odoslanie správy
+tutorial_p3_body	Každá správa má od okamihu odoslania dobu platnosti.
+tutorial_p3_s1	Otvorte rozhovor
+tutorial_p3_s2	Napíšte a potom zvoľte, ako dlho má vydržať
+tutorial_p3_s3	Odošlite
+tutorial_p4_title	Platnosť
+tutorial_p4_body	Zvoľte dobu, ktorá zodpovedá tomu, čo hovoríte. Keď uplynie, správa sa vymaže na oboch zariadeniach.
+tutorial_p4_note	Kratšie je bezpečnejšie. Čo je ešte na obrazovke, je ešte aj na disku.
+tutorial_p5_title	Kontrolu máte Vy
+tutorial_p5_body	Niekoľko vecí, ktoré sa oplatí vedieť pred začatím.
+tutorial_p5_f1	Zablokujte alebo odstráňte akýkoľvek kontakt
+tutorial_p5_f2	Vymažte celý rozhovor naraz
+tutorial_p5_f3	Zamknite aplikáciu kódom PIN
+tutorial_p5_f4	Kľúče nikdy neopustia toto zariadenie
+identity_creating_title	Vytvára sa Vaša identita
+identity_creating_body	V tomto zariadení sa generuje pár kľúčov. Chvíľu to potrvá.
+identity_ready_title	Toto ste Vy
+identity_ready_body	Vaše kľúče sú pripravené. Teraz si zvoľte PIN: ten ich zapečatí. Váš QR kód Vás potom čaká v karte Pridať.
+identity_warning	Váš súkromný kľúč zostáva v tomto zariadení a nikdy sa nezobrazí. Ak zariadenie stratíte, táto identita je navždy stratená.
+identity_continue	Pokračovať
+identity_error_title	Vašu identitu sa nepodarilo vytvoriť
+identity_retry	Skúsiť znova
+nav_home	Správy
+nav_contacts	Kontakty
+nav_calls	Hovory
+nav_discover	Pridať
+nav_settings	Nastavenia
+ttl_5m	5 min
+ttl_15m	15 min
+ttl_1h	1 hodina
+ttl_5h	5 hodín
+ttl_8h	8 hodín
+ttl_24h	24 hodín
+ttl_7d	7 dní
+discover_title	Pridať kontakt
+discover_subtitle	Ukážte osobe svoj kód alebo naskenujte jej. Zoči-voči viete, s kým hovoríte.
+discover_scan_title	Naskenovať kód
+discover_scan_body	Namierte fotoaparát na jej QR kód
+discover_mycode_title	Zobraziť môj kód
+discover_mycode_body	Nechajte sa niekým pridať
+discover_manual_title	Alebo vložte prijatý odkaz
+discover_manual_hint	whospair:… alebo 64 hexadecimálnych znakov
+discover_add	Pridať tento kontakt
+discover_fingerprint	Odtlačok na porovnanie nahlas
+discover_copy_link	Kopírovať odkaz s pozvánkou
+add_ok	%1$s pridaný/á. Môžete začať rozhovor.
+add_already	%1$s už je vo Vašich kontaktoch.
+add_blocked	%1$s je vo Vašich kontaktoch, ale je zablokovaný/á.
+add_self	To je Váš vlastný kľúč. Nemôžete pridať sami seba.
+add_malformed	Tento kľúč nie je platný. Verejný kľúč má 64 hexadecimálnych znakov.
+add_not_whisper	Tento kód nie je kľúč Whospair.
+add_unblock	Odblokovať
+add_unblocked	%1$s je znova odblokovaný/á.
+scan_instruction	Namierte na QR kód, ktorý chcete pridať
+scan_permission_title	Je potrebný prístup k fotoaparátu
+scan_permission_body	Na naskenovanie kódu je potrebný fotoaparát. Nič sa nenahráva ani neodosiela.
+scan_permission_denied	Prístup k fotoaparátu bol zamietnutý. Môžete ho povoliť v nastaveniach zariadenia alebo kľúč vložiť ručne.
+scan_permission_grant	Povoliť fotoaparát
+scan_use_manual	Vložiť kľúč
+contact_block	Zablokovať
+contact_unblock	Odblokovať
+contact_delete	Odstrániť kontakt
+contact_delete_confirm	Odstrániť tento kontakt a celý rozhovor? Túto akciu nemožno vrátiť späť.
+contact_blocked_notice	Zablokované. Správy od tohto kontaktu sa odmietajú.
+common_dismiss	Zavrieť
+common_loading	Načítava sa…
+common_cancel	Zrušiť
+common_error	Niečo sa pokazilo
+chat_today	Dnes
+chat_yesterday	Včera
+message_pending	Odosiela sa
+message_failed	Neodoslané, kontakt je nedostupný
+tutorial_pin_title	Váš PIN a iba Váš PIN
+tutorial_pin_body	Všetko vo Whospair je zamknuté za kódom PIN, ktorý si zvolíte v ďalšom kroku. Ak ho zabudnete, nič sa nedá obnoviť.
+tutorial_pin_f1	Desať nesprávnych pokusov vymaže všetko
+tutorial_pin_f2	Núdzový PIN (v Nastaveniach) po zadaní vymaže všetko: použite ho, ak ste pod nátlakom alebo v nebezpečenstve
+tutorial_pin_f3	Bez odtlačku prsta a rozpoznávania tváre: prst Vám môžu násilím priložiť k senzoru, kód z Vás nevytiahnu
+tutorial_pin_note	Keď aplikácia prejde do pozadia, sama sa zamkne.
+call_action	Zavolať
+call_connecting	Spája sa cez Tor…
+call_ringing	Zvoní…
+call_incoming	Prichádzajúci hovor
+call_answer	Prijať
+call_decline	Odmietnuť
+call_cancel	Zrušiť
+call_hang_up	Zložiť
+call_mute	Stlmiť
+call_unmute	Zrušiť stlmenie
+call_speaker	Reproduktor
+call_earpiece	Slúchadlo
+call_delay_hint	Cez Tor dorazí Váš hlas asi o sekundu neskôr. Pred odpoveďou urobte krátku pauzu.
+call_ended	Hovor skončil
+call_declined	Odmietnuté
+call_busy	Už prebieha hovor
+call_no_answer	Bez odpovede
+call_unreachable	Momentálne nedostupné. Skúste to o chvíľu znova.
+call_lost	Spojenie sa prerušilo
+call_mic_denied	Mikrofón je pre Whospair vypnutý. Ak chcete volať, povoľte ho v nastaveniach Androidu.
+call_not_confirmed	Najprv potvrďte tento kontakt. Volať si môžu len potvrdené kontakty.
+call_log_outgoing	Odchádzajúci hovor · %1$s
+call_log_incoming	Prichádzajúci hovor · %1$s
+call_log_missed	Zmeškaný hovor
+call_log_refused	Hovor bol odmietnutý
+call_log_no_answer	Hovor bez odpovede
+call_log_busy	Hovor: druhá strana už telefonovala
+call_log_unreachable	Hovor sa nepodarilo nadviazať
+call_log_cancelled	Hovor bol zrušený
+messages_title	Správy
+search_contact	Hľadať kontakt
+conversations_empty_title	Zatiaľ žiadne rozhovory
+conversations_empty_body	Pridajte niekoho naskenovaním jeho kódu, osobne. Písať mu môžete, keď máte obaja aplikáciu otvorenú.
+search_no_result	Žiadny kontakt s týmto menom.
+add_contact	Pridať kontakt
+scan_code	Naskenovať kód
+message_retry	Skúsiť znova
+message_sent	Odoslané
+message_delivered	Doručené
+read_lock_preview	Čítanie skryté
+message_expires_in	Zmizne o %1$s
+ttl_button	Platnosť správy: %1$s
+send	Odoslať
+back	Späť
+close	Zavrieť
+confirm_identity	Potvrdiť identitu
+delete_contact_and_chat	Odstrániť kontakt a rozhovor
+preview_none	Žiadne správy
+preview_encrypted	Šifrovaná správa
+duration_days	%1$d d
+message_placeholder	Napíšte správu
+discover_code_caption	Tento kód obsahuje Vaše verejné kľúče a Vašu adresu Tor. Nič iné.
+share_link	Zdieľať môj odkaz
+copy_link	Kopírovať odkaz
+link_copied	Odkaz bol skopírovaný
+memory_advice_title	Pamäť telefónu
+memory_advice_body	Whospair drží kľúče v pamäti len vtedy, keď je aplikácia otvorená. Niektoré telefóny však kopírujú časť pamäte do úložiska, aby pôsobili väčšie („virtuálna pamäť“, „rozšírenie pamäte“). Takto skopírovaný kľúč by mohol v telefóne zostať aj po zatvorení Whospair.
+memory_advice_how	Ako to vypnúť: v nastaveniach telefónu nájdite „virtuálna pamäť“ alebo „rozšírenie pamäte“, vypnite to a telefón reštartujte.
+voice_record	Nahrať hlasovú správu
+voice_cancel	Zahodiť nahrávku
+voice_recording	až %1$s
+voice_send	Odoslať hlasovú správu
+voice_play	Prehrať
+voice_pause	Pozastaviť
+voice_receiving	Prijíma sa…
+voice_preview	Hlasová správa %1$s
+mic_denied	Mikrofón je pre Whospair vypnutý. Ak chcete poslať hlasovú správu, povoľte ho v nastaveniach Androidu.
+tor_state_live	Tor zapnutý
+tor_state_connecting	Pripája sa k Tor
+tor_state_offline	Tor vypnutý
+presence_reachable	dostupný/á
+ring_action	Zazvoniť
+ring_calling	Zvoním na %1$s…
+ring_incoming	%1$s Vám zvoní
+ring_accept	Prijať
+ring_decline	Ignorovať
+ring_cancel	Zastaviť
+ring_declined	%1$s ignoroval/a zvonenie
+ring_timeout	Bez odpovede
+ring_peer_offline	%1$s teraz nie je v aplikácii
+ring_busy	Relácia je už otvorená
+indicator_title	Čo to znamená
+indicator_channel_live	Tor beží a Vaša adresa je zverejnená. Kontakty, ktoré majú aplikáciu tiež otvorenú, sa k Vám dostanú, a Vy k nim.
+indicator_channel_none	Tor nie je pripravený. Nič sa nedá odoslať ani prijať a nikde sa nič neuchováva na neskôr.
+indicator_tunnel_on	Vaša prevádzka odchádza cez rozhranie VPN. Whospair vidí len toľko: nevie, aký je to poskytovateľ, ani či tunel neprepúšťa.
+indicator_tunnel_off	Vaša prevádzka odchádza priamo. Váš poskytovateľ siete vidí, že toto zariadenie používa Tor, a kedy — nie s kým hovoríte ani čo sa hovorí.
+indicator_dismiss	Zavrieť
+vpn_advice_title	O Vašej sieti
+vpn_advice_body	Whospair šifruje to, čo hovoríte, a Tor skrýva, komu to hovoríte. Ani jedno neskrýva, že používate Tor: ten, kto prenáša Vašu prevádzku, to vidí, v akom čase a ako často. VPN presúva tento pohľad k prevádzkovateľovi tunela. Je to skutočná zmena, ak sleduje práve ten, koho sa obávate.
+vpn_advice_caveat	VPN nie je záruka. Vyberáte si, kto sleduje, neodstraňujete pozorovateľa. Zvoľte takú, ktorej máte dôvod dôverovať, a radšej platenú než takú, ktorá sa financuje z Vašej prevádzky.
+contacts_title	Kontakty
+contacts_empty	Váš zoznam kontaktov je prázdny.
+contact_unconfirmed	Nepotvrdený
+contact_blocked	Zablokovaný
+chat_settings	Nastavenia rozhovoru
+chat_unconfirmed_banner	Táto osoba si Vás pridala cez Váš odkaz. Zatiaľ ste nepotvrdili, kto to je.
+chat_confirm	Potvrdiť
+chat_block	Zablokovať
+chat_unblock	Odblokovať
+chat_blocked_banner	Zablokované. Už sa k Vám nedostane.
+settings_rename	Meno
+settings_rename_hint	Toto meno vidíte len Vy.
+settings_save	Uložiť
+settings_safety_number	Bezpečnostné číslo
+settings_safety_hint	Porovnajte ho s kontaktom osobne alebo cez hovor. Rovnaké číslo na oboch telefónoch = nikto medzi vami.
+settings_confirm_trust	Overil/a som — potvrdiť tento kontakt
+settings_trusted	Potvrdený kontakt
+settings_block_hint	Zablokovaný kontakt sa už nemôže pripojiť ani Vám písať.
+settings_delete	Odstrániť kontakt
+settings_delete_confirm	Odstrániť tento kontakt a všetky správy? Ak má ešte Váš odkaz, môže sa vrátiť ako nepotvrdený — zablokujte ho, aby ste tomu zabránili.
+settings_delete_action	Odstrániť
+settings_section_profile	Profil
+profile_photo	Profilová fotka
+profile_photo_hint	Orezaná na 256 px, bez metadát, odosiela sa len cez Tor.
+profile_photo_choose	Vybrať
+profile_photo_remove	Odstrániť
+profile_photo_error	Tento obrázok sa nepodarilo načítať.
+profile_photo_visibility	Kto vidí moju fotku
+profile_photo_everyone	Všetci, ktorí sa ku mne dostanú
+profile_photo_everyone_hint	Vrátane nepotvrdených kontaktov
+profile_photo_confirmed	Potvrdené kontakty
+profile_photo_hidden	Nikto
+settings_gaze_shield	Obrazovka skrytá pomocou fotoaparátu
+settings_gaze_shield_body	Predný fotoaparát sleduje, kto je pred obrazovkou. Všetko zostáva v telefóne: žiadny obrázok sa neuchováva ani neodosiela. Indikátor fotoaparátu Androidu svieti, kým je Whospair otvorený, a batéria sa vybíja rýchlejšie. Ak telefón položíte obrazovkou na stôl, obrazovka vždy stmavne.
+settings_off	Vypnuté
+settings_gaze_look_away	Keď sa pozriem inam
+settings_gaze_onlooker	Keď sa pozerá niekto iný
+settings_gaze_onlooker_hint	Druhá tvár za Vami. Znižuje riziko, ale neodstraňuje ho: tvár videná z boku, z diaľky alebo v tme môže zostať nepovšimnutá.
+alert_someone	Niekto sa Vás snaží zastihnúť
+alert_bip	%1$s Vás volá
+alert_open	Otvoriť
+nudge_title	Dať znamenie
+nudge_hint	Rozvibrovať jeho Whospair.
+nudge_action	Dať znamenie
+nudge_sent	Znamenie odoslané.
+nudge_unreachable	Momentálne nedostupné: Whospair je u druhej strany zatvorený.
+nudge_received	%1$s Vám dáva znamenie
+private_mode_title	Súkromný režim
+private_mode_off_hint	V tomto rozhovore ste online a dostupný/á.
+private_mode_on_hint	V tomto rozhovore už nie ste dostupný/á.
+private_mode_enable	Zapnúť súkromný režim
+private_mode_disable	Vypnúť súkromný režim
+private_mode_banner	Súkromný režim je v tomto rozhovore zapnutý. Dostupný/á ste len minútu po odoslaní správy. Ak chcete zostať dostupný/á, vypnite súkromný režim.
+file_generic	Súbor
+file_attach	Priložiť súbor
+file_view_once	jednorazové zobrazenie
+file_sending	odosiela sa %1$d %%
+file_receiving	prijíma sa %1$d %%
+file_send_title	Odoslať tento súbor?
+file_allow_save	Povoliť uloženie
+file_allow_save_hint	Inak sa otvorí len vo Whospair.
+file_view_once_option	Jednorazové zobrazenie
+file_view_once_hint	Po prvom otvorení sa z telefónu Vášho kontaktu vymaže.
+file_send	Odoslať
+file_too_big	Súbor je príliš veľký: najviac 25 MB.
+file_unreadable	Nečitateľný súbor.
+file_viewer_pending	Tento typ súboru sa čoskoro bude otvárať priamo vo Whospair.
+input_more	Viac: platnosť %1$s, znamenie, súbor
+input_ttl	Platnosť · %1$s
+input_file	Súbor
+notice_forwarded	%1$s preposlal/a „%2$s“ inému kontaktu
+notice_shared	%1$s zdieľal/a „%2$s“ s inou aplikáciou
+notice_saved	%1$s uložil/a „%2$s“ do telefónu
+notice_opened	%1$s otvoril/a „%2$s“ v inej aplikácii
+notice_viewed	%1$s si pozrel/a „%2$s“ (jednorazové zobrazenie)
+notice_you_forwarded	Preposlali ste „%1$s“; odosielateľ je upozornený
+notice_you_shared	Zdieľali ste „%1$s“; odosielateľ je upozornený
+notice_you_saved	Uložili ste „%1$s“; odosielateľ je upozornený
+notice_you_opened	Otvorili ste „%1$s“ inde; odosielateľ je upozornený
+notice_you_viewed	Pozreli ste si „%1$s“; bol vymazaný
+notice_preview	Upozornenie k súboru
+file_share	Zdieľať
+file_open_with	Otvoriť v…
+file_open_elsewhere_hint	Whospair tento súbor nedokáže zobraziť. „Otvoriť v…“ hore ho na chvíľu požičia inej aplikácii bez kopírovania; odosielateľ je upozornený.
+media_play	Prehrať
+media_pause	Pozastaviť
+share_forward	Poslať kontaktu
+share_outside	Zdieľať s inou aplikáciou
+share_save	Uložiť do telefónu
+share_sender_told	Odosielateľ bude upozornený, ale nedozvie sa, komu to posielate.
+forward_title	Poslať…
+forward_none	Žiadny iný potvrdený kontakt.
+selection_count	Vybrané: %1$d
+selection_cancel	Zrušiť výber
+delete_selected_title	Odstrániť položky (%1$d)?
+delete_selected_body	Z tohto telefónu sa vymažú hneď, bez čakania na koniec platnosti. Čo ešte nebolo odoslané, sa už neodošle. Kópia u kontaktu zmizne na konci vlastnej platnosti.
+delete_selected_action	Odstrániť
+file_cancel	Zrušiť odosielanie
+notice_cancelled	%1$s zrušil/a odosielanie súboru
+notice_you_cancelled	Zrušili ste odosielanie súboru
+file_incoming	Prichádza súbor…
+settings_stay_reachable	Zostať dostupný
+settings_on	Zapnuté
+settings_stay_reachable_body	Keď je aplikácia zatvorená, Vaša adresa zostáva online. Kontakty Vám môžu písať a volať.\n\nPrijaté správy sa ukladajú tak, ako sú, stále šifrované, a zapečatia sa druhýkrát: otvoriť ich možno len Vaším kódom PIN. Neznámi ľudia s Vaším odkazom musia počkať, kým bude aplikácia otvorená.\n\nUpozornenie hovorí len „Whospair Vás volá“: bez mena, bez obsahu. Pri hovore otvorte Whospair, zadajte PIN a prijmite — kontakt volá ešte minútu.
+settings_stay_reachable_costs	Cena: Váš kľúč onion zostáva v pamäti aj pri zatvorenej aplikácii, Android zobrazuje trvalé upozornenie, Vaša adresa je online nepretržite a batéria sa vybíja rýchlejšie. Po reštarte telefónu nič nebeží, kým nezadáte PIN.
+settings_reach_enable	Zapnúť
+settings_reach_disable	Vypnúť
+settings_reach_battery	Povoliť na pozadí
+settings_reach_battery_hint	Bez toho môže Android Whospair uspať a prestanete byť dostupný/á.
+settings_reach_notifications_off	Upozornenia sú pre Whospair vypnuté: správy budú naďalej čakať na Váš PIN, ale nič Vám neoznámi, že prišli.
+settings_reach_notifications_allow	Zapnúť upozornenia
+settings_reach_hide_hint	Android vyžaduje upozornenie „Dostupný“, kým Whospair zostáva dostupný. Môžete ho skryť: služba beží ďalej a stav sa zobrazuje v aplikácii vedľa Tor.
+settings_reach_hide	Skryť upozornenie
+reach_channel_service	Zostať dostupný
+reach_channel_alert	Niekto sa Vás snaží zastihnúť
+reach_channel_call	Prichádzajúce hovory
+reach_service_title	Whospair
+reach_service_text	Dostupný
+reach_alert_title	Whospair Vás volá
+reach_call_title	Whospair Vás volá
+reach_call_text	Otvorte Whospair a zadajte PIN, aby ste mohli prijať.
+new_chat	Nový rozhovor
+contacts_group_confirmed	Potvrdené
+contacts_group_unconfirmed	Na potvrdenie
+contacts_group_blocked	Zablokované
+contacts_scan	Naskenovať QR
+contacts_show_qr	Zobraziť môj QR
+profile_title	Môj profil
+profile_photo_change	Zmeniť fotku
+settings_appearance	Vzhľad
+appearance_auto	Automaticky
+appearance_auto_hint	Podľa nastavení systému
+appearance_day	Deň
+appearance_night	Noc
+settings_background	Pozadie rozhovorov
+settings_background_hint	Rovnaké pre všetky rozhovory. Hlavné obrazovky preberajú jeho farby.
+bg_ink	Atrament
+bg_sage	Šalvia
+bg_slate	Bridlica
+bg_plum	Slivka
+bg_sand	Piesok
+bg_plain	Jednofarebné
+settings_page_lock	Zámok
+settings_page_lock_sub	PIN, núdzový PIN, zamknúť
+settings_page_discretion	Diskrétnosť
+settings_page_discretion_sub	Platnosť správ, skrytá obrazovka, fotka
+settings_page_network	Sieť
+settings_page_identity_sub	QR, nová identita
+settings_page_about_sub	Súkromie, verzia
+reach_short	dostupný aj pri zatvorenej aplikácii
+lock_title_setup	Zvoľte si PIN
+lock_hint_setup	Aspoň 6 číslic. Nedá sa obnoviť — ak ho zabudnete, všetko je stratené.
+lock_title_confirm	Zadajte ho znova
+lock_mismatch	Dve zadania sa nezhodujú. Začnite odznova.
+lock_title_unlock	Zadajte svoj PIN
+lock_wrong	Nesprávny PIN
+lock_attempts_left	Zostávajúce pokusy pred vymazaním všetkého: %1$d
+lock_busy	Overuje sa…
+lock_error	Pri otváraní sa niečo pokazilo. Skúste to znova.
+settings_lock_now	Zamknúť teraz
+settings_duress_title	Núdzový PIN
+settings_duress_body	Druhý PIN pre núdzové situácie. Jeho zadanie na zamknutej obrazovke vymaže všetko — kľúče, kontakty, správy — a aplikácia začne odznova ako čerstvo nainštalovaná.
+settings_duress_current	Aktuálny PIN
+settings_duress_new	Núdzový PIN
+settings_duress_saved	Núdzový PIN je nastavený.
+settings_duress_failed	Nenastavené: aktuálny PIN je nesprávny alebo je núdzový PIN príliš krátky, rovnaký či inej dĺžky.
+read_lock_title	Čítanie
+read_lock_off_hint	Správy zostanú čitateľné, keď sa do tohto rozhovoru vrátite.
+read_lock_on_hint	Správy sú skryté. Zadajte kód, aby ste si ich počas tejto návštevy mohli prečítať.
+read_lock_open_hint	Čitateľné, kým tento rozhovor neopustíte.
+read_lock_enable	Skryť správy kódom
+read_lock_unlock	Odomknúť čítanie
+read_lock_disable	Prestať skrývať správy
+read_lock_banner	Správy sú skryté. Odomknite čítanie v nastaveniach.
+read_lock_masked	••••••
+message_unreadable	[Nečitateľná správa]
+read_code_new	Zvoľte si 4-miestny kód
+read_code_confirm	Zadajte ho znova
+read_code_enter	Kód na čítanie
+read_code_mismatch	Kódy sa líšia. Začnite odznova.
+read_code_wrong	Nesprávny kód
+settings_section_security	Zabezpečenie
+settings_section_identity	Moja identita
+settings_section_network	Sieť
+settings_section_about	O aplikácii
+settings_change_pin	Zmeniť PIN
+settings_new_pin	Nový PIN
+settings_pin_changed	PIN bol zmenený.
+settings_pin_changed_duress_removed	PIN bol zmenený. Zmenila sa jeho dĺžka, preto bol núdzový PIN odstránený: nastavte ho znova s rovnakou dĺžkou.
+settings_pin_rejected	Nezmenené: tento PIN je príliš krátky alebo je to Váš núdzový PIN.
+settings_duress_same_length	Rovnaký počet číslic ako Váš PIN.
+settings_default_ttl	Predvolená platnosť správ
+settings_default_ttl_hint	Používa sa vo všetkých rozhovoroch, kým v niektorom nezvolíte inú.
+settings_mask_all	Skryť čítanie všade
+settings_mask_all_hint	Jeden kód pre všetky ešte neskryté rozhovory. Tie s vlastným kódom si ho ponechajú.
+settings_mask_all_done	Hotovo. Každý rozhovor teraz vyžaduje kód.
+settings_wipe_now	Vymazať všetko teraz
+settings_wipe_confirm	Vymazať kľúče, kontakty a správy hneď teraz? Nič sa nebude dať obnoviť. Aplikácia začne odznova ako čerstvo nainštalovaná.
+settings_wipe_action	Vymazať všetko
+settings_my_qr	Môj QR kód a odkaz
+settings_new_identity	Nová identita
+settings_new_identity_confirm	Nové kľúče a nová adresa: Váš aktuálny odkaz a QR kód prestanú fungovať. Všetky kontakty a správy sa vymažú — kontakty si Vás budú musieť pridať znova. Aplikácia sa reštartuje.
+settings_new_identity_action	Vytvoriť novú identitu
+settings_tor_state	Tor
+tor_state_ready	Pripojené
+tor_state_starting	Spúšťa sa… %1$d%%
+tor_state_failed	Zlyhalo — ťuknite na reštart
+tor_state_off	Vypnuté
+tor_state_reconnecting	Sieť sa stratila — znova sa pripája…
+settings_restart_tor_confirm	Reštart Tor reštartuje aplikáciu. Znova zadáte svoj PIN.
+settings_restart_tor_action	Reštartovať
+about_title	Čo je Whospair
+about_body	Aplikácia na správy pre tých, ktorí si majú povedať citlivé veci. Čo sa povie vo Whospair, existuje len na dvoch telefónoch, po zvolený čas, a nikde inde.\n\nBez servera. Žiadny server Vašu komunikáciu nepreposiela, neuchováva ani nevidí. Každý telefón je vlastným prístupovým bodom v sieti Tor; správy idú priamo z jedného na druhý.\n\nBez účtu. Žiadne číslo, žiadny e-mail, žiadne skutočné meno. Vaša identita je pár kľúčov vytvorený v tomto telefóne. Pridávate sa naskenovaním QR kódu, osobne alebo cez odkaz.\n\nŠifrované od začiatku do konca. Správy, hlasové poznámky, súbory a hovory sa zašifrujú skôr, než opustia telefón, a potom idú cez Tor, ktorý skrýva Vašu IP adresu.\n\nPomíňajúce. Každá správa má zvolenú platnosť a potom zmizne na oboch stranách. Nič sa nikde inde nezálohuje.\n\nNaživo. Zastihnúť môžete len toho, kto má aplikáciu otvorenú alebo zapol „Zostať dostupný“.\n\nChránené v telefóne. Všetko je šifrované pod Vaším kódom PIN. Desať nesprávnych kódov PIN alebo núdzový PIN všetko vymaže.\n\nUpozornenie. Whospair je nástroj. Za to, ako ho používate, zodpovedáte výlučne Vy. Poskytuje sa tak, ako je, bez záruky a jeho autori nezodpovedajú za jeho použitie ani za následky.
+privacy_title	Zásady ochrany súkromia
+privacy_body	Whospair nič nezhromažďuje. Žiadny server neprijíma Vaše údaje: preto nie je nikto, kto by ich analyzoval alebo odovzdával tretím stranám.\n\nČo aplikácia nikdy nerobí: profilovanie, predaj údajov, reklama, sledovací kód, odosielanie správ o zlyhaní, čítanie adresára, poloha. Žiadna tretia spoločnosť nedostáva nič, ani údaje, ani signály o používaní: aplikácia komunikuje iba so sieťou Tor, s Vašimi kontaktmi a so svojím distribútorom aktualizácií.\n\nČo zostáva v tomto telefóne, šifrované: Vaše kľúče, kontakty, správy a súbory — kým nevyprší ich platnosť, kým ich nevymažete alebo po 10 nesprávnych kódoch PIN. Z odoslaných fotiek sa odstraňujú metadáta (poloha, model zariadenia).\n\nČo ešte môžu vidieť iní: Váš mobilný operátor vidí, že tento telefón používa Tor, ale nie s kým ani čo. Váš kontakt vidí to, čo mu pošlete, a Vašu profilovú fotku, ak to povolíte.\n\nAktualizácie. Raz denne sa aplikácia nenápadne cez Tor opýta, či existuje novšia verzia. Táto požiadavka obsahuje iba číslo verzie: žiadnu identitu, žiadne kontakty, žiadne správy.\n\nPrečo každý deň? Pretože aktuálna verzia odmieta komunikovať s príliš starou verziou. Je to zámer: stará verzia môže obsahovať zraniteľnosť. Bez aktualizácie by ste sa už nespojili so svojimi blízkymi ani kolegami; dostala by sa k Vám už len aktualizácia.\n\nWhospair sa neustále vyvíja, preto časté aktualizácie. Zraniteľnosť môže byť objavená a zneužitá skôr, než si to ktokoľvek všimne. Rýchla oprava zabráni tomu, aby sa Vaše údaje dostali do nesprávnych rúk.\n\nVaše práva. Keďže sa nič nezhromažďuje, u nás nie je čo sprístupniť, opraviť ani vymazať. Všetko je vo Vašich rukách: odinštalovanie aplikácie vymaže všetko.\n\nZodpovednosť. Za to, čo posielate, komu a čo robíte s prijatým, zodpovedáte len Vy. Whospair sa poskytuje tak, ako je, bez záruky.
+version_title	Verzia
+version_fingerprint_hint	Odtlačok certifikátu, ktorým bola táto aplikácia podpísaná. Porovnajte ho s tým, ktorý zverejnil autor: ak sa líši, nejde o pravú aplikáciu.
+update_title	Aktualizácia
+update_state_current	Aktuálne
+update_state_available	K dispozícii je verzia %1$s
+update_state_downloading	Sťahuje sa %1$d %%
+update_state_installing	Inštaluje sa…
+update_state_failed	Zlyhalo
+update_body	Aktualizácie prichádzajú od Vašich kontaktov, cez Tor, bez servera. Každú verziu podpisuje vývojár: Whospair pred stiahnutím overí podpis, potom súbor podľa neho a Android overí, že je podpísaná rovnakým kľúčom ako Vaša aplikácia. Upravená aplikácia sa vždy odmietne.
+update_available_body	Verziu %1$s (%2$s) ponúka jeden z Vašich kontaktov. Sťahuje sa, kým je Whospair otvorený; ak sa spojenie preruší, pokračuje tam, kde prestalo.
+update_download	Stiahnuť a nainštalovať
+update_cancel	Zrušiť
+update_retry	Skúsiť znova
+update_permission_hint	Android musí najprv povoliť Whospair inštalovať aktualizácie. Povoľte to, vráťte sa a ťuknite znova.
+update_permission_allow	Povoliť
+update_relaying	Odovzdávate verziu %1$s svojim potvrdeným kontaktom.
+update_import	Importovať balík aktualizácie (.wup)
+update_import_unreadable	Nečitateľný súbor.
+update_import_invalid	Tento balík nepodpísal vývojár Whospair alebo je poškodený. Nič sa nenainštalovalo.
+update_import_installing	Podpis overený. Android Vás požiada o potvrdenie inštalácie.
+update_import_relaying	Podpis overený. Tento telefón teraz odovzdáva túto verziu Vašim potvrdeným kontaktom.
+update_import_mismatch	Je to Vaša verzia, ale tu nainštalovaná aplikácia nie je ten istý súbor. Nie je čo odovzdať.
+update_import_older	Tento balík je starší ako Vaša verzia. Nič sa nenainštalovalo.
+update_failed_memory	Na stiahnutie nie je dosť pamäte.
+update_failed_corrupt	Prijatý súbor nezodpovedá podpisu. Bol zahodený.
+update_failed_install	Android inštaláciu odmietol.
+update_failed_signature	Táto verzia nie je podpísaná rovnakým kľúčom ako Vaša aplikácia. Odmietnuté.
+update_banner	Dostupná aktualizácia
+settings_language	Jazyk
+language_auto	Jazyk telefónu
+tutorial_live_title	Dostupný/á len naživo
+tutorial_live_body	Whospair nenecháva nič čakať na serveri. Správa odíde, keď má Váš kontakt aplikáciu otvorenú alebo zapol „Zostať dostupný“.
+tutorial_live_f1	Bodka vedľa Tor: zelená, ste online; oranžová, pripája sa
+tutorial_live_f2	Prvé pripojenie môže trvať pár sekúnd, niekedy minútu
+tutorial_live_f3	„dostupný/á“ pod menom: kontakt je tam, práve teraz
+tutorial_confirm_title	Potvrdenie kontaktu
+tutorial_confirm_body	Na rozhovor stačí jedno naskenovanie. Ale ten, kto má len Váš odkaz, sa zobrazí ako „Na potvrdenie“.
+tutorial_confirm_f1	Porovnajte bezpečnostné číslo osobne alebo cez hovor
+tutorial_confirm_f2	Rovnaké číslo na oboch telefónoch: nikto medzi vami
+tutorial_confirm_f3	Volať Vám a dávať znamenie môžu len potvrdené kontakty
+tutorial_discreet_title	Diskrétnosť
+tutorial_discreet_body	Ochrana pre chvíle, keď je niekto vedľa Vás.
+tutorial_discreet_f1	Telefón položený obrazovkou na stôl: obrazovka sčernie
+tutorial_discreet_f2	Kód na čítanie: rozhovor zostane skrytý až do zadania kódu
+tutorial_discreet_f3	Súkromný režim: tento kontakt sa k Vám dostane, len keď mu napíšete
+update_check	Hľadať aktualizácie
+update_checking	Hľadá sa…
+chat_peer_outdated	Tento kontakt používa príliš starú verziu Whospair. Nič neprejde, kým ju neaktualizuje — samotná aktualizácia sa k nemu dostane.
+ttl_never	Nikdy
+reply_cancel	Zrušiť odpoveď
+input_emoji	Emoji
+reply_you	Vy
+share_app	Zdieľať Whospair
+share_app_sub	Poslať samotnú aplikáciu, bez obchodu s aplikáciami
+copy_action	Kopírovať
+copy_title	Vyberte časť na kopírovanie
+copy_all	Kopírovať všetko
+copy_done	Skopírované
+delete_everyone_body	„Pre všetkých“ vymaže aj kópiu u vášho kontaktu, bez akéhokoľvek upozornenia. Ak nie je dostupný, vymazanie odíde, len čo bude, kým je Whospair otvorený.
+select_more	Vybrať viac
+delete_everyone_action	Vymazať pre všetkých
+licenses_title	Licencie
+update_notes_title	Novinky
+tut_welcome_title	Vitajte vo Whospair
+tut_welcome_body	Správy a hovory, ktoré nezanechajú stopu na žiadnom serveri, pretože žiadny server neexistuje.
+tut_welcome_f1	Šifrované end-to-end, bez účtu: kľúče patria Vám
+tut_welcome_f2	Správa odíde, keď má Váš kontakt otvorenú aplikáciu alebo zapnuté „Zostať dostupný“
+tut_welcome_f3	Bodka vedľa Tor: zelená – online; oranžová – pripája sa (niekedy minútu)
+tut_add_title	Pridať a dôverovať
+tut_add_body	Žiadne meno ani číslo: vymieňate si kľúče. Naskenujte jeho kód alebo nechajte naskenovať svoj.
+tut_add_f1	Na potvrdenie: prišiel len s Vaším odkazom. Správy prichádzajú, ale nemôže volať ani dať znamenie
+tut_add_f2	Potvrdený: pridali ste ho alebo prijali
+tut_add_f3	Overený: osobne ste si navzájom naskenovali bezpečnostné kódy. Nikto sa medzi vás nedostal
+tut_write_title	Písať, potom vymazať
+tut_write_body	Každá správa má životnosť zvolenú pri odoslaní; potom zmizne na oboch stranách.
+tut_write_f1	Kratšie je bezpečnejšie: čo je na obrazovke, je ešte v pamäti
+tut_write_f2	Odstrániť pre všetkých: odstráni Vaše správy u kontaktu
+tut_write_f3	Vymazanie vo dvojici: ak obaja súhlasíte, ktokoľvek môže kedykoľvek vymazať všetko pre oboch
+tutorial_discreet_f5	Dlaždica „Zamknúť Whospair“ v rýchlych nastaveniach: aplikácia sa zavrie jedným ťuknutím
+tile_lock	Zamknúť Whospair
+contact_verified	Overený
+verify_title	Overiť osobne
+verify_hint	Osobne si navzájom naskenujte kódy
+verify_done	Overený osobne
+verify_body	Ukážte tento kód svojmu kontaktu a naskenujte jeho. Ak sa zhodujú, nikto sa medzi vás nedostal.
+verify_scan	Naskenovať jeho kód
+verify_ok	Kódy sa zhodujú: kontakt overený.
+verify_fail	Tento kód sa nezhoduje. Nedôverujte tomuto kontaktu, kým sa to nevyjasní.
+wipe_title	Vymazanie vo dvojici
+wipe_off	Vypnuté. Ak ho navrhnete, Váš kontakt ho musí prijať.
+wipe_asked	Čaká sa na súhlas Vášho kontaktu.
+wipe_to_answer	Váš kontakt navrhuje, aby ktokoľvek z vás mohol kedykoľvek vymazať všetko pre oboch.
+wipe_on	Zapnuté: ktokoľvek môže kedykoľvek vymazať všetko pre oboch.
+wipe_propose	Navrhnúť
+wipe_accept	Prijať
+wipe_refuse	Odmietnuť
+wipe_cancel	Zrušiť žiadosť
+wipe_disable	Vypnúť
+wipe_now	Vymazať konverzáciu pre oboch
+wipe_confirm	Celá konverzácia sa vymaže v oboch telefónoch. Nedá sa to vrátiť.
+wipe_action	Vymazať všetko
+wipe_banner	%1$s navrhuje vymazanie vo dvojici
+settings_gaze_owner	Len moja tvár
+settings_gaze_owner_hint	Obrazovka sa otvorí len pre Vás
+face_intro_title	Len moja tvár
+face_intro_body	Obrazovka sa otvorí, len keď sa na ňu pozeráte Vy. Pre kohokoľvek iného, alebo ak sa nikto nepozerá, zostane čierna.\n\nAk sa Vaša tvár zmení (zranenie, opuch, brada, okuliare), nemusí byť rozpoznaná a obrazovka zostane čierna. Dole „Vypnúť skrývanie kódom PIN“ vždy funguje s Vaším kódom na odomknutie. Potom môžete tvár zaznamenať znova.\n\nToto tlačidlo sa riadi rovnakými pravidlami ako zamknutá obrazovka: Váš núdzový PIN zadaný tu vymaže všetko, rovnako ako 10 nesprávnych kódov.\n\nChráni pred zvedavými pohľadmi, nie je to zámok: skutočnou ochranou zostáva Váš PIN. Všetko sa deje v telefóne: tvár sa uchováva ako šifrované čísla, nikdy ako fotka.
+face_intro_ok	Rozumiem
+face_enroll_title	Zaznamenať moju tvár
+face_enroll_body	Pozerajte sa niekoľko sekúnd na obrazovku, tvár dobre osvetlenú.
+face_enroll_ok	Vaša tvár je zaznamenaná.
+face_enroll_fail	Tvár nebola rozpoznaná. Postavte sa k svetlu, pozerajte sa priamo na obrazovku a skúste znova.
+face_reenroll	Zaznamenať tvár znova
+face_disable_pin	Vypnúť skrývanie kódom PIN
+tutorial_discreet_f4	Kamera (voliteľne): obrazovka sa skryje, keď odvrátite pohľad, keď sa pozerá niekto iný alebo keď to nie je Vaša tvár. Všetko sa deje v telefóne, nič sa nenahráva
+conv_pin	Pripnúť
+conv_unpin	Odopnúť
+conv_pinned	Pripnuté
+update_diffuser_retry	Zdroj je nedostupný, nový pokus o 10 s
+update_mandatory_title	Vyžaduje sa aktualizácia
+update_mandatory_body	Novšia verzia Whospair je dostupná už viac ako 5 dní. Nainštalujte ju, ak chcete aplikáciu ďalej používať: vaše aktuálne kontakty už staršie verzie neprijímajú.
+gaze_manual	Ručne
+gaze_manual_hint	PIN ho vypne, napríklad na tmavom mieste.
+gaze_auto	Automaticky
+gaze_auto_hint	Vypnuté od 20:00 do 6:00, keď chýba svetlo.
+shield_choice_title	Vypnúť skrývanie
+shield_pause_10	Na 10 min
+shield_disable_all	Vypnúť úplne
+shield_pause_over_title	Pauza skončila
+shield_pause_over_body	Skrývanie je znova zapnuté.
+shield_keep_paused	Zatiaľ nechať vypnuté
+update_interrupted	Aktualizácia prerušená, nový pokus o 30 min

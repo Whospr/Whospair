@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor açık</string>
+    <string name="tor_state_connecting">Tor\'a bağlanılıyor</string>
+    <string name="tor_state_offline">Tor kapalı</string>
+    <string name="presence_reachable">ulaşılabilir</string>
+    <string name="ring_action">Çaldır</string>
+    <string name="ring_calling">%1$s çaldırılıyor…</string>
+    <string name="ring_incoming">%1$s sizi çaldırıyor</string>
+    <string name="ring_accept">Yanıtla</string>
+    <string name="ring_decline">Yoksay</string>
+    <string name="ring_cancel">Durdur</string>
+    <string name="ring_declined">%1$s çaldırmayı yoksaydı</string>
+    <string name="ring_timeout">Yanıt yok</string>
+    <string name="ring_peer_offline">%1$s şu anda uygulamada değil</string>
+    <string name="ring_busy">Zaten açık bir oturum var</string>
+    <string name="indicator_title">Bu ne gösteriyor</string>
+    <string name="indicator_channel_live">Tor çalışıyor ve adresiniz yayında. Uygulaması açık olan kişiler size ulaşabilir, siz de onlara.</string>
+    <string name="indicator_channel_none">Tor hazır değil. Hiçbir şey gönderilemez ya da alınamaz ve sonrası için hiçbir yerde bir şey tutulmaz.</string>
+    <string name="indicator_tunnel_on">Trafiğiniz bir VPN arayüzünden çıkıyor. Whospair bu kadarını görebilir, daha fazlasını değil: hangi sağlayıcı olduğunu ya da tünelin sızdırıp sızdırmadığını bilmez.</string>
+    <string name="indicator_tunnel_off">Trafiğiniz doğrudan çıkıyor. Ağ sağlayıcınız bu cihazın Tor kullandığını ve ne zaman kullandığını görebilir; kiminle konuştuğunuzu ya da ne söylendiğini değil.</string>
+    <string name="indicator_dismiss">Kapat</string>
+    <string name="vpn_advice_title">Ağınız hakkında</string>
+    <string name="vpn_advice_body">Whospair söylediklerinizi şifreler, Tor ise kime söylediğinizi gizler. İkisi de Tor kullandığınızı gizlemez: trafiğinizi taşıyan bunu, hangi saatlerde ve ne sıklıkla olduğunu görür. Bir VPN bu görüşü tünel işletmecisine taşır. İzleyen, tam da endişe ettiğiniz taraf olduğunda bu gerçek bir değişikliktir.</string>
+    <string name="vpn_advice_caveat">VPN bir garanti değildir. İzleyeni ortadan kaldırmazsınız, kimin izleyeceğini seçersiniz. Güvenmek için nedeniniz olan birini seçin ve trafiğinizle kendini finanse eden yerine ücretli olanı tercih edin.</string>
+    <string name="contacts_title">Kişiler</string>
+    <string name="contacts_empty">Kişi listeniz boş.</string>
+    <string name="contact_unconfirmed">Onaylanmadı</string>
+    <string name="contact_blocked">Engelli</string>
+    <string name="chat_settings">Sohbet ayarları</string>
+    <string name="chat_unconfirmed_banner">Bu kişi sizi bağlantınızla ekledi. Kim olduğunu henüz onaylamadınız.</string>
+    <string name="chat_confirm">Onayla</string>
+    <string name="chat_block">Engelle</string>
+    <string name="chat_unblock">Engeli kaldır</string>
+    <string name="chat_blocked_banner">Engellendi. Artık size ulaşamaz.</string>
+    <string name="settings_rename">Ad</string>
+    <string name="settings_rename_hint">Bu adı yalnızca siz görürsünüz.</string>
+    <string name="settings_save">Kaydet</string>
+    <string name="settings_safety_number">Güvenlik numarası</string>
+    <string name="settings_safety_hint">Kişinizle yüz yüze ya da arayarak karşılaştırın. İki telefonda aynı numara = arada kimse yok.</string>
+    <string name="settings_confirm_trust">Kontrol ettim — bu kişiyi onayla</string>
+    <string name="settings_trusted">Onaylı kişi</string>
+    <string name="settings_block_hint">Engellenen bir kişi artık bağlanamaz ve size mesaj gönderemez.</string>
+    <string name="settings_delete">Kişiyi sil</string>
+    <string name="settings_delete_confirm">Bu kişi ve tüm mesajlar silinsin mi? Bağlantınız hâlâ onda varsa onaylanmamış olarak geri dönebilir; bunu önlemek için engelleyin.</string>
+    <string name="settings_delete_action">Sil</string>
+</resources>

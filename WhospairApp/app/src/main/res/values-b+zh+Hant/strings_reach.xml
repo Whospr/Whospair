@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">保持可聯繫</string>
+    <string name="settings_on">開啟</string>
+    <string name="settings_stay_reachable_body">應用程式關閉時，您的位址仍保持上線。聯絡人可以傳訊息給您、打電話給您。\n\n收到的訊息會原樣保存，仍然加密，並再封存一次：只有您的 PIN 碼才能開啟。持有您連結的陌生人需要等到應用程式開啟。\n\n通知只會顯示「Whospair 在呼叫您」：沒有名字，沒有內容。來電時，開啟 Whospair，輸入 PIN 碼後接聽——對方會持續撥打一分鐘。</string>
+    <string name="settings_stay_reachable_costs">代價：應用程式關閉時，您的 onion 金鑰仍留在記憶體中；Android 會顯示常駐通知；您的位址全天上線；電池消耗更快。手機重新啟動後，在您輸入 PIN 碼之前什麼都不會運作。</string>
+    <string name="settings_reach_enable">開啟</string>
+    <string name="settings_reach_disable">關閉</string>
+    <string name="settings_reach_battery">允許在背景執行</string>
+    <string name="settings_reach_battery_hint">否則 Android 可能讓 Whospair 休眠，您將無法被聯繫。</string>
+    <string name="settings_reach_notifications_off">Whospair 的通知已關閉：訊息仍會等待您的 PIN 碼，但不會有任何提示告訴您它們已到達。</string>
+    <string name="settings_reach_notifications_allow">開啟通知</string>
+    <string name="settings_reach_hide_hint">Whospair 保持可聯繫期間，Android 要求顯示一則「可聯繫」通知。您可以隱藏它：服務會繼續運作，狀態顯示在應用程式內 Tor 旁邊。</string>
+    <string name="settings_reach_hide">隱藏通知</string>
+    <string name="reach_channel_service">保持可聯繫</string>
+    <string name="reach_channel_alert">有人想聯繫您</string>
+    <string name="reach_channel_call">來電</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">可聯繫</string>
+    <string name="reach_alert_title">Whospair 在呼叫您</string>
+    <string name="reach_call_title">Whospair 在呼叫您</string>
+    <string name="reach_call_text">開啟 Whospair 並輸入 PIN 碼即可接聽。</string>
+</resources>

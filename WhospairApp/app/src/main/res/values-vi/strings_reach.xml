@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">Luôn có thể liên lạc</string>
+    <string name="settings_on">Bật</string>
+    <string name="settings_stay_reachable_body">Khi ứng dụng đóng, địa chỉ của bạn vẫn trực tuyến. Liên hệ có thể nhắn tin và gọi cho bạn.\n\nTin nhắn đến được lưu nguyên vẹn, vẫn được mã hóa, và được niêm phong thêm lần nữa: chỉ mở được bằng mã PIN của bạn. Người lạ có liên kết của bạn phải đợi đến khi ứng dụng được mở.\n\nThông báo chỉ ghi «Whospair đang gọi bạn»: không tên, không nội dung. Để nghe cuộc gọi, hãy mở Whospair, nhập mã PIN rồi trả lời — liên hệ sẽ tiếp tục gọi trong một phút.</string>
+    <string name="settings_stay_reachable_costs">Cái giá: khóa onion của bạn ở lại trong bộ nhớ khi ứng dụng đóng, Android hiển thị một thông báo thường trực, địa chỉ của bạn trực tuyến suốt ngày đêm và pin hao nhanh hơn. Sau khi khởi động lại điện thoại, không gì chạy cho đến khi bạn nhập mã PIN.</string>
+    <string name="settings_reach_enable">Bật</string>
+    <string name="settings_reach_disable">Tắt</string>
+    <string name="settings_reach_battery">Cho phép chạy nền</string>
+    <string name="settings_reach_battery_hint">Nếu không, Android có thể cho Whospair ngủ và bạn sẽ không còn liên lạc được.</string>
+    <string name="settings_reach_notifications_off">Thông báo của Whospair đang tắt: tin nhắn vẫn chờ mã PIN của bạn, nhưng sẽ không có gì báo cho bạn biết chúng đã đến.</string>
+    <string name="settings_reach_notifications_allow">Bật thông báo</string>
+    <string name="settings_reach_hide_hint">Android yêu cầu một thông báo «Có thể liên lạc» khi Whospair luôn sẵn sàng. Bạn có thể ẩn nó: dịch vụ vẫn chạy, và trạng thái hiển thị trong ứng dụng, cạnh Tor.</string>
+    <string name="settings_reach_hide">Ẩn thông báo</string>
+    <string name="reach_channel_service">Luôn có thể liên lạc</string>
+    <string name="reach_channel_alert">Có người đang tìm cách liên lạc với bạn</string>
+    <string name="reach_channel_call">Cuộc gọi đến</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">Có thể liên lạc</string>
+    <string name="reach_alert_title">Whospair đang gọi bạn</string>
+    <string name="reach_call_title">Whospair đang gọi bạn</string>
+    <string name="reach_call_text">Mở Whospair và nhập mã PIN để trả lời.</string>
+</resources>

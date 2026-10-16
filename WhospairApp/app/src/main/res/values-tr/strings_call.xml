@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Ara</string>
+    <string name="call_connecting">Tor üzerinden ulaşılıyor…</string>
+    <string name="call_ringing">Çalıyor…</string>
+    <string name="call_incoming">Gelen arama</string>
+    <string name="call_answer">Yanıtla</string>
+    <string name="call_decline">Reddet</string>
+    <string name="call_cancel">İptal</string>
+    <string name="call_hang_up">Kapat</string>
+    <string name="call_mute">Sesi kapat</string>
+    <string name="call_unmute">Sesi aç</string>
+    <string name="call_speaker">Hoparlör</string>
+    <string name="call_earpiece">Kulaklık</string>
+    <string name="call_delay_hint">Tor üzerinden sesiniz yaklaşık bir saniye gecikmeyle ulaşır. Yanıtlamadan önce kısa bir ara verin.</string>
+    <string name="call_ended">Arama bitti</string>
+    <string name="call_declined">Reddedildi</string>
+    <string name="call_busy">Zaten bir aramada</string>
+    <string name="call_no_answer">Yanıt yok</string>
+    <string name="call_unreachable">Şu anda ulaşılamıyor. Biraz sonra tekrar deneyin.</string>
+    <string name="call_lost">Bağlantı koptu</string>
+    <string name="call_mic_denied">Whospair için mikrofon kapalı. Aramak için Android ayarlarından izin verin.</string>
+    <string name="call_not_confirmed">Önce bu kişiyi onaylayın. Yalnızca onaylı kişiler birbirini arayabilir.</string>
+    <string name="call_log_outgoing">Giden arama · %1$s</string>
+    <string name="call_log_incoming">Gelen arama · %1$s</string>
+    <string name="call_log_missed">Cevapsız arama</string>
+    <string name="call_log_refused">Arama reddedildi</string>
+    <string name="call_log_no_answer">Arama yanıtlanmadı</string>
+    <string name="call_log_busy">Arama: karşı taraf zaten bir aramadaydı</string>
+    <string name="call_log_unreachable">Arama gerçekleşmedi</string>
+    <string name="call_log_cancelled">Arama iptal edildi</string>
+</resources>

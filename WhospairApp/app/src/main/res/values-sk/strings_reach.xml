@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">Zostať dostupný</string>
+    <string name="settings_on">Zapnuté</string>
+    <string name="settings_stay_reachable_body">Keď je aplikácia zatvorená, Vaša adresa zostáva online. Kontakty Vám môžu písať a volať.\n\nPrijaté správy sa ukladajú tak, ako sú, stále šifrované, a zapečatia sa druhýkrát: otvoriť ich možno len Vaším kódom PIN. Neznámi ľudia s Vaším odkazom musia počkať, kým bude aplikácia otvorená.\n\nUpozornenie hovorí len „Whospair Vás volá“: bez mena, bez obsahu. Pri hovore otvorte Whospair, zadajte PIN a prijmite — kontakt volá ešte minútu.</string>
+    <string name="settings_stay_reachable_costs">Cena: Váš kľúč onion zostáva v pamäti aj pri zatvorenej aplikácii, Android zobrazuje trvalé upozornenie, Vaša adresa je online nepretržite a batéria sa vybíja rýchlejšie. Po reštarte telefónu nič nebeží, kým nezadáte PIN.</string>
+    <string name="settings_reach_enable">Zapnúť</string>
+    <string name="settings_reach_disable">Vypnúť</string>
+    <string name="settings_reach_battery">Povoliť na pozadí</string>
+    <string name="settings_reach_battery_hint">Bez toho môže Android Whospair uspať a prestanete byť dostupný/á.</string>
+    <string name="settings_reach_notifications_off">Upozornenia sú pre Whospair vypnuté: správy budú naďalej čakať na Váš PIN, ale nič Vám neoznámi, že prišli.</string>
+    <string name="settings_reach_notifications_allow">Zapnúť upozornenia</string>
+    <string name="settings_reach_hide_hint">Android vyžaduje upozornenie „Dostupný“, kým Whospair zostáva dostupný. Môžete ho skryť: služba beží ďalej a stav sa zobrazuje v aplikácii vedľa Tor.</string>
+    <string name="settings_reach_hide">Skryť upozornenie</string>
+    <string name="reach_channel_service">Zostať dostupný</string>
+    <string name="reach_channel_alert">Niekto sa Vás snaží zastihnúť</string>
+    <string name="reach_channel_call">Prichádzajúce hovory</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">Dostupný</string>
+    <string name="reach_alert_title">Whospair Vás volá</string>
+    <string name="reach_call_title">Whospair Vás volá</string>
+    <string name="reach_call_text">Otvorte Whospair a zadajte PIN, aby ste mohli prijať.</string>
+</resources>

@@ -1,0 +1,561 @@
+splash_tagline	Privatno po zamisli
+tos_title	Pre početka
+tos_warning	Pažljivo pročitajte. Whospair ne radi kao aplikacije za poruke koje poznajete, a neke od tih razlika su nepovratne.
+tos_s1_title	1. Direktno, od uređaja do uređaja
+tos_s1_body	Whospair nema server. Poruke i pozivi idu direktno sa uređaja na uređaj. Niko — pa ni mi — ne stoji između, ne čuva Vaše podatke niti ih može predati.
+tos_s2_title	2. Odgovornost je Vaša
+tos_s2_body	Iza ove aplikacije ne stoji nikakav operater. Šta šaljete, kome i šta radite sa primljenim u potpunosti je Vaša odgovornost. Whospair je alat: njegovi autori ne odgovaraju za način na koji ga koristite niti za posledice.
+tos_s3_title	3. Bez moderacije
+tos_s3_body	Nijedno telo ne pregleda, ne filtrira niti uklanja sadržaj. Ne postoji dugme za prijavu koje do nekoga stiže, jer sa druge strane nema nikoga.
+tos_s4_title	4. Šifrovanje od kraja do kraja
+tos_s4_body	Poruke su šifrovane od kraja do kraja (X25519 i AES-256-GCM) i potpisane. Pozivi idu preko Tora, šifrovani ključem koji se menja otprilike na svakih deset sekundi.
+tos_s5_title	5. Ništa se ne čuva na daljinu
+tos_s5_body	Vaš identitet, kontakti i poruke postoje samo na ovom uređaju. Deinstaliranje aplikacije ih briše.
+tos_s6_title	6. Bez oporavka
+tos_s6_body	Vaš identitet je kriptografski ključ, a ne nalog. Ako ga izgubite, nestao je. Nema resetovanja lozinke, nema podrške, nema rezervne kopije za vraćanje.
+tos_s7_title	7. Samo zakonita upotreba
+tos_s7_body	Alati za privatnost štite legitimne razgovore. Korišćenje Whospair-a za kršenje zakona i dalje je kršenje zakona.
+tos_s8_title	8. Bez garancije
+tos_s8_body	Ovaj softver se pruža takav kakav jeste, bez garancije dostupnosti, tačnosti ili pogodnosti za određenu svrhu.
+tos_s9_title	9. Bezbednost ima granice
+tos_s9_body	Šifrovanje štiti podatke u prenosu. Ne može da zaštiti uređaj koji je već ugrožen zlonamernim softverom, rutkitom ili nekim ko ga drži u ruci.
+tos_s10_title	10. Prihvatanje
+tos_s10_body	Nastavak znači da razumete navedeno, a posebno da se izgubljeni identitet ne može vratiti.
+tos_checkbox	Pročitao/la sam i prihvatam ove uslove
+tos_accept	Prihvatam
+tos_decline	Odbijam
+tos_decline_dialog_title	Odbiti uslove?
+tos_decline_dialog_body	Whospair ne može da radi bez Vašeg prihvatanja. Aplikacija će se zatvoriti.
+tos_decline_confirm	Zatvori aplikaciju
+tos_decline_cancel	Nazad
+tutorial_skip	Preskoči
+tutorial_next	Dalje
+tutorial_back	Nazad
+tutorial_start	Počni
+tutorial_page_counter	%1$d od %2$d
+tutorial_p1_title	Dobro došli u Whospair
+tutorial_p1_body	Poruke i pozivi koji ne ostavljaju trag ni na jednom serveru, jer servera nema.
+tutorial_p1_f1	Šifrovano od kraja do kraja
+tutorial_p1_f2	Bez servera, bez naloga
+tutorial_p1_f3	Poruke same ističu
+tutorial_p1_f4	Svi ključevi su kod Vas
+tutorial_p2_title	Dodavanje osobe
+tutorial_p2_body	Nema korisničkih imena ni brojeva telefona. Ključevi se razmenjuju direktno.
+tutorial_p2_s1	Otvorite karticu Dodaj
+tutorial_p2_s2	Skenirajte njen kod ili joj dozvolite da skenira Vaš
+tutorial_p2_s3	Razgovor je spreman
+tutorial_p2_note	Novi identitet znači novi kod. Ponovno deljenje je jedini način da se ponovo povežete.
+tutorial_p3_title	Slanje poruke
+tutorial_p3_body	Svaka poruka ima rok trajanja od trenutka slanja.
+tutorial_p3_s1	Otvorite razgovor
+tutorial_p3_s2	Napišite, zatim izaberite koliko dugo traje
+tutorial_p3_s3	Pošaljite
+tutorial_p4_title	Trajanje
+tutorial_p4_body	Izaberite trajanje koje odgovara onome što govorite. Kad istekne, poruka se briše na oba uređaja.
+tutorial_p4_note	Kraće je bezbednije. Ono što je još na ekranu, još je i na disku.
+tutorial_p5_title	Kontrola ostaje kod Vas
+tutorial_p5_body	Nekoliko stvari koje vredi znati pre početka.
+tutorial_p5_f1	Blokirajte ili uklonite bilo koji kontakt
+tutorial_p5_f2	Izbrišite ceo razgovor odjednom
+tutorial_p5_f3	Zaključajte aplikaciju PIN-om
+tutorial_p5_f4	Ključevi nikad ne napuštaju ovaj uređaj
+identity_creating_title	Pravljenje Vašeg identiteta
+identity_creating_body	Na ovom uređaju se generiše par ključeva. To traje trenutak.
+identity_ready_title	Ovo ste Vi
+identity_ready_body	Vaši ključevi su spremni. Sada izaberite PIN: on ih zapečaćuje. Vaš QR kod Vas zatim čeka u kartici Dodaj.
+identity_warning	Vaš privatni ključ ostaje na ovom uređaju i nikad se ne prikazuje. Ako izgubite uređaj, ovaj identitet je zauvek izgubljen.
+identity_continue	Nastavi
+identity_error_title	Nije moguće napraviti Vaš identitet
+identity_retry	Pokušaj ponovo
+nav_home	Poruke
+nav_contacts	Kontakti
+nav_calls	Pozivi
+nav_discover	Dodaj
+nav_settings	Podešavanja
+ttl_5m	5 min
+ttl_15m	15 min
+ttl_1h	1 sat
+ttl_5h	5 sati
+ttl_8h	8 sati
+ttl_24h	24 sata
+ttl_7d	7 dana
+discover_title	Dodaj kontakt
+discover_subtitle	Pokažite svoj kod osobi ili skenirajte njen. Licem u lice znate sa kim razgovarate.
+discover_scan_title	Skeniraj kod
+discover_scan_body	Usmerite kameru ka njenom QR kodu
+discover_mycode_title	Prikaži moj kod
+discover_mycode_body	Dozvolite da Vas neko doda
+discover_manual_title	Ili nalepite primljeni link
+discover_manual_hint	whospair:… ili 64 heksadecimalna znaka
+discover_add	Dodaj ovaj kontakt
+discover_fingerprint	Otisak za poređenje naglas
+discover_copy_link	Kopiraj link za pozivnicu
+add_ok	%1$s je dodat/a. Možete započeti razgovor.
+add_already	%1$s je već u Vašim kontaktima.
+add_blocked	%1$s je u Vašim kontaktima, ali je blokiran/a.
+add_self	To je Vaš sopstveni ključ. Ne možete dodati sami sebe.
+add_malformed	Ključ nije važeći. Javni ključ ima 64 heksadecimalna znaka.
+add_not_whisper	Ovaj kod nije Whospair ključ.
+add_unblock	Odblokiraj
+add_unblocked	%1$s je ponovo odblokiran/a.
+scan_instruction	Usmerite ka QR kodu koji želite da dodate
+scan_permission_title	Potreban je pristup kameri
+scan_permission_body	Za skeniranje koda potrebna je kamera. Ništa se ne snima niti šalje.
+scan_permission_denied	Pristup kameri je odbijen. Možete ga omogućiti u podešavanjima uređaja ili ručno nalepiti ključ.
+scan_permission_grant	Dozvoli kameru
+scan_use_manual	Nalepi ključ
+contact_block	Blokiraj
+contact_unblock	Odblokiraj
+contact_delete	Izbriši kontakt
+contact_delete_confirm	Izbrisati ovaj kontakt i ceo razgovor? Radnja se ne može poništiti.
+contact_blocked_notice	Blokirano. Poruke ovog kontakta se odbijaju.
+common_dismiss	Zatvori
+common_loading	Učitavanje…
+common_cancel	Otkaži
+common_error	Nešto nije u redu
+chat_today	Danas
+chat_yesterday	Juče
+message_pending	Slanje
+message_failed	Nije poslato, kontakt nedostupan
+tutorial_pin_title	Vaš PIN, i samo Vaš PIN
+tutorial_pin_body	Sve u Whospair-u zaključano je PIN-om koji ćete izabrati u sledećem koraku. Ako ga zaboravite, ništa se ne može vratiti.
+tutorial_pin_f1	Deset pogrešnih pokušaja briše sve
+tutorial_pin_f2	PIN za hitne slučajeve (u Podešavanjima) briše sve kad se unese: upotrebite ga ako ste pod prinudom ili u opasnosti
+tutorial_pin_f3	Bez otiska prsta i prepoznavanja lica: prst Vam mogu silom prisloniti na senzor, a kod iz Vas ne mogu da izvuku
+tutorial_pin_note	Kad aplikacija ode u pozadinu, sama se zaključa.
+call_action	Pozovi
+call_connecting	Povezivanje preko Tora…
+call_ringing	Zvoni…
+call_incoming	Dolazni poziv
+call_answer	Javi se
+call_decline	Odbij
+call_cancel	Otkaži
+call_hang_up	Prekini
+call_mute	Isključi mikrofon
+call_unmute	Uključi mikrofon
+call_speaker	Zvučnik
+call_earpiece	Slušalica
+call_delay_hint	Preko Tora Vaš glas stiže oko sekund kasnije. Napravite kratku pauzu pre odgovora.
+call_ended	Poziv je završen
+call_declined	Odbijeno
+call_busy	Već u pozivu
+call_no_answer	Nema odgovora
+call_unreachable	Trenutno nedostupno. Pokušajte ponovo za trenutak.
+call_lost	Veza je prekinuta
+call_mic_denied	Mikrofon je isključen za Whospair. Dozvolite ga u podešavanjima Android-a da biste zvali.
+call_not_confirmed	Prvo potvrdite ovaj kontakt. Samo potvrđeni kontakti mogu međusobno da se zovu.
+call_log_outgoing	Odlazni poziv · %1$s
+call_log_incoming	Dolazni poziv · %1$s
+call_log_missed	Propušten poziv
+call_log_refused	Poziv je odbijen
+call_log_no_answer	Poziv bez odgovora
+call_log_busy	Poziv: sagovornik je već bio u pozivu
+call_log_unreachable	Poziv nije uspostavljen
+call_log_cancelled	Poziv je otkazan
+messages_title	Poruke
+search_contact	Pretraži kontakt
+conversations_empty_title	Još nema razgovora
+conversations_empty_body	Dodajte nekoga skeniranjem njegovog koda, licem u lice. Možete mu pisati kad oboje imate otvorenu aplikaciju.
+search_no_result	Nema kontakta sa tim imenom.
+add_contact	Dodaj kontakt
+scan_code	Skeniraj kod
+message_retry	Pokušaj ponovo
+message_sent	Poslato
+message_delivered	Isporučeno
+read_lock_preview	Čitanje skriveno
+message_expires_in	Nestaje za %1$s
+ttl_button	Trajanje poruke: %1$s
+send	Pošalji
+back	Nazad
+close	Zatvori
+confirm_identity	Potvrdi identitet
+delete_contact_and_chat	Izbriši kontakt i razgovor
+preview_none	Nema poruka
+preview_encrypted	Šifrovana poruka
+duration_days	%1$d d
+message_placeholder	Napišite poruku
+discover_code_caption	Ovaj kod sadrži Vaše javne ključeve i Vašu Tor adresu. Ništa drugo.
+share_link	Podeli moj link
+copy_link	Kopiraj link
+link_copied	Link je kopiran
+memory_advice_title	Memorija telefona
+memory_advice_body	Whospair drži ključeve u memoriji samo dok je aplikacija otvorena. Ali neki telefoni kopiraju deo memorije u skladište da bi delovali većim („virtuelna memorija”, „proširenje memorije”). Tako kopiran ključ mogao bi ostati na telefonu posle zatvaranja Whospair-a.
+memory_advice_how	Za isključivanje: u podešavanjima telefona potražite „virtuelna memorija” ili „proširenje memorije”, isključite to i ponovo pokrenite telefon.
+voice_record	Snimi glasovnu poruku
+voice_cancel	Odbaci snimak
+voice_recording	do %1$s
+voice_send	Pošalji glasovnu poruku
+voice_play	Pusti
+voice_pause	Pauza
+voice_receiving	Primanje…
+voice_preview	Glasovna poruka %1$s
+mic_denied	Mikrofon je isključen za Whospair. Dozvolite ga u podešavanjima Android-a da biste poslali glasovnu poruku.
+tor_state_live	Tor uključen
+tor_state_connecting	Povezivanje sa Torom
+tor_state_offline	Tor isključen
+presence_reachable	dostupan/a
+ring_action	Pozvoni
+ring_calling	Zvonim osobi %1$s…
+ring_incoming	%1$s Vam zvoni
+ring_accept	Javi se
+ring_decline	Zanemari
+ring_cancel	Zaustavi
+ring_declined	%1$s je zanemario/la zvono
+ring_timeout	Nema odgovora
+ring_peer_offline	%1$s trenutno nije u aplikaciji
+ring_busy	Sesija je već otvorena
+indicator_title	Šta ovo prikazuje
+indicator_channel_live	Tor radi i Vaša adresa je objavljena. Kontakti koji takođe imaju otvorenu aplikaciju mogu da Vas dobiju, a i Vi njih.
+indicator_channel_none	Tor nije spreman. Ništa se ne može poslati ni primiti, i ništa se nigde ne čuva za kasnije.
+indicator_tunnel_on	Vaš saobraćaj izlazi kroz VPN interfejs. Whospair vidi samo toliko: ne zna koji je to provajder niti da li tunel curi.
+indicator_tunnel_off	Vaš saobraćaj izlazi direktno. Vaš mrežni provajder može da vidi da ovaj uređaj koristi Tor, i kada — ne i sa kim razgovarate niti šta se govori.
+indicator_dismiss	Zatvori
+vpn_advice_title	O Vašoj mreži
+vpn_advice_body	Whospair šifruje ono što govorite, a Tor skriva kome to govorite. Nijedno ne skriva da koristite Tor: onaj ko prenosi Vaš saobraćaj to vidi, u koje vreme i koliko često. VPN taj pogled premešta na operatera tunela. To je stvarna promena kada posmatra upravo onaj koga se plašite.
+vpn_advice_caveat	VPN nije garancija. Birate ko posmatra, a ne uklanjate posmatrača. Izaberite onoga kome imate razloga da verujete i radije platite nego da koristite besplatan koji se finansira Vašim saobraćajem.
+contacts_title	Kontakti
+contacts_empty	Vaša lista kontakata je prazna.
+contact_unconfirmed	Nepotvrđen
+contact_blocked	Blokiran
+chat_settings	Podešavanja razgovora
+chat_unconfirmed_banner	Ova osoba Vas je dodala preko Vašeg linka. Još niste potvrdili ko je.
+chat_confirm	Potvrdi
+chat_block	Blokiraj
+chat_unblock	Odblokiraj
+chat_blocked_banner	Blokirano. Više ne može da Vas dobije.
+settings_rename	Ime
+settings_rename_hint	Samo Vi vidite ovo ime.
+settings_save	Sačuvaj
+settings_safety_number	Bezbednosni broj
+settings_safety_hint	Uporedite ga sa kontaktom uživo ili pozivom. Isti broj na oba telefona = niko u sredini.
+settings_confirm_trust	Proverio/la sam — potvrdi ovaj kontakt
+settings_trusted	Potvrđen kontakt
+settings_block_hint	Blokirani kontakt više ne može da se poveže niti da Vam šalje poruke.
+settings_delete	Izbriši kontakt
+settings_delete_confirm	Izbrisati ovaj kontakt i sve poruke? Ako još ima Vaš link, može se vratiti kao nepotvrđen — blokirajte ga da to sprečite.
+settings_delete_action	Izbriši
+settings_section_profile	Profil
+profile_photo	Profilna fotografija
+profile_photo_hint	Isečena na 256 px, bez metapodataka, šalje se samo preko Tora.
+profile_photo_choose	Izaberi
+profile_photo_remove	Ukloni
+profile_photo_error	Ova slika nije mogla da se pročita.
+profile_photo_visibility	Ko vidi moju fotografiju
+profile_photo_everyone	Svi koji me dobiju
+profile_photo_everyone_hint	Uključujući nepotvrđene kontakte
+profile_photo_confirmed	Potvrđeni kontakti
+profile_photo_hidden	Niko
+settings_gaze_shield	Ekran skriven pomoću kamere
+settings_gaze_shield_body	Prednja kamera gleda ko je ispred ekrana. Sve ostaje na telefonu: nijedna slika se ne čuva niti šalje. Indikator kamere na Android-u svetli dok je Whospair otvoren, a baterija se brže prazni. Ako okrenete telefon ekranom ka stolu, ekran se uvek zatamni.
+settings_off	Isključeno
+settings_gaze_look_away	Kad skrenem pogled
+settings_gaze_onlooker	Kad neko drugi gleda
+settings_gaze_onlooker_hint	Drugo lice iza Vas. Smanjuje rizik, ali ga ne uklanja: lice viđeno sa strane, izdaleka ili u mraku može proći neprimećeno.
+alert_someone	Neko pokušava da Vas dobije
+alert_bip	%1$s Vas doziva
+alert_open	Otvori
+nudge_title	Dati znak
+nudge_hint	Neka njegov Whospair zavibrira.
+nudge_action	Daj znak
+nudge_sent	Znak je poslat.
+nudge_unreachable	Trenutno nedostupno: Whospair je kod te osobe zatvoren.
+nudge_received	%1$s Vam daje znak
+private_mode_title	Privatni režim
+private_mode_off_hint	U ovom razgovoru ste na mreži i dostupni.
+private_mode_on_hint	U ovom razgovoru više niste dostupni.
+private_mode_enable	Uključi privatni režim
+private_mode_disable	Isključi privatni režim
+private_mode_banner	Privatni režim je uključen za ovaj razgovor. Dostupni ste samo minut posle slanja poruke. Da biste ostali dostupni, isključite privatni režim.
+file_generic	Datoteka
+file_attach	Priloži datoteku
+file_view_once	jednokratni pregled
+file_sending	slanje %1$d %%
+file_receiving	primanje %1$d %%
+file_send_title	Poslati ovu datoteku?
+file_allow_save	Dozvoli čuvanje
+file_allow_save_hint	U suprotnom se otvara samo unutar Whospair-a.
+file_view_once_option	Jednokratni pregled
+file_view_once_hint	Briše se sa telefona Vašeg kontakta posle prvog otvaranja.
+file_send	Pošalji
+file_too_big	Datoteka je prevelika: najviše 25 MB.
+file_unreadable	Nečitljiva datoteka.
+file_viewer_pending	Ova vrsta datoteke uskoro će se otvarati unutar Whospair-a.
+input_more	Više: trajanje %1$s, znak, datoteka
+input_ttl	Trajanje · %1$s
+input_file	Datoteka
+notice_forwarded	%1$s je prosledio/la „%2$s” drugom kontaktu
+notice_shared	%1$s je podelio/la „%2$s” sa drugom aplikacijom
+notice_saved	%1$s je sačuvao/la „%2$s” na telefonu
+notice_opened	%1$s je otvorio/la „%2$s” u drugoj aplikaciji
+notice_viewed	%1$s je pogledao/la „%2$s” (jednokratni pregled)
+notice_you_forwarded	Prosledili ste „%1$s”; pošiljalac je obavešten
+notice_you_shared	Podelili ste „%1$s”; pošiljalac je obavešten
+notice_you_saved	Sačuvali ste „%1$s”; pošiljalac je obavešten
+notice_you_opened	Otvorili ste „%1$s” negde drugde; pošiljalac je obavešten
+notice_you_viewed	Pogledali ste „%1$s”; izbrisano je
+notice_preview	Obaveštenje o datoteci
+file_share	Podeli
+file_open_with	Otvori pomoću…
+file_open_elsewhere_hint	Whospair ne može da prikaže ovu datoteku. „Otvori pomoću…” na vrhu je nakratko pozajmljuje drugoj aplikaciji, bez kopiranja; pošiljalac je obavešten.
+media_play	Pusti
+media_pause	Pauza
+share_forward	Pošalji kontaktu
+share_outside	Podeli sa drugom aplikacijom
+share_save	Sačuvaj na telefonu
+share_sender_told	Pošiljalac će biti obavešten, ali neće znati kome šaljete.
+forward_title	Pošalji…
+forward_none	Nema drugog potvrđenog kontakta.
+selection_count	Izabrano: %1$d
+selection_cancel	Poništi izbor
+delete_selected_title	Izbrisati stavke (%1$d)?
+delete_selected_body	Odmah se brišu sa ovog telefona, bez čekanja isteka trajanja. Ono što još nije poslato neće biti poslato. Kopija kod kontakta nestaje na kraju sopstvenog trajanja.
+delete_selected_action	Izbriši
+file_cancel	Otkaži slanje
+notice_cancelled	%1$s je otkazao/la slanje datoteke
+notice_you_cancelled	Otkazali ste slanje datoteke
+file_incoming	Stiže datoteka…
+settings_stay_reachable	Ostani dostupan
+settings_on	Uključeno
+settings_stay_reachable_body	Kad je aplikacija zatvorena, Vaša adresa ostaje na mreži. Kontakti mogu da Vam pišu i da Vas zovu.\n\nPristigle poruke čuvaju se takve kakve jesu, i dalje šifrovane, i zapečaćuju se drugi put: otvaraju se samo Vašim PIN-om. Nepoznate osobe koje imaju Vaš link moraju da sačekaju da se aplikacija otvori.\n\nObaveštenje kaže samo „Whospair Vas doziva”: bez imena, bez sadržaja. Za poziv otvorite Whospair, unesite PIN, pa se javite — kontakt nastavlja da zove još minut.
+settings_stay_reachable_costs	Cena: Vaš onion ključ ostaje u memoriji dok je aplikacija zatvorena, Android prikazuje stalno obaveštenje, Vaša adresa je na mreži ceo dan, a baterija se brže prazni. Posle ponovnog pokretanja telefona ništa ne radi dok ne unesete PIN.
+settings_reach_enable	Uključi
+settings_reach_disable	Isključi
+settings_reach_battery	Dozvoli u pozadini
+settings_reach_battery_hint	Bez toga Android može da uspava Whospair i više nećete biti dostupni.
+settings_reach_notifications_off	Obaveštenja su isključena za Whospair: poruke će i dalje čekati Vaš PIN, ali ništa Vam neće javiti da su stigle.
+settings_reach_notifications_allow	Uključi obaveštenja
+settings_reach_hide_hint	Android zahteva obaveštenje „Dostupno” dok Whospair ostaje dostupan. Možete ga sakriti: usluga nastavlja da radi, a stanje se vidi u aplikaciji, pored Tora.
+settings_reach_hide	Sakrij obaveštenje
+reach_channel_service	Ostati dostupan
+reach_channel_alert	Neko pokušava da Vas dobije
+reach_channel_call	Dolazni pozivi
+reach_service_title	Whospair
+reach_service_text	Dostupno
+reach_alert_title	Whospair Vas doziva
+reach_call_title	Whospair Vas doziva
+reach_call_text	Otvorite Whospair i unesite PIN da biste se javili.
+new_chat	Novi razgovor
+contacts_group_confirmed	Potvrđeni
+contacts_group_unconfirmed	Za potvrdu
+contacts_group_blocked	Blokirani
+contacts_scan	Skeniraj QR
+contacts_show_qr	Prikaži moj QR
+profile_title	Moj profil
+profile_photo_change	Promeni fotografiju
+settings_appearance	Izgled
+appearance_auto	Automatski
+appearance_auto_hint	Prema podešavanjima sistema
+appearance_day	Dan
+appearance_night	Noć
+settings_background	Pozadina razgovora
+settings_background_hint	Ista za sve razgovore. Glavni ekrani preuzimaju njene boje.
+bg_ink	Mastilo
+bg_sage	Žalfija
+bg_slate	Škriljac
+bg_plum	Šljiva
+bg_sand	Pesak
+bg_plain	Jednobojno
+settings_page_lock	Zaključavanje
+settings_page_lock_sub	PIN, PIN za hitne slučajeve, zaključaj
+settings_page_discretion	Diskrecija
+settings_page_discretion_sub	Trajanje poruka, skriveni ekran, fotografija
+settings_page_network	Mreža
+settings_page_identity_sub	QR, novi identitet
+settings_page_about_sub	Privatnost, verzija
+reach_short	dostupno kad je zatvoreno
+lock_title_setup	Izaberite PIN
+lock_hint_setup	Najmanje 6 cifara. Ne može se vratiti — ako ga zaboravite, sve je izgubljeno.
+lock_title_confirm	Unesite ga ponovo
+lock_mismatch	Dva unosa se ne podudaraju. Počnite ispočetka.
+lock_title_unlock	Unesite svoj PIN
+lock_wrong	Pogrešan PIN
+lock_attempts_left	Preostalo pokušaja pre brisanja svega: %1$d
+lock_busy	Provera…
+lock_error	Nešto nije u redu pri otvaranju. Pokušajte ponovo.
+settings_lock_now	Zaključaj sada
+settings_duress_title	PIN za hitne slučajeve
+settings_duress_body	Drugi PIN, za hitne slučajeve. Njegov unos na ekranu zaključavanja briše sve — ključeve, kontakte, poruke — i aplikacija kreće ispočetka kao tek instalirana.
+settings_duress_current	Trenutni PIN
+settings_duress_new	PIN za hitne slučajeve
+settings_duress_saved	PIN za hitne slučajeve je podešen.
+settings_duress_failed	Nije podešeno: trenutni PIN nije tačan, ili je PIN za hitne slučajeve prekratak, isti ili druge dužine.
+read_lock_title	Čitanje
+read_lock_off_hint	Poruke ostaju čitljive kad se vratite u ovaj razgovor.
+read_lock_on_hint	Poruke su skrivene. Unesite kod da ih pročitate tokom ove posete.
+read_lock_open_hint	Čitljive dok ne napustite ovaj razgovor.
+read_lock_enable	Sakrij poruke kodom
+read_lock_unlock	Otključaj čitanje
+read_lock_disable	Prestani da skrivaš poruke
+read_lock_banner	Poruke su skrivene. Otključajte čitanje u podešavanjima.
+read_lock_masked	••••••
+message_unreadable	[Nečitljiva poruka]
+read_code_new	Izaberite četvorocifreni kod
+read_code_confirm	Unesite ga ponovo
+read_code_enter	Kod za čitanje
+read_code_mismatch	Kodovi se razlikuju. Počnite ispočetka.
+read_code_wrong	Pogrešan kod
+settings_section_security	Bezbednost
+settings_section_identity	Moj identitet
+settings_section_network	Mreža
+settings_section_about	O aplikaciji
+settings_change_pin	Promeni PIN
+settings_new_pin	Novi PIN
+settings_pin_changed	PIN je promenjen.
+settings_pin_changed_duress_removed	PIN je promenjen. Promenila se njegova dužina, pa je PIN za hitne slučajeve uklonjen: podesite ga ponovo iste dužine.
+settings_pin_rejected	Nije promenjeno: ovaj PIN je prekratak ili je to Vaš PIN za hitne slučajeve.
+settings_duress_same_length	Isti broj cifara kao Vaš PIN.
+settings_default_ttl	Podrazumevano trajanje poruka
+settings_default_ttl_hint	Koristi se u svakom razgovoru dok tamo ne izaberete drugo.
+settings_mask_all	Sakrij čitanje svuda
+settings_mask_all_hint	Jedan kod za sve još neskrivene razgovore. Oni sa kodom zadržavaju svoj.
+settings_mask_all_done	Gotovo. Svaki razgovor sada traži kod.
+settings_wipe_now	Izbriši sve sada
+settings_wipe_confirm	Izbrisati ključeve, kontakte i poruke odmah? Ništa neće moći da se vrati. Aplikacija će krenuti ispočetka kao tek instalirana.
+settings_wipe_action	Izbriši sve
+settings_my_qr	Moj QR kod i link
+settings_new_identity	Novi identitet
+settings_new_identity_confirm	Novi ključevi i nova adresa: Vaš trenutni link i QR kod prestaju da rade. Svi kontakti i poruke se brišu — kontakti će morati ponovo da Vas dodaju. Aplikacija se ponovo pokreće.
+settings_new_identity_action	Napravi novi identitet
+settings_tor_state	Tor
+tor_state_ready	Povezano
+tor_state_starting	Pokretanje… %1$d%%
+tor_state_failed	Nije uspelo — dodirnite za ponovno pokretanje
+tor_state_off	Isključeno
+tor_state_reconnecting	Mreža izgubljena — ponovno povezivanje…
+settings_restart_tor_confirm	Ponovno pokretanje Tora ponovo pokreće aplikaciju. Ponovo ćete uneti PIN.
+settings_restart_tor_action	Pokreni ponovo
+about_title	Šta je Whospair
+about_body	Aplikacija za poruke za one koji jedni drugima imaju da kažu osetljive stvari. Ono što se kaže u Whospair-u postoji samo na dva telefona, onoliko dugo koliko je izabrano, i nigde drugde.\n\nBez servera. Nijedan server ne prenosi, ne čuva niti vidi Vašu prepisku. Svaki telefon je sopstvena pristupna tačka na mreži Tor; poruke idu direktno sa jednog na drugi.\n\nBez naloga. Bez broja, bez imejla, bez pravog imena. Vaš identitet je par ključeva napravljen na ovom telefonu. Dodajete se skeniranjem QR koda, uživo ili preko linka.\n\nŠifrovano od kraja do kraja. Poruke, glasovne beleške, datoteke i pozivi šifruju se pre nego što napuste telefon, a zatim idu preko Tora, koji skriva Vašu IP adresu.\n\nProlazno. Svaka poruka ima izabrano trajanje, a zatim nestaje sa obe strane. Ništa se nigde drugde ne čuva.\n\nUživo. Možete dobiti samo onoga ko ima otvorenu aplikaciju ili je uključio „Ostani dostupan”.\n\nZaštićeno na telefonu. Sve je šifrovano pod Vašim PIN-om. Deset pogrešnih PIN-ova ili PIN za hitne slučajeve briše sve.\n\nUpozorenje. Whospair je alat. Način na koji ga koristite isključivo je Vaša odgovornost. Pruža se takav kakav jeste, bez garancije, a njegovi autori ne odgovaraju za njegovu upotrebu niti za posledice.
+privacy_title	Politika privatnosti
+privacy_body	Whospair ne prikuplja ništa. Nijedan server ne prima Vaše podatke: zato nema nikoga ko bi ih analizirao ili predavao trećim licima.\n\nŠta aplikacija nikad ne radi: profilisanje, prodaja podataka, reklame, kod za praćenje, slanje izveštaja o padu, čitanje imenika, lokacija. Nijedna treća kompanija ne dobija ništa, ni podatke ni signale o korišćenju: aplikacija razgovara samo sa mrežom Tor, sa Vašim kontaktima i sa svojim distributerom ažuriranja.\n\nŠta ostaje na ovom telefonu, šifrovano: Vaši ključevi, kontakti, poruke i datoteke — dok ne isteknu, dok ih ne izbrišete ili posle 10 pogrešnih PIN-ova. Poslatim fotografijama se uklanjaju metapodaci (lokacija, model uređaja).\n\nŠta drugi još mogu da vide: Vaš mrežni operater može da vidi da ovaj telefon koristi Tor, ali ni sa kim ni šta. Vaš kontakt vidi ono što mu pošaljete i Vašu profilnu fotografiju ako to dozvolite.\n\nAžuriranja. Jednom dnevno aplikacija diskretno, preko Tora, pita da li postoji novija verzija. Taj upit sadrži samo broj verzije: ni identitet, ni kontakte, ni poruke.\n\nZašto svakog dana? Zato što ažurirana verzija odbija da komunicira sa prestarom verzijom. To je namerno: stara verzija može da sadrži ranjivost. Bez ažuriranja više ne biste mogli da dobijete svoje bližnje ni kolege; do Vas bi stizalo samo ažuriranje.\n\nWhospair se neprestano razvija, otuda česta ažuriranja. Ranjivost može biti otkrivena i iskorišćena pre nego što iko išta primeti. Brza ispravka sprečava da Vaši podaci završe u pogrešnim rukama.\n\nVaša prava. Pošto se ništa ne prikuplja, kod nas nema ničega za uvid, ispravku ili brisanje. Sve je u Vašim rukama: deinstaliranje aplikacije briše sve.\n\nOdgovornost. Samo ste Vi odgovorni za ono što šaljete, kome, i šta radite sa primljenim. Whospair se pruža takav kakav jeste, bez garancije.
+version_title	Verzija
+version_fingerprint_hint	Otisak sertifikata kojim je potpisana ova aplikacija. Uporedite ga sa onim koji je objavio autor: ako se razlikuje, ovo nije originalna aplikacija.
+update_title	Ažuriranje
+update_state_current	Ažurno
+update_state_available	Dostupna je verzija %1$s
+update_state_downloading	Preuzimanje %1$d %%
+update_state_installing	Instaliranje…
+update_state_failed	Nije uspelo
+update_body	Ažuriranja stižu od Vaših kontakata, preko Tora, bez servera. Svaku verziju potpisuje programer: Whospair proverava potpis pre preuzimanja, zatim datoteku prema njemu, a Android proverava da li je potpisana istim ključem kao Vaša aplikacija. Izmenjena aplikacija se uvek odbija.
+update_available_body	Verziju %1$s (%2$s) nudi jedan od Vaših kontakata. Preuzima se dok je Whospair otvoren; ako se veza prekine, nastavlja se tamo gde je stala.
+update_download	Preuzmi i instaliraj
+update_cancel	Otkaži
+update_retry	Pokušaj ponovo
+update_permission_hint	Android prvo mora da dozvoli Whospair-u da instalira ažuriranja. Dozvolite, vratite se i dodirnite ponovo.
+update_permission_allow	Dozvoli
+update_relaying	Prosleđujete verziju %1$s svojim potvrđenim kontaktima.
+update_import	Uvezi paket ažuriranja (.wup)
+update_import_unreadable	Nečitljiva datoteka.
+update_import_invalid	Ovaj paket nije potpisao programer Whospair-a ili je oštećen. Ništa nije instalirano.
+update_import_installing	Potpis je proveren. Android će Vas zamoliti da potvrdite instalaciju.
+update_import_relaying	Potpis je proveren. Ovaj telefon sada prosleđuje ovu verziju Vašim potvrđenim kontaktima.
+update_import_mismatch	To je Vaša verzija, ali ovde instalirana aplikacija nije ista datoteka. Nema šta da se prosledi.
+update_import_older	Ovaj paket je stariji od Vaše verzije. Ništa nije instalirano.
+update_failed_memory	Nema dovoljno memorije za preuzimanje.
+update_failed_corrupt	Primljena datoteka ne odgovara potpisu. Odbačena je.
+update_failed_install	Android je odbio instalaciju.
+update_failed_signature	Ova verzija nije potpisana istim ključem kao Vaša aplikacija. Odbijeno.
+update_banner	Dostupno ažuriranje
+settings_language	Jezik
+language_auto	Jezik telefona
+tutorial_live_title	Dostupni samo uživo
+tutorial_live_body	Whospair ništa ne ostavlja da čeka na serveru. Poruka odlazi kad Vaš kontakt ima otvorenu aplikaciju ili je uključio „Ostani dostupan”.
+tutorial_live_f1	Tačka pored Tora: zelena, na mreži ste; narandžasta, povezivanje
+tutorial_live_f2	Prvo povezivanje može trajati nekoliko sekundi, ponekad minut
+tutorial_live_f3	„dostupan/a” ispod imena: kontakt je tu, upravo sada
+tutorial_confirm_title	Potvrda kontakta
+tutorial_confirm_body	Jedno skeniranje je dovoljno za razgovor. Ali neko ko ima samo Vaš link stiže kao „Za potvrdu”.
+tutorial_confirm_f1	Uporedite bezbednosni broj uživo ili pozivom
+tutorial_confirm_f2	Isti broj na oba telefona: niko u sredini
+tutorial_confirm_f3	Samo potvrđeni kontakti mogu da Vas zovu i da Vam daju znak
+tutorial_discreet_title	Diskrecija
+tutorial_discreet_body	Zaštita za trenutke kad je neko pored Vas.
+tutorial_discreet_f1	Telefon okrenut ekranom ka stolu: ekran postaje crn
+tutorial_discreet_f2	Kod za čitanje: razgovor ostaje skriven do unosa koda
+tutorial_discreet_f3	Privatni režim: ovaj kontakt Vas dobija samo kad mu Vi pišete
+update_check	Proveri ažuriranja
+update_checking	Traženje…
+chat_peer_outdated	Ovaj kontakt koristi prestaru verziju Whospair-a. Ništa ne prolazi dok je ne ažurira — samo ažuriranje do njega stiže.
+ttl_never	Nikad
+reply_cancel	Otkaži odgovor
+input_emoji	Emodžiji
+reply_you	Vi
+share_app	Podeli Whospair
+share_app_sub	Pošalji samu aplikaciju, bez prodavnice aplikacija
+copy_action	Kopiraj
+copy_title	Izaberite deo za kopiranje
+copy_all	Kopiraj sve
+copy_done	Kopirano
+delete_everyone_body	„Za sve” briše i kopiju vašeg kontakta, bez ikakvog obaveštenja. Ako nije dostupan, brisanje odlazi čim postane, dok god je Whospair otvoren.
+select_more	Izaberi više
+delete_everyone_action	Izbriši za sve
+licenses_title	Licence
+update_notes_title	Novosti
+tut_welcome_title	Dobro došli u Whospair
+tut_welcome_body	Poruke i pozivi koji ne ostavljaju trag ni na jednom serveru, jer servera nema.
+tut_welcome_f1	Šifrovano s kraja na kraj, bez naloga: ključevi pripadaju Vama
+tut_welcome_f2	Poruka odlazi kada Vaš kontakt ima otvorenu aplikaciju ili uključeno „Ostani dostupan“
+tut_welcome_f3	Tačka pored Tora: zelena – na mreži; narandžasta – povezivanje (ponekad minut)
+tut_add_title	Dodati i verovati
+tut_add_body	Bez korisničkog imena i broja: razmenjujete ključeve. Skenirajte njegov kod ili neka on skenira Vaš.
+tut_add_f1	Za potvrdu: došao samo s Vašim linkom. Poruke stižu, ali ne može da zove ni da da znak
+tut_add_f2	Potvrđen: dodali ste ga ili prihvatili
+tut_add_f3	Proveren: uživo ste jedno drugom skenirali bezbednosne kodove. Niko se nije ubacio između vas
+tut_write_title	Pisati, pa brisati
+tut_write_body	Svaka poruka ima trajanje izabrano pri slanju; kada istekne, nestaje sa obe strane.
+tut_write_f1	Kraće je bezbednije: ono što je na ekranu još je u memoriji
+tut_write_f2	Izbriši za sve: uklanja Vaše poruke kod kontakta
+tut_write_f3	Brisanje udvoje: ako oboje pristanete, bilo ko može bilo kada da izbriše sve, za oboje
+tutorial_discreet_f5	Pločica „Zaključaj Whospair“ u brzim podešavanjima: aplikacija se zatvara jednim dodirom
+tile_lock	Zaključaj Whospair
+contact_verified	Proveren
+verify_title	Proveri uživo
+verify_hint	Uživo jedno drugom skenirajte kodove
+verify_done	Proveren uživo
+verify_body	Pokažite ovaj kod kontaktu i skenirajte njegov. Ako se podudaraju, niko se nije ubacio između vas.
+verify_scan	Skeniraj njegov kod
+verify_ok	Kodovi se podudaraju: kontakt proveren.
+verify_fail	Ovaj kod se ne podudara. Ne verujte ovom kontaktu dok se to ne razjasni.
+wipe_title	Brisanje udvoje
+wipe_off	Isključeno. Ako predložite, Vaš kontakt mora da prihvati.
+wipe_asked	Čeka se saglasnost Vašeg kontakta.
+wipe_to_answer	Vaš kontakt predlaže da bilo ko od vas može bilo kada da izbriše sve, za oboje.
+wipe_on	Uključeno: bilo ko može bilo kada da izbriše sve, za oboje.
+wipe_propose	Predloži
+wipe_accept	Prihvati
+wipe_refuse	Odbij
+wipe_cancel	Otkaži zahtev
+wipe_disable	Isključi
+wipe_now	Izbriši razgovor za oboje
+wipe_confirm	Ceo razgovor biće izbrisan na oba telefona. To ne može da se poništi.
+wipe_action	Izbriši sve
+wipe_banner	%1$s predlaže brisanje udvoje
+settings_gaze_owner	Samo moje lice
+settings_gaze_owner_hint	Ekran se otvara samo za Vas
+face_intro_title	Samo moje lice
+face_intro_body	Ekran se otvara samo kada ga Vi gledate. Za bilo koga drugog, ili ako niko ne gleda, ostaje crn.\n\nAko Vam se lice promeni (povreda, otok, brada, naočare), možda ga više neće prepoznati i ekran će ostati crn. Dole „Isključi skrivanje PIN-om“ uvek radi sa Vašim kodom za otključavanje. Zatim možete ponovo da snimite lice.\n\nOvo dugme poštuje ista pravila kao zaključan ekran: Vaš PIN pod prinudom, ukucan ovde, briše sve, kao i 10 pogrešnih kodova.\n\nŠtiti od radoznalih pogleda, nije brava: pravu zaštitu i dalje pruža Vaš PIN. Sve se dešava na telefonu: lice se čuva kao šifrovani brojevi, nikad kao fotografija.
+face_intro_ok	Razumem
+face_enroll_title	Snimi moje lice
+face_enroll_body	Gledajte u ekran nekoliko sekundi, lica dobro osvetljenog.
+face_enroll_ok	Vaše lice je snimljeno.
+face_enroll_fail	Lice nije prepoznato. Stanite na svetlo, gledajte pravo u ekran i pokušajte ponovo.
+face_reenroll	Ponovo snimi lice
+face_disable_pin	Isključi skrivanje PIN-om
+tutorial_discreet_f4	Kamera (po želji): ekran se skriva kada skrenete pogled, kada neko drugi gleda ili čim to nije Vaše lice. Sve se dešava na telefonu, ništa se ne snima
+conv_pin	Zakači
+conv_unpin	Otkači
+conv_pinned	Zakačeno
+update_diffuser_retry	Izvor nedostupan, novi pokušaj za 10 s
+update_mandatory_title	Potrebno ažuriranje
+update_mandatory_body	Novija verzija Whospair-a dostupna je već više od 5 dana. Instalirajte je da biste nastavili da koristite aplikaciju: vaši ažurni kontakti više ne prihvataju starije verzije.
+gaze_manual	Ručno
+gaze_manual_hint	PIN ga isključuje, na primer na mračnom mestu.
+gaze_auto	Automatski
+gaze_auto_hint	Isključeno od 20 do 6 časova, kad nema dovoljno svetla.
+shield_choice_title	Isključi skrivanje
+shield_pause_10	Na 10 min
+shield_disable_all	Isključi potpuno
+shield_pause_over_title	Pauza je gotova
+shield_pause_over_body	Skrivanje je ponovo uključeno.
+shield_keep_paused	Zasad ostavi isključeno
+update_interrupted	Ažuriranje prekinuto, novi pokušaj za 30 min

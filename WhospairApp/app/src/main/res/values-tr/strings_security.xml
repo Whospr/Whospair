@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Bir PIN seçin</string>
+    <string name="lock_hint_setup">En az 6 rakam. Kurtarılamaz — unutursanız her şey kaybolur.</string>
+    <string name="lock_title_confirm">Tekrar girin</string>
+    <string name="lock_mismatch">İki giriş eşleşmiyor. Baştan başlayın.</string>
+    <string name="lock_title_unlock">PIN\'inizi girin</string>
+    <string name="lock_wrong">Yanlış PIN</string>
+    <string name="lock_attempts_left">Her şey silinmeden önce kalan deneme: %1$d</string>
+    <string name="lock_busy">Kontrol ediliyor…</string>
+    <string name="lock_error">Açılırken bir sorun oldu. Tekrar deneyin.</string>
+    <string name="settings_lock_now">Şimdi kilitle</string>
+    <string name="settings_duress_title">Acil durum PIN\'i</string>
+    <string name="settings_duress_body">Acil durumlar için ikinci bir PIN. Kilit ekranında girildiğinde her şeyi siler — anahtarlar, kişiler, mesajlar — ve uygulama yeni kurulmuş gibi baştan başlar.</string>
+    <string name="settings_duress_current">Mevcut PIN</string>
+    <string name="settings_duress_new">Acil durum PIN\'i</string>
+    <string name="settings_duress_saved">Acil durum PIN\'i belirlendi.</string>
+    <string name="settings_duress_failed">Belirlenmedi: mevcut PIN yanlış ya da acil durum PIN\'i çok kısa, aynı veya farklı uzunlukta.</string>
+</resources>

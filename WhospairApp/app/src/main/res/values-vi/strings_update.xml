@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">Cập nhật</string>
+    <string name="update_state_current">Đã là bản mới nhất</string>
+    <string name="update_state_available">Đã có phiên bản %1$s</string>
+    <string name="update_state_downloading">Đang tải %1$d %%</string>
+    <string name="update_state_installing">Đang cài đặt…</string>
+    <string name="update_state_failed">Thất bại</string>
+    <string name="update_body">Bản cập nhật đến từ các liên hệ của bạn, qua Tor, không cần máy chủ. Mỗi phiên bản đều được nhà phát triển ký: Whospair kiểm tra chữ ký trước khi tải, sau đó đối chiếu tệp với chữ ký, và Android kiểm tra rằng nó được ký bằng cùng khóa với ứng dụng bạn đang dùng. Ứng dụng bị sửa đổi luôn bị từ chối.</string>
+    <string name="update_available_body">Một liên hệ của bạn đang cung cấp phiên bản %1$s (%2$s). Bản này được tải khi Whospair đang mở; nếu mất kết nối, việc tải sẽ tiếp tục từ chỗ đã dừng.</string>
+    <string name="update_download">Tải và cài đặt</string>
+    <string name="update_cancel">Hủy</string>
+    <string name="update_retry">Thử lại</string>
+    <string name="update_permission_hint">Android cần cho phép Whospair cài đặt bản cập nhật trước. Hãy cho phép, quay lại rồi chạm lần nữa.</string>
+    <string name="update_permission_allow">Cho phép</string>
+    <string name="update_relaying">Bạn đang chuyển phiên bản %1$s cho các liên hệ đã xác nhận.</string>
+    <string name="update_import">Nhập gói cập nhật (.wup)</string>
+    <string name="update_import_unreadable">Tệp không đọc được.</string>
+    <string name="update_import_invalid">Gói này không được nhà phát triển Whospair ký, hoặc đã bị hỏng. Không có gì được cài đặt.</string>
+    <string name="update_import_installing">Đã xác minh chữ ký. Android sẽ yêu cầu bạn xác nhận cài đặt.</string>
+    <string name="update_import_relaying">Đã xác minh chữ ký. Giờ điện thoại này sẽ chuyển phiên bản này cho các liên hệ đã xác nhận của bạn.</string>
+    <string name="update_import_mismatch">Đây là phiên bản của bạn, nhưng ứng dụng cài ở đây không phải cùng một tệp. Không có gì để chuyển.</string>
+    <string name="update_import_older">Gói này cũ hơn phiên bản của bạn. Không có gì được cài đặt.</string>
+    <string name="update_failed_memory">Không đủ bộ nhớ để tải xuống.</string>
+    <string name="update_failed_corrupt">Tệp nhận được không khớp với chữ ký. Đã bị loại bỏ.</string>
+    <string name="update_failed_install">Android đã từ chối cài đặt.</string>
+    <string name="update_failed_signature">Phiên bản này không được ký bằng cùng khóa với ứng dụng của bạn. Đã từ chối.</string>
+    <string name="update_banner">Có bản cập nhật</string>
+    <string name="update_notes_title">Có gì mới</string>
+    <string name="update_diffuser_retry">Không kết nối được nguồn, thử lại sau 10 giây</string>
+    <string name="update_interrupted">Cập nhật bị gián đoạn, thử lại sau 30 phút</string>
+    <string name="update_mandatory_title">Cần cập nhật</string>
+    <string name="update_mandatory_body">Phiên bản mới hơn của Whospair đã có hơn 5 ngày. Hãy cài đặt để tiếp tục dùng ứng dụng: các liên hệ đã cập nhật không còn chấp nhận phiên bản cũ.</string>
+</resources>

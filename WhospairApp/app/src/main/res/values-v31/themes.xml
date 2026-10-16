@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ : l'écran de démarrage du système, vide, sur le fond de
+     l'image d'ouverture ; l'écran d'ouverture de l'app enchaîne sans saut. -->
+<resources>
+    <style name="Theme.Whisper" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/whisper_background</item>
+        <item name="android:statusBarColor">@color/whisper_background</item>
+        <item name="android:navigationBarColor">@color/whisper_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <!-- Pas d'icône sur l'écran du système : seule l'image « WHISPER home » apparaît. -->
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+    </style>
+</resources>

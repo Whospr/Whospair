@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">メッセージ</string>
+    <string name="search_contact">連絡先を検索</string>
+    <string name="conversations_empty_title">まだ会話はありません</string>
+    <string name="conversations_empty_body">対面で相手のコードを読み取って追加してください。お互いにアプリを開いているときにメッセージを送れます。</string>
+    <string name="search_no_result">その名前の連絡先はありません。</string>
+    <string name="add_contact">連絡先を追加</string>
+    <string name="scan_code">コードを読み取る</string>
+    <string name="message_retry">再試行</string>
+    <string name="message_sent">送信済み</string>
+    <string name="message_delivered">配信済み</string>
+    <string name="read_lock_preview">表示を非表示中</string>
+    <string name="message_expires_in">%1$s後に消えます</string>
+    <string name="ttl_button">メッセージの有効期限：%1$s</string>
+    <string name="send">送信</string>
+    <string name="back">戻る</string>
+    <string name="close">閉じる</string>
+    <string name="confirm_identity">本人を確認</string>
+    <string name="delete_contact_and_chat">連絡先と会話を削除</string>
+    <string name="preview_none">メッセージなし</string>
+    <string name="preview_encrypted">暗号化されたメッセージ</string>
+    <string name="duration_days">%1$d 日</string>
+    <string name="message_placeholder">メッセージを入力</string>
+    <string name="discover_code_caption">このコードには、あなたの公開鍵と Tor アドレスだけが含まれています。</string>
+    <string name="share_link">リンクを共有</string>
+    <string name="copy_link">リンクをコピー</string>
+    <string name="link_copied">リンクをコピーしました</string>
+    <string name="memory_advice_title">スマートフォンのメモリ</string>
+    <string name="memory_advice_body">Whospair は、アプリを開いている間だけ鍵をメモリに保持します。しかし一部のスマートフォンは、メモリを大きく見せるためにその一部をストレージにコピーします（「仮想メモリ」「メモリ拡張」）。こうしてコピーされた鍵は、Whospair を閉じた後も端末に残る可能性があります。</string>
+    <string name="memory_advice_how">オフにするには：端末の設定で「仮想メモリ」または「メモリ拡張」を探してオフにし、端末を再起動してください。</string>
+    <string name="voice_record">ボイスメッセージを録音</string>
+    <string name="voice_cancel">録音を破棄</string>
+    <string name="voice_recording">最大 %1$s</string>
+    <string name="voice_send">ボイスメッセージを送信</string>
+    <string name="voice_play">再生</string>
+    <string name="voice_pause">一時停止</string>
+    <string name="voice_receiving">受信中…</string>
+    <string name="voice_preview">ボイスメッセージ %1$s</string>
+    <string name="mic_denied">Whospair のマイクがオフです。ボイスメッセージを送るには Android の設定で許可してください。</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Scelga un PIN</string>
+    <string name="lock_hint_setup">Almeno 6 cifre. Non si può recuperare: se lo dimentica, tutto è perso.</string>
+    <string name="lock_title_confirm">Lo reinserisca</string>
+    <string name="lock_mismatch">I due inserimenti non coincidono. Ricominci.</string>
+    <string name="lock_title_unlock">Inserisca il suo PIN</string>
+    <string name="lock_wrong">PIN errato</string>
+    <string name="lock_attempts_left">Restano %1$d tentativi prima che tutto venga cancellato</string>
+    <string name="lock_busy">Verifica…</string>
+    <string name="lock_error">Qualcosa è andato storto nell\'apertura. Riprovi.</string>
+    <string name="settings_lock_now">Blocca ora</string>
+    <string name="settings_duress_title">PIN di emergenza</string>
+    <string name="settings_duress_body">Un secondo PIN, per le emergenze. Digitarlo nella schermata di blocco cancella tutto — chiavi, contatti, messaggi — e l\'app riparte come appena installata.</string>
+    <string name="settings_duress_current">PIN attuale</string>
+    <string name="settings_duress_new">PIN di emergenza</string>
+    <string name="settings_duress_saved">PIN di emergenza impostato.</string>
+    <string name="settings_duress_failed">Non impostato: il PIN attuale è errato, oppure il PIN di emergenza è troppo corto, identico o di lunghezza diversa.</string>
+</resources>

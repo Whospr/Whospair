@@ -1,0 +1,561 @@
+splash_tagline	פרטיות כבר בתכנון
+tos_title	לפני שמתחילים
+tos_warning	יש לקרוא בעיון. Whospair לא עובדת כמו אפליקציות המסרים המוכרות, וחלק מההבדלים האלה בלתי הפיכים.
+tos_s1_title	1. ישירות, ממכשיר למכשיר
+tos_s1_body	ל־Whospair אין שרת. הודעות ושיחות עוברות ישירות ממכשיר למכשיר. אף אחד — גם לא אנחנו — לא נמצא באמצע, לא שומר את הנתונים ולא יכול למסור אותם.
+tos_s2_title	2. האחריות עליך
+tos_s2_body	אין מפעיל שעומד מאחורי האפליקציה הזו. מה נשלח, למי, ומה נעשה במה שמתקבל — הכול באחריותך בלבד. Whospair היא כלי: יוצריה אינם אחראים לאופן השימוש בה או לתוצאותיו.
+tos_s3_title	3. בלי פיקוח על תוכן
+tos_s3_body	אף גורם לא בודק, מסנן או מוחק תוכן. אין כפתור דיווח שמגיע למישהו, כי בצד השני אין אף אחד.
+tos_s4_title	4. הצפנה מקצה לקצה
+tos_s4_body	ההודעות מוצפנות מקצה לקצה (X25519 ו־AES-256-GCM) וחתומות. השיחות עוברות דרך Tor, מוצפנות במפתח שמתחלף בערך כל עשר שניות.
+tos_s5_title	5. שום דבר לא נשמר מרחוק
+tos_s5_body	הזהות, אנשי הקשר וההודעות קיימים רק במכשיר הזה. הסרת האפליקציה מוחקת אותם.
+tos_s6_title	6. אין שחזור
+tos_s6_body	הזהות שלך היא מפתח קריפטוגרפי, לא חשבון. אם הוא אבד — הוא אבד. אין איפוס סיסמה, אין תמיכה, אין גיבוי לשחזר.
+tos_s7_title	7. שימוש חוקי בלבד
+tos_s7_body	כלי פרטיות מגנים על שיחות לגיטימיות. שימוש ב־Whospair כדי להפר את החוק הוא עדיין הפרת חוק.
+tos_s8_title	8. ללא אחריות
+tos_s8_body	התוכנה מסופקת כמות שהיא, ללא אחריות לזמינות, לנכונות או להתאמה למטרה מסוימת.
+tos_s9_title	9. לאבטחה יש גבולות
+tos_s9_body	הצפנה מגינה על נתונים בזמן העברה. היא לא יכולה להגן על מכשיר שכבר נפרץ בתוכנה זדונית, ב־rootkit, או שמישהו אחר מחזיק בו.
+tos_s10_title	10. הסכמה
+tos_s10_body	המשך פירושו הבנה של האמור, ובמיוחד שזהות שאבדה אי אפשר לשחזר.
+tos_checkbox	קראתי את התנאים ואני מסכים/ה להם
+tos_accept	הסכמה
+tos_decline	סירוב
+tos_decline_dialog_title	לסרב לתנאים?
+tos_decline_dialog_body	Whospair לא יכולה לפעול בלי הסכמה. האפליקציה תיסגר.
+tos_decline_confirm	סגירת האפליקציה
+tos_decline_cancel	חזרה
+tutorial_skip	דילוג
+tutorial_next	הבא
+tutorial_back	הקודם
+tutorial_start	בואו נתחיל
+tutorial_page_counter	%1$d מתוך %2$d
+tutorial_p1_title	ברוכים הבאים ל־Whospair
+tutorial_p1_body	הודעות ושיחות שלא משאירות עקבות באף שרת, כי אין שרת.
+tutorial_p1_f1	הצפנה מקצה לקצה
+tutorial_p1_f2	בלי שרתים, בלי חשבונות
+tutorial_p1_f3	ההודעות נעלמות מעצמן
+tutorial_p1_f4	כל המפתחות אצלך
+tutorial_p2_title	הוספת מישהו
+tutorial_p2_body	אין שמות משתמש ואין מספרי טלפון. מחליפים מפתחות ישירות.
+tutorial_p2_s1	לפתוח את הלשונית „הוספה”
+tutorial_p2_s2	לסרוק את הקוד של האדם השני, או לתת לו לסרוק את שלך
+tutorial_p2_s3	השיחה מוכנה
+tutorial_p2_note	זהות חדשה פירושה קוד חדש. שיתוף מחדש הוא הדרך היחידה להתחבר שוב.
+tutorial_p3_title	שליחת הודעה
+tutorial_p3_body	לכל הודעה יש תוקף מרגע השליחה.
+tutorial_p3_s1	לפתוח שיחה
+tutorial_p3_s2	לכתוב, ואז לבחור כמה זמן היא תישאר
+tutorial_p3_s3	לשלוח
+tutorial_p4_title	תוקף
+tutorial_p4_body	כדאי לבחור משך שמתאים למה שנאמר. כשהוא מסתיים, ההודעה נמחקת בשני המכשירים.
+tutorial_p4_note	קצר יותר בטוח יותר. מה שעדיין על המסך עדיין גם בזיכרון.
+tutorial_p5_title	השליטה אצלך
+tutorial_p5_body	כמה דברים שכדאי לדעת לפני שמתחילים.
+tutorial_p5_f1	חסימה או הסרה של כל איש קשר
+tutorial_p5_f2	מחיקת שיחה שלמה בבת אחת
+tutorial_p5_f3	נעילת האפליקציה בקוד PIN
+tutorial_p5_f4	המפתחות לעולם לא יוצאים מהמכשיר הזה
+identity_creating_title	הזהות שלך נוצרת
+identity_creating_body	נוצר זוג מפתחות במכשיר הזה. זה לוקח רגע.
+identity_ready_title	זה/זו את/ה
+identity_ready_body	המפתחות מוכנים. עכשיו יש לבחור קוד PIN: הוא זה שחותם אותם. קוד ה־QR שלך יחכה אחר כך בלשונית „הוספה”.
+identity_warning	המפתח הפרטי נשאר במכשיר הזה ואף פעם לא מוצג. אם המכשיר אובד, הזהות הזו אובדת לתמיד.
+identity_continue	המשך
+identity_error_title	לא ניתן ליצור את הזהות שלך
+identity_retry	ניסיון נוסף
+nav_home	הודעות
+nav_contacts	אנשי קשר
+nav_calls	שיחות
+nav_discover	הוספה
+nav_settings	הגדרות
+ttl_5m	5 דק׳
+ttl_15m	15 דק׳
+ttl_1h	שעה
+ttl_5h	5 שעות
+ttl_8h	8 שעות
+ttl_24h	24 שעות
+ttl_7d	7 ימים
+discover_title	הוספת איש קשר
+discover_subtitle	להראות את הקוד שלך לאדם השני, או לסרוק את שלו. פנים אל פנים, ברור עם מי מדברים.
+discover_scan_title	סריקת הקוד
+discover_scan_body	לכוון את המצלמה אל קוד ה־QR של האדם השני
+discover_mycode_title	הצגת הקוד שלי
+discover_mycode_body	לתת למישהו להוסיף אותך
+discover_manual_title	או להדביק קישור שהתקבל
+discover_manual_hint	whospair:… או 64 תווים הקסדצימליים
+discover_add	הוספת איש הקשר
+discover_fingerprint	טביעת אצבע להשוואה בקול
+discover_copy_link	העתקת קישור ההזמנה
+add_ok	%1$s נוסף/ה. אפשר להתחיל שיחה.
+add_already	%1$s כבר נמצא/ת באנשי הקשר.
+add_blocked	%1$s נמצא/ת באנשי הקשר אבל חסום/ה.
+add_self	זה המפתח שלך. אי אפשר להוסיף את עצמך.
+add_malformed	המפתח לא תקין. מפתח ציבורי מורכב מ־64 תווים הקסדצימליים.
+add_not_whisper	הקוד הזה אינו מפתח של Whospair.
+add_unblock	ביטול חסימה
+add_unblocked	החסימה של %1$s בוטלה.
+scan_instruction	לכוון אל קוד ה־QR שרוצים להוסיף
+scan_permission_title	נדרשת גישה למצלמה
+scan_permission_body	לסריקת קוד נדרשת המצלמה. שום דבר לא מוקלט ולא נשלח.
+scan_permission_denied	הגישה למצלמה נדחתה. אפשר להפעיל אותה בהגדרות המכשיר, או להדביק את המפתח ידנית.
+scan_permission_grant	אישור גישה למצלמה
+scan_use_manual	הדבקת מפתח
+contact_block	חסימה
+contact_unblock	ביטול חסימה
+contact_delete	מחיקת איש קשר
+contact_delete_confirm	למחוק את איש הקשר ואת כל השיחה? אי אפשר לבטל את זה.
+contact_blocked_notice	חסום. הודעות מאיש הקשר הזה נדחות.
+common_dismiss	סגירה
+common_loading	טוען…
+common_cancel	ביטול
+common_error	משהו השתבש
+chat_today	היום
+chat_yesterday	אתמול
+message_pending	נשלחת
+message_failed	לא נשלחה, איש הקשר אינו זמין
+tutorial_pin_title	קוד ה־PIN שלך, ורק הוא
+tutorial_pin_body	כל מה שב־Whospair נעול מאחורי קוד PIN שייבחר בשלב הבא. אם הוא נשכח, אי אפשר לשחזר דבר.
+tutorial_pin_f1	עשרה ניסיונות שגויים מוחקים הכול
+tutorial_pin_f2	קוד PIN לחירום (מוגדר בהגדרות) מוחק הכול כשמקלידים אותו: להשתמש בו במצב של כפייה או סכנה
+tutorial_pin_f3	בלי טביעת אצבע ובלי זיהוי פנים: אפשר להצמיד את האצבע שלך לחיישן בכוח, אבל אי אפשר לסחוט ממך קוד
+tutorial_pin_note	כשהאפליקציה עוברת לרקע, היא ננעלת מעצמה.
+call_action	התקשרות
+call_connecting	מתחבר דרך Tor…
+call_ringing	מצלצל…
+call_incoming	שיחה נכנסת
+call_answer	מענה
+call_decline	דחייה
+call_cancel	ביטול
+call_hang_up	ניתוק
+call_mute	השתקה
+call_unmute	ביטול השתקה
+call_speaker	רמקול
+call_earpiece	אפרכסת
+call_delay_hint	דרך Tor, הקול מגיע באיחור של כשנייה. כדאי לעצור לרגע לפני שעונים.
+call_ended	השיחה הסתיימה
+call_declined	נדחתה
+call_busy	כבר בשיחה
+call_no_answer	אין מענה
+call_unreachable	לא זמין כרגע. אפשר לנסות שוב בעוד רגע.
+call_lost	החיבור אבד
+call_mic_denied	המיקרופון כבוי עבור Whospair. כדי להתקשר, יש לאשר אותו בהגדרות Android.
+call_not_confirmed	קודם יש לאשר את איש הקשר. רק אנשי קשר מאושרים יכולים להתקשר זה לזה.
+call_log_outgoing	שיחה יוצאת · %1$s
+call_log_incoming	שיחה נכנסת · %1$s
+call_log_missed	שיחה שלא נענתה
+call_log_refused	השיחה נדחתה
+call_log_no_answer	שיחה ללא מענה
+call_log_busy	שיחה: הצד השני כבר היה בשיחה
+call_log_unreachable	השיחה לא עברה
+call_log_cancelled	השיחה בוטלה
+messages_title	הודעות
+search_contact	חיפוש איש קשר
+conversations_empty_title	עדיין אין שיחות
+conversations_empty_body	אפשר להוסיף מישהו בסריקת הקוד שלו, פנים אל פנים. אפשר לכתוב כששני הצדדים פתחו את האפליקציה.
+search_no_result	אין איש קשר בשם הזה.
+add_contact	הוספת איש קשר
+scan_code	סריקת קוד
+message_retry	ניסיון נוסף
+message_sent	נשלחה
+message_delivered	נמסרה
+read_lock_preview	הקריאה מוסתרת
+message_expires_in	נעלמת בעוד %1$s
+ttl_button	תוקף ההודעה: %1$s
+send	שליחה
+back	חזרה
+close	סגירה
+confirm_identity	אישור זהות
+delete_contact_and_chat	מחיקת איש הקשר והשיחה
+preview_none	אין הודעות
+preview_encrypted	הודעה מוצפנת
+duration_days	%1$d ימ׳
+message_placeholder	כתיבת הודעה
+discover_code_caption	הקוד הזה מכיל את המפתחות הציבוריים שלך ואת כתובת ה־Tor שלך. שום דבר אחר.
+share_link	שיתוף הקישור שלי
+copy_link	העתקת הקישור
+link_copied	הקישור הועתק
+memory_advice_title	זיכרון הטלפון
+memory_advice_body	Whospair שומרת את המפתחות בזיכרון רק כל עוד האפליקציה פתוחה. אבל טלפונים מסוימים מעתיקים חלק מהזיכרון לאחסון כדי להיראות גדולים יותר („זיכרון וירטואלי”, „הרחבת זיכרון”). מפתח שהועתק כך עלול להישאר בטלפון אחרי סגירת Whospair.
+memory_advice_how	כדי לכבות: לחפש „זיכרון וירטואלי” או „הרחבת זיכרון” בהגדרות הטלפון, לכבות, ואז להפעיל מחדש את הטלפון.
+voice_record	הקלטת הודעה קולית
+voice_cancel	מחיקת ההקלטה
+voice_recording	עד %1$s
+voice_send	שליחת ההודעה הקולית
+voice_play	הפעלה
+voice_pause	השהיה
+voice_receiving	מתקבלת…
+voice_preview	הודעה קולית %1$s
+mic_denied	המיקרופון כבוי עבור Whospair. כדי לשלוח הודעה קולית, יש לאשר אותו בהגדרות Android.
+tor_state_live	Tor פועל
+tor_state_connecting	מתחבר ל־Tor
+tor_state_offline	Tor כבוי
+presence_reachable	זמין/ה
+ring_action	צלצול
+ring_calling	מצלצל אל %1$s…
+ring_incoming	%1$s מצלצל/ת אליך
+ring_accept	מענה
+ring_decline	התעלמות
+ring_cancel	עצירה
+ring_declined	%1$s התעלם/ה מהצלצול
+ring_timeout	אין מענה
+ring_peer_offline	%1$s לא נמצא/ת באפליקציה כרגע
+ring_busy	כבר פתוח סשן
+indicator_title	מה זה מציין
+indicator_channel_live	Tor פועל והכתובת שלך מפורסמת. אנשי קשר שגם אצלם האפליקציה פתוחה יכולים להשיג אותך, ואת/ה אותם.
+indicator_channel_none	Tor לא מוכן. אי אפשר לשלוח או לקבל דבר, ושום דבר לא נשמר בשום מקום לאחר כך.
+indicator_tunnel_on	התעבורה שלך יוצאת דרך ממשק VPN. זה כל מה ש־Whospair רואה: היא לא יודעת איזה ספק זה ואם המנהרה דולפת.
+indicator_tunnel_off	התעבורה שלך יוצאת ישירות. ספק הרשת יכול לראות שהמכשיר הזה משתמש ב־Tor, ומתי — לא עם מי מדברים ולא מה נאמר.
+indicator_dismiss	סגירה
+vpn_advice_title	על הרשת שלך
+vpn_advice_body	Whospair מצפינה את מה שנאמר, ו־Tor מסתיר למי זה נאמר. אף אחד מהם לא מסתיר שיש שימוש ב־Tor: מי שמעביר את התעבורה שלך רואה את זה, באילו שעות ובאיזו תדירות. VPN מעביר את נקודת המבט הזו למפעיל המנהרה. זה שינוי אמיתי כשמי שצופה הוא בדיוק מי שמדאיג אותך.
+vpn_advice_caveat	VPN אינו ערובה. בוחרים מי צופה, לא מבטלים את הצופה. כדאי לבחור ספק שיש סיבה לסמוך עליו, ולהעדיף שירות בתשלום על פני כזה שמממן את עצמו מהתעבורה שלך.
+contacts_title	אנשי קשר
+contacts_empty	רשימת אנשי הקשר ריקה.
+contact_unconfirmed	לא מאושר
+contact_blocked	חסום
+chat_settings	הגדרות השיחה
+chat_unconfirmed_banner	האדם הזה הוסיף אותך דרך הקישור שלך. עדיין לא אישרת מי הוא.
+chat_confirm	אישור
+chat_block	חסימה
+chat_unblock	ביטול חסימה
+chat_blocked_banner	חסום. לא יכול/ה להשיג אותך יותר.
+settings_rename	שם
+settings_rename_hint	רק את/ה רואה את השם הזה.
+settings_save	שמירה
+settings_safety_number	מספר בטיחות
+settings_safety_hint	להשוות אותו עם איש הקשר פנים אל פנים או בשיחה. אותו מספר בשני הטלפונים = אין אף אחד באמצע.
+settings_confirm_trust	בדקתי — אישור איש הקשר
+settings_trusted	איש קשר מאושר
+settings_block_hint	איש קשר חסום לא יכול יותר להתחבר או לשלוח לך הודעות.
+settings_delete	מחיקת איש קשר
+settings_delete_confirm	למחוק את איש הקשר ואת כל ההודעות? אם הקישור שלך עדיין אצלו, הוא עלול לחזור כלא מאושר — כדי למנוע זאת, כדאי לחסום.
+settings_delete_action	מחיקה
+settings_section_profile	פרופיל
+profile_photo	תמונת פרופיל
+profile_photo_hint	נחתכת ל־256 px, בלי מטא־נתונים, נשלחת רק דרך Tor.
+profile_photo_choose	בחירה
+profile_photo_remove	הסרה
+profile_photo_error	לא ניתן לקרוא את התמונה.
+profile_photo_visibility	מי רואה את התמונה שלי
+profile_photo_everyone	כל מי שמשיג אותי
+profile_photo_everyone_hint	כולל אנשי קשר לא מאושרים
+profile_photo_confirmed	אנשי קשר מאושרים
+profile_photo_hidden	אף אחד
+settings_gaze_shield	הסתרת המסך באמצעות המצלמה
+settings_gaze_shield_body	המצלמה הקדמית בודקת מי נמצא מול המסך. הכול נשאר בטלפון: שום תמונה לא נשמרת ולא נשלחת. נורית המצלמה של Android דולקת כל עוד Whospair פתוחה, והסוללה מתרוקנת מהר יותר. הנחת הטלפון הפוך על השולחן תמיד מחשיכה את המסך.
+settings_off	כבוי
+settings_gaze_look_away	כשאני מסיט/ה את המבט
+settings_gaze_onlooker	כשמישהו אחר מסתכל
+settings_gaze_onlooker_hint	פנים נוספות מאחוריך. מקטין את הסיכון בלי לבטל אותו: פנים מהצד, מרחוק או בחושך עלולות לא להתגלות.
+alert_someone	מישהו מנסה להשיג אותך
+alert_bip	%1$s קורא/ת לך
+alert_open	פתיחה
+nudge_title	לתת סימן
+nudge_hint	להרעיד את ה־Whospair שלו.
+nudge_action	לתת סימן
+nudge_sent	הסימן נשלח.
+nudge_unreachable	לא זמין כרגע: Whospair סגורה אצל הצד השני.
+nudge_received	%1$s נתן/ה לך סימן
+private_mode_title	מצב פרטי
+private_mode_off_hint	את/ה מחובר/ת וזמין/ה בשיחה הזו.
+private_mode_on_hint	את/ה כבר לא זמין/ה בשיחה הזו.
+private_mode_enable	הפעלת מצב פרטי
+private_mode_disable	כיבוי מצב פרטי
+private_mode_banner	מצב פרטי פועל בשיחה הזו. אפשר להשיג אותך רק במשך דקה אחרי שליחת הודעה. כדי להישאר זמין/ה, יש לכבות את המצב הפרטי.
+file_generic	קובץ
+file_attach	צירוף קובץ
+file_view_once	צפייה חד־פעמית
+file_sending	נשלח %1$d %%
+file_receiving	מתקבל %1$d %%
+file_send_title	לשלוח את הקובץ?
+file_allow_save	לאפשר שמירה
+file_allow_save_hint	אחרת הוא ייפתח רק בתוך Whospair.
+file_view_once_option	צפייה חד־פעמית
+file_view_once_hint	נמחק מהטלפון של איש הקשר אחרי הפתיחה הראשונה.
+file_send	שליחה
+file_too_big	הקובץ גדול מדי: עד 25 MB.
+file_unreadable	הקובץ לא קריא.
+file_viewer_pending	בקרוב יהיה אפשר לפתוח סוג קובץ כזה בתוך Whospair.
+input_more	עוד: תוקף %1$s, סימן, קובץ
+input_ttl	תוקף · %1$s
+input_file	קובץ
+notice_forwarded	%1$s העביר/ה את "%2$s" לאיש קשר אחר
+notice_shared	%1$s שיתף/ה את "%2$s" עם אפליקציה אחרת
+notice_saved	%1$s שמר/ה את "%2$s" בטלפון
+notice_opened	%1$s פתח/ה את "%2$s" באפליקציה אחרת
+notice_viewed	%1$s צפה/תה ב־"%2$s" (צפייה חד־פעמית)
+notice_you_forwarded	העברת את "%1$s"; השולח מקבל הודעה
+notice_you_shared	שיתפת את "%1$s"; השולח מקבל הודעה
+notice_you_saved	שמרת את "%1$s"; השולח מקבל הודעה
+notice_you_opened	פתחת את "%1$s" במקום אחר; השולח מקבל הודעה
+notice_you_viewed	צפית ב־"%1$s"; הוא נמחק
+notice_preview	הודעה על קובץ
+file_share	שיתוף
+file_open_with	פתיחה באמצעות…
+file_open_elsewhere_hint	Whospair לא יכולה להציג את הקובץ הזה. „פתיחה באמצעות…” למעלה משאילה אותו לרגע לאפליקציה אחרת, בלי להעתיק אותו; השולח מקבל הודעה.
+media_play	הפעלה
+media_pause	השהיה
+share_forward	שליחה לאיש קשר
+share_outside	שיתוף עם אפליקציה אחרת
+share_save	שמירה בטלפון
+share_sender_told	השולח יקבל הודעה, בלי לדעת למי שלחת.
+forward_title	שליחה אל…
+forward_none	אין איש קשר מאושר אחר.
+selection_count	נבחרו %1$d
+selection_cancel	ביטול הבחירה
+delete_selected_title	למחוק %1$d פריטים?
+delete_selected_body	נמחקים מהטלפון הזה מיד, בלי לחכות לסוף התוקף. מה שעוד לא נשלח לא יישלח. העותק אצל איש הקשר נעלם בסוף התוקף שלו.
+delete_selected_action	מחיקה
+file_cancel	ביטול השליחה
+notice_cancelled	%1$s ביטל/ה שליחה של קובץ
+notice_you_cancelled	ביטלת שליחה של קובץ
+file_incoming	קובץ מגיע…
+settings_stay_reachable	להישאר זמין
+settings_on	פועל
+settings_stay_reachable_body	כשהאפליקציה סגורה, הכתובת שלך נשארת מחוברת. אנשי הקשר יכולים לכתוב לך ולהתקשר.\n\nהודעות שמגיעות נשמרות כמו שהן, עדיין מוצפנות, ונחתמות פעם שנייה: אפשר לפתוח אותן רק עם קוד ה־PIN שלך. זרים שיש להם את הקישור שלך צריכים לחכות עד שהאפליקציה תיפתח.\n\nההתראה אומרת רק „Whospair קוראת לך”: בלי שם, בלי תוכן. כדי לענות לשיחה, לפתוח את Whospair, להקליד את קוד ה־PIN ולענות — איש הקשר ממשיך להתקשר במשך דקה.
+settings_stay_reachable_costs	המחיר: מפתח ה־onion שלך נשאר בזיכרון כשהאפליקציה סגורה, Android מציגה התראה קבועה, הכתובת שלך מחוברת מסביב לשעון והסוללה מתרוקנת מהר יותר. אחרי הפעלה מחדש של הטלפון, שום דבר לא פועל עד שמקלידים את קוד ה־PIN.
+settings_reach_enable	הפעלה
+settings_reach_disable	כיבוי
+settings_reach_battery	לאפשר ברקע
+settings_reach_battery_hint	בלי זה, Android עלולה להרדים את Whospair ותפסיק/י להיות זמין/ה.
+settings_reach_notifications_off	ההתראות כבויות עבור Whospair: ההודעות עדיין יחכו לקוד ה־PIN שלך, אבל שום דבר לא יודיע שהן הגיעו.
+settings_reach_notifications_allow	הפעלת התראות
+settings_reach_hide_hint	Android דורשת התראת „זמין” כל עוד Whospair נשארת זמינה. אפשר להסתיר אותה: השירות ממשיך לפעול, והמצב מוצג באפליקציה, ליד Tor.
+settings_reach_hide	הסתרת ההתראה
+reach_channel_service	להישאר זמין
+reach_channel_alert	מישהו מנסה להשיג אותך
+reach_channel_call	שיחות נכנסות
+reach_service_title	Whospair
+reach_service_text	זמין
+reach_alert_title	Whospair קוראת לך
+reach_call_title	Whospair קוראת לך
+reach_call_text	כדי לענות, לפתוח את Whospair ולהקליד את קוד ה־PIN.
+new_chat	שיחה חדשה
+contacts_group_confirmed	מאושרים
+contacts_group_unconfirmed	ממתינים לאישור
+contacts_group_blocked	חסומים
+contacts_scan	סריקת QR
+contacts_show_qr	הצגת ה־QR שלי
+profile_title	הפרופיל שלי
+profile_photo_change	החלפת תמונה
+settings_appearance	מראה
+appearance_auto	אוטומטי
+appearance_auto_hint	לפי הגדרות המערכת
+appearance_day	יום
+appearance_night	לילה
+settings_background	רקע השיחות
+settings_background_hint	אחד לכל השיחות. המסכים הראשיים מקבלים את הצבעים שלו.
+bg_ink	דיו
+bg_sage	מרווה
+bg_slate	צפחה
+bg_plum	שזיף
+bg_sand	חול
+bg_plain	חלק
+settings_page_lock	נעילה
+settings_page_lock_sub	PIN, PIN לחירום, נעילה עכשיו
+settings_page_discretion	דיסקרטיות
+settings_page_discretion_sub	תוקף ההודעות, הסתרת המסך, תמונה
+settings_page_network	רשת
+settings_page_identity_sub	QR, זהות חדשה
+settings_page_about_sub	פרטיות, גרסה
+reach_short	זמין גם כשהאפליקציה סגורה
+lock_title_setup	בחירת קוד PIN
+lock_hint_setup	לפחות 6 ספרות. אי אפשר לשחזר אותו — אם הוא נשכח, הכול אובד.
+lock_title_confirm	להקליד שוב
+lock_mismatch	שתי ההקלדות לא תואמות. להתחיל מחדש.
+lock_title_unlock	הקלדת קוד ה־PIN
+lock_wrong	קוד PIN שגוי
+lock_attempts_left	נותרו %1$d ניסיונות לפני שהכול יימחק
+lock_busy	בודק…
+lock_error	משהו השתבש בפתיחה. אפשר לנסות שוב.
+settings_lock_now	נעילה עכשיו
+settings_duress_title	קוד PIN לחירום
+settings_duress_body	קוד PIN שני, למקרי חירום. הקלדתו במסך הנעילה מוחקת הכול — מפתחות, אנשי קשר, הודעות — והאפליקציה מתחילה מחדש כאילו הותקנה זה עתה.
+settings_duress_current	קוד PIN נוכחי
+settings_duress_new	קוד PIN לחירום
+settings_duress_saved	קוד PIN לחירום הוגדר.
+settings_duress_failed	לא הוגדר: קוד ה־PIN הנוכחי שגוי, או שקוד החירום קצר מדי, זהה או באורך אחר.
+read_lock_title	קריאה
+read_lock_off_hint	ההודעות נשארות קריאות כשחוזרים לשיחה הזו.
+read_lock_on_hint	ההודעות מוסתרות. להקליד את הקוד כדי לקרוא אותן בביקור הזה.
+read_lock_open_hint	קריאות עד היציאה מהשיחה הזו.
+read_lock_enable	הסתרת ההודעות בקוד
+read_lock_unlock	פתיחת הקריאה
+read_lock_disable	הפסקת ההסתרה
+read_lock_banner	ההודעות מוסתרות. אפשר לפתוח את הקריאה בהגדרות.
+read_lock_masked	••••••
+message_unreadable	[הודעה לא קריאה]
+read_code_new	בחירת קוד בן 4 ספרות
+read_code_confirm	להקליד שוב
+read_code_enter	קוד קריאה
+read_code_mismatch	שני הקודים שונים. להתחיל מחדש.
+read_code_wrong	קוד שגוי
+settings_section_security	אבטחה
+settings_section_identity	הזהות שלי
+settings_section_network	רשת
+settings_section_about	אודות
+settings_change_pin	שינוי קוד PIN
+settings_new_pin	קוד PIN חדש
+settings_pin_changed	קוד ה־PIN שונה.
+settings_pin_changed_duress_removed	קוד ה־PIN שונה. האורך שלו השתנה, ולכן קוד החירום הוסר: יש להגדיר אותו שוב באותו אורך.
+settings_pin_rejected	לא שונה: הקוד קצר מדי או שזה קוד החירום שלך.
+settings_duress_same_length	אותו מספר ספרות כמו בקוד ה־PIN שלך.
+settings_default_ttl	תוקף ברירת מחדל להודעות
+settings_default_ttl_hint	חל על כל השיחות עד שבוחרים משך אחר באחת מהן.
+settings_mask_all	הסתרת הקריאה בכל מקום
+settings_mask_all_hint	קוד אחד לכל השיחות שעוד לא הוסתרו. שיחות עם קוד משלהן שומרות עליו.
+settings_mask_all_done	בוצע. עכשיו כל שיחה מבקשת את הקוד.
+settings_wipe_now	מחיקת הכול עכשיו
+settings_wipe_confirm	למחוק מפתחות, אנשי קשר והודעות ממש עכשיו? לא יהיה אפשר לשחזר דבר. האפליקציה תתחיל מחדש כאילו הותקנה זה עתה.
+settings_wipe_action	מחיקת הכול
+settings_my_qr	קוד ה־QR והקישור שלי
+settings_new_identity	זהות חדשה
+settings_new_identity_confirm	מפתחות חדשים וכתובת חדשה: הקישור וקוד ה־QR הנוכחיים שלך יפסיקו לעבוד. כל אנשי הקשר וההודעות יימחקו — אנשי הקשר יצטרכו להוסיף אותך מחדש. האפליקציה תופעל מחדש.
+settings_new_identity_action	יצירת זהות חדשה
+settings_tor_state	Tor
+tor_state_ready	מחובר
+tor_state_starting	מופעל… %1$d%%
+tor_state_failed	נכשל — הקשה להפעלה מחדש
+tor_state_off	כבוי
+tor_state_reconnecting	הרשת אבדה — מתחבר מחדש…
+settings_restart_tor_confirm	הפעלה מחדש של Tor מפעילה מחדש את האפליקציה. יהיה צורך להקליד שוב את קוד ה־PIN.
+settings_restart_tor_action	הפעלה מחדש
+about_title	מה זה Whospair
+about_body	אפליקציית מסרים למי שיש לו דברים רגישים לומר. מה שנאמר ב־Whospair קיים רק בשני הטלפונים, לזמן שנבחר, ובשום מקום אחר.\n\nבלי שרת. אף שרת לא מעביר, שומר או רואה את השיחות שלך. כל טלפון הוא נקודת גישה משלו ברשת Tor; ההודעות עוברות ישירות מאחד לשני.\n\nבלי חשבון. בלי מספר, בלי אימייל, בלי שם אמיתי. הזהות שלך היא זוג מפתחות שנוצר בטלפון הזה. מוסיפים זה את זה בסריקת קוד QR, פנים אל פנים או דרך קישור.\n\nהצפנה מקצה לקצה. הודעות, הקלטות קוליות, קבצים ושיחות מוצפנים לפני שהם יוצאים מהטלפון, ואז עוברים דרך Tor, שמסתיר את כתובת ה־IP שלך.\n\nזמני. לכל הודעה יש תוקף שנבחר, ואחריו היא נעלמת בשני הצדדים. שום דבר לא מגובה במקום אחר.\n\nבזמן אמת. אפשר להשיג רק מי שהאפליקציה פתוחה אצלו או שהפעיל „להישאר זמין”.\n\nמוגן בטלפון. הכול מוצפן תחת קוד ה־PIN שלך. עשרה קודים שגויים, או קוד החירום, מוחקים הכול.\n\nהבהרה. Whospair היא כלי. אופן השימוש בה הוא באחריותך הבלעדית. היא מסופקת כמות שהיא, ללא אחריות, ויוצריה אינם אחראים לשימוש בה או לתוצאותיו.
+privacy_title	מדיניות פרטיות
+privacy_body	Whospair לא אוספת דבר. אף שרת לא מקבל את הנתונים שלך: לכן אין מי שינתח אותם או ימסור אותם לצד שלישי.\n\nמה שהאפליקציה אף פעם לא עושה: יצירת פרופילים, מכירת נתונים, פרסומות, קוד מעקב, שליחת דוחות קריסה, קריאת פנקס הכתובות, איתור מיקום. אף חברה חיצונית לא מקבלת דבר, לא נתונים ולא אותות שימוש: האפליקציה מדברת רק עם רשת Tor, עם אנשי הקשר שלך ועם מפיץ העדכונים שלה.\n\nמה שנשאר בטלפון הזה, מוצפן: המפתחות, אנשי הקשר, ההודעות והקבצים שלך — עד שהתוקף שלהם פג, עד שמוחקים אותם, או אחרי 10 קודי PIN שגויים. מתמונות שנשלחות מוסרים המטא־נתונים (מיקום, דגם המכשיר).\n\nמה שאחרים עדיין יכולים לראות: ספק הרשת יכול לראות שהטלפון הזה משתמש ב־Tor, אבל לא עם מי ולא מה. איש הקשר רואה את מה ששלחת לו, ואת תמונת הפרופיל שלך אם אישרת זאת.\n\nעדכונים. פעם ביום האפליקציה שואלת בשקט, דרך Tor, אם קיימת גרסה חדשה יותר. הבקשה מכילה רק את מספר הגרסה: לא זהות, לא אנשי קשר, לא הודעות.\n\nלמה כל יום? כי גרסה מעודכנת מסרבת לתקשר עם גרסה ישנה מדי. זה מכוון: גרסה ישנה עלולה להכיל פרצה. בלי עדכון, לא תוכל עוד להשיג את קרוביך או את עמיתיך; רק העדכון ימשיך להגיע אליך.\n\nWhospair מתפתח כל הזמן, ומכאן העדכונים התכופים. פרצה עלולה להתגלות ולהיות מנוצלת עוד לפני שמישהו שם לב. תיקון מהיר מונע מהנתונים שלך להגיע לידיים הלא נכונות.\n\nהזכויות שלך. מאחר ששום דבר לא נאסף, אין אצלנו מה להציג, לתקן או למחוק. הכול בידיים שלך: הסרת האפליקציה מוחקת הכול.\n\nאחריות. האחריות למה שנשלח, למי, ולמה שנעשה במה שמתקבל היא שלך בלבד. Whospair מסופקת כמות שהיא, ללא אחריות.
+version_title	גרסה
+version_fingerprint_hint	טביעת האצבע של האישור שחתם על האפליקציה הזו. כדאי להשוות אותה לזו שפרסם היוצר: אם היא שונה, זו לא האפליקציה המקורית.
+update_title	עדכון
+update_state_current	מעודכנת
+update_state_available	גרסה %1$s זמינה
+update_state_downloading	מוריד %1$d %%
+update_state_installing	מתקין…
+update_state_failed	נכשל
+update_body	העדכונים מגיעים מאנשי הקשר שלך, דרך Tor, בלי שרת. כל גרסה חתומה על ידי המפתח: Whospair בודקת את החתימה לפני ההורדה, ואז את הקובץ מולה, ו־Android בודקת שהיא חתומה באותו מפתח כמו האפליקציה שכבר מותקנת. אפליקציה ששונתה תמיד נדחית.
+update_available_body	אחד מאנשי הקשר שלך מציע את גרסה %1$s (%2$s). היא יורדת כל עוד Whospair פתוחה; אם החיבור נקטע, ההורדה ממשיכה מהמקום שבו נעצרה.
+update_download	הורדה והתקנה
+update_cancel	ביטול
+update_retry	ניסיון נוסף
+update_permission_hint	קודם Android צריכה לאפשר ל־Whospair להתקין עדכונים. יש לאשר, לחזור ולהקיש שוב.
+update_permission_allow	אישור
+update_relaying	את/ה מעביר/ה את גרסה %1$s לאנשי הקשר המאושרים שלך.
+update_import	ייבוא חבילת עדכון (.wup)
+update_import_unreadable	הקובץ לא קריא.
+update_import_invalid	החבילה הזו לא נחתמה על ידי המפתח של Whospair, או שהיא פגומה. שום דבר לא הותקן.
+update_import_installing	החתימה אומתה. Android תבקש לאשר את ההתקנה.
+update_import_relaying	החתימה אומתה. עכשיו הטלפון הזה מעביר את הגרסה הזו לאנשי הקשר המאושרים שלך.
+update_import_mismatch	זו הגרסה שלך, אבל האפליקציה שמותקנת כאן אינה אותו קובץ. אין מה להעביר.
+update_import_older	החבילה הזו ישנה מהגרסה שלך. שום דבר לא הותקן.
+update_failed_memory	אין מספיק זיכרון להורדה.
+update_failed_corrupt	הקובץ שהתקבל לא תואם לחתימה. הוא נזרק.
+update_failed_install	Android סירבה להתקנה.
+update_failed_signature	הגרסה הזו לא חתומה באותו מפתח כמו האפליקציה שלך. נדחתה.
+update_banner	עדכון זמין
+settings_language	שפה
+language_auto	שפת הטלפון
+tutorial_live_title	זמין רק בזמן אמת
+tutorial_live_body	Whospair לא משאירה שום דבר ממתין בשרת. הודעה יוצאת כשהאפליקציה פתוחה אצל איש הקשר, או כשהוא הפעיל „להישאר זמין”.
+tutorial_live_f1	הנקודה ליד Tor: ירוקה — מחובר/ת; כתומה — מתחבר
+tutorial_live_f2	החיבור הראשון עשוי לקחת כמה שניות, לפעמים דקה
+tutorial_live_f3	„זמין/ה” מתחת לשם: איש הקשר נמצא שם, עכשיו
+tutorial_confirm_title	אישור איש קשר
+tutorial_confirm_body	סריקה אחת מספיקה כדי לדבר. אבל מי שיש לו רק את הקישור שלך מופיע כ„ממתין לאישור”.
+tutorial_confirm_f1	להשוות את מספר הבטיחות פנים אל פנים או בשיחה
+tutorial_confirm_f2	אותו מספר בשני הטלפונים: אין אף אחד באמצע
+tutorial_confirm_f3	רק אנשי קשר מאושרים יכולים להתקשר אליך ולתת לך סימן
+tutorial_discreet_title	דיסקרטיות
+tutorial_discreet_body	הגנות לרגעים שבהם מישהו לידך.
+tutorial_discreet_f1	טלפון הפוך על השולחן: המסך מחשיך
+tutorial_discreet_f2	קוד קריאה: שיחה נשארת מוסתרת עד שמקלידים את הקוד
+tutorial_discreet_f3	מצב פרטי: איש הקשר הזה משיג אותך רק כשאת/ה כותב/ת לו
+update_check	בדיקת עדכונים
+update_checking	מחפש…
+chat_peer_outdated	איש הקשר הזה משתמש בגרסה ישנה מדי של Whospair. שום דבר לא עובר עד שהוא מעדכן — העדכון עצמו כן מגיע אליו.
+ttl_never	אף פעם
+reply_cancel	ביטול התגובה
+input_emoji	אימוג׳ים
+reply_you	אתם
+share_app	שיתוף Whospair
+share_app_sub	שליחת האפליקציה עצמה, בלי חנות אפליקציות
+copy_action	העתקה
+copy_title	בחרו את החלק להעתקה
+copy_all	העתקת הכול
+copy_done	הועתק
+delete_everyone_body	„לכולם” מוחק גם את העותק של איש הקשר, בלי שום הודעה. אם אינו זמין, המחיקה נשלחת ברגע שיהיה, כל עוד Whospair פתוח.
+select_more	בחירת כמה פריטים
+delete_everyone_action	מחיקה לכולם
+licenses_title	רישיונות
+update_notes_title	מה חדש
+tut_welcome_title	ברוכים הבאים ל-Whospair
+tut_welcome_body	הודעות ושיחות שאינן משאירות עקבות בשרת, כי אין שרת.
+tut_welcome_f1	מוצפן מקצה לקצה, בלי חשבון: המפתחות שייכים לך
+tut_welcome_f2	הודעה יוצאת כשהאפליקציה פתוחה אצל איש הקשר, או כש„להישאר זמין“ מופעל
+tut_welcome_f3	הנקודה ליד Tor: ירוקה, מחובר; כתומה, מתחבר (לפעמים דקה)
+tut_add_title	להוסיף ולסמוך
+tut_add_body	בלי שם משתמש ובלי מספר טלפון: מחליפים מפתחות. סרוק את הקוד שלו, או תן לו לסרוק את שלך.
+tut_add_f1	ממתין לאישור: הגיע רק עם הקישור שלך. ההודעות שלו מגיעות, אבל הוא לא יכול להתקשר או לאותת
+tut_add_f2	מאושר: הוספת או אישרת אותו
+tut_add_f3	מאומת: פנים אל פנים, סרקתם זה את קוד האבטחה של זה. אף אחד לא נכנס ביניכם
+tut_write_title	לכתוב, ואז למחוק
+tut_write_body	לכל הודעה יש משך חיים שנבחר בשליחה; כשהוא נגמר, היא נעלמת משני הצדדים.
+tut_write_f1	קצר יותר, בטוח יותר: מה שעל המסך עדיין בזיכרון
+tut_write_f2	מחיקה לכולם: מסירה את ההודעות שלך אצל איש הקשר
+tut_write_f3	מחיקה משותפת: אם שניכם מסכימים, כל אחד יכול למחוק הכול, אצל שניכם, בכל רגע
+tutorial_discreet_f5	אריח „נעילת Whospair“ בהגדרות המהירות: האפליקציה נסגרת בנגיעה אחת
+tile_lock	נעילת Whospair
+contact_verified	מאומת
+verify_title	אימות פנים אל פנים
+verify_hint	פנים אל פנים, סרקו זה את הקוד של זה
+verify_done	אומת פנים אל פנים
+verify_body	הראה את הקוד הזה לאיש הקשר וסרוק את שלו. אם הם זהים, אף אחד לא נכנס ביניכם.
+verify_scan	סריקת הקוד שלו
+verify_ok	הקודים זהים: איש הקשר אומת.
+verify_fail	הקוד הזה אינו תואם. אל תסמוך על איש קשר זה עד שהעניין יתברר.
+wipe_title	מחיקה משותפת
+wipe_off	כבוי. אם תציע, איש הקשר יצטרך לאשר.
+wipe_asked	ממתין להסכמת איש הקשר.
+wipe_to_answer	איש הקשר מציע שכל אחד מכם יוכל למחוק הכול, אצל שניכם, בכל רגע.
+wipe_on	פעיל: כל אחד יכול למחוק הכול, אצל שניכם, בכל רגע.
+wipe_propose	להציע
+wipe_accept	לאשר
+wipe_refuse	לסרב
+wipe_cancel	ביטול הבקשה
+wipe_disable	כיבוי
+wipe_now	מחיקת השיחה אצל שניכם
+wipe_confirm	כל השיחה תימחק בשני הטלפונים. אי אפשר לבטל.
+wipe_action	למחוק הכול
+wipe_banner	%1$s מציע מחיקה משותפת
+settings_gaze_owner	רק הפנים שלי
+settings_gaze_owner_hint	המסך נפתח רק בשבילך
+face_intro_title	רק הפנים שלי
+face_intro_body	המסך נפתח רק כשאתה זה שמסתכל עליו. לכל אדם אחר, או אם אף אחד לא מסתכל, הוא נשאר שחור.\n\nאם הפנים שלך משתנות (פציעה, נפיחות, זקן, משקפיים), ייתכן שלא יזוהו עוד והמסך יישאר שחור. בתחתית המסך, „כיבוי ההסתרה עם קוד PIN“ תמיד עובד עם קוד הנעילה שלך. לאחר מכן תוכל לרשום את הפנים מחדש.\n\nהכפתור הזה פועל לפי אותם כללים של מסך הנעילה: קוד ה-PIN לשעת כפייה, אם יוקלד כאן, מוחק הכול, וכך גם 10 קודים שגויים.\n\nזו הגנה מפני עיניים סקרניות, לא מנעול: קוד ה-PIN נשאר ההגנה האמיתית. הכול קורה בטלפון: הפנים נשמרות כמספרים מוצפנים, לעולם לא כתמונה.
+face_intro_ok	הבנתי
+face_enroll_title	רישום הפנים שלי
+face_enroll_body	הבט במסך כמה שניות, כשהפנים מוארות היטב.
+face_enroll_ok	הפנים שלך נרשמו.
+face_enroll_fail	הפנים לא זוהו. עבור למקום מואר, הבט ישר במסך ונסה שוב.
+face_reenroll	רישום הפנים מחדש
+face_disable_pin	כיבוי ההסתרה עם קוד PIN
+tutorial_discreet_f4	מצלמה (רשות): המסך מוסתר כשאתה מסיט את המבט, כשמישהו אחר מסתכל, או כשאלה לא הפנים שלך. הכול קורה בטלפון, שום דבר לא מוקלט
+conv_pin	הצמדה
+conv_unpin	ביטול הצמדה
+conv_pinned	מוצמדת
+update_diffuser_retry	המקור אינו זמין, ניסיון נוסף בעוד 10 שנ׳
+update_mandatory_title	נדרש עדכון
+update_mandatory_body	גרסה חדשה יותר של Whospair זמינה כבר יותר מ-5 ימים. התקינו אותה כדי להמשיך להשתמש באפליקציה: אנשי הקשר המעודכנים שלכם כבר לא מקבלים גרסאות ישנות.
+gaze_manual	ידני
+gaze_manual_hint	קוד ה-PIN מכבה אותו, למשל במקום חשוך.
+gaze_auto	אוטומטי
+gaze_auto_hint	כבוי מ-20:00 עד 06:00, כשאין מספיק אור.
+shield_choice_title	כיבוי ההסתרה
+shield_pause_10	ל-10 דקות
+shield_disable_all	כיבוי מלא
+shield_pause_over_title	ההפסקה הסתיימה
+shield_pause_over_body	ההסתרה פעילה שוב.
+shield_keep_paused	להשאיר כבוי בינתיים
+update_interrupted	העדכון נקטע, ניסיון נוסף בעוד 30 דק׳

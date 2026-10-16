@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor ativo</string>
+    <string name="tor_state_connecting">Conectando ao Tor</string>
+    <string name="tor_state_offline">Tor desligado</string>
+    <string name="presence_reachable">acessível</string>
+    <string name="ring_action">Chamar a atenção</string>
+    <string name="ring_calling">Chamando %1$s…</string>
+    <string name="ring_incoming">%1$s está chamando você</string>
+    <string name="ring_accept">Atender</string>
+    <string name="ring_decline">Ignorar</string>
+    <string name="ring_cancel">Parar</string>
+    <string name="ring_declined">%1$s ignorou o chamado</string>
+    <string name="ring_timeout">Sem resposta</string>
+    <string name="ring_peer_offline">%1$s não está no aplicativo agora</string>
+    <string name="ring_busy">Uma sessão já está aberta</string>
+    <string name="indicator_title">O que isto mostra</string>
+    <string name="indicator_channel_live">O Tor está funcionando e seu endereço está publicado. Contatos que também estão com o aplicativo aberto podem falar com você, e você com eles.</string>
+    <string name="indicator_channel_none">O Tor não está pronto. Nada pode ser enviado nem recebido, e nada fica guardado em lugar algum para depois.</string>
+    <string name="indicator_tunnel_on">Seu tráfego sai por uma interface VPN. O Whospair consegue ver isso e nada mais: não sabe qual é o provedor nem se o túnel vaza.</string>
+    <string name="indicator_tunnel_off">Seu tráfego sai diretamente. Seu provedor de rede pode ver que este aparelho usa o Tor, e quando; não com quem você fala nem o que é dito.</string>
+    <string name="indicator_dismiss">Fechar</string>
+    <string name="vpn_advice_title">Sobre a sua rede</string>
+    <string name="vpn_advice_body">O Whospair criptografa o que você diz, e o Tor esconde para quem você diz. Nenhum dos dois esconde que você usa o Tor: quem transporta seu tráfego vê isso, em que horários e com que frequência. Uma VPN passa essa visão para o operador do túnel. É uma mudança real quando quem vigia é justamente quem preocupa você.</string>
+    <string name="vpn_advice_caveat">Uma VPN não é garantia. Você escolhe quem vigia; não elimina a vigilância. Escolha uma em que tenha motivos para confiar, e prefira uma paga a uma que se paga com o seu tráfego.</string>
+    <string name="contacts_title">Contatos</string>
+    <string name="contacts_empty">Sua lista de contatos está vazia.</string>
+    <string name="contact_unconfirmed">Não confirmado</string>
+    <string name="contact_blocked">Bloqueado</string>
+    <string name="chat_settings">Ajustes da conversa</string>
+    <string name="chat_unconfirmed_banner">Esta pessoa adicionou você com o seu link. Você ainda não confirmou quem ela é.</string>
+    <string name="chat_confirm">Confirmar</string>
+    <string name="chat_block">Bloquear</string>
+    <string name="chat_unblock">Desbloquear</string>
+    <string name="chat_blocked_banner">Bloqueado. Esta pessoa não consegue mais falar com você.</string>
+    <string name="settings_rename">Nome</string>
+    <string name="settings_rename_hint">Só você vê este nome.</string>
+    <string name="settings_save">Salvar</string>
+    <string name="settings_safety_number">Número de segurança</string>
+    <string name="settings_safety_hint">Compare-o com o seu contato pessoalmente ou por chamada. Mesmo número nos dois telefones = ninguém no meio.</string>
+    <string name="settings_confirm_trust">Verifiquei: confirmar este contato</string>
+    <string name="settings_trusted">Contato confirmado</string>
+    <string name="settings_block_hint">Um contato bloqueado não pode mais se conectar nem enviar mensagens a você.</string>
+    <string name="settings_delete">Excluir contato</string>
+    <string name="settings_delete_confirm">Excluir este contato e todas as mensagens? Se ele ainda tiver o seu link, pode voltar como não confirmado; bloqueie-o para evitar isso.</string>
+    <string name="settings_delete_action">Excluir</string>
+</resources>

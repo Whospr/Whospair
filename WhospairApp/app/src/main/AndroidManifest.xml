@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Pas d'attribut package= : interdit depuis AGP 8, le namespace est dans
+  app/build.gradle.kts.
+
+  Permissions : seulement ce que le code utilise. Une app de ce genre qui
+  réclame le Bluetooth ou le stockage sans s'en servir éveille — à raison —
+  la méfiance de qui lit la liste avant d'installer.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Demandées à l'usage : micro au décroché, caméra au passage en vidéo. -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <!-- Appel entrant : vibreur. Appel en cours : écran éteint contre la joue. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!--
+      « Rester joignable » (option, phase 13) : un service de premier plan
+      garde l'adresse onion en ligne app fermée. Notifications : anonymes,
+      émises seulement par lui. Plein écran : un appel qui sonne. Batterie :
+      demandée depuis les Paramètres, jamais d'office.
+    -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <!--
+      Mises à jour sans serveur (phase 14) : l'APK reçu d'un contact, signé
+      par le développeur, est confié à l'installateur d'Android, qui demande
+      toujours confirmation.
+    -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+
+    <!--
+      android:name branche Hilt. allowBackup=false : une sauvegarde en ligne du
+      stockage de l'app enverrait les clés dans le cloud.
+    -->
+    <application
+        android:name=".WhisperApplication"
+        android:allowBackup="false"
+        android:allowAudioPlaybackCapture="false"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Whisper"
+        android:usesCleartextTraffic="false">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--
+              whospair://add_contact?key=… — le QR encode la forme opaque
+              "whospair:<clé>", qui ne peut pas déclencher ce filtre ; les deux
+              sont lues par ContactKeyParser. L'ancien whisper:// reste capté.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="whospair" android:host="add_contact" />
+                <data android:scheme="whisper" android:host="add_contact" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          Tor tourne dans notre processus. Déclaré ici pour le fermer
+          explicitement : aucune autre app ne doit pouvoir s'y lier.
+        -->
+        <service
+            android:name="org.torproject.jni.TorService"
+            android:exported="false" />
+
+        <!--
+          Processus séparé : l'app se tue en arrière-plan (verrouillage), lui
+          reste. Il ne détient que la clé onion et des clés publiques ; son
+          propre Tor, puisqu'un composant ne vit que dans un seul processus.
+        -->
+        <service
+            android:name=".reach.ReachService"
+            android:process=":reach"
+            android:foregroundServiceType="remoteMessaging"
+            android:exported="false" />
+        <service
+            android:name=".reach.ReachTorService"
+            android:process=":reach"
+            android:exported="false" />
+
+        <!--
+          « Ouvrir avec… » et « Partager » (phase 16) : un fichier prêté en
+          mémoire, par jeton, à l'app que l'utilisateur choisit. Non exporté ;
+          accès retiré au retour dans Whisper.
+        -->
+        <provider
+            android:name=".files.TempFileProvider"
+            android:authorities="${applicationId}.tempfiles"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+        <!-- Tuile « Verrouiller Whospair » (réglages rapides). Exportée, mais
+             seul le système (BIND_QUICK_SETTINGS_TILE) peut s'y lier. -->
+        <service
+            android:name=".ui.LockTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_notification"
+            android:label="@string/tile_lock"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- Écran de scan tout fait de ZXing, ajouté d'office : jamais utilisé
+             (l'app a le sien, QrScannerScreen). Retiré : rien d'inutile dans l'APK. -->
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            tools:node="remove" />
+    </application>
+
+</manifest>

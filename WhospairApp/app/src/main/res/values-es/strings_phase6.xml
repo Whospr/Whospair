@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor activo</string>
+    <string name="tor_state_connecting">Conectando a Tor</string>
+    <string name="tor_state_offline">Tor inactivo</string>
+    <string name="presence_reachable">accesible</string>
+    <string name="ring_action">Timbrar</string>
+    <string name="ring_calling">Timbrando a %1$s…</string>
+    <string name="ring_incoming">%1$s le está timbrando</string>
+    <string name="ring_accept">Responder</string>
+    <string name="ring_decline">Ignorar</string>
+    <string name="ring_cancel">Detener</string>
+    <string name="ring_declined">%1$s ignoró el timbre</string>
+    <string name="ring_timeout">Sin respuesta</string>
+    <string name="ring_peer_offline">%1$s no está en la aplicación ahora</string>
+    <string name="ring_busy">Ya hay una sesión abierta</string>
+    <string name="indicator_title">Qué indica esto</string>
+    <string name="indicator_channel_live">Tor funciona y su dirección está publicada. Los contactos que también tienen la aplicación abierta pueden contactarle, y usted a ellos.</string>
+    <string name="indicator_channel_none">Tor no está listo. No se puede enviar ni recibir nada, y nada queda guardado en ningún sitio para después.</string>
+    <string name="indicator_tunnel_on">Su tráfico sale por una interfaz VPN. Whospair puede ver eso y nada más: no sabe qué proveedor es ni si el túnel tiene fugas.</string>
+    <string name="indicator_tunnel_off">Su tráfico sale directamente. Su proveedor de red puede ver que este dispositivo usa Tor, y cuándo; no con quién habla ni qué dice.</string>
+    <string name="indicator_dismiss">Cerrar</string>
+    <string name="vpn_advice_title">Sobre su red</string>
+    <string name="vpn_advice_body">Whospair cifra lo que dice, y Tor oculta a quién se lo dice. Ninguno oculta que usa Tor: quien transporta su tráfico lo ve, a qué horas y con qué frecuencia. Una VPN traslada esa vista al operador del túnel. Es un cambio real cuando quien vigila es justamente quien le preocupa.</string>
+    <string name="vpn_advice_caveat">Una VPN no es una garantía. Elige quién vigila; no elimina la vigilancia. Escoja una en la que tenga motivos para confiar, y prefiera una de pago a una que se paga con su tráfico.</string>
+    <string name="contacts_title">Contactos</string>
+    <string name="contacts_empty">Su lista de contactos está vacía.</string>
+    <string name="contact_unconfirmed">Sin confirmar</string>
+    <string name="contact_blocked">Bloqueado</string>
+    <string name="chat_settings">Ajustes de la conversación</string>
+    <string name="chat_unconfirmed_banner">Esta persona le añadió con su enlace. Aún no ha confirmado quién es.</string>
+    <string name="chat_confirm">Confirmar</string>
+    <string name="chat_block">Bloquear</string>
+    <string name="chat_unblock">Desbloquear</string>
+    <string name="chat_blocked_banner">Bloqueado. Ya no puede contactarle.</string>
+    <string name="settings_rename">Nombre</string>
+    <string name="settings_rename_hint">Solo usted ve este nombre.</string>
+    <string name="settings_save">Guardar</string>
+    <string name="settings_safety_number">Número de seguridad</string>
+    <string name="settings_safety_hint">Compárelo con su contacto en persona o por llamada. Mismo número en ambos teléfonos = nadie en medio.</string>
+    <string name="settings_confirm_trust">Lo he comprobado: confirmar este contacto</string>
+    <string name="settings_trusted">Contacto confirmado</string>
+    <string name="settings_block_hint">Un contacto bloqueado ya no puede conectarse ni enviarle mensajes.</string>
+    <string name="settings_delete">Eliminar contacto</string>
+    <string name="settings_delete_confirm">¿Eliminar este contacto y todos los mensajes? Si aún tiene su enlace, puede volver como no confirmado; bloquéelo para evitarlo.</string>
+    <string name="settings_delete_action">Eliminar</string>
+</resources>

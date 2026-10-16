@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">Erreichbar bleiben</string>
+    <string name="settings_on">An</string>
+    <string name="settings_stay_reachable_body">Wenn die App geschlossen ist, bleibt Ihre Adresse online. Ihre Kontakte können Ihnen schreiben und Sie anrufen.\n\nEingehende Nachrichten werden unverändert, weiterhin verschlüsselt, gespeichert und ein zweites Mal versiegelt: Sie lassen sich nur mit Ihrer PIN öffnen. Unbekannte mit Ihrem Link müssen warten, bis die App geöffnet ist.\n\nEine Benachrichtigung sagt nur „Whospair klingelt bei Ihnen“: kein Name, kein Inhalt. Für einen Anruf öffnen Sie Whospair, geben Ihre PIN ein und nehmen an – Ihr Kontakt ruft eine Minute lang weiter an.</string>
+    <string name="settings_stay_reachable_costs">Der Preis: Ihr Onion-Schlüssel bleibt bei geschlossener App im Speicher, Android zeigt eine dauerhafte Benachrichtigung, Ihre Adresse ist rund um die Uhr online und der Akku leert sich schneller. Nach einem Neustart des Telefons läuft nichts, bis Sie Ihre PIN eingeben.</string>
+    <string name="settings_reach_enable">Einschalten</string>
+    <string name="settings_reach_disable">Ausschalten</string>
+    <string name="settings_reach_battery">Im Hintergrund erlauben</string>
+    <string name="settings_reach_battery_hint">Ohne das kann Android Whospair schlafen legen und Sie sind nicht mehr erreichbar.</string>
+    <string name="settings_reach_notifications_off">Benachrichtigungen sind für Whospair aus: Nachrichten warten weiter auf Ihre PIN, aber nichts sagt Ihnen, dass sie angekommen sind.</string>
+    <string name="settings_reach_notifications_allow">Benachrichtigungen einschalten</string>
+    <string name="settings_reach_hide_hint">Android verlangt eine „Erreichbar“-Benachrichtigung, solange Whospair erreichbar bleibt. Sie können sie ausblenden: Der Dienst läuft weiter, und der Zustand erscheint in der App, neben Tor.</string>
+    <string name="settings_reach_hide">Benachrichtigung ausblenden</string>
+    <string name="reach_channel_service">Erreichbar bleiben</string>
+    <string name="reach_channel_alert">Jemand versucht, Sie zu erreichen</string>
+    <string name="reach_channel_call">Eingehende Anrufe</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">Erreichbar</string>
+    <string name="reach_alert_title">Whospair klingelt bei Ihnen</string>
+    <string name="reach_call_title">Whospair klingelt bei Ihnen</string>
+    <string name="reach_call_text">Öffnen Sie Whospair und geben Sie Ihre PIN ein, um anzunehmen.</string>
+</resources>

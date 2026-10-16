@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Poruke</string>
+    <string name="search_contact">Pretraži kontakt</string>
+    <string name="conversations_empty_title">Još nema razgovora</string>
+    <string name="conversations_empty_body">Dodajte nekoga skeniranjem njegova koda, licem u lice. Možete mu pisati kad oboje imate otvorenu aplikaciju.</string>
+    <string name="search_no_result">Nema kontakta s tim imenom.</string>
+    <string name="add_contact">Dodaj kontakt</string>
+    <string name="scan_code">Skeniraj kod</string>
+    <string name="message_retry">Pokušaj ponovno</string>
+    <string name="message_sent">Poslano</string>
+    <string name="message_delivered">Isporučeno</string>
+    <string name="read_lock_preview">Čitanje skriveno</string>
+    <string name="message_expires_in">Nestaje za %1$s</string>
+    <string name="ttl_button">Trajanje poruke: %1$s</string>
+    <string name="send">Pošalji</string>
+    <string name="back">Natrag</string>
+    <string name="close">Zatvori</string>
+    <string name="confirm_identity">Potvrdi identitet</string>
+    <string name="delete_contact_and_chat">Izbriši kontakt i razgovor</string>
+    <string name="preview_none">Nema poruka</string>
+    <string name="preview_encrypted">Šifrirana poruka</string>
+    <string name="duration_days">%1$d d</string>
+    <string name="message_placeholder">Napišite poruku</string>
+    <string name="discover_code_caption">Ovaj kod sadrži Vaše javne ključeve i Vašu Tor adresu. Ništa drugo.</string>
+    <string name="share_link">Podijeli moju poveznicu</string>
+    <string name="copy_link">Kopiraj poveznicu</string>
+    <string name="link_copied">Poveznica je kopirana</string>
+    <string name="memory_advice_title">Memorija telefona</string>
+    <string name="memory_advice_body">Whospair drži ključeve u memoriji samo dok je aplikacija otvorena. No neki telefoni kopiraju dio memorije u pohranu kako bi djelovali većima („virtualna memorija”, „proširenje memorije”). Tako kopiran ključ mogao bi ostati na telefonu nakon zatvaranja Whospaira.</string>
+    <string name="memory_advice_how">Za isključivanje: u postavkama telefona potražite „virtualna memorija” ili „proširenje memorije”, isključite to i ponovno pokrenite telefon.</string>
+    <string name="voice_record">Snimi glasovnu poruku</string>
+    <string name="voice_cancel">Odbaci snimku</string>
+    <string name="voice_recording">do %1$s</string>
+    <string name="voice_send">Pošalji glasovnu poruku</string>
+    <string name="voice_play">Reproduciraj</string>
+    <string name="voice_pause">Pauza</string>
+    <string name="voice_receiving">Primanje…</string>
+    <string name="voice_preview">Glasovna poruka %1$s</string>
+    <string name="mic_denied">Mikrofon je isključen za Whospair. Dopustite ga u postavkama Androida da biste poslali glasovnu poruku.</string>
+</resources>

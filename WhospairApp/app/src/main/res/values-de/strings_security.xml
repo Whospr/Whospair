@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Wählen Sie eine PIN</string>
+    <string name="lock_hint_setup">Mindestens 6 Ziffern. Sie lässt sich nicht wiederherstellen – vergessen Sie sie, ist alles verloren.</string>
+    <string name="lock_title_confirm">Erneut eingeben</string>
+    <string name="lock_mismatch">Die beiden Eingaben stimmen nicht überein. Beginnen Sie neu.</string>
+    <string name="lock_title_unlock">Geben Sie Ihre PIN ein</string>
+    <string name="lock_wrong">Falsche PIN</string>
+    <string name="lock_attempts_left">Noch %1$d Versuche, bevor alles gelöscht wird</string>
+    <string name="lock_busy">Wird geprüft…</string>
+    <string name="lock_error">Beim Öffnen ist etwas schiefgelaufen. Versuchen Sie es erneut.</string>
+    <string name="settings_lock_now">Jetzt sperren</string>
+    <string name="settings_duress_title">Notfall-PIN</string>
+    <string name="settings_duress_body">Eine zweite PIN für Notfälle. Wird sie auf dem Sperrbildschirm eingegeben, löscht sie alles – Schlüssel, Kontakte, Nachrichten – und die App beginnt wie frisch installiert neu.</string>
+    <string name="settings_duress_current">Aktuelle PIN</string>
+    <string name="settings_duress_new">Notfall-PIN</string>
+    <string name="settings_duress_saved">Notfall-PIN festgelegt.</string>
+    <string name="settings_duress_failed">Nicht festgelegt: Die aktuelle PIN ist falsch, oder die Notfall-PIN ist zu kurz, identisch oder anders lang.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">الرسائل</string>
+    <string name="search_contact">ابحث عن جهة اتصال</string>
+    <string name="conversations_empty_title">لا محادثات بعد</string>
+    <string name="conversations_empty_body">أضف شخصًا بمسح رمزه، وجهًا لوجه. يمكنك مراسلته عندما يكون التطبيق مفتوحًا لديكما.</string>
+    <string name="search_no_result">لا توجد جهة اتصال بهذا الاسم.</string>
+    <string name="add_contact">إضافة جهة اتصال</string>
+    <string name="scan_code">مسح رمز</string>
+    <string name="message_retry">إعادة المحاولة</string>
+    <string name="message_sent">أُرسلت</string>
+    <string name="message_delivered">وصلت</string>
+    <string name="read_lock_preview">القراءة مخفية</string>
+    <string name="message_expires_in">تختفي بعد %1$s</string>
+    <string name="ttl_button">مدة الرسالة: %1$s</string>
+    <string name="send">إرسال</string>
+    <string name="back">رجوع</string>
+    <string name="close">إغلاق</string>
+    <string name="confirm_identity">تأكيد الهوية</string>
+    <string name="delete_contact_and_chat">حذف جهة الاتصال والمحادثة</string>
+    <string name="preview_none">لا رسائل</string>
+    <string name="preview_encrypted">رسالة مشفّرة</string>
+    <string name="duration_days">%1$d ي</string>
+    <string name="message_placeholder">اكتب رسالة</string>
+    <string name="discover_code_caption">يحتوي هذا الرمز على مفاتيحك العامة وعنوانك على Tor. لا شيء غير ذلك.</string>
+    <string name="share_link">مشاركة رابطي</string>
+    <string name="copy_link">نسخ الرابط</string>
+    <string name="link_copied">نُسخ الرابط</string>
+    <string name="memory_advice_title">ذاكرة الهاتف</string>
+    <string name="memory_advice_body">يحتفظ Whospair بمفاتيحه في الذاكرة فقط أثناء فتح التطبيق. لكن بعض الهواتف تنسخ جزءًا من ذاكرتها إلى وحدة التخزين لتبدو أكبر («الذاكرة الافتراضية»، «توسيع الذاكرة»). قد يبقى مفتاح نُسخ بهذه الطريقة على الهاتف بعد إغلاق Whospair.</string>
+    <string name="memory_advice_how">لإيقافه: ابحث عن «الذاكرة الافتراضية» أو «توسيع الذاكرة» في إعدادات الهاتف، أوقفه، ثم أعد تشغيل الهاتف.</string>
+    <string name="voice_record">تسجيل رسالة صوتية</string>
+    <string name="voice_cancel">تجاهل التسجيل</string>
+    <string name="voice_recording">حتى %1$s</string>
+    <string name="voice_send">إرسال الرسالة الصوتية</string>
+    <string name="voice_play">تشغيل</string>
+    <string name="voice_pause">إيقاف مؤقت</string>
+    <string name="voice_receiving">جارٍ الاستلام…</string>
+    <string name="voice_preview">رسالة صوتية %1$s</string>
+    <string name="mic_denied">الميكروفون معطّل لـ Whospair. اسمح به في إعدادات Android لإرسال رسالة صوتية.</string>
+</resources>

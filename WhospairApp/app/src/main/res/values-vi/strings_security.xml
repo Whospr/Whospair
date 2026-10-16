@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Chọn mã PIN</string>
+    <string name="lock_hint_setup">Ít nhất 6 chữ số. Không thể khôi phục — nếu quên, mọi thứ sẽ mất.</string>
+    <string name="lock_title_confirm">Nhập lại</string>
+    <string name="lock_mismatch">Hai lần nhập không khớp. Hãy bắt đầu lại.</string>
+    <string name="lock_title_unlock">Nhập mã PIN của bạn</string>
+    <string name="lock_wrong">Sai mã PIN</string>
+    <string name="lock_attempts_left">Còn %1$d lần thử trước khi mọi thứ bị xóa</string>
+    <string name="lock_busy">Đang kiểm tra…</string>
+    <string name="lock_error">Đã xảy ra lỗi khi mở. Hãy thử lại.</string>
+    <string name="settings_lock_now">Khóa ngay</string>
+    <string name="settings_duress_title">Mã PIN khẩn cấp</string>
+    <string name="settings_duress_body">Mã PIN thứ hai, dùng khi khẩn cấp. Nhập nó ở màn hình khóa sẽ xóa mọi thứ — khóa, danh bạ, tin nhắn — và ứng dụng bắt đầu lại như mới cài.</string>
+    <string name="settings_duress_current">Mã PIN hiện tại</string>
+    <string name="settings_duress_new">Mã PIN khẩn cấp</string>
+    <string name="settings_duress_saved">Đã đặt mã PIN khẩn cấp.</string>
+    <string name="settings_duress_failed">Chưa đặt được: mã PIN hiện tại sai, hoặc mã PIN khẩn cấp quá ngắn, trùng hoặc khác độ dài.</string>
+</resources>

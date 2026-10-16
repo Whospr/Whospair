@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Thème XML minimal, référencé par android:theme dans le manifeste.
+    Il ne sert qu'à la fenêtre avant que Compose prenne la main : couleur de
+    fond et barres système. Les vraies couleurs de l'app vivent dans
+    theme/Theme.kt (Material 3 / Compose).
+
+    Sans ce fichier, @style/Theme.Whisper du manifeste ne résout pas
+    et le build échoue.
+-->
+<resources>
+
+    <style name="Theme.Whisper" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/whisper_background</item>
+        <item name="android:statusBarColor">@color/whisper_background</item>
+        <item name="android:navigationBarColor">@color/whisper_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

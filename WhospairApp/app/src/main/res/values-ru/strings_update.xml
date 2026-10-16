@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">Обновление</string>
+    <string name="update_state_current">Актуальная версия</string>
+    <string name="update_state_available">Доступна версия %1$s</string>
+    <string name="update_state_downloading">Загрузка %1$d %%</string>
+    <string name="update_state_installing">Установка…</string>
+    <string name="update_state_failed">Сбой</string>
+    <string name="update_body">Обновления приходят от ваших контактов, через Tor, без сервера. Каждая версия подписана разработчиком: Whospair проверяет подпись перед загрузкой, затем файл по ней, а Android проверяет, что версия подписана тем же ключом, что и ваше приложение. Изменённое приложение всегда отклоняется.</string>
+    <string name="update_available_body">Версию %1$s (%2$s) предлагает один из ваших контактов. Она загружается, пока Whospair открыт; при обрыве связи загрузка продолжится с места остановки.</string>
+    <string name="update_download">Загрузить и установить</string>
+    <string name="update_cancel">Отмена</string>
+    <string name="update_retry">Повторить</string>
+    <string name="update_permission_hint">Сначала Android должен разрешить Whospair устанавливать обновления. Разрешите, вернитесь и нажмите снова.</string>
+    <string name="update_permission_allow">Разрешить</string>
+    <string name="update_relaying">Вы передаёте версию %1$s своим подтверждённым контактам.</string>
+    <string name="update_import">Импортировать пакет обновления (.wup)</string>
+    <string name="update_import_unreadable">Файл не читается.</string>
+    <string name="update_import_invalid">Этот пакет не подписан разработчиком Whospair или повреждён. Ничего не установлено.</string>
+    <string name="update_import_installing">Подпись проверена. Android попросит подтвердить установку.</string>
+    <string name="update_import_relaying">Подпись проверена. Теперь этот телефон передаёт эту версию вашим подтверждённым контактам.</string>
+    <string name="update_import_mismatch">Это ваша версия, но установленное здесь приложение — не тот же файл. Передавать нечего.</string>
+    <string name="update_import_older">Этот пакет старше вашей версии. Ничего не установлено.</string>
+    <string name="update_failed_memory">Недостаточно памяти для загрузки.</string>
+    <string name="update_failed_corrupt">Полученный файл не соответствует подписи. Он отброшен.</string>
+    <string name="update_failed_install">Android отказал в установке.</string>
+    <string name="update_failed_signature">Эта версия подписана не тем ключом, что ваше приложение. Отклонено.</string>
+    <string name="update_banner">Доступно обновление</string>
+    <string name="update_notes_title">Что нового</string>
+    <string name="update_diffuser_retry">Источник недоступен, новая попытка через 10 с</string>
+    <string name="update_interrupted">Обновление прервано, новая попытка через 30 мин</string>
+    <string name="update_mandatory_title">Требуется обновление</string>
+    <string name="update_mandatory_body">Новая версия Whospair доступна уже более 5 дней. Установите её, чтобы продолжить пользоваться приложением: ваши обновлённые контакты больше не принимают старые версии.</string>
+</resources>

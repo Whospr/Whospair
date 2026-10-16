@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">در دسترس ماندن</string>
+    <string name="settings_on">روشن</string>
+    <string name="settings_stay_reachable_body">وقتی برنامه بسته است، نشانی شما برخط می‌ماند. مخاطبان می‌توانند برایتان بنویسند و تماس بگیرند.\n\nپیام‌های رسیده همان‌گونه که هستند، هنوز رمزشده، نگه داشته و بار دوم مهر و موم می‌شوند: فقط با پین شما باز می‌شوند. ناشناس‌هایی که پیوند شما را دارند باید تا باز شدن برنامه صبر کنند.\n\nاعلان فقط می‌گوید «Whospair به شما علامت می‌دهد»: بی‌نام و بی‌محتوا. برای یک تماس، Whospair را باز کنید، پین را وارد کنید و پاسخ دهید — مخاطب شما یک دقیقه به تماس ادامه می‌دهد.</string>
+    <string name="settings_stay_reachable_costs">بهای آن: کلید onion شما با برنامهٔ بسته در حافظه می‌ماند، Android اعلانی دائمی نشان می‌دهد، نشانی شما شبانه‌روز برخط است و باتری زودتر تمام می‌شود. پس از راه‌اندازی دوبارهٔ گوشی، تا پین را وارد نکنید چیزی کار نمی‌کند.</string>
+    <string name="settings_reach_enable">روشن کردن</string>
+    <string name="settings_reach_disable">خاموش کردن</string>
+    <string name="settings_reach_battery">اجازه در پس‌زمینه</string>
+    <string name="settings_reach_battery_hint">بدون این، Android ممکن است Whospair را به خواب ببرد و دیگر در دسترس نباشید.</string>
+    <string name="settings_reach_notifications_off">اعلان‌ها برای Whospair خاموش‌اند: پیام‌ها همچنان منتظر پین شما می‌مانند، اما چیزی از رسیدنشان خبرتان نمی‌کند.</string>
+    <string name="settings_reach_notifications_allow">روشن کردن اعلان‌ها</string>
+    <string name="settings_reach_hide_hint">تا Whospair در دسترس می‌ماند، Android یک اعلان «در دسترس» لازم دارد. می‌توانید آن را پنهان کنید: سرویس کار می‌کند و وضعیت در برنامه، کنار Tor، دیده می‌شود.</string>
+    <string name="settings_reach_hide">پنهان کردن اعلان</string>
+    <string name="reach_channel_service">در دسترس ماندن</string>
+    <string name="reach_channel_alert">کسی می‌خواهد به شما برسد</string>
+    <string name="reach_channel_call">تماس‌های ورودی</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">در دسترس</string>
+    <string name="reach_alert_title">Whospair به شما علامت می‌دهد</string>
+    <string name="reach_call_title">Whospair به شما علامت می‌دهد</string>
+    <string name="reach_call_text">برای پاسخ، Whospair را باز کنید و پین را وارد کنید.</string>
+</resources>

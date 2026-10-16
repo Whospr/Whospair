@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">訊息</string>
+    <string name="search_contact">搜尋聯絡人</string>
+    <string name="conversations_empty_title">還沒有對話</string>
+    <string name="conversations_empty_body">當面掃描對方的條碼來新增聯絡人。雙方都開啟應用程式時，就能互傳訊息。</string>
+    <string name="search_no_result">沒有這個名稱的聯絡人。</string>
+    <string name="add_contact">新增聯絡人</string>
+    <string name="scan_code">掃描條碼</string>
+    <string name="message_retry">重試</string>
+    <string name="message_sent">已傳送</string>
+    <string name="message_delivered">已送達</string>
+    <string name="read_lock_preview">閱讀已隱藏</string>
+    <string name="message_expires_in">%1$s 後消失</string>
+    <string name="ttl_button">訊息有效期限：%1$s</string>
+    <string name="send">傳送</string>
+    <string name="back">返回</string>
+    <string name="close">關閉</string>
+    <string name="confirm_identity">確認身分</string>
+    <string name="delete_contact_and_chat">刪除聯絡人和對話</string>
+    <string name="preview_none">沒有訊息</string>
+    <string name="preview_encrypted">加密訊息</string>
+    <string name="duration_days">%1$d 天</string>
+    <string name="message_placeholder">輸入訊息</string>
+    <string name="discover_code_caption">此條碼包含您的公開金鑰和 Tor 位址，別無其他。</string>
+    <string name="share_link">分享我的連結</string>
+    <string name="copy_link">複製連結</string>
+    <string name="link_copied">已複製連結</string>
+    <string name="memory_advice_title">手機記憶體</string>
+    <string name="memory_advice_body">Whospair 只在應用程式開啟時把金鑰保存在記憶體中。但有些手機會把部分記憶體複製到儲存空間，讓記憶體看起來更大（「虛擬記憶體」「記憶體擴充」）。這樣被複製的金鑰可能在 Whospair 關閉後仍留在手機上。</string>
+    <string name="memory_advice_how">關閉方法：在手機設定中找到「虛擬記憶體」或「記憶體擴充」，將其關閉，然後重新啟動手機。</string>
+    <string name="voice_record">錄製語音訊息</string>
+    <string name="voice_cancel">捨棄錄音</string>
+    <string name="voice_recording">最長 %1$s</string>
+    <string name="voice_send">傳送語音訊息</string>
+    <string name="voice_play">播放</string>
+    <string name="voice_pause">暫停</string>
+    <string name="voice_receiving">接收中…</string>
+    <string name="voice_preview">語音訊息 %1$s</string>
+    <string name="mic_denied">Whospair 的麥克風已關閉。請在 Android 設定中允許後再傳送語音訊息。</string>
+</resources>

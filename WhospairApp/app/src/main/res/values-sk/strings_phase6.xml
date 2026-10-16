@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor zapnutý</string>
+    <string name="tor_state_connecting">Pripája sa k Tor</string>
+    <string name="tor_state_offline">Tor vypnutý</string>
+    <string name="presence_reachable">dostupný/á</string>
+    <string name="ring_action">Zazvoniť</string>
+    <string name="ring_calling">Zvoním na %1$s…</string>
+    <string name="ring_incoming">%1$s Vám zvoní</string>
+    <string name="ring_accept">Prijať</string>
+    <string name="ring_decline">Ignorovať</string>
+    <string name="ring_cancel">Zastaviť</string>
+    <string name="ring_declined">%1$s ignoroval/a zvonenie</string>
+    <string name="ring_timeout">Bez odpovede</string>
+    <string name="ring_peer_offline">%1$s teraz nie je v aplikácii</string>
+    <string name="ring_busy">Relácia je už otvorená</string>
+    <string name="indicator_title">Čo to znamená</string>
+    <string name="indicator_channel_live">Tor beží a Vaša adresa je zverejnená. Kontakty, ktoré majú aplikáciu tiež otvorenú, sa k Vám dostanú, a Vy k nim.</string>
+    <string name="indicator_channel_none">Tor nie je pripravený. Nič sa nedá odoslať ani prijať a nikde sa nič neuchováva na neskôr.</string>
+    <string name="indicator_tunnel_on">Vaša prevádzka odchádza cez rozhranie VPN. Whospair vidí len toľko: nevie, aký je to poskytovateľ, ani či tunel neprepúšťa.</string>
+    <string name="indicator_tunnel_off">Vaša prevádzka odchádza priamo. Váš poskytovateľ siete vidí, že toto zariadenie používa Tor, a kedy — nie s kým hovoríte ani čo sa hovorí.</string>
+    <string name="indicator_dismiss">Zavrieť</string>
+    <string name="vpn_advice_title">O Vašej sieti</string>
+    <string name="vpn_advice_body">Whospair šifruje to, čo hovoríte, a Tor skrýva, komu to hovoríte. Ani jedno neskrýva, že používate Tor: ten, kto prenáša Vašu prevádzku, to vidí, v akom čase a ako často. VPN presúva tento pohľad k prevádzkovateľovi tunela. Je to skutočná zmena, ak sleduje práve ten, koho sa obávate.</string>
+    <string name="vpn_advice_caveat">VPN nie je záruka. Vyberáte si, kto sleduje, neodstraňujete pozorovateľa. Zvoľte takú, ktorej máte dôvod dôverovať, a radšej platenú než takú, ktorá sa financuje z Vašej prevádzky.</string>
+    <string name="contacts_title">Kontakty</string>
+    <string name="contacts_empty">Váš zoznam kontaktov je prázdny.</string>
+    <string name="contact_unconfirmed">Nepotvrdený</string>
+    <string name="contact_blocked">Zablokovaný</string>
+    <string name="chat_settings">Nastavenia rozhovoru</string>
+    <string name="chat_unconfirmed_banner">Táto osoba si Vás pridala cez Váš odkaz. Zatiaľ ste nepotvrdili, kto to je.</string>
+    <string name="chat_confirm">Potvrdiť</string>
+    <string name="chat_block">Zablokovať</string>
+    <string name="chat_unblock">Odblokovať</string>
+    <string name="chat_blocked_banner">Zablokované. Už sa k Vám nedostane.</string>
+    <string name="settings_rename">Meno</string>
+    <string name="settings_rename_hint">Toto meno vidíte len Vy.</string>
+    <string name="settings_save">Uložiť</string>
+    <string name="settings_safety_number">Bezpečnostné číslo</string>
+    <string name="settings_safety_hint">Porovnajte ho s kontaktom osobne alebo cez hovor. Rovnaké číslo na oboch telefónoch = nikto medzi vami.</string>
+    <string name="settings_confirm_trust">Overil/a som — potvrdiť tento kontakt</string>
+    <string name="settings_trusted">Potvrdený kontakt</string>
+    <string name="settings_block_hint">Zablokovaný kontakt sa už nemôže pripojiť ani Vám písať.</string>
+    <string name="settings_delete">Odstrániť kontakt</string>
+    <string name="settings_delete_confirm">Odstrániť tento kontakt a všetky správy? Ak má ešte Váš odkaz, môže sa vrátiť ako nepotvrdený — zablokujte ho, aby ste tomu zabránili.</string>
+    <string name="settings_delete_action">Odstrániť</string>
+</resources>

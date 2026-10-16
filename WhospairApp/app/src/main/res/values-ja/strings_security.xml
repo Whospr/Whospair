@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">PIN を決めてください</string>
+    <string name="lock_hint_setup">6 桁以上。復元はできません。忘れるとすべて失われます。</string>
+    <string name="lock_title_confirm">もう一度入力してください</string>
+    <string name="lock_mismatch">2 回の入力が一致しません。やり直してください。</string>
+    <string name="lock_title_unlock">PIN を入力してください</string>
+    <string name="lock_wrong">PIN が違います</string>
+    <string name="lock_attempts_left">すべて消去されるまで残り %1$d 回</string>
+    <string name="lock_busy">確認中…</string>
+    <string name="lock_error">開く際に問題が発生しました。もう一度お試しください。</string>
+    <string name="settings_lock_now">今すぐロック</string>
+    <string name="settings_duress_title">緊急用 PIN</string>
+    <string name="settings_duress_body">緊急時のための 2 つ目の PIN です。ロック画面で入力すると、鍵・連絡先・メッセージなどすべてが消去され、アプリはインストール直後の状態からやり直します。</string>
+    <string name="settings_duress_current">現在の PIN</string>
+    <string name="settings_duress_new">緊急用 PIN</string>
+    <string name="settings_duress_saved">緊急用 PIN を設定しました。</string>
+    <string name="settings_duress_failed">設定できませんでした：現在の PIN が違うか、緊急用 PIN が短すぎる、同じ、または桁数が異なります。</string>
+</resources>

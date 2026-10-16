@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">연락 가능 상태 유지</string>
+    <string name="settings_on">켬</string>
+    <string name="settings_stay_reachable_body">앱을 닫아도 주소는 온라인 상태로 유지됩니다. 연락처는 메시지를 보내거나 전화할 수 있습니다.\n\n도착한 메시지는 암호화된 그대로 보관되고 한 번 더 봉인됩니다. 내 PIN으로만 열 수 있습니다. 내 링크를 가진 모르는 사람은 앱이 열릴 때까지 기다려야 합니다.\n\n알림에는 \'Whospair가 부르고 있습니다\'라고만 표시되며, 이름도 내용도 없습니다. 전화를 받으려면 Whospair를 열고 PIN을 입력한 뒤 받으세요. 상대는 1분 동안 계속 전화합니다.</string>
+    <string name="settings_stay_reachable_costs">대가: 앱을 닫아도 onion 키가 메모리에 남고, Android가 상시 알림을 표시하며, 주소가 24시간 온라인이고, 배터리가 더 빨리 닳습니다. 휴대전화를 다시 시작하면 PIN을 입력할 때까지 아무것도 작동하지 않습니다.</string>
+    <string name="settings_reach_enable">켜기</string>
+    <string name="settings_reach_disable">끄기</string>
+    <string name="settings_reach_battery">백그라운드 허용</string>
+    <string name="settings_reach_battery_hint">허용하지 않으면 Android가 Whospair를 절전 상태로 만들어 연락할 수 없게 될 수 있습니다.</string>
+    <string name="settings_reach_notifications_off">Whospair 알림이 꺼져 있습니다. 메시지는 계속 PIN을 기다리지만, 도착했다는 사실을 알려 주지 않습니다.</string>
+    <string name="settings_reach_notifications_allow">알림 켜기</string>
+    <string name="settings_reach_hide_hint">Whospair가 연락 가능 상태인 동안 Android는 \'연락 가능\' 알림을 요구합니다. 숨길 수 있습니다. 서비스는 계속 작동하고, 상태는 앱 안의 Tor 옆에 표시됩니다.</string>
+    <string name="settings_reach_hide">알림 숨기기</string>
+    <string name="reach_channel_service">연락 가능 상태 유지</string>
+    <string name="reach_channel_alert">누군가 연락하려고 합니다</string>
+    <string name="reach_channel_call">수신 전화</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">연락 가능</string>
+    <string name="reach_alert_title">Whospair가 부르고 있습니다</string>
+    <string name="reach_call_title">Whospair가 부르고 있습니다</string>
+    <string name="reach_call_text">받으려면 Whospair를 열고 PIN을 입력하세요.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Zvoľte si PIN</string>
+    <string name="lock_hint_setup">Aspoň 6 číslic. Nedá sa obnoviť — ak ho zabudnete, všetko je stratené.</string>
+    <string name="lock_title_confirm">Zadajte ho znova</string>
+    <string name="lock_mismatch">Dve zadania sa nezhodujú. Začnite odznova.</string>
+    <string name="lock_title_unlock">Zadajte svoj PIN</string>
+    <string name="lock_wrong">Nesprávny PIN</string>
+    <string name="lock_attempts_left">Zostávajúce pokusy pred vymazaním všetkého: %1$d</string>
+    <string name="lock_busy">Overuje sa…</string>
+    <string name="lock_error">Pri otváraní sa niečo pokazilo. Skúste to znova.</string>
+    <string name="settings_lock_now">Zamknúť teraz</string>
+    <string name="settings_duress_title">Núdzový PIN</string>
+    <string name="settings_duress_body">Druhý PIN pre núdzové situácie. Jeho zadanie na zamknutej obrazovke vymaže všetko — kľúče, kontakty, správy — a aplikácia začne odznova ako čerstvo nainštalovaná.</string>
+    <string name="settings_duress_current">Aktuálny PIN</string>
+    <string name="settings_duress_new">Núdzový PIN</string>
+    <string name="settings_duress_saved">Núdzový PIN je nastavený.</string>
+    <string name="settings_duress_failed">Nenastavené: aktuálny PIN je nesprávny alebo je núdzový PIN príliš krátky, rovnaký či inej dĺžky.</string>
+</resources>

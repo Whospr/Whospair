@@ -1,0 +1,561 @@
+splash_tagline	生而私密
+tos_title	开始之前
+tos_warning	请仔细阅读。Whospair 的工作方式与您熟悉的聊天应用不同，其中一些差异无法挽回。
+tos_s1_title	1. 天生点对点
+tos_s1_body	Whospair 没有服务器。消息和通话直接在设备之间传输。没有人——包括我们——处于中间，存储您的数据，或能够将其交出。
+tos_s2_title	2. 责任在您
+tos_s2_body	本应用背后没有任何运营方。您发送什么、发给谁、如何处理收到的内容，完全由您负责。Whospair 是一个工具：其作者不对您的使用方式及其后果承担责任。
+tos_s3_title	3. 没有审核
+tos_s3_body	没有任何机构审查、过滤或删除内容。没有能送达任何人的举报按钮，因为另一端没有人。
+tos_s4_title	4. 端到端加密
+tos_s4_body	消息经过端到端加密（X25519 与 AES-256-GCM）并签名。通话经由 Tor 传输，加密密钥大约每十秒更换一次。
+tos_s5_title	5. 不在远端存储任何内容
+tos_s5_body	您的身份、联系人和消息只存在于这台设备上。卸载应用会将其清除。
+tos_s6_title	6. 无法恢复
+tos_s6_body	您的身份是一把加密密钥，而不是账户。丢失了就无法找回。没有密码重置，没有客服，也没有可恢复的备份。
+tos_s7_title	7. 仅限合法使用
+tos_s7_body	隐私工具保护正当的对话。用 Whospair 违法，依然是违法。
+tos_s8_title	8. 不提供担保
+tos_s8_body	本软件按原样提供，不保证可用性、正确性或适用于任何特定用途。
+tos_s9_title	9. 安全有其边界
+tos_s9_body	加密保护传输中的数据。它无法保护已被恶意软件、rootkit 入侵或正被他人握在手中的设备。
+tos_s10_title	10. 接受
+tos_s10_body	继续即表示您理解上述内容，尤其是丢失的身份无法恢复。
+tos_checkbox	我已阅读并接受这些条款
+tos_accept	接受
+tos_decline	拒绝
+tos_decline_dialog_title	拒绝这些条款？
+tos_decline_dialog_body	不接受条款，Whospair 就无法运行。应用将关闭。
+tos_decline_confirm	关闭应用
+tos_decline_cancel	返回
+tutorial_skip	跳过
+tutorial_next	下一步
+tutorial_back	上一步
+tutorial_start	开始使用
+tutorial_page_counter	%1$d / %2$d
+tutorial_p1_title	欢迎使用 Whospair
+tutorial_p1_body	消息和通话不会在任何服务器上留下痕迹，因为根本没有服务器。
+tutorial_p1_f1	端到端加密
+tutorial_p1_f2	无服务器，无账户
+tutorial_p1_f3	消息会自动过期
+tutorial_p1_f4	所有密钥都在您手中
+tutorial_p2_title	添加联系人
+tutorial_p2_body	没有用户名，也没有电话号码。双方直接交换密钥。
+tutorial_p2_s1	打开“添加”标签页
+tutorial_p2_s2	扫描对方的码，或让对方扫描您的码
+tutorial_p2_s3	对话已就绪
+tutorial_p2_note	新的身份意味着新的码。重新分享是恢复联系的唯一方法。
+tutorial_p3_title	发送消息
+tutorial_p3_body	每条消息从发送那一刻起就带有有效期。
+tutorial_p3_s1	打开一个对话
+tutorial_p3_s2	输入内容，然后选择它保留多久
+tutorial_p3_s3	发送
+tutorial_p4_title	有效期
+tutorial_p4_body	选择与您所说内容相称的时长。到期后，消息会在两台设备上同时删除。
+tutorial_p4_note	越短越安全。仍在屏幕上的内容也仍在磁盘上。
+tutorial_p5_title	一切由您掌控
+tutorial_p5_body	开始前值得了解的几件事。
+tutorial_p5_f1	屏蔽或删除任何联系人
+tutorial_p5_f2	一次删除整个对话
+tutorial_p5_f3	用 PIN 码锁定应用
+tutorial_p5_f4	密钥永远不会离开这台设备
+identity_creating_title	正在创建您的身份
+identity_creating_body	正在这台设备上生成密钥对，请稍候。
+identity_ready_title	这就是您
+identity_ready_body	您的密钥已就绪。现在请设置 PIN 码：它负责封存密钥。您的二维码之后会在“添加”中等着您。
+identity_warning	您的私钥留在这台设备上，永远不会显示。如果丢失这台设备，这个身份将永远丢失。
+identity_continue	继续
+identity_error_title	无法创建您的身份
+identity_retry	重试
+nav_home	消息
+nav_contacts	联系人
+nav_calls	通话
+nav_discover	添加
+nav_settings	设置
+ttl_5m	5 分钟
+ttl_15m	15 分钟
+ttl_1h	1 小时
+ttl_5h	5 小时
+ttl_8h	8 小时
+ttl_24h	24 小时
+ttl_7d	7 天
+discover_title	添加联系人
+discover_subtitle	把您的码给对方看，或扫描对方的码。面对面，您知道自己在和谁说话。
+discover_scan_title	扫描对方的码
+discover_scan_body	将相机对准对方的二维码
+discover_mycode_title	出示我的码
+discover_mycode_body	让别人添加您
+discover_manual_title	或粘贴收到的链接
+discover_manual_hint	whospair:… 或 64 个十六进制字符
+discover_add	添加此联系人
+discover_fingerprint	用于口头核对的指纹
+discover_copy_link	复制邀请链接
+add_ok	已添加 %1$s。您可以开始对话了。
+add_already	%1$s 已在您的联系人中。
+add_blocked	%1$s 在您的联系人中，但已被屏蔽。
+add_self	这是您自己的密钥。您不能添加自己。
+add_malformed	此密钥无效。公钥由 64 个十六进制字符组成。
+add_not_whisper	此码不是 Whospair 密钥。
+add_unblock	取消屏蔽
+add_unblocked	已取消屏蔽 %1$s。
+scan_instruction	对准您要添加的二维码
+scan_permission_title	需要相机权限
+scan_permission_body	扫码需要使用相机。不会录制，也不会发送任何内容。
+scan_permission_denied	相机权限被拒绝。您可以在设备设置中开启，或手动粘贴密钥。
+scan_permission_grant	允许使用相机
+scan_use_manual	改为粘贴密钥
+contact_block	屏蔽
+contact_unblock	取消屏蔽
+contact_delete	删除联系人
+contact_delete_confirm	删除此联系人及整个对话？此操作无法撤销。
+contact_blocked_notice	已屏蔽。来自此联系人的消息将被拒收。
+common_dismiss	关闭
+common_loading	正在加载…
+common_cancel	取消
+common_error	出了点问题
+chat_today	今天
+chat_yesterday	昨天
+message_pending	发送中
+message_failed	未发送，联系人无法连接
+tutorial_pin_title	您的 PIN 码，只有您的 PIN 码
+tutorial_pin_body	Whospair 中的一切都锁在您下一步设置的 PIN 码之后。忘记它，就什么也无法恢复。
+tutorial_pin_f1	连续十次输错会清除一切
+tutorial_pin_f2	胁迫 PIN 码（在设置中设定）输入后会清除一切：在被胁迫或身处危险时使用
+tutorial_pin_f3	不用指纹或面部解锁：别人可以强按您的手指，却无法逼出一串密码
+tutorial_pin_note	应用转入后台时会自动锁定。
+call_action	通话
+call_connecting	正在通过 Tor 联系对方…
+call_ringing	正在呼叫…
+call_incoming	来电
+call_answer	接听
+call_decline	拒绝
+call_cancel	取消
+call_hang_up	挂断
+call_mute	静音
+call_unmute	取消静音
+call_speaker	扬声器
+call_earpiece	听筒
+call_delay_hint	经由 Tor，您的声音大约会延迟一秒到达。回答前请稍作停顿。
+call_ended	通话已结束
+call_declined	已拒绝
+call_busy	对方正在通话中
+call_no_answer	无人接听
+call_unreachable	暂时无法连接。请稍后再试。
+call_lost	连接中断
+call_mic_denied	Whospair 的麦克风已关闭。请在 Android 设置中允许后再通话。
+call_not_confirmed	请先确认此联系人。只有已确认的联系人才能互相通话。
+call_log_outgoing	呼出通话 · %1$s
+call_log_incoming	呼入通话 · %1$s
+call_log_missed	未接来电
+call_log_refused	通话被拒绝
+call_log_no_answer	通话无人接听
+call_log_busy	通话：对方正在通话中
+call_log_unreachable	通话未能接通
+call_log_cancelled	通话已取消
+messages_title	消息
+search_contact	搜索联系人
+conversations_empty_title	还没有对话
+conversations_empty_body	当面扫描对方的码来添加联系人。当双方都打开应用时，就可以给对方发消息。
+search_no_result	没有这个名字的联系人。
+add_contact	添加联系人
+scan_code	扫码
+message_retry	重试
+message_sent	已发送
+message_delivered	已送达
+read_lock_preview	阅读已隐藏
+message_expires_in	%1$s 后消失
+ttl_button	消息有效期：%1$s
+send	发送
+back	返回
+close	关闭
+confirm_identity	确认身份
+delete_contact_and_chat	删除联系人和对话
+preview_none	没有消息
+preview_encrypted	加密消息
+duration_days	%1$d 天
+message_placeholder	输入消息
+discover_code_caption	此码包含您的公钥和 Tor 地址，别无其他。
+share_link	分享我的链接
+copy_link	复制链接
+link_copied	链接已复制
+memory_advice_title	手机内存
+memory_advice_body	Whospair 只在应用打开时把密钥保存在内存中。但有些手机会把部分内存复制到存储中，让内存看起来更大（“虚拟内存”“内存扩展”）。这样被复制的密钥可能会在 Whospair 关闭后仍留在手机上。
+memory_advice_how	关闭方法：在手机设置中找到“虚拟内存”或“内存扩展”，将其关闭，然后重启手机。
+voice_record	录制语音消息
+voice_cancel	放弃录音
+voice_recording	最长 %1$s
+voice_send	发送语音消息
+voice_play	播放
+voice_pause	暂停
+voice_receiving	接收中…
+voice_preview	语音消息 %1$s
+mic_denied	Whospair 的麦克风已关闭。请在 Android 设置中允许后再发送语音消息。
+tor_state_live	Tor 已开启
+tor_state_connecting	正在连接 Tor
+tor_state_offline	Tor 已关闭
+presence_reachable	可联系
+ring_action	响铃
+ring_calling	正在向 %1$s 响铃…
+ring_incoming	%1$s 在向您响铃
+ring_accept	接听
+ring_decline	忽略
+ring_cancel	停止
+ring_declined	%1$s 忽略了响铃
+ring_timeout	无人响应
+ring_peer_offline	%1$s 现在不在应用中
+ring_busy	已有一个会话正在进行
+indicator_title	这表示什么
+indicator_channel_live	Tor 正在运行，您的地址已发布。同样打开了应用的联系人可以联系您，您也可以联系他们。
+indicator_channel_none	Tor 尚未就绪。无法发送或接收任何内容，也没有任何内容被存放在别处留待以后。
+indicator_tunnel_on	您的流量正经由 VPN 接口出去。Whospair 只能看到这一点：它不知道是哪家服务商，也不知道隧道是否泄漏。
+indicator_tunnel_off	您的流量直接出去。您的网络服务商可以看到这台设备在使用 Tor 以及使用的时间——但看不到您在和谁说话，也看不到说了什么。
+indicator_dismiss	关闭
+vpn_advice_title	关于您的网络
+vpn_advice_body	Whospair 加密您说的内容，Tor 隐藏您在对谁说。两者都无法隐藏您在使用 Tor：承载您流量的一方能看到这一点、在什么时间以及多频繁。VPN 会把这个视角转移给隧道运营方。如果监视者恰恰是您担心的那一方，这就是实实在在的改变。
+vpn_advice_caveat	VPN 不是保证。您是在选择由谁来看，而不是消除旁观者。请选择一个您有理由信任的服务，并优先选择付费服务，而不是靠您的流量来盈利的服务。
+contacts_title	联系人
+contacts_empty	您的联系人列表是空的。
+contact_unconfirmed	未确认
+contact_blocked	已屏蔽
+chat_settings	对话设置
+chat_unconfirmed_banner	此人通过您的链接添加了您。您尚未确认对方的身份。
+chat_confirm	确认
+chat_block	屏蔽
+chat_unblock	取消屏蔽
+chat_blocked_banner	已屏蔽。对方再也无法联系您。
+settings_rename	名称
+settings_rename_hint	只有您能看到这个名称。
+settings_save	保存
+settings_safety_number	安全码
+settings_safety_hint	当面或通过通话与联系人核对。两台手机上的号码相同 = 中间没有人。
+settings_confirm_trust	我已核对——确认此联系人
+settings_trusted	已确认的联系人
+settings_block_hint	被屏蔽的联系人无法再连接您或给您发消息。
+settings_delete	删除联系人
+settings_delete_confirm	删除此联系人及所有消息？如果对方仍有您的链接，可能会以未确认身份回来——屏蔽对方即可避免。
+settings_delete_action	删除
+settings_section_profile	个人资料
+profile_photo	头像
+profile_photo_hint	裁剪为 256 像素，去除元数据，仅通过 Tor 发送。
+profile_photo_choose	选择
+profile_photo_remove	移除
+profile_photo_error	无法读取此图片。
+profile_photo_visibility	谁能看到我的头像
+profile_photo_everyone	所有能联系到我的人
+profile_photo_everyone_hint	包括未确认的联系人
+profile_photo_confirmed	已确认的联系人
+profile_photo_hidden	任何人都不行
+settings_gaze_shield	由相机遮挡屏幕
+settings_gaze_shield_body	前置摄像头会看屏幕前是谁。一切都留在手机上：不保存也不发送任何图像。Whospair 打开期间，Android 的相机指示灯会一直亮着，耗电也会更快。把手机屏幕朝下放在桌上，屏幕总会变黑。
+settings_off	关闭
+settings_gaze_look_away	当我移开视线时
+settings_gaze_onlooker	当有旁人在看时
+settings_gaze_onlooker_hint	您身后出现第二张脸。这能降低风险，但无法消除：侧面、远处或黑暗中的脸可能不会被察觉。
+alert_someone	有人想联系您
+alert_bip	%1$s 在呼叫您
+alert_open	打开
+nudge_title	提醒一下
+nudge_hint	让对方的 Whospair 振动。
+nudge_action	提醒一下
+nudge_sent	提醒已发送。
+nudge_unreachable	暂时无法联系：对方的 Whospair 未打开。
+nudge_received	%1$s 提醒了您
+private_mode_title	私密模式
+private_mode_off_hint	您在此对话中在线且可被联系。
+private_mode_on_hint	您在此对话中已不可被联系。
+private_mode_enable	开启私密模式
+private_mode_disable	关闭私密模式
+private_mode_banner	此对话已开启私密模式。您只在发送消息后的一分钟内可被联系。若要保持可联系，请关闭私密模式。
+file_generic	文件
+file_attach	添加附件
+file_view_once	仅查看一次
+file_sending	发送中 %1$d %%
+file_receiving	接收中 %1$d %%
+file_send_title	发送此文件？
+file_allow_save	允许保存
+file_allow_save_hint	否则只能在 Whospair 内打开。
+file_view_once_option	仅查看一次
+file_view_once_hint	首次打开后会从联系人的手机上清除。
+file_send	发送
+file_too_big	文件过大：最多 25 MB。
+file_unreadable	无法读取的文件。
+file_viewer_pending	这类文件很快就能在 Whospair 内打开。
+input_more	更多：有效期 %1$s、提醒、文件
+input_ttl	有效期 · %1$s
+input_file	文件
+notice_forwarded	%1$s 将“%2$s”转发给了另一位联系人
+notice_shared	%1$s 将“%2$s”分享给了其他应用
+notice_saved	%1$s 将“%2$s”保存到了手机上
+notice_opened	%1$s 在其他应用中打开了“%2$s”
+notice_viewed	%1$s 查看了“%2$s”（仅查看一次）
+notice_you_forwarded	您转发了“%1$s”；发送者会收到通知
+notice_you_shared	您分享了“%1$s”；发送者会收到通知
+notice_you_saved	您保存了“%1$s”；发送者会收到通知
+notice_you_opened	您在别处打开了“%1$s”；发送者会收到通知
+notice_you_viewed	您查看了“%1$s”；它已被清除
+notice_preview	关于某个文件的通知
+file_share	分享
+file_open_with	打开方式…
+file_open_elsewhere_hint	Whospair 无法显示此文件。顶部的“打开方式…”会把它暂时借给另一个应用，不会复制；发送者会收到通知。
+media_play	播放
+media_pause	暂停
+share_forward	发送给联系人
+share_outside	分享给其他应用
+share_save	保存到手机
+share_sender_told	发送者会收到通知，但不会知道您发给了谁。
+forward_title	发送给…
+forward_none	没有其他已确认的联系人。
+selection_count	已选择 %1$d 项
+selection_cancel	取消选择
+delete_selected_title	删除 %1$d 项？
+delete_selected_body	立即从这台手机上清除，无需等到有效期结束。尚未发送的内容将不再发送。联系人那边的副本会在其自身有效期结束时消失。
+delete_selected_action	删除
+file_cancel	取消发送
+notice_cancelled	%1$s 取消了文件发送
+notice_you_cancelled	您取消了文件发送
+file_incoming	有文件正在传来…
+settings_stay_reachable	保持可联系
+settings_on	开启
+settings_stay_reachable_body	应用关闭时，您的地址依然在线。联系人可以给您发消息、打电话。\n\n收到的消息会原样保存，依然加密，并被再封存一次：只有您的 PIN 码才能打开。持有您链接的陌生人需要等到应用打开。\n\n通知只会显示“Whospair 在呼叫您”：没有名字，没有内容。来电时，打开 Whospair，输入 PIN 码后接听——对方会持续呼叫一分钟。
+settings_stay_reachable_costs	代价：应用关闭时，您的 onion 密钥仍留在内存中；Android 会显示常驻通知；您的地址全天在线；耗电更快。手机重启后，在您输入 PIN 码之前什么都不会运行。
+settings_reach_enable	开启
+settings_reach_disable	关闭
+settings_reach_battery	允许在后台运行
+settings_reach_battery_hint	否则 Android 可能让 Whospair 休眠，您将无法被联系。
+settings_reach_notifications_off	Whospair 的通知已关闭：消息仍会等待您的 PIN 码，但不会有任何提示告诉您它们已到达。
+settings_reach_notifications_allow	开启通知
+settings_reach_hide_hint	Whospair 保持可联系期间，Android 要求显示一条“可联系”通知。您可以隐藏它：服务继续运行，状态显示在应用内 Tor 旁边。
+settings_reach_hide	隐藏通知
+reach_channel_service	保持可联系
+reach_channel_alert	有人想联系您
+reach_channel_call	来电
+reach_service_title	Whospair
+reach_service_text	可联系
+reach_alert_title	Whospair 在呼叫您
+reach_call_title	Whospair 在呼叫您
+reach_call_text	打开 Whospair 并输入 PIN 码即可接听。
+new_chat	新对话
+contacts_group_confirmed	已确认
+contacts_group_unconfirmed	待确认
+contacts_group_blocked	已屏蔽
+contacts_scan	扫描二维码
+contacts_show_qr	出示我的二维码
+profile_title	我的资料
+profile_photo_change	更换头像
+settings_appearance	外观
+appearance_auto	自动
+appearance_auto_hint	跟随系统设置
+appearance_day	日间
+appearance_night	夜间
+settings_background	对话背景
+settings_background_hint	所有对话共用同一背景。主界面会采用它的颜色。
+bg_ink	墨色
+bg_sage	鼠尾草
+bg_slate	石板
+bg_plum	梅子
+bg_sand	沙色
+bg_plain	纯色
+settings_page_lock	锁定
+settings_page_lock_sub	PIN 码、胁迫 PIN 码、立即锁定
+settings_page_discretion	隐蔽
+settings_page_discretion_sub	消息有效期、屏幕隐藏、头像
+settings_page_network	网络
+settings_page_identity_sub	二维码、新身份
+settings_page_about_sub	隐私、版本
+reach_short	关闭时仍可联系
+lock_title_setup	设置 PIN 码
+lock_hint_setup	至少 6 位数字。无法找回——忘记它，一切都会丢失。
+lock_title_confirm	再输入一次
+lock_mismatch	两次输入不一致。请重新开始。
+lock_title_unlock	输入您的 PIN 码
+lock_wrong	PIN 码错误
+lock_attempts_left	还剩 %1$d 次机会，之后将清除一切
+lock_busy	正在验证…
+lock_error	打开时出错了。请重试。
+settings_lock_now	立即锁定
+settings_duress_title	胁迫 PIN 码
+settings_duress_body	第二个 PIN 码，用于紧急情况。在锁屏界面输入它会清除一切——密钥、联系人、消息——应用会像刚安装时一样重新开始。
+settings_duress_current	当前 PIN 码
+settings_duress_new	胁迫 PIN 码
+settings_duress_saved	胁迫 PIN 码已设置。
+settings_duress_failed	未设置：当前 PIN 码错误，或胁迫 PIN 码太短、相同或长度不同。
+read_lock_title	阅读
+read_lock_off_hint	回到此对话时，消息依然可读。
+read_lock_on_hint	消息已隐藏。输入代码即可在本次查看时阅读。
+read_lock_open_hint	在您离开此对话前均可阅读。
+read_lock_enable	用代码隐藏消息
+read_lock_unlock	解锁阅读
+read_lock_disable	不再隐藏消息
+read_lock_banner	消息已隐藏。请在设置中解锁阅读。
+read_lock_masked	••••••
+message_unreadable	[无法读取的消息]
+read_code_new	设置 4 位代码
+read_code_confirm	再输入一次
+read_code_enter	阅读代码
+read_code_mismatch	两次代码不一致。请重新开始。
+read_code_wrong	代码错误
+settings_section_security	安全
+settings_section_identity	我的身份
+settings_section_network	网络
+settings_section_about	关于
+settings_change_pin	更改 PIN 码
+settings_new_pin	新 PIN 码
+settings_pin_changed	PIN 码已更改。
+settings_pin_changed_duress_removed	PIN 码已更改。由于长度改变，胁迫 PIN 码已被移除：请用相同长度重新设置。
+settings_pin_rejected	未更改：此 PIN 码太短，或者是您的胁迫 PIN 码。
+settings_duress_same_length	与您的 PIN 码位数相同。
+settings_default_ttl	默认消息有效期
+settings_default_ttl_hint	用于所有对话，直到您在某个对话中另选其他时长。
+settings_mask_all	在所有对话中隐藏阅读
+settings_mask_all_hint	为所有尚未隐藏的对话设置同一个代码。已有代码的对话保留原代码。
+settings_mask_all_done	完成。现在每个对话都会要求输入代码。
+settings_wipe_now	立即清除一切
+settings_wipe_confirm	立即清除密钥、联系人和消息？将无法恢复任何内容。应用会像刚安装时一样重新开始。
+settings_wipe_action	清除一切
+settings_my_qr	我的二维码和链接
+settings_new_identity	新身份
+settings_new_identity_confirm	新的密钥和新的地址：您当前的链接和二维码将失效。所有联系人和消息都会被清除——联系人需要重新添加您。应用将重新启动。
+settings_new_identity_action	创建新身份
+settings_tor_state	Tor
+tor_state_ready	已连接
+tor_state_starting	正在启动… %1$d%%
+tor_state_failed	失败——轻触以重启
+tor_state_off	已关闭
+tor_state_reconnecting	网络中断——正在重新连接…
+settings_restart_tor_confirm	重启 Tor 会重启应用。您需要重新输入 PIN 码。
+settings_restart_tor_action	重启
+about_title	Whospair 是什么
+about_body	一款为彼此有敏感话要说的人准备的通讯应用。在 Whospair 中说的话，只存在于两部手机上，只在选定的时间内存在，别处都没有。\n\n没有服务器。没有任何服务器转发、存储或看到您的交流。每部手机都是 Tor 网络上它自己的接入点；消息直接从一部手机传到另一部。\n\n没有账户。没有号码，没有邮箱，没有真实姓名。您的身份是在这部手机上生成的一对密钥。彼此通过扫描二维码添加，当面或通过链接均可。\n\n端到端加密。消息、语音、文件和通话在离开手机前就已加密，然后经由 Tor 传输，Tor 会隐藏您的 IP 地址。\n\n阅后即逝。每条消息都有选定的有效期，到期后在双方都会消失。不会在其他任何地方备份。\n\n实时在线。只能联系到打开了应用、或开启了“保持可联系”的人。\n\n手机上的保护。一切都在您的 PIN 码之下加密。输错十次 PIN 码，或输入胁迫 PIN 码，都会清除一切。\n\n免责声明。Whospair 是一个工具。您如何使用它，完全由您自己负责。它按原样提供，不附带任何担保，其作者不对其使用及后果承担责任。
+privacy_title	隐私政策
+privacy_body	Whospair 不收集任何信息。没有任何服务器接收您的数据，因此也没有人能分析您的数据或将其交给第三方。\n\n应用绝不会做的事：用户画像、出售数据、广告、跟踪代码、发送崩溃报告、读取通讯录、定位。任何第三方公司都收不到任何东西，既没有数据，也没有使用信号：应用只与 Tor 网络、你的联系人以及它的更新分发者通信。\n\n加密保存在这部手机上的内容：您的密钥、联系人、消息和文件——直到到期、被您删除，或输错 10 次 PIN 码。发送的照片会去除元数据（位置、设备型号）。\n\n他人仍能看到的：您的网络运营商能看到这部手机在使用 Tor，但看不到对象，也看不到内容。您的联系人能看到您发给他的内容，以及在您允许时看到您的头像。\n\n更新。应用每天一次通过 Tor 悄悄询问是否有更新的版本。这个请求只包含版本号：没有身份，没有联系人，没有消息。\n\n为什么每天都要？因为最新版本会拒绝与过旧的版本通信。这是有意为之：旧版本可能存在漏洞。如果不更新，你将无法再联系亲友和同事；只有更新还能送达你。\n\nWhospair 在不断演进，因此更新频繁。漏洞可能在任何人察觉之前就被发现并利用。快速修复，才能让你的数据不落入不法之手。\n\n您的权利。由于不收集任何信息，我们这边没有任何内容可供查阅、更正或删除。一切都在您手中：卸载应用即可清除一切。\n\n责任。您发送什么、发给谁、如何处理收到的内容，都由您本人负全责。Whospair 按原样提供，不附带任何担保。
+version_title	版本
+version_fingerprint_hint	签署此应用的证书指纹。请与作者公布的指纹比对：如果不同，这就不是正版应用。
+update_title	更新
+update_state_current	已是最新
+update_state_available	有新版本 %1$s
+update_state_downloading	正在下载 %1$d %%
+update_state_installing	正在安装…
+update_state_failed	失败
+update_body	更新来自您的联系人，经由 Tor，没有服务器。每个版本都由开发者签名：Whospair 在下载前先验证签名，再用签名核对文件；Android 会检查它与您现有应用使用的是同一把签名密钥。被修改的应用一律拒绝。
+update_available_body	您的一位联系人提供了版本 %1$s（%2$s）。它会在 Whospair 打开时下载；如果连接中断，会从中断处继续。
+update_download	下载并安装
+update_cancel	取消
+update_retry	重试
+update_permission_hint	Android 需要先允许 Whospair 安装更新。请允许，返回后再轻触一次。
+update_permission_allow	允许
+update_relaying	您正在把版本 %1$s 传给已确认的联系人。
+update_import	导入更新包（.wup）
+update_import_unreadable	无法读取的文件。
+update_import_invalid	此更新包不是由 Whospair 开发者签名的，或已损坏。未安装任何内容。
+update_import_installing	签名已验证。Android 会请您确认安装。
+update_import_relaying	签名已验证。这部手机现在会把此版本传给您已确认的联系人。
+update_import_mismatch	这是您的版本，但这里安装的应用不是同一个文件。没有可传递的内容。
+update_import_older	此更新包比您的版本旧。未安装任何内容。
+update_failed_memory	内存不足，无法下载。
+update_failed_corrupt	收到的文件与签名不符，已丢弃。
+update_failed_install	Android 拒绝了安装。
+update_failed_signature	此版本与您的应用不是用同一把密钥签名的。已拒绝。
+update_banner	有可用更新
+settings_language	语言
+language_auto	手机语言
+tutorial_live_title	仅在线时可联系
+tutorial_live_body	Whospair 不会把任何内容留在服务器上等待。只有当联系人打开了应用，或开启了“保持可联系”时，消息才会发出。
+tutorial_live_f1	Tor 旁边的圆点：绿色表示在线；橙色表示正在连接
+tutorial_live_f2	首次连接可能需要几秒，有时一分钟
+tutorial_live_f3	名字下方显示“可联系”：对方此刻就在
+tutorial_confirm_title	确认联系人
+tutorial_confirm_body	扫一次码就能对话。但只持有您链接的人会显示为“待确认”。
+tutorial_confirm_f1	当面或通过通话核对安全码
+tutorial_confirm_f2	两部手机上的号码相同：中间没有人
+tutorial_confirm_f3	只有已确认的联系人才能给您打电话和提醒您
+tutorial_discreet_title	隐蔽
+tutorial_discreet_body	在身边有人时保护您。
+tutorial_discreet_f1	把手机屏幕朝下放在桌上：屏幕变黑
+tutorial_discreet_f2	阅读代码：对话在输入代码前保持隐藏
+tutorial_discreet_f3	私密模式：只有您给对方发消息时，对方才能联系到您
+update_check	检查更新
+update_checking	正在检查…
+chat_peer_outdated	该联系人使用的 Whospair 版本过旧。在其更新之前，什么都不会传递——但更新本身仍会送达。
+ttl_never	永不
+reply_cancel	取消回复
+input_emoji	表情
+reply_you	您
+share_app	分享 Whospair
+share_app_sub	直接发送应用本身，无需应用商店
+copy_action	复制
+copy_title	选择要复制的部分
+copy_all	全部复制
+copy_done	已复制
+delete_everyone_body	“所有人”也会删除对方的副本，且不会有任何提示。如果对方暂时联系不上，只要 Whospair 保持打开，一旦联系上就会发出删除。
+select_more	选择多条
+delete_everyone_action	为所有人删除
+licenses_title	许可证
+update_notes_title	新内容
+tut_welcome_title	欢迎使用 Whospair
+tut_welcome_body	不在服务器上留下任何痕迹的消息和通话，因为根本没有服务器。
+tut_welcome_f1	端到端加密，无需账户：密钥属于你
+tut_welcome_f2	当联系人打开应用或开启“保持可联系”时，消息才会发出
+tut_welcome_f3	Tor 旁边的圆点：绿色为在线；橙色为连接中（有时需要一分钟）
+tut_add_title	添加与信任
+tut_add_body	没有用户名，也没有电话号码：你们交换密钥。扫描对方的二维码，或让对方扫描你的。
+tut_add_f1	待确认：仅凭你的链接而来。可以收到其消息，但对方无法打电话或打招呼
+tut_add_f2	已确认：你添加或接受了对方
+tut_add_f3	已验证：面对面互相扫描了安全码。没有人插入你们之间
+tut_write_title	书写，然后抹去
+tut_write_body	每条消息在发送时选定存在时长；到期后在双方都会消失。
+tut_write_f1	越短越安全：屏幕上显示的内容仍在存储中
+tut_write_f2	为所有人删除：从联系人手机上删除你的消息
+tut_write_f3	双方抹除：如果双方都同意，任何一方都可以随时为双方抹去全部内容
+tutorial_discreet_f5	快捷设置中的“锁定 Whospair”磁贴：一触即可关闭应用
+tile_lock	锁定 Whospair
+contact_verified	已验证
+verify_title	当面验证
+verify_hint	当面互相扫描对方的安全码
+verify_done	已当面验证
+verify_body	向联系人出示此码并扫描对方的码。如果一致，就没有人插入你们之间。
+verify_scan	扫描对方的码
+verify_ok	安全码一致：联系人已验证。
+verify_fail	此码不一致。在查明之前，请不要信任此联系人。
+wipe_title	双方抹除
+wipe_off	已关闭。如果你提议，联系人需要同意。
+wipe_asked	正在等待联系人同意。
+wipe_to_answer	你的联系人提议：任何一方都可以随时为双方抹去全部内容。
+wipe_on	已开启：任何一方都可以随时为双方抹去全部内容。
+wipe_propose	提议
+wipe_accept	接受
+wipe_refuse	拒绝
+wipe_cancel	取消请求
+wipe_disable	关闭
+wipe_now	为双方抹除对话
+wipe_confirm	整个对话将在两部手机上抹除，无法撤销。
+wipe_action	全部抹除
+wipe_banner	%1$s 提议双方抹除
+settings_gaze_owner	仅限我的脸
+settings_gaze_owner_hint	屏幕只为你打开
+face_intro_title	仅限我的脸
+face_intro_body	只有当你本人看着屏幕时，屏幕才会打开。换成其他人，或者无人注视时，屏幕保持黑色。\n\n如果你的面容发生变化（受伤、浮肿、胡须、眼镜），可能无法再被识别，屏幕将保持黑色。屏幕底部的“用 PIN 关闭遮挡”始终可以用你的解锁码使用。之后你可以重新录入面容。\n\n此按钮遵循与锁屏相同的规则：在这里输入胁迫 PIN 会抹去一切，连续 10 次输错也一样。\n\n这是防止他人偷看的保护，不是锁：真正的保护仍是你的 PIN。一切都在手机上完成：面容以加密数字的形式保存，绝不保存照片。
+face_intro_ok	我明白了
+face_enroll_title	录入我的面容
+face_enroll_body	在光线充足的地方看着屏幕几秒钟。
+face_enroll_ok	你的面容已录入。
+face_enroll_fail	未能识别面容。请到明亮处，正视屏幕，然后重试。
+face_reenroll	重新录入面容
+face_disable_pin	用 PIN 关闭遮挡
+tutorial_discreet_f4	摄像头（可选）：当你移开视线、有他人注视或不是你的脸时，屏幕会被遮住。全部在手机上处理，不会记录任何内容
+conv_pin	置顶
+conv_unpin	取消置顶
+conv_pinned	已置顶
+update_diffuser_retry	无法连接来源，10 秒后重试
+update_mandatory_title	需要更新
+update_mandatory_body	Whospair 的新版本已发布超过 5 天。请安装后继续使用：已更新的联系人不再接受旧版本。
+gaze_manual	手动
+gaze_manual_hint	在暗处等情况下，可用 PIN 关闭。
+gaze_auto	自动
+gaze_auto_hint	光线不足的 20 点至 6 点关闭。
+shield_choice_title	关闭屏幕遮挡
+shield_pause_10	10 分钟
+shield_disable_all	完全关闭
+shield_pause_over_title	暂停结束
+shield_pause_over_body	屏幕遮挡已重新开启。
+shield_keep_paused	暂时保持关闭
+update_interrupted	更新已中断，30 分钟后重试

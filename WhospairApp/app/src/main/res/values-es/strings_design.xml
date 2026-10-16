@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Mensajes</string>
+    <string name="search_contact">Buscar un contacto</string>
+    <string name="conversations_empty_title">Aún no hay conversaciones</string>
+    <string name="conversations_empty_body">Añada a alguien escaneando su código, cara a cara. Podrá escribirle cuando ambos tengan la aplicación abierta.</string>
+    <string name="search_no_result">Ningún contacto con ese nombre.</string>
+    <string name="add_contact">Añadir un contacto</string>
+    <string name="scan_code">Escanear un código</string>
+    <string name="message_retry">Reintentar</string>
+    <string name="message_sent">Enviado</string>
+    <string name="message_delivered">Entregado</string>
+    <string name="read_lock_preview">Lectura oculta</string>
+    <string name="message_expires_in">Se borra en %1$s</string>
+    <string name="ttl_button">Duración del mensaje: %1$s</string>
+    <string name="send">Enviar</string>
+    <string name="back">Atrás</string>
+    <string name="close">Cerrar</string>
+    <string name="confirm_identity">Confirmar identidad</string>
+    <string name="delete_contact_and_chat">Eliminar contacto y conversación</string>
+    <string name="preview_none">Sin mensajes</string>
+    <string name="preview_encrypted">Mensaje cifrado</string>
+    <string name="duration_days">%1$d d</string>
+    <string name="message_placeholder">Escriba un mensaje</string>
+    <string name="discover_code_caption">Este código contiene sus claves públicas y su dirección Tor. Nada más.</string>
+    <string name="share_link">Compartir mi enlace</string>
+    <string name="copy_link">Copiar el enlace</string>
+    <string name="link_copied">Enlace copiado</string>
+    <string name="memory_advice_title">Memoria del teléfono</string>
+    <string name="memory_advice_body">Whospair guarda sus claves en memoria solo mientras la aplicación está abierta. Pero algunos teléfonos copian parte de su memoria al almacenamiento para parecer más grandes («memoria virtual», «ampliación de memoria»). Una clave copiada así podría quedar en el teléfono después de cerrar Whospair.</string>
+    <string name="memory_advice_how">Para desactivarlo: busque «memoria virtual» o «ampliación de memoria» en los ajustes del teléfono, desactívelo y reinicie el teléfono.</string>
+    <string name="voice_record">Grabar un mensaje de voz</string>
+    <string name="voice_cancel">Descartar la grabación</string>
+    <string name="voice_recording">hasta %1$s</string>
+    <string name="voice_send">Enviar el mensaje de voz</string>
+    <string name="voice_play">Reproducir</string>
+    <string name="voice_pause">Pausa</string>
+    <string name="voice_receiving">Recibiendo…</string>
+    <string name="voice_preview">Mensaje de voz %1$s</string>
+    <string name="mic_denied">El micrófono está desactivado para Whospair. Permítalo en los ajustes de Android para enviar un mensaje de voz.</string>
+</resources>

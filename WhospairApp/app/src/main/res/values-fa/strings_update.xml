@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">به‌روزرسانی</string>
+    <string name="update_state_current">به‌روز</string>
+    <string name="update_state_available">نسخهٔ %1$s موجود است</string>
+    <string name="update_state_downloading">در حال بارگیری %1$d %%</string>
+    <string name="update_state_installing">در حال نصب…</string>
+    <string name="update_state_failed">ناموفق</string>
+    <string name="update_body">به‌روزرسانی‌ها از مخاطبان شما، از طریق Tor و بدون سرور می‌رسند. هر نسخه را توسعه‌دهنده امضا کرده است: Whospair پیش از بارگیری امضا را و سپس فایل را با آن بررسی می‌کند، و Android بررسی می‌کند که با همان کلید برنامهٔ شما امضا شده باشد. برنامهٔ دست‌کاری‌شده همیشه رد می‌شود.</string>
+    <string name="update_available_body">یکی از مخاطبان شما نسخهٔ %1$s (%2$s) را پیشنهاد می‌کند. تا Whospair باز است بارگیری می‌شود؛ اگر اتصال قطع شود، از همان جا ادامه می‌یابد.</string>
+    <string name="update_download">بارگیری و نصب</string>
+    <string name="update_cancel">لغو</string>
+    <string name="update_retry">تلاش دوباره</string>
+    <string name="update_permission_hint">ابتدا Android باید به Whospair اجازهٔ نصب به‌روزرسانی بدهد. اجازه دهید، برگردید و دوباره لمس کنید.</string>
+    <string name="update_permission_allow">اجازه</string>
+    <string name="update_relaying">شما نسخهٔ %1$s را به مخاطبان تأییدشده‌تان می‌رسانید.</string>
+    <string name="update_import">وارد کردن بستهٔ به‌روزرسانی (.wup)</string>
+    <string name="update_import_unreadable">فایل خواندنی نیست.</string>
+    <string name="update_import_invalid">این بسته را توسعه‌دهندهٔ Whospair امضا نکرده یا آسیب دیده است. چیزی نصب نشد.</string>
+    <string name="update_import_installing">امضا تأیید شد. Android از شما می‌خواهد نصب را تأیید کنید.</string>
+    <string name="update_import_relaying">امضا تأیید شد. این گوشی اکنون این نسخه را به مخاطبان تأییدشدهٔ شما می‌رساند.</string>
+    <string name="update_import_mismatch">این نسخهٔ شماست، اما برنامهٔ نصب‌شده در اینجا همان فایل نیست. چیزی برای رساندن نیست.</string>
+    <string name="update_import_older">این بسته از نسخهٔ شما قدیمی‌تر است. چیزی نصب نشد.</string>
+    <string name="update_failed_memory">حافظه برای بارگیری کافی نیست.</string>
+    <string name="update_failed_corrupt">فایل دریافتی با امضا جور نیست. کنار گذاشته شد.</string>
+    <string name="update_failed_install">Android نصب را رد کرد.</string>
+    <string name="update_failed_signature">این نسخه با همان کلید برنامهٔ شما امضا نشده است. رد شد.</string>
+    <string name="update_banner">به‌روزرسانی موجود است</string>
+    <string name="update_notes_title">تازه‌ها</string>
+    <string name="update_diffuser_retry">منبع در دسترس نیست، تلاش دوباره تا ۱۰ ثانیه دیگر</string>
+    <string name="update_interrupted">به‌روزرسانی قطع شد، تلاش دوباره تا ۳۰ دقیقهٔ دیگر</string>
+    <string name="update_mandatory_title">به‌روزرسانی الزامی است</string>
+    <string name="update_mandatory_body">نسخهٔ جدیدتری از Whospair بیش از ۵ روز است که در دسترس است. برای ادامهٔ استفاده آن را نصب کنید: مخاطبان به‌روز شما دیگر نسخه‌های قدیمی را نمی‌پذیرند.</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">Continuar acessível</string>
+    <string name="settings_on">Ativado</string>
+    <string name="settings_stay_reachable_body">Com o aplicativo fechado, seu endereço continua on-line. Seus contatos podem escrever e ligar para você.\n\nAs mensagens que chegam são guardadas como estão, ainda criptografadas, e seladas uma segunda vez: só abrem com o seu PIN. Desconhecidos que têm o seu link precisam esperar o aplicativo estar aberto.\n\nUma notificação diz apenas “O Whospair está chamando você”: sem nome, sem conteúdo. Para uma chamada, abra o Whospair, digite seu PIN e atenda; seu contato continua ligando por um minuto.</string>
+    <string name="settings_stay_reachable_costs">O preço: sua chave onion fica na memória com o aplicativo fechado, o Android mostra uma notificação permanente, seu endereço fica on-line o tempo todo e a bateria acaba mais rápido. Depois de reiniciar o telefone, nada funciona até você digitar o PIN.</string>
+    <string name="settings_reach_enable">Ativar</string>
+    <string name="settings_reach_disable">Desativar</string>
+    <string name="settings_reach_battery">Permitir em segundo plano</string>
+    <string name="settings_reach_battery_hint">Sem isso, o Android pode colocar o Whospair para dormir e você deixará de estar acessível.</string>
+    <string name="settings_reach_notifications_off">As notificações estão desativadas para o Whospair: as mensagens ainda aguardarão o seu PIN, mas nada avisará que chegaram.</string>
+    <string name="settings_reach_notifications_allow">Ativar as notificações</string>
+    <string name="settings_reach_hide_hint">O Android exige uma notificação “Acessível” enquanto o Whospair continua acessível. Você pode ocultá-la: o serviço continua funcionando, e o estado aparece no aplicativo, ao lado do Tor.</string>
+    <string name="settings_reach_hide">Ocultar a notificação</string>
+    <string name="reach_channel_service">Continuar acessível</string>
+    <string name="reach_channel_alert">Alguém está tentando falar com você</string>
+    <string name="reach_channel_call">Chamadas recebidas</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">Acessível</string>
+    <string name="reach_alert_title">O Whospair está chamando você</string>
+    <string name="reach_call_title">O Whospair está chamando você</string>
+    <string name="reach_call_text">Abra o Whospair e digite seu PIN para atender.</string>
+</resources>

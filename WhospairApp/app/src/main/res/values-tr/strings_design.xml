@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Mesajlar</string>
+    <string name="search_contact">Kişi ara</string>
+    <string name="conversations_empty_title">Henüz sohbet yok</string>
+    <string name="conversations_empty_body">Birini, kodunu yüz yüze tarayarak ekleyin. İkinizde de uygulama açıkken ona yazabilirsiniz.</string>
+    <string name="search_no_result">Bu adla bir kişi yok.</string>
+    <string name="add_contact">Kişi ekle</string>
+    <string name="scan_code">Kod tara</string>
+    <string name="message_retry">Tekrar dene</string>
+    <string name="message_sent">Gönderildi</string>
+    <string name="message_delivered">İletildi</string>
+    <string name="read_lock_preview">Okuma gizli</string>
+    <string name="message_expires_in">%1$s içinde silinir</string>
+    <string name="ttl_button">Mesaj ömrü: %1$s</string>
+    <string name="send">Gönder</string>
+    <string name="back">Geri</string>
+    <string name="close">Kapat</string>
+    <string name="confirm_identity">Kimliği onayla</string>
+    <string name="delete_contact_and_chat">Kişiyi ve sohbeti sil</string>
+    <string name="preview_none">Mesaj yok</string>
+    <string name="preview_encrypted">Şifreli mesaj</string>
+    <string name="duration_days">%1$d g</string>
+    <string name="message_placeholder">Bir mesaj yazın</string>
+    <string name="discover_code_caption">Bu kod açık anahtarlarınızı ve Tor adresinizi içerir. Başka hiçbir şey değil.</string>
+    <string name="share_link">Bağlantımı paylaş</string>
+    <string name="copy_link">Bağlantıyı kopyala</string>
+    <string name="link_copied">Bağlantı kopyalandı</string>
+    <string name="memory_advice_title">Telefon belleği</string>
+    <string name="memory_advice_body">Whospair anahtarlarını yalnızca uygulama açıkken bellekte tutar. Ama bazı telefonlar daha büyük görünmek için belleğin bir kısmını depolamaya kopyalar (“sanal bellek”, “bellek genişletme”). Bu şekilde kopyalanan bir anahtar, Whospair kapandıktan sonra telefonda kalabilir.</string>
+    <string name="memory_advice_how">Kapatmak için: telefon ayarlarında “sanal bellek” ya da “bellek genişletme” seçeneğini bulun, kapatın ve telefonu yeniden başlatın.</string>
+    <string name="voice_record">Sesli mesaj kaydet</string>
+    <string name="voice_cancel">Kaydı sil</string>
+    <string name="voice_recording">en fazla %1$s</string>
+    <string name="voice_send">Sesli mesajı gönder</string>
+    <string name="voice_play">Oynat</string>
+    <string name="voice_pause">Duraklat</string>
+    <string name="voice_receiving">Alınıyor…</string>
+    <string name="voice_preview">Sesli mesaj %1$s</string>
+    <string name="mic_denied">Whospair için mikrofon kapalı. Sesli mesaj göndermek için Android ayarlarından izin verin.</string>
+</resources>

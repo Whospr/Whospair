@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phase 7 — verrou, PIN de contrainte. -->
+<resources>
+    <string name="lock_title_setup">Choose a PIN</string>
+    <string name="lock_hint_setup">At least 6 digits. It cannot be recovered — if you forget it, everything is lost.</string>
+    <string name="lock_title_confirm">Enter it again</string>
+    <string name="lock_mismatch">The two entries don\'t match. Start over.</string>
+    <string name="lock_title_unlock">Enter your PIN</string>
+    <string name="lock_wrong">Wrong PIN</string>
+    <string name="lock_attempts_left">%1$d attempts left before everything is erased</string>
+    <string name="lock_busy">Checking…</string>
+    <string name="lock_error">Something went wrong while opening. Try again.</string>
+
+    <string name="settings_lock_now">Lock now</string>
+    <string name="settings_duress_title">Duress PIN</string>
+    <string name="settings_duress_body">A second PIN, for emergencies. Typing it at the lock screen erases everything — keys, contacts, messages — and the app starts over as if newly installed.</string>
+    <string name="settings_duress_current">Current PIN</string>
+    <string name="settings_duress_new">Duress PIN</string>
+    <string name="settings_duress_saved">Duress PIN set.</string>
+    <string name="settings_duress_failed">Not set: the current PIN is wrong, or the duress PIN is too short, identical or of a different length.</string>
+</resources>

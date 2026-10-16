@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">設定 PIN 碼</string>
+    <string name="lock_hint_setup">至少 6 位數字。無法找回——忘記它，一切都會遺失。</string>
+    <string name="lock_title_confirm">再輸入一次</string>
+    <string name="lock_mismatch">兩次輸入不一致。請重新開始。</string>
+    <string name="lock_title_unlock">輸入您的 PIN 碼</string>
+    <string name="lock_wrong">PIN 碼錯誤</string>
+    <string name="lock_attempts_left">還剩 %1$d 次機會，之後將清除一切</string>
+    <string name="lock_busy">驗證中…</string>
+    <string name="lock_error">開啟時發生錯誤。請再試一次。</string>
+    <string name="settings_lock_now">立即鎖定</string>
+    <string name="settings_duress_title">脅迫 PIN 碼</string>
+    <string name="settings_duress_body">第二組 PIN 碼，用於緊急情況。在鎖定畫面輸入它會清除一切——金鑰、聯絡人、訊息——應用程式會像剛安裝時一樣重新開始。</string>
+    <string name="settings_duress_current">目前的 PIN 碼</string>
+    <string name="settings_duress_new">脅迫 PIN 碼</string>
+    <string name="settings_duress_saved">已設定脅迫 PIN 碼。</string>
+    <string name="settings_duress_failed">未設定：目前的 PIN 碼錯誤，或脅迫 PIN 碼太短、相同或長度不同。</string>
+</resources>

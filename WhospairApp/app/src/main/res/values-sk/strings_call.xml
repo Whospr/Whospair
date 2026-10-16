@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Zavolať</string>
+    <string name="call_connecting">Spája sa cez Tor…</string>
+    <string name="call_ringing">Zvoní…</string>
+    <string name="call_incoming">Prichádzajúci hovor</string>
+    <string name="call_answer">Prijať</string>
+    <string name="call_decline">Odmietnuť</string>
+    <string name="call_cancel">Zrušiť</string>
+    <string name="call_hang_up">Zložiť</string>
+    <string name="call_mute">Stlmiť</string>
+    <string name="call_unmute">Zrušiť stlmenie</string>
+    <string name="call_speaker">Reproduktor</string>
+    <string name="call_earpiece">Slúchadlo</string>
+    <string name="call_delay_hint">Cez Tor dorazí Váš hlas asi o sekundu neskôr. Pred odpoveďou urobte krátku pauzu.</string>
+    <string name="call_ended">Hovor skončil</string>
+    <string name="call_declined">Odmietnuté</string>
+    <string name="call_busy">Už prebieha hovor</string>
+    <string name="call_no_answer">Bez odpovede</string>
+    <string name="call_unreachable">Momentálne nedostupné. Skúste to o chvíľu znova.</string>
+    <string name="call_lost">Spojenie sa prerušilo</string>
+    <string name="call_mic_denied">Mikrofón je pre Whospair vypnutý. Ak chcete volať, povoľte ho v nastaveniach Androidu.</string>
+    <string name="call_not_confirmed">Najprv potvrďte tento kontakt. Volať si môžu len potvrdené kontakty.</string>
+    <string name="call_log_outgoing">Odchádzajúci hovor · %1$s</string>
+    <string name="call_log_incoming">Prichádzajúci hovor · %1$s</string>
+    <string name="call_log_missed">Zmeškaný hovor</string>
+    <string name="call_log_refused">Hovor bol odmietnutý</string>
+    <string name="call_log_no_answer">Hovor bez odpovede</string>
+    <string name="call_log_busy">Hovor: druhá strana už telefonovala</string>
+    <string name="call_log_unreachable">Hovor sa nepodarilo nadviazať</string>
+    <string name="call_log_cancelled">Hovor bol zrušený</string>
+</resources>

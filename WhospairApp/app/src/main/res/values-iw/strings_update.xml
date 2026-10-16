@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">עדכון</string>
+    <string name="update_state_current">מעודכנת</string>
+    <string name="update_state_available">גרסה %1$s זמינה</string>
+    <string name="update_state_downloading">מוריד %1$d %%</string>
+    <string name="update_state_installing">מתקין…</string>
+    <string name="update_state_failed">נכשל</string>
+    <string name="update_body">העדכונים מגיעים מאנשי הקשר שלך, דרך Tor, בלי שרת. כל גרסה חתומה על ידי המפתח: Whospair בודקת את החתימה לפני ההורדה, ואז את הקובץ מולה, ו־Android בודקת שהיא חתומה באותו מפתח כמו האפליקציה שכבר מותקנת. אפליקציה ששונתה תמיד נדחית.</string>
+    <string name="update_available_body">אחד מאנשי הקשר שלך מציע את גרסה %1$s (%2$s). היא יורדת כל עוד Whospair פתוחה; אם החיבור נקטע, ההורדה ממשיכה מהמקום שבו נעצרה.</string>
+    <string name="update_download">הורדה והתקנה</string>
+    <string name="update_cancel">ביטול</string>
+    <string name="update_retry">ניסיון נוסף</string>
+    <string name="update_permission_hint">קודם Android צריכה לאפשר ל־Whospair להתקין עדכונים. יש לאשר, לחזור ולהקיש שוב.</string>
+    <string name="update_permission_allow">אישור</string>
+    <string name="update_relaying">את/ה מעביר/ה את גרסה %1$s לאנשי הקשר המאושרים שלך.</string>
+    <string name="update_import">ייבוא חבילת עדכון (.wup)</string>
+    <string name="update_import_unreadable">הקובץ לא קריא.</string>
+    <string name="update_import_invalid">החבילה הזו לא נחתמה על ידי המפתח של Whospair, או שהיא פגומה. שום דבר לא הותקן.</string>
+    <string name="update_import_installing">החתימה אומתה. Android תבקש לאשר את ההתקנה.</string>
+    <string name="update_import_relaying">החתימה אומתה. עכשיו הטלפון הזה מעביר את הגרסה הזו לאנשי הקשר המאושרים שלך.</string>
+    <string name="update_import_mismatch">זו הגרסה שלך, אבל האפליקציה שמותקנת כאן אינה אותו קובץ. אין מה להעביר.</string>
+    <string name="update_import_older">החבילה הזו ישנה מהגרסה שלך. שום דבר לא הותקן.</string>
+    <string name="update_failed_memory">אין מספיק זיכרון להורדה.</string>
+    <string name="update_failed_corrupt">הקובץ שהתקבל לא תואם לחתימה. הוא נזרק.</string>
+    <string name="update_failed_install">Android סירבה להתקנה.</string>
+    <string name="update_failed_signature">הגרסה הזו לא חתומה באותו מפתח כמו האפליקציה שלך. נדחתה.</string>
+    <string name="update_banner">עדכון זמין</string>
+    <string name="update_notes_title">מה חדש</string>
+    <string name="update_diffuser_retry">המקור אינו זמין, ניסיון נוסף בעוד 10 שנ׳</string>
+    <string name="update_interrupted">העדכון נקטע, ניסיון נוסף בעוד 30 דק׳</string>
+    <string name="update_mandatory_title">נדרש עדכון</string>
+    <string name="update_mandatory_body">גרסה חדשה יותר של Whospair זמינה כבר יותר מ-5 ימים. התקינו אותה כדי להמשיך להשתמש באפליקציה: אנשי הקשר המעודכנים שלכם כבר לא מקבלים גרסאות ישנות.</string>
+</resources>

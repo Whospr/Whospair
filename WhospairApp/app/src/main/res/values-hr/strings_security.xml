@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Odaberite PIN</string>
+    <string name="lock_hint_setup">Najmanje 6 znamenki. Ne može se vratiti — zaboravite li ga, sve je izgubljeno.</string>
+    <string name="lock_title_confirm">Unesite ga ponovno</string>
+    <string name="lock_mismatch">Dva unosa se ne podudaraju. Počnite ispočetka.</string>
+    <string name="lock_title_unlock">Unesite svoj PIN</string>
+    <string name="lock_wrong">Pogrešan PIN</string>
+    <string name="lock_attempts_left">Preostalo pokušaja prije brisanja svega: %1$d</string>
+    <string name="lock_busy">Provjera…</string>
+    <string name="lock_error">Nešto nije u redu pri otvaranju. Pokušajte ponovno.</string>
+    <string name="settings_lock_now">Zaključaj sada</string>
+    <string name="settings_duress_title">PIN za hitne slučajeve</string>
+    <string name="settings_duress_body">Drugi PIN, za hitne slučajeve. Njegov unos na zaslonu zaključavanja briše sve — ključeve, kontakte, poruke — i aplikacija kreće ispočetka kao tek instalirana.</string>
+    <string name="settings_duress_current">Trenutačni PIN</string>
+    <string name="settings_duress_new">PIN za hitne slučajeve</string>
+    <string name="settings_duress_saved">PIN za hitne slučajeve je postavljen.</string>
+    <string name="settings_duress_failed">Nije postavljeno: trenutačni PIN nije točan, ili je PIN za hitne slučajeve prekratak, isti ili druge duljine.</string>
+</resources>

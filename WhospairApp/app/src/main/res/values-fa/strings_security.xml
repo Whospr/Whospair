@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">یک پین انتخاب کنید</string>
+    <string name="lock_hint_setup">دست‌کم ۶ رقم. قابل بازیابی نیست — اگر فراموشش کنید، همه چیز از دست می‌رود.</string>
+    <string name="lock_title_confirm">دوباره وارد کنید</string>
+    <string name="lock_mismatch">دو ورودی یکسان نیستند. از نو شروع کنید.</string>
+    <string name="lock_title_unlock">پین خود را وارد کنید</string>
+    <string name="lock_wrong">پین نادرست</string>
+    <string name="lock_attempts_left">تلاش‌های باقی‌مانده پیش از پاک شدن همه چیز: %1$d</string>
+    <string name="lock_busy">در حال بررسی…</string>
+    <string name="lock_error">هنگام باز کردن مشکلی پیش آمد. دوباره تلاش کنید.</string>
+    <string name="settings_lock_now">قفل فوری</string>
+    <string name="settings_duress_title">پین اضطراری</string>
+    <string name="settings_duress_body">پین دوم، برای وضعیت اضطراری. وارد کردن آن در صفحهٔ قفل همه چیز را پاک می‌کند — کلیدها، مخاطبان، پیام‌ها — و برنامه مانند تازه نصب‌شده از نو آغاز می‌شود.</string>
+    <string name="settings_duress_current">پین کنونی</string>
+    <string name="settings_duress_new">پین اضطراری</string>
+    <string name="settings_duress_saved">پین اضطراری تنظیم شد.</string>
+    <string name="settings_duress_failed">تنظیم نشد: پین کنونی نادرست است، یا پین اضطراری خیلی کوتاه، یکسان یا با طول متفاوت است.</string>
+</resources>

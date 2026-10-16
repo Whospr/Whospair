@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">התקשרות</string>
+    <string name="call_connecting">מתחבר דרך Tor…</string>
+    <string name="call_ringing">מצלצל…</string>
+    <string name="call_incoming">שיחה נכנסת</string>
+    <string name="call_answer">מענה</string>
+    <string name="call_decline">דחייה</string>
+    <string name="call_cancel">ביטול</string>
+    <string name="call_hang_up">ניתוק</string>
+    <string name="call_mute">השתקה</string>
+    <string name="call_unmute">ביטול השתקה</string>
+    <string name="call_speaker">רמקול</string>
+    <string name="call_earpiece">אפרכסת</string>
+    <string name="call_delay_hint">דרך Tor, הקול מגיע באיחור של כשנייה. כדאי לעצור לרגע לפני שעונים.</string>
+    <string name="call_ended">השיחה הסתיימה</string>
+    <string name="call_declined">נדחתה</string>
+    <string name="call_busy">כבר בשיחה</string>
+    <string name="call_no_answer">אין מענה</string>
+    <string name="call_unreachable">לא זמין כרגע. אפשר לנסות שוב בעוד רגע.</string>
+    <string name="call_lost">החיבור אבד</string>
+    <string name="call_mic_denied">המיקרופון כבוי עבור Whospair. כדי להתקשר, יש לאשר אותו בהגדרות Android.</string>
+    <string name="call_not_confirmed">קודם יש לאשר את איש הקשר. רק אנשי קשר מאושרים יכולים להתקשר זה לזה.</string>
+    <string name="call_log_outgoing">שיחה יוצאת · %1$s</string>
+    <string name="call_log_incoming">שיחה נכנסת · %1$s</string>
+    <string name="call_log_missed">שיחה שלא נענתה</string>
+    <string name="call_log_refused">השיחה נדחתה</string>
+    <string name="call_log_no_answer">שיחה ללא מענה</string>
+    <string name="call_log_busy">שיחה: הצד השני כבר היה בשיחה</string>
+    <string name="call_log_unreachable">השיחה לא עברה</string>
+    <string name="call_log_cancelled">השיחה בוטלה</string>
+</resources>

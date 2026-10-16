@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phase 11d — appel vocal sur Tor. -->
+<resources>
+    <string name="call_action">Appeler</string>
+    <string name="call_connecting">Connexion par Tor…</string>
+    <string name="call_ringing">Ça sonne…</string>
+    <string name="call_incoming">Appel entrant</string>
+    <string name="call_answer">Répondre</string>
+    <string name="call_decline">Refuser</string>
+    <string name="call_cancel">Annuler</string>
+    <string name="call_hang_up">Raccrocher</string>
+    <string name="call_mute">Couper le micro</string>
+    <string name="call_unmute">Rétablir le micro</string>
+    <string name="call_speaker">Haut-parleur</string>
+    <string name="call_earpiece">Écouteur</string>
+    <string name="call_delay_hint">Par Tor, la voix arrive avec environ une seconde de retard. Laissez un court silence avant de répondre.</string>
+    <string name="call_ended">Appel terminé</string>
+    <string name="call_declined">Appel refusé</string>
+    <string name="call_busy">Déjà en ligne</string>
+    <string name="call_no_answer">Pas de réponse</string>
+    <string name="call_unreachable">Injoignable pour l\'instant. Réessayez dans un moment.</string>
+    <string name="call_lost">Connexion perdue</string>
+    <string name="call_mic_denied">Le micro est coupé pour Whospair. Autorisez-le dans les réglages d\'Android pour appeler.</string>
+    <string name="call_not_confirmed">Confirmez d\'abord ce contact. Seuls les contacts confirmés peuvent s\'appeler.</string>
+    <string name="call_log_outgoing">Appel sortant · %1$s</string>
+    <string name="call_log_incoming">Appel entrant · %1$s</string>
+    <string name="call_log_missed">Appel manqué</string>
+    <string name="call_log_refused">Appel refusé</string>
+    <string name="call_log_no_answer">Appel sans réponse</string>
+    <string name="call_log_busy">Appel : le contact était déjà en ligne</string>
+    <string name="call_log_unreachable">Appel non abouti</string>
+    <string name="call_log_cancelled">Appel annulé</string>
+</resources>

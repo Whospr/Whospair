@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Ligar</string>
+    <string name="call_connecting">Conectando pelo Tor…</string>
+    <string name="call_ringing">Chamando…</string>
+    <string name="call_incoming">Chamada recebida</string>
+    <string name="call_answer">Atender</string>
+    <string name="call_decline">Recusar</string>
+    <string name="call_cancel">Cancelar</string>
+    <string name="call_hang_up">Desligar</string>
+    <string name="call_mute">Silenciar</string>
+    <string name="call_unmute">Ativar microfone</string>
+    <string name="call_speaker">Alto-falante</string>
+    <string name="call_earpiece">Fone</string>
+    <string name="call_delay_hint">Pelo Tor, sua voz chega com cerca de um segundo de atraso. Faça uma pequena pausa antes de responder.</string>
+    <string name="call_ended">Chamada encerrada</string>
+    <string name="call_declined">Recusada</string>
+    <string name="call_busy">Já em uma chamada</string>
+    <string name="call_no_answer">Sem resposta</string>
+    <string name="call_unreachable">Inacessível no momento. Tente de novo em instantes.</string>
+    <string name="call_lost">Conexão perdida</string>
+    <string name="call_mic_denied">O microfone está desativado para o Whospair. Permita-o nos ajustes do Android para ligar.</string>
+    <string name="call_not_confirmed">Confirme este contato primeiro. Apenas contatos confirmados podem ligar um para o outro.</string>
+    <string name="call_log_outgoing">Chamada feita · %1$s</string>
+    <string name="call_log_incoming">Chamada recebida · %1$s</string>
+    <string name="call_log_missed">Chamada perdida</string>
+    <string name="call_log_refused">Chamada recusada</string>
+    <string name="call_log_no_answer">Chamada não atendida</string>
+    <string name="call_log_busy">Chamada: a pessoa já estava em outra chamada</string>
+    <string name="call_log_unreachable">A chamada não foi completada</string>
+    <string name="call_log_cancelled">Chamada cancelada</string>
+</resources>

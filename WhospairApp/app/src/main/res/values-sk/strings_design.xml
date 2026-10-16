@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Správy</string>
+    <string name="search_contact">Hľadať kontakt</string>
+    <string name="conversations_empty_title">Zatiaľ žiadne rozhovory</string>
+    <string name="conversations_empty_body">Pridajte niekoho naskenovaním jeho kódu, osobne. Písať mu môžete, keď máte obaja aplikáciu otvorenú.</string>
+    <string name="search_no_result">Žiadny kontakt s týmto menom.</string>
+    <string name="add_contact">Pridať kontakt</string>
+    <string name="scan_code">Naskenovať kód</string>
+    <string name="message_retry">Skúsiť znova</string>
+    <string name="message_sent">Odoslané</string>
+    <string name="message_delivered">Doručené</string>
+    <string name="read_lock_preview">Čítanie skryté</string>
+    <string name="message_expires_in">Zmizne o %1$s</string>
+    <string name="ttl_button">Platnosť správy: %1$s</string>
+    <string name="send">Odoslať</string>
+    <string name="back">Späť</string>
+    <string name="close">Zavrieť</string>
+    <string name="confirm_identity">Potvrdiť identitu</string>
+    <string name="delete_contact_and_chat">Odstrániť kontakt a rozhovor</string>
+    <string name="preview_none">Žiadne správy</string>
+    <string name="preview_encrypted">Šifrovaná správa</string>
+    <string name="duration_days">%1$d d</string>
+    <string name="message_placeholder">Napíšte správu</string>
+    <string name="discover_code_caption">Tento kód obsahuje Vaše verejné kľúče a Vašu adresu Tor. Nič iné.</string>
+    <string name="share_link">Zdieľať môj odkaz</string>
+    <string name="copy_link">Kopírovať odkaz</string>
+    <string name="link_copied">Odkaz bol skopírovaný</string>
+    <string name="memory_advice_title">Pamäť telefónu</string>
+    <string name="memory_advice_body">Whospair drží kľúče v pamäti len vtedy, keď je aplikácia otvorená. Niektoré telefóny však kopírujú časť pamäte do úložiska, aby pôsobili väčšie („virtuálna pamäť“, „rozšírenie pamäte“). Takto skopírovaný kľúč by mohol v telefóne zostať aj po zatvorení Whospair.</string>
+    <string name="memory_advice_how">Ako to vypnúť: v nastaveniach telefónu nájdite „virtuálna pamäť“ alebo „rozšírenie pamäte“, vypnite to a telefón reštartujte.</string>
+    <string name="voice_record">Nahrať hlasovú správu</string>
+    <string name="voice_cancel">Zahodiť nahrávku</string>
+    <string name="voice_recording">až %1$s</string>
+    <string name="voice_send">Odoslať hlasovú správu</string>
+    <string name="voice_play">Prehrať</string>
+    <string name="voice_pause">Pozastaviť</string>
+    <string name="voice_receiving">Prijíma sa…</string>
+    <string name="voice_preview">Hlasová správa %1$s</string>
+    <string name="mic_denied">Mikrofón je pre Whospair vypnutý. Ak chcete poslať hlasovú správu, povoľte ho v nastaveniach Androidu.</string>
+</resources>

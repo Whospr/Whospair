@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Chiama</string>
+    <string name="call_connecting">Collegamento tramite Tor…</string>
+    <string name="call_ringing">Squilla…</string>
+    <string name="call_incoming">Chiamata in arrivo</string>
+    <string name="call_answer">Rispondi</string>
+    <string name="call_decline">Rifiuta</string>
+    <string name="call_cancel">Annulla</string>
+    <string name="call_hang_up">Riaggancia</string>
+    <string name="call_mute">Silenzia</string>
+    <string name="call_unmute">Riattiva microfono</string>
+    <string name="call_speaker">Altoparlante</string>
+    <string name="call_earpiece">Auricolare</string>
+    <string name="call_delay_hint">Tramite Tor, la sua voce arriva con circa un secondo di ritardo. Lasci una breve pausa prima di rispondere.</string>
+    <string name="call_ended">Chiamata terminata</string>
+    <string name="call_declined">Rifiutata</string>
+    <string name="call_busy">Già in chiamata</string>
+    <string name="call_no_answer">Nessuna risposta</string>
+    <string name="call_unreachable">Non raggiungibile ora. Riprovi tra poco.</string>
+    <string name="call_lost">Connessione persa</string>
+    <string name="call_mic_denied">Il microfono è disattivato per Whospair. Lo consenta nelle impostazioni di Android per chiamare.</string>
+    <string name="call_not_confirmed">Confermi prima questo contatto. Solo i contatti confermati possono chiamarsi.</string>
+    <string name="call_log_outgoing">Chiamata effettuata · %1$s</string>
+    <string name="call_log_incoming">Chiamata ricevuta · %1$s</string>
+    <string name="call_log_missed">Chiamata persa</string>
+    <string name="call_log_refused">Chiamata rifiutata</string>
+    <string name="call_log_no_answer">Chiamata senza risposta</string>
+    <string name="call_log_busy">Chiamata: era già in un\'altra chiamata</string>
+    <string name="call_log_unreachable">La chiamata non è andata a buon fine</string>
+    <string name="call_log_cancelled">Chiamata annullata</string>
+</resources>

@@ -1,0 +1,561 @@
+splash_tagline	設計からプライベート
+tos_title	はじめる前に
+tos_warning	よくお読みください。Whospair は、ご存じのメッセージアプリとは仕組みが異なり、その違いの一部は取り消せません。
+tos_s1_title	1. 設計からピアツーピア
+tos_s1_body	Whospair にはサーバーがありません。メッセージと通話は端末から端末へ直接届きます。私たちを含め、誰も間に入らず、あなたのデータを保存することも、誰かに渡すこともできません。
+tos_s2_title	2. 責任はあなたにあります
+tos_s2_body	このアプリの背後に運営者はいません。何を、誰に送り、受け取ったものをどう扱うかは、すべてあなたの責任です。Whospair は道具です。作者は、あなたの使い方やその結果について責任を負いません。
+tos_s3_title	3. モデレーションなし
+tos_s3_body	コンテンツを確認・選別・削除する機関はありません。誰かに届く通報ボタンもありません。向こう側には誰もいないからです。
+tos_s4_title	4. エンドツーエンド暗号化
+tos_s4_body	メッセージはエンドツーエンドで暗号化（X25519 と AES-256-GCM）され、署名されます。通話は Tor を経由し、約 10 秒ごとに変わる鍵で暗号化されます。
+tos_s5_title	5. 遠隔には何も保存されません
+tos_s5_body	あなたの ID、連絡先、メッセージはこの端末の中にだけ存在します。アプリをアンインストールすると消去されます。
+tos_s6_title	6. 復元はできません
+tos_s6_body	あなたの ID はアカウントではなく暗号鍵です。失えば、それまでです。パスワードのリセットも、サポートも、復元できるバックアップもありません。
+tos_s7_title	7. 合法的な利用に限ります
+tos_s7_body	プライバシーツールは正当な会話を守るものです。Whospair を使って法律を破っても、法律違反であることに変わりはありません。
+tos_s8_title	8. 無保証
+tos_s8_body	本ソフトウェアは現状のまま提供され、可用性、正確性、特定の目的への適合性は保証されません。
+tos_s9_title	9. セキュリティには限界があります
+tos_s9_body	暗号化は通信中のデータを守ります。マルウェアや rootkit にすでに侵害された端末、あるいは他人の手にある端末までは守れません。
+tos_s10_title	10. 同意
+tos_s10_body	続行すると、上記の内容、特に失った ID は復元できないことを理解したものとみなされます。
+tos_checkbox	これらの条件を読み、同意します
+tos_accept	同意する
+tos_decline	同意しない
+tos_decline_dialog_title	条件に同意しませんか？
+tos_decline_dialog_body	同意がなければ Whospair は動作しません。アプリを終了します。
+tos_decline_confirm	アプリを終了
+tos_decline_cancel	戻る
+tutorial_skip	スキップ
+tutorial_next	次へ
+tutorial_back	戻る
+tutorial_start	はじめる
+tutorial_page_counter	%1$d / %2$d
+tutorial_p1_title	Whospair へようこそ
+tutorial_p1_body	どのサーバーにも痕跡を残さないメッセージと通話。サーバーがないからです。
+tutorial_p1_f1	エンドツーエンド暗号化
+tutorial_p1_f2	サーバーもアカウントもなし
+tutorial_p1_f3	メッセージは自動で消えます
+tutorial_p1_f4	すべての鍵はあなたの手に
+tutorial_p2_title	相手を追加する
+tutorial_p2_body	ユーザー名も電話番号もありません。鍵を直接交換します。
+tutorial_p2_s1	「追加」タブを開きます
+tutorial_p2_s2	相手のコードを読み取るか、あなたのコードを読み取ってもらいます
+tutorial_p2_s3	会話の準備ができました
+tutorial_p2_note	新しい ID は新しいコードを意味します。もう一度共有することが、つながり直す唯一の方法です。
+tutorial_p3_title	メッセージを送る
+tutorial_p3_body	どのメッセージにも、送信した瞬間から有効期限があります。
+tutorial_p3_s1	会話を開きます
+tutorial_p3_s2	入力し、残す時間を選びます
+tutorial_p3_s3	送信します
+tutorial_p4_title	有効期限
+tutorial_p4_body	話す内容に合った期間を選んでください。期限が来ると、メッセージは両方の端末から削除されます。
+tutorial_p4_note	短いほど安全です。画面に残っているものは、ディスクにも残っています。
+tutorial_p5_title	主導権はあなたに
+tutorial_p5_body	はじめる前に知っておきたいこと。
+tutorial_p5_f1	どの連絡先もブロック・削除できます
+tutorial_p5_f2	会話全体を一度に削除できます
+tutorial_p5_f3	PIN でアプリをロックできます
+tutorial_p5_f4	鍵がこの端末から出ることはありません
+identity_creating_title	ID を作成しています
+identity_creating_body	この端末で鍵ペアを生成しています。少しお待ちください。
+identity_ready_title	これがあなたです
+identity_ready_body	鍵の準備ができました。次に PIN を決めてください。PIN が鍵を封印します。QR コードは「追加」でお待ちしています。
+identity_warning	秘密鍵はこの端末に残り、表示されることはありません。この端末を失くすと、この ID は永久に失われます。
+identity_continue	続ける
+identity_error_title	ID を作成できませんでした
+identity_retry	再試行
+nav_home	メッセージ
+nav_contacts	連絡先
+nav_calls	通話
+nav_discover	追加
+nav_settings	設定
+ttl_5m	5 分
+ttl_15m	15 分
+ttl_1h	1 時間
+ttl_5h	5 時間
+ttl_8h	8 時間
+ttl_24h	24 時間
+ttl_7d	7 日
+discover_title	連絡先を追加
+discover_subtitle	自分のコードを相手に見せるか、相手のコードを読み取ってください。対面なら、誰と話しているのかがわかります。
+discover_scan_title	相手のコードを読み取る
+discover_scan_body	相手の QR コードにカメラを向けてください
+discover_mycode_title	自分のコードを表示
+discover_mycode_body	誰かに追加してもらう
+discover_manual_title	または受け取ったリンクを貼り付け
+discover_manual_hint	whospair:… または 16 進数 64 文字
+discover_add	この連絡先を追加
+discover_fingerprint	声に出して照合するフィンガープリント
+discover_copy_link	招待リンクをコピー
+add_ok	%1$s を追加しました。会話を始められます。
+add_already	%1$s はすでに連絡先にあります。
+add_blocked	%1$s は連絡先にありますが、ブロック中です。
+add_self	これはあなた自身の鍵です。自分を追加することはできません。
+add_malformed	この鍵は無効です。公開鍵は 16 進数 64 文字です。
+add_not_whisper	このコードは Whospair の鍵ではありません。
+add_unblock	ブロックを解除
+add_unblocked	%1$s のブロックを解除しました。
+scan_instruction	追加したい QR コードに向けてください
+scan_permission_title	カメラへのアクセスが必要です
+scan_permission_body	コードの読み取りにはカメラが必要です。何も記録・送信されません。
+scan_permission_denied	カメラへのアクセスが拒否されました。端末の設定で許可するか、鍵を手で貼り付けてください。
+scan_permission_grant	カメラを許可
+scan_use_manual	鍵を貼り付ける
+contact_block	ブロック
+contact_unblock	ブロックを解除
+contact_delete	連絡先を削除
+contact_delete_confirm	この連絡先と会話全体を削除しますか？元に戻せません。
+contact_blocked_notice	ブロック中です。この連絡先からのメッセージは拒否されます。
+common_dismiss	閉じる
+common_loading	読み込み中…
+common_cancel	キャンセル
+common_error	問題が発生しました
+chat_today	今日
+chat_yesterday	昨日
+message_pending	送信中
+message_failed	未送信：相手に接続できません
+tutorial_pin_title	あなたの PIN、そして PIN だけ
+tutorial_pin_body	Whospair のすべては、次の手順で決める PIN で守られます。忘れると何も復元できません。
+tutorial_pin_f1	10 回間違えるとすべて消去されます
+tutorial_pin_f2	緊急用 PIN（設定で登録）を入力するとすべて消去されます。強要されたときや危険なときに使ってください
+tutorial_pin_f3	指紋認証や顔認証は使いません。指はセンサーに押し付けられても、暗証番号は無理やり聞き出せません
+tutorial_pin_note	アプリがバックグラウンドに回ると、自動でロックされます。
+call_action	通話
+call_connecting	Tor 経由で接続中…
+call_ringing	呼び出し中…
+call_incoming	着信
+call_answer	応答
+call_decline	拒否
+call_cancel	キャンセル
+call_hang_up	切る
+call_mute	ミュート
+call_unmute	ミュート解除
+call_speaker	スピーカー
+call_earpiece	受話口
+call_delay_hint	Tor 経由では、声が約 1 秒遅れて届きます。答える前に少し間を置いてください。
+call_ended	通話終了
+call_declined	拒否されました
+call_busy	通話中です
+call_no_answer	応答なし
+call_unreachable	現在つながりません。少ししてから再試行してください。
+call_lost	接続が切れました
+call_mic_denied	Whospair のマイクがオフです。通話するには Android の設定で許可してください。
+call_not_confirmed	先にこの連絡先を確認してください。確認済みの連絡先同士だけが通話できます。
+call_log_outgoing	発信 · %1$s
+call_log_incoming	着信 · %1$s
+call_log_missed	不在着信
+call_log_refused	通話は拒否されました
+call_log_no_answer	応答のない通話
+call_log_busy	通話：相手は通話中でした
+call_log_unreachable	通話はつながりませんでした
+call_log_cancelled	通話はキャンセルされました
+messages_title	メッセージ
+search_contact	連絡先を検索
+conversations_empty_title	まだ会話はありません
+conversations_empty_body	対面で相手のコードを読み取って追加してください。お互いにアプリを開いているときにメッセージを送れます。
+search_no_result	その名前の連絡先はありません。
+add_contact	連絡先を追加
+scan_code	コードを読み取る
+message_retry	再試行
+message_sent	送信済み
+message_delivered	配信済み
+read_lock_preview	表示を非表示中
+message_expires_in	%1$s後に消えます
+ttl_button	メッセージの有効期限：%1$s
+send	送信
+back	戻る
+close	閉じる
+confirm_identity	本人を確認
+delete_contact_and_chat	連絡先と会話を削除
+preview_none	メッセージなし
+preview_encrypted	暗号化されたメッセージ
+duration_days	%1$d 日
+message_placeholder	メッセージを入力
+discover_code_caption	このコードには、あなたの公開鍵と Tor アドレスだけが含まれています。
+share_link	リンクを共有
+copy_link	リンクをコピー
+link_copied	リンクをコピーしました
+memory_advice_title	スマートフォンのメモリ
+memory_advice_body	Whospair は、アプリを開いている間だけ鍵をメモリに保持します。しかし一部のスマートフォンは、メモリを大きく見せるためにその一部をストレージにコピーします（「仮想メモリ」「メモリ拡張」）。こうしてコピーされた鍵は、Whospair を閉じた後も端末に残る可能性があります。
+memory_advice_how	オフにするには：端末の設定で「仮想メモリ」または「メモリ拡張」を探してオフにし、端末を再起動してください。
+voice_record	ボイスメッセージを録音
+voice_cancel	録音を破棄
+voice_recording	最大 %1$s
+voice_send	ボイスメッセージを送信
+voice_play	再生
+voice_pause	一時停止
+voice_receiving	受信中…
+voice_preview	ボイスメッセージ %1$s
+mic_denied	Whospair のマイクがオフです。ボイスメッセージを送るには Android の設定で許可してください。
+tor_state_live	Tor オン
+tor_state_connecting	Tor に接続中
+tor_state_offline	Tor オフ
+presence_reachable	連絡可能
+ring_action	呼び出す
+ring_calling	%1$s を呼び出し中…
+ring_incoming	%1$s があなたを呼び出しています
+ring_accept	応答
+ring_decline	無視
+ring_cancel	停止
+ring_declined	%1$s は呼び出しを無視しました
+ring_timeout	応答なし
+ring_peer_offline	%1$s は今アプリを開いていません
+ring_busy	すでにセッションが開いています
+indicator_title	この表示の意味
+indicator_channel_live	Tor が動作中で、あなたのアドレスが公開されています。同じくアプリを開いている連絡先はあなたに連絡でき、あなたも連絡できます。
+indicator_channel_none	Tor の準備ができていません。何も送受信できず、後のためにどこかへ保管されるものもありません。
+indicator_tunnel_on	通信は VPN インターフェース経由で出ています。Whospair にわかるのはそこまでで、どの事業者か、トンネルから漏れていないかはわかりません。
+indicator_tunnel_off	通信は直接出ています。ネットワーク事業者には、この端末が Tor をいつ使っているかは見えますが、誰と何を話しているかは見えません。
+indicator_dismiss	閉じる
+vpn_advice_title	ネットワークについて
+vpn_advice_body	Whospair は話す内容を暗号化し、Tor は誰に話しているかを隠します。どちらも、Tor を使っていること自体は隠しません。通信を運ぶ側には、それがいつ、どれくらいの頻度なのかが見えます。VPN はその視点をトンネルの運営者に移します。見張っているのがまさに心配している相手なら、これは実際の変化です。
+vpn_advice_caveat	VPN は保証ではありません。見張る人をなくすのではなく、誰に見せるかを選ぶだけです。信頼できる理由のある事業者を選び、あなたの通信で稼ぐ無料のものより有料のものを選んでください。
+contacts_title	連絡先
+contacts_empty	連絡先リストは空です。
+contact_unconfirmed	未確認
+contact_blocked	ブロック中
+chat_settings	会話の設定
+chat_unconfirmed_banner	この人はあなたのリンクであなたを追加しました。相手が誰かはまだ確認されていません。
+chat_confirm	確認する
+chat_block	ブロック
+chat_unblock	ブロックを解除
+chat_blocked_banner	ブロック中です。この相手はもうあなたに連絡できません。
+settings_rename	名前
+settings_rename_hint	この名前はあなたにしか見えません。
+settings_save	保存
+settings_safety_number	安全番号
+settings_safety_hint	対面または通話で相手と照合してください。両方の端末で同じ番号なら、間に誰もいません。
+settings_confirm_trust	確認しました — この連絡先を承認
+settings_trusted	確認済みの連絡先
+settings_block_hint	ブロックした連絡先は、接続もメッセージ送信もできなくなります。
+settings_delete	連絡先を削除
+settings_delete_confirm	この連絡先とすべてのメッセージを削除しますか？相手がまだあなたのリンクを持っていれば、未確認として戻ってくることがあります。防ぐにはブロックしてください。
+settings_delete_action	削除
+settings_section_profile	プロフィール
+profile_photo	プロフィール写真
+profile_photo_hint	256 px に切り抜き、メタデータを削除し、Tor 経由でのみ送信します。
+profile_photo_choose	選択
+profile_photo_remove	削除
+profile_photo_error	この画像を読み込めませんでした。
+profile_photo_visibility	写真を見られる人
+profile_photo_everyone	連絡してくる全員
+profile_photo_everyone_hint	未確認の連絡先を含みます
+profile_photo_confirmed	確認済みの連絡先
+profile_photo_hidden	誰にも見せない
+settings_gaze_shield	カメラで画面を隠す
+settings_gaze_shield_body	前面カメラが、画面の前に誰がいるかを見ます。すべて端末内で完結し、画像は保存も送信もされません。Whospair を開いている間は Android のカメラインジケーターが点灯し、電池の消耗も早くなります。机の上で端末を伏せると、画面は常に暗くなります。
+settings_off	オフ
+settings_gaze_look_away	視線をそらしたとき
+settings_gaze_onlooker	他の人がのぞいているとき
+settings_gaze_onlooker_hint	背後にもう一つの顔。リスクは減りますが、なくなりはしません。横向き、遠く、暗がりの顔は見逃されることがあります。
+alert_someone	誰かがあなたに連絡しようとしています
+alert_bip	%1$s があなたを呼んでいます
+alert_open	開く
+nudge_title	合図を送る
+nudge_hint	相手の Whospair を振動させます。
+nudge_action	合図を送る
+nudge_sent	合図を送りました。
+nudge_unreachable	現在つながりません：相手の Whospair は閉じています。
+nudge_received	%1$s から合図が届きました
+private_mode_title	プライベートモード
+private_mode_off_hint	この会話では、オンラインで連絡可能です。
+private_mode_on_hint	この会話では、もう連絡できません。
+private_mode_enable	プライベートモードをオンにする
+private_mode_disable	プライベートモードをオフにする
+private_mode_banner	この会話ではプライベートモードがオンです。メッセージを送ってから 1 分間だけ連絡可能です。連絡可能な状態を保つには、プライベートモードをオフにしてください。
+file_generic	ファイル
+file_attach	ファイルを添付
+file_view_once	1 回だけ表示
+file_sending	送信中 %1$d %%
+file_receiving	受信中 %1$d %%
+file_send_title	このファイルを送信しますか？
+file_allow_save	保存を許可
+file_allow_save_hint	許可しない場合、Whospair の中でしか開けません。
+file_view_once_option	1 回だけ表示
+file_view_once_hint	初めて開いた後、相手の端末から消去されます。
+file_send	送信
+file_too_big	ファイルが大きすぎます：最大 25 MB です。
+file_unreadable	読み込めないファイルです。
+file_viewer_pending	この種類のファイルは、まもなく Whospair の中で開けるようになります。
+input_more	その他：有効期限 %1$s、合図、ファイル
+input_ttl	有効期限 · %1$s
+input_file	ファイル
+notice_forwarded	%1$s が「%2$s」を別の連絡先に転送しました
+notice_shared	%1$s が「%2$s」を別のアプリと共有しました
+notice_saved	%1$s が「%2$s」を端末に保存しました
+notice_opened	%1$s が「%2$s」を別のアプリで開きました
+notice_viewed	%1$s が「%2$s」を表示しました（1 回だけ表示）
+notice_you_forwarded	「%1$s」を転送しました。送信者に通知されます
+notice_you_shared	「%1$s」を共有しました。送信者に通知されます
+notice_you_saved	「%1$s」を保存しました。送信者に通知されます
+notice_you_opened	「%1$s」を別の場所で開きました。送信者に通知されます
+notice_you_viewed	「%1$s」を表示しました。消去されました
+notice_preview	ファイルに関するお知らせ
+file_share	共有
+file_open_with	アプリで開く…
+file_open_elsewhere_hint	Whospair ではこのファイルを表示できません。上部の「アプリで開く…」を使うと、コピーせずに一時的に別のアプリへ貸し出します。送信者に通知されます。
+media_play	再生
+media_pause	一時停止
+share_forward	連絡先に送る
+share_outside	別のアプリと共有
+share_save	端末に保存
+share_sender_told	送信者に通知されますが、誰に送ったかは伝わりません。
+forward_title	送信先…
+forward_none	他に確認済みの連絡先はありません。
+selection_count	%1$d 件選択中
+selection_cancel	選択を解除
+delete_selected_title	%1$d 件を削除しますか？
+delete_selected_body	有効期限を待たずに、この端末からすぐに消去されます。まだ送信されていないものは送信されません。相手の端末にあるコピーは、それぞれの有効期限で消えます。
+delete_selected_action	削除
+file_cancel	送信をキャンセル
+notice_cancelled	%1$s がファイルの送信をキャンセルしました
+notice_you_cancelled	ファイルの送信をキャンセルしました
+file_incoming	ファイルを受信しています…
+settings_stay_reachable	連絡可能な状態を保つ
+settings_on	オン
+settings_stay_reachable_body	アプリを閉じても、あなたのアドレスはオンラインのままです。連絡先はメッセージを送ったり電話をかけたりできます。\n\n届いたメッセージは暗号化されたまま保存され、さらにもう一度封印されます。開けるのはあなたの PIN だけです。あなたのリンクを持つ見知らぬ人は、アプリが開くまで待つ必要があります。\n\n通知には「Whospair があなたを呼んでいます」とだけ表示され、名前も内容も出ません。通話の場合は Whospair を開き、PIN を入力して応答してください。相手は 1 分間呼び出し続けます。
+settings_stay_reachable_costs	代償：アプリを閉じている間も onion 鍵がメモリに残り、Android が常時通知を表示し、アドレスは 24 時間オンラインになり、電池の消耗も早くなります。端末を再起動した後は、PIN を入力するまで何も動きません。
+settings_reach_enable	オンにする
+settings_reach_disable	オフにする
+settings_reach_battery	バックグラウンドでの動作を許可
+settings_reach_battery_hint	許可しないと、Android が Whospair をスリープさせ、連絡できない状態になることがあります。
+settings_reach_notifications_off	Whospair の通知がオフです。メッセージは PIN を待ち続けますが、届いたことは知らされません。
+settings_reach_notifications_allow	通知をオンにする
+settings_reach_hide_hint	Whospair が連絡可能な状態の間、Android は「連絡可能」の通知を求めます。通知は非表示にできます。サービスは動き続け、状態はアプリ内の Tor の横に表示されます。
+settings_reach_hide	通知を非表示にする
+reach_channel_service	連絡可能な状態の維持
+reach_channel_alert	誰かがあなたに連絡しようとしています
+reach_channel_call	着信
+reach_service_title	Whospair
+reach_service_text	連絡可能
+reach_alert_title	Whospair があなたを呼んでいます
+reach_call_title	Whospair があなたを呼んでいます
+reach_call_text	応答するには Whospair を開き、PIN を入力してください。
+new_chat	新しい会話
+contacts_group_confirmed	確認済み
+contacts_group_unconfirmed	確認待ち
+contacts_group_blocked	ブロック中
+contacts_scan	QR を読み取る
+contacts_show_qr	自分の QR を表示
+profile_title	マイプロフィール
+profile_photo_change	写真を変更
+settings_appearance	表示モード
+appearance_auto	自動
+appearance_auto_hint	システム設定に合わせる
+appearance_day	ライト
+appearance_night	ダーク
+settings_background	会話の背景
+settings_background_hint	すべての会話で共通です。メイン画面もその色になります。
+bg_ink	インク
+bg_sage	セージ
+bg_slate	スレート
+bg_plum	プラム
+bg_sand	サンド
+bg_plain	無地
+settings_page_lock	ロック
+settings_page_lock_sub	PIN、緊急用 PIN、今すぐロック
+settings_page_discretion	目立たなさ
+settings_page_discretion_sub	メッセージの有効期限、画面を隠す、写真
+settings_page_network	ネットワーク
+settings_page_identity_sub	QR、新しい ID
+settings_page_about_sub	プライバシー、バージョン
+reach_short	閉じていても連絡可能
+lock_title_setup	PIN を決めてください
+lock_hint_setup	6 桁以上。復元はできません。忘れるとすべて失われます。
+lock_title_confirm	もう一度入力してください
+lock_mismatch	2 回の入力が一致しません。やり直してください。
+lock_title_unlock	PIN を入力してください
+lock_wrong	PIN が違います
+lock_attempts_left	すべて消去されるまで残り %1$d 回
+lock_busy	確認中…
+lock_error	開く際に問題が発生しました。もう一度お試しください。
+settings_lock_now	今すぐロック
+settings_duress_title	緊急用 PIN
+settings_duress_body	緊急時のための 2 つ目の PIN です。ロック画面で入力すると、鍵・連絡先・メッセージなどすべてが消去され、アプリはインストール直後の状態からやり直します。
+settings_duress_current	現在の PIN
+settings_duress_new	緊急用 PIN
+settings_duress_saved	緊急用 PIN を設定しました。
+settings_duress_failed	設定できませんでした：現在の PIN が違うか、緊急用 PIN が短すぎる、同じ、または桁数が異なります。
+read_lock_title	閲覧
+read_lock_off_hint	この会話に戻っても、メッセージは読める状態のままです。
+read_lock_on_hint	メッセージは非表示です。今回の表示中に読むには、コードを入力してください。
+read_lock_open_hint	この会話を出るまで読めます。
+read_lock_enable	コードでメッセージを隠す
+read_lock_unlock	閲覧のロックを解除
+read_lock_disable	メッセージを隠すのをやめる
+read_lock_banner	メッセージは非表示です。設定で閲覧のロックを解除してください。
+read_lock_masked	••••••
+message_unreadable	[読めないメッセージ]
+read_code_new	4 桁のコードを決めてください
+read_code_confirm	もう一度入力してください
+read_code_enter	閲覧コード
+read_code_mismatch	2 つのコードが一致しません。やり直してください。
+read_code_wrong	コードが違います
+settings_section_security	セキュリティ
+settings_section_identity	自分の ID
+settings_section_network	ネットワーク
+settings_section_about	このアプリについて
+settings_change_pin	PIN を変更
+settings_new_pin	新しい PIN
+settings_pin_changed	PIN を変更しました。
+settings_pin_changed_duress_removed	PIN を変更しました。桁数が変わったため、緊急用 PIN は削除されました。同じ桁数でもう一度設定してください。
+settings_pin_rejected	変更されませんでした：この PIN は短すぎるか、緊急用 PIN です。
+settings_duress_same_length	あなたの PIN と同じ桁数です。
+settings_default_ttl	メッセージの既定の有効期限
+settings_default_ttl_hint	個別の会話で別の期間を選ぶまで、すべての会話で使われます。
+settings_mask_all	すべての会話で閲覧を隠す
+settings_mask_all_hint	まだ隠していないすべての会話に共通のコードです。すでにコードのある会話はそのコードのままです。
+settings_mask_all_done	完了しました。各会話でコードが求められるようになりました。
+settings_wipe_now	今すぐすべて消去
+settings_wipe_confirm	鍵、連絡先、メッセージを今すぐ消去しますか？何も復元できません。アプリはインストール直後の状態からやり直します。
+settings_wipe_action	すべて消去
+settings_my_qr	自分の QR コードとリンク
+settings_new_identity	新しい ID
+settings_new_identity_confirm	新しい鍵と新しいアドレス：現在のリンクと QR コードは使えなくなります。すべての連絡先とメッセージが消去され、連絡先はあなたを追加し直す必要があります。アプリは再起動します。
+settings_new_identity_action	新しい ID を作成
+settings_tor_state	Tor
+tor_state_ready	接続済み
+tor_state_starting	起動中… %1$d%%
+tor_state_failed	失敗 — タップして再起動
+tor_state_off	オフ
+tor_state_reconnecting	ネットワークが切断されました — 再接続中…
+settings_restart_tor_confirm	Tor を再起動するとアプリも再起動します。PIN をもう一度入力してください。
+settings_restart_tor_action	再起動
+about_title	Whospair とは
+about_body	人に言えないことを伝え合う人のためのメッセンジャーです。Whospair で話したことは、選んだ期間だけ、2 台のスマートフォンの中にだけ存在し、他のどこにも残りません。\n\nサーバーなし。やり取りを中継・保存・閲覧するサーバーはありません。スマートフォンそれぞれが Tor ネットワーク上の自分専用の接点となり、メッセージは端末から端末へ直接届きます。\n\nアカウントなし。電話番号も、メールアドレスも、本名もいりません。あなたの ID は、このスマートフォンで作られた鍵ペアです。QR コードの読み取りで、対面またはリンクでお互いを追加します。\n\nエンドツーエンド暗号化。メッセージ、ボイスメモ、ファイル、通話は端末を出る前に暗号化され、IP アドレスを隠す Tor を経由して届きます。\n\n消えるメッセージ。どのメッセージにも選んだ有効期限があり、期限が来ると双方から消えます。他のどこにもバックアップされません。\n\nライブ。連絡できるのは、アプリを開いている人か、「連絡可能な状態を保つ」をオンにしている人だけです。\n\n端末での保護。すべてがあなたの PIN で暗号化されています。PIN を 10 回間違えるか、緊急用 PIN を入力すると、すべて消去されます。\n\n免責事項。Whospair は道具です。どう使うかはすべてあなたの責任です。本アプリは現状のまま無保証で提供され、作者はその利用や結果について責任を負いません。
+privacy_title	プライバシーポリシー
+privacy_body	Whospair は何も収集しません。あなたのデータを受け取るサーバーはありません。そのため、データを分析したり第三者に渡したりする者もいません。\n\nアプリが決して行わないこと：プロファイリング、データの販売、広告、トラッキングコード、クラッシュレポートの送信、アドレス帳の読み取り、位置情報の取得。第三者の企業は、データも利用の痕跡も、何ひとつ受け取りません。アプリが通信するのは Tor ネットワーク、あなたの連絡先、そしてアップデートの配信元だけです。\n\nこの端末に暗号化して残るもの：あなたの鍵、連絡先、メッセージ、ファイル。有効期限が来るか、あなたが削除するか、PIN を 10 回間違えるまで残ります。送信する写真からはメタデータ（撮影場所、端末の機種）が削除されます。\n\n他の人にまだ見えるもの：通信事業者には、この端末が Tor を使っていることは見えますが、相手も内容も見えません。連絡先には、あなたが送ったものと、許可した場合はプロフィール写真が見えます。\n\nアップデート。アプリは 1 日に 1 回、Tor を通じて新しいバージョンがあるかを目立たずに確認します。この問い合わせに含まれるのはバージョン番号だけで、身元も連絡先もメッセージも含みません。\n\nなぜ毎日なのか？最新のバージョンは、古すぎるバージョンとの通信を拒否するからです。これは意図的なものです。古いバージョンには脆弱性が含まれている可能性があります。アップデートしなければ、家族や同僚と連絡が取れなくなります。届くのはアップデートだけです。\n\nWhospair は常に進化しており、そのためアップデートが頻繁に行われます。脆弱性は、誰も気づかないうちに発見され、悪用されることがあります。すばやく修正することで、あなたのデータが悪意ある者の手に渡るのを防ぎます。\n\nあなたの権利。何も収集していないため、私たちの側で開示・訂正・削除するものはありません。すべてはあなたの手の中にあります。アプリをアンインストールすれば、すべて消去されます。\n\n責任。何を、誰に送り、受け取ったものをどう扱うかは、あなただけの責任です。Whospair は現状のまま無保証で提供されます。
+version_title	バージョン
+version_fingerprint_hint	このアプリに署名した証明書のフィンガープリントです。作者が公開しているものと比べてください。異なる場合、これは正規のアプリではありません。
+update_title	アップデート
+update_state_current	最新です
+update_state_available	バージョン %1$s が利用可能
+update_state_downloading	ダウンロード中 %1$d %%
+update_state_installing	インストール中…
+update_state_failed	失敗
+update_body	アップデートは、あなたの連絡先から Tor 経由で、サーバーなしで届きます。どのバージョンも開発者が署名しています。Whospair はダウンロード前に署名を、その後その署名でファイルを確認し、Android はお使いのアプリと同じ鍵で署名されているかを確認します。改変されたアプリは必ず拒否されます。
+update_available_body	連絡先の 1 人がバージョン %1$s（%2$s）を提供しています。Whospair を開いている間にダウンロードされ、接続が切れても途中から再開します。
+update_download	ダウンロードしてインストール
+update_cancel	キャンセル
+update_retry	再試行
+update_permission_hint	まず Android で Whospair にアップデートのインストールを許可する必要があります。許可してから戻り、もう一度タップしてください。
+update_permission_allow	許可
+update_relaying	バージョン %1$s を確認済みの連絡先に中継しています。
+update_import	アップデートパッケージ（.wup）を読み込む
+update_import_unreadable	読み込めないファイルです。
+update_import_invalid	このパッケージは Whospair の開発者によって署名されていないか、破損しています。何もインストールされませんでした。
+update_import_installing	署名を確認しました。Android がインストールの確認を求めます。
+update_import_relaying	署名を確認しました。この端末は、このバージョンを確認済みの連絡先に中継します。
+update_import_mismatch	お使いのバージョンですが、ここにインストールされているアプリは同じファイルではありません。中継するものはありません。
+update_import_older	このパッケージはお使いのバージョンより古いものです。何もインストールされませんでした。
+update_failed_memory	ダウンロードに必要なメモリが足りません。
+update_failed_corrupt	受信したファイルが署名と一致しません。破棄しました。
+update_failed_install	Android がインストールを拒否しました。
+update_failed_signature	このバージョンは、お使いのアプリと同じ鍵で署名されていません。拒否しました。
+update_banner	アップデートがあります
+settings_language	言語
+language_auto	端末の言語
+tutorial_live_title	連絡できるのはライブのときだけ
+tutorial_live_body	Whospair は、サーバーに何も待たせておきません。メッセージが届くのは、相手がアプリを開いているか、「連絡可能な状態を保つ」をオンにしているときです。
+tutorial_live_f1	Tor の横の点：緑はオンライン、オレンジは接続中
+tutorial_live_f2	最初の接続には数秒、ときには 1 分ほどかかることがあります
+tutorial_live_f3	名前の下の「連絡可能」：相手が今そこにいます
+tutorial_confirm_title	連絡先を確認する
+tutorial_confirm_body	会話するには 1 回のスキャンで十分です。ただし、あなたのリンクだけを持つ人は「確認待ち」として表示されます。
+tutorial_confirm_f1	対面または通話で安全番号を照合してください
+tutorial_confirm_f2	両方の端末で同じ番号なら、間に誰もいません
+tutorial_confirm_f3	電話や合図ができるのは確認済みの連絡先だけです
+tutorial_discreet_title	目立たなさ
+tutorial_discreet_body	そばに誰かがいるときのための保護機能。
+tutorial_discreet_f1	端末を机に伏せると、画面が真っ暗になります
+tutorial_discreet_f2	閲覧コード：コードを入力するまで会話は隠れたままです
+tutorial_discreet_f3	プライベートモード：あなたがメッセージを送ったときだけ、この連絡先はあなたに連絡できます
+update_check	アップデートを確認
+update_checking	確認中…
+chat_peer_outdated	この連絡先の Whospair は古すぎます。アップデートするまで何も届きません。アップデート自体は届きます。
+ttl_never	なし
+reply_cancel	返信を取り消す
+input_emoji	絵文字
+reply_you	あなた
+share_app	Whospair を共有
+share_app_sub	アプリストアなしで、アプリそのものを送信
+copy_action	コピー
+copy_title	コピーする部分を選択
+copy_all	すべてコピー
+copy_done	コピーしました
+delete_everyone_body	「全員」を選ぶと、相手側のコピーも通知なしで消去されます。相手に届かない場合は、Whospair を開いている間、届きしだい送られます。
+select_more	複数選択
+delete_everyone_action	全員から削除
+licenses_title	ライセンス
+update_notes_title	新機能
+tut_welcome_title	Whospair へようこそ
+tut_welcome_body	サーバーに痕跡を残さないメッセージと通話。サーバーがないからです。
+tut_welcome_f1	エンドツーエンド暗号化、アカウント不要：鍵はあなたのもの
+tut_welcome_f2	相手がアプリを開いているか「連絡可能な状態を保つ」をオンにしているとき、メッセージが送られます
+tut_welcome_f3	Tor の横の点：緑はオンライン、オレンジは接続中（1 分ほどかかることも）
+tut_add_title	追加して信頼する
+tut_add_body	ユーザー名も電話番号も不要：鍵を交換します。相手のコードを読み取るか、自分のコードを読み取ってもらいます。
+tut_add_f1	確認待ち：あなたのリンクだけで来た相手。メッセージは届きますが、通話や合図はできません
+tut_add_f2	確認済み：あなたが追加または承認した相手
+tut_add_f3	検証済み：対面で互いのセキュリティコードを読み取った相手。間に誰も入り込んでいません
+tut_write_title	書いて、消す
+tut_write_body	メッセージには送信時に選んだ寿命があり、期限が来ると双方から消えます。
+tut_write_f1	短いほど安全：画面に表示されているものはまだ端末に残っています
+tut_write_f2	全員から削除：相手の端末からあなたのメッセージを消します
+tut_write_f3	双方での消去：二人とも同意すれば、どちらでもいつでも、双方の会話をすべて消せます
+tutorial_discreet_f5	クイック設定の「Whospair をロック」タイル：ワンタップでアプリを閉じます
+tile_lock	Whospair をロック
+contact_verified	検証済み
+verify_title	対面で検証
+verify_hint	対面で、互いのコードを読み取ります
+verify_done	対面で検証済み
+verify_body	このコードを相手に見せ、相手のコードを読み取ってください。一致すれば、間に誰も入り込んでいません。
+verify_scan	相手のコードを読み取る
+verify_ok	コードが一致しました：連絡先を検証しました。
+verify_fail	このコードは一致しません。解決するまでこの連絡先を信頼しないでください。
+wipe_title	双方での消去
+wipe_off	オフ。提案すると、相手の承認が必要です。
+wipe_asked	相手の承認を待っています。
+wipe_to_answer	相手が、どちらでもいつでも双方の会話をすべて消せるようにすることを提案しています。
+wipe_on	オン：どちらでもいつでも双方の会話をすべて消せます。
+wipe_propose	提案する
+wipe_accept	承認する
+wipe_refuse	断る
+wipe_cancel	依頼を取り消す
+wipe_disable	オフにする
+wipe_now	双方の会話を消去
+wipe_confirm	会話全体が両方の端末から消去されます。元に戻せません。
+wipe_action	すべて消去
+wipe_banner	%1$s が双方での消去を提案しています
+settings_gaze_owner	自分の顔だけ
+settings_gaze_owner_hint	画面はあなたにだけ開きます
+face_intro_title	自分の顔だけ
+face_intro_body	画面は、あなた自身が見ているときだけ開きます。ほかの人が見ているときや、誰も見ていないときは黒いままです。\n\n顔が変わると（けが、腫れ、ひげ、眼鏡）、認識されなくなり画面が黒いままになることがあります。画面下の「PIN で非表示をオフ」は、ロック解除コードでいつでも使えます。その後、顔を登録し直せます。\n\nこのボタンはロック画面と同じルールに従います。ここで強制解除用の PIN を入力するとすべて消去され、誤った入力が 10 回続いた場合も同じです。\n\nのぞき見を防ぐためのもので、鍵ではありません。本当の守りは PIN です。処理はすべて端末内で行われ、顔は写真ではなく暗号化された数値として保存されます。
+face_intro_ok	わかりました
+face_enroll_title	顔を登録
+face_enroll_body	顔を明るくして、数秒間画面を見てください。
+face_enroll_ok	顔を登録しました。
+face_enroll_fail	顔を認識できませんでした。明るい場所で画面をまっすぐ見て、もう一度お試しください。
+face_reenroll	顔を登録し直す
+face_disable_pin	PIN で非表示をオフ
+tutorial_discreet_f4	カメラ（任意）：あなたが目をそらしたとき、他の人がのぞいたとき、またはあなたの顔でないときに画面を隠します。処理はすべて端末内で行われ、何も記録されません
+conv_pin	ピン留め
+conv_unpin	ピン留めを外す
+conv_pinned	ピン留め中
+update_diffuser_retry	配信元に接続できません。10 秒後に再試行します
+update_mandatory_title	アップデートが必要です
+update_mandatory_body	Whospair の新しいバージョンが公開されてから 5 日以上たちました。引き続き使うにはインストールしてください。最新の連絡先は古いバージョンを受け付けません。
+gaze_manual	手動
+gaze_manual_hint	暗い場所などで、PIN でオフにできます。
+gaze_auto	自動
+gaze_auto_hint	光が足りない 20 時から 6 時まではオフ。
+shield_choice_title	画面の非表示をオフ
+shield_pause_10	10 分間
+shield_disable_all	完全にオフ
+shield_pause_over_title	一時停止が終わりました
+shield_pause_over_body	画面の非表示が再び有効です。
+shield_keep_paused	しばらくオフのままにする
+update_interrupted	アップデートが中断されました。30 分後に再試行します

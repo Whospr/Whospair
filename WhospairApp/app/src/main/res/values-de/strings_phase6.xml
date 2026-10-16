@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor an</string>
+    <string name="tor_state_connecting">Verbindung zu Tor</string>
+    <string name="tor_state_offline">Tor aus</string>
+    <string name="presence_reachable">erreichbar</string>
+    <string name="ring_action">Klingeln</string>
+    <string name="ring_calling">%1$s wird angeklingelt…</string>
+    <string name="ring_incoming">%1$s klingelt bei Ihnen</string>
+    <string name="ring_accept">Annehmen</string>
+    <string name="ring_decline">Ignorieren</string>
+    <string name="ring_cancel">Stopp</string>
+    <string name="ring_declined">%1$s hat das Klingeln ignoriert</string>
+    <string name="ring_timeout">Keine Antwort</string>
+    <string name="ring_peer_offline">%1$s ist gerade nicht in der App</string>
+    <string name="ring_busy">Es ist bereits eine Sitzung offen</string>
+    <string name="indicator_title">Was das anzeigt</string>
+    <string name="indicator_channel_live">Tor läuft und Ihre Adresse ist veröffentlicht. Kontakte, die die App ebenfalls geöffnet haben, können Sie erreichen, und Sie sie.</string>
+    <string name="indicator_channel_none">Tor ist nicht bereit. Nichts kann gesendet oder empfangen werden, und nirgends wird etwas für später aufbewahrt.</string>
+    <string name="indicator_tunnel_on">Ihr Datenverkehr läuft über eine VPN-Schnittstelle. So viel kann Whospair sehen, mehr nicht – es weiß weder, welcher Anbieter es ist, noch ob der Tunnel Lecks hat.</string>
+    <string name="indicator_tunnel_off">Ihr Datenverkehr geht direkt hinaus. Ihr Netzanbieter kann sehen, dass dieses Gerät Tor nutzt, und wann – nicht, mit wem Sie sprechen oder was gesagt wird.</string>
+    <string name="indicator_dismiss">Schließen</string>
+    <string name="vpn_advice_title">Zu Ihrem Netzwerk</string>
+    <string name="vpn_advice_body">Whospair verschlüsselt, was Sie sagen, und Tor verbirgt, wem Sie es sagen. Keines von beiden verbirgt, dass Sie Tor nutzen: Wer Ihren Datenverkehr transportiert, sieht das, zu welchen Zeiten und wie oft. Ein VPN verlagert diesen Blick zum Tunnelbetreiber. Das ist eine echte Veränderung, wenn der Beobachter genau der ist, den Sie fürchten.</string>
+    <string name="vpn_advice_caveat">Ein VPN ist keine Garantie. Sie wählen, wer zusieht – Sie schaffen den Beobachter nicht ab. Wählen Sie einen Anbieter, dem Sie aus gutem Grund vertrauen, und ziehen Sie einen bezahlten einem vor, der sich mit Ihrem Datenverkehr finanziert.</string>
+    <string name="contacts_title">Kontakte</string>
+    <string name="contacts_empty">Ihre Kontaktliste ist leer.</string>
+    <string name="contact_unconfirmed">Nicht bestätigt</string>
+    <string name="contact_blocked">Blockiert</string>
+    <string name="chat_settings">Einstellungen der Unterhaltung</string>
+    <string name="chat_unconfirmed_banner">Diese Person hat Sie über Ihren Link hinzugefügt. Sie haben noch nicht bestätigt, wer sie ist.</string>
+    <string name="chat_confirm">Bestätigen</string>
+    <string name="chat_block">Blockieren</string>
+    <string name="chat_unblock">Blockierung aufheben</string>
+    <string name="chat_blocked_banner">Blockiert. Die Person kann Sie nicht mehr erreichen.</string>
+    <string name="settings_rename">Name</string>
+    <string name="settings_rename_hint">Nur Sie sehen diesen Namen.</string>
+    <string name="settings_save">Speichern</string>
+    <string name="settings_safety_number">Sicherheitsnummer</string>
+    <string name="settings_safety_hint">Vergleichen Sie sie mit Ihrem Kontakt persönlich oder per Anruf. Gleiche Nummer auf beiden Telefonen = niemand dazwischen.</string>
+    <string name="settings_confirm_trust">Geprüft – diesen Kontakt bestätigen</string>
+    <string name="settings_trusted">Bestätigter Kontakt</string>
+    <string name="settings_block_hint">Ein blockierter Kontakt kann sich nicht mehr verbinden oder Ihnen schreiben.</string>
+    <string name="settings_delete">Kontakt löschen</string>
+    <string name="settings_delete_confirm">Diesen Kontakt und alle Nachrichten löschen? Hat die Person Ihren Link noch, kann sie unbestätigt zurückkommen – blockieren Sie sie, um das zu verhindern.</string>
+    <string name="settings_delete_action">Löschen</string>
+</resources>

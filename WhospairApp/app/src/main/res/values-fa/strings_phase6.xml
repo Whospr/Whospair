@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor روشن</string>
+    <string name="tor_state_connecting">در حال اتصال به Tor</string>
+    <string name="tor_state_offline">Tor خاموش</string>
+    <string name="presence_reachable">در دسترس</string>
+    <string name="ring_action">زنگ زدن</string>
+    <string name="ring_calling">در حال زنگ زدن به %1$s…</string>
+    <string name="ring_incoming">%1$s برایتان زنگ می‌زند</string>
+    <string name="ring_accept">پاسخ</string>
+    <string name="ring_decline">نادیده گرفتن</string>
+    <string name="ring_cancel">توقف</string>
+    <string name="ring_declined">%1$s زنگ را نادیده گرفت</string>
+    <string name="ring_timeout">پاسخی نیامد</string>
+    <string name="ring_peer_offline">%1$s اکنون در برنامه نیست</string>
+    <string name="ring_busy">یک نشست از قبل باز است</string>
+    <string name="indicator_title">این چه نشان می‌دهد</string>
+    <string name="indicator_channel_live">Tor کار می‌کند و نشانی شما منتشر شده است. مخاطبانی که برنامه‌شان باز است می‌توانند به شما برسند، و شما به آن‌ها.</string>
+    <string name="indicator_channel_none">Tor آماده نیست. هیچ چیز فرستاده یا دریافت نمی‌شود و هیچ چیز جایی برای بعد نگه داشته نمی‌شود.</string>
+    <string name="indicator_tunnel_on">ترافیک شما از یک رابط VPN خارج می‌شود. Whospair فقط همین را می‌بیند و نه بیشتر: نمی‌داند کدام ارائه‌دهنده است یا اینکه تونل نشتی دارد یا نه.</string>
+    <string name="indicator_tunnel_off">ترافیک شما مستقیم خارج می‌شود. ارائه‌دهندهٔ شبکه‌تان می‌تواند ببیند این دستگاه از Tor استفاده می‌کند و چه زمانی؛ نه اینکه با چه کسی حرف می‌زنید یا چه گفته می‌شود.</string>
+    <string name="indicator_dismiss">بستن</string>
+    <string name="vpn_advice_title">دربارهٔ شبکهٔ شما</string>
+    <string name="vpn_advice_body">Whospair آنچه می‌گویید را رمز می‌کند و Tor پنهان می‌کند به چه کسی می‌گویید. هیچ‌کدام پنهان نمی‌کنند که از Tor استفاده می‌کنید: هر که ترافیک شما را جابه‌جا می‌کند این را می‌بیند، در چه ساعاتی و چند بار. یک VPN این دید را به گردانندهٔ تونل منتقل می‌کند. وقتی ناظر دقیقاً همان کسی است که از او نگرانید، این تغییری واقعی است.</string>
+    <string name="vpn_advice_caveat">VPN ضمانت نیست. شما انتخاب می‌کنید چه کسی نظارت کند، نه اینکه ناظر را حذف کنید. یکی را برگزینید که دلیلی برای اعتماد به آن دارید، و پولی را به رایگانی که با ترافیک شما هزینه‌اش را درمی‌آورد ترجیح دهید.</string>
+    <string name="contacts_title">مخاطبان</string>
+    <string name="contacts_empty">فهرست مخاطبان شما خالی است.</string>
+    <string name="contact_unconfirmed">تأییدنشده</string>
+    <string name="contact_blocked">مسدود</string>
+    <string name="chat_settings">تنظیمات گفت‌وگو</string>
+    <string name="chat_unconfirmed_banner">این شخص شما را با پیوندتان اضافه کرده است. شما هنوز هویتش را تأیید نکرده‌اید.</string>
+    <string name="chat_confirm">تأیید</string>
+    <string name="chat_block">مسدود کردن</string>
+    <string name="chat_unblock">رفع انسداد</string>
+    <string name="chat_blocked_banner">مسدود شد. دیگر نمی‌تواند به شما برسد.</string>
+    <string name="settings_rename">نام</string>
+    <string name="settings_rename_hint">فقط شما این نام را می‌بینید.</string>
+    <string name="settings_save">ذخیره</string>
+    <string name="settings_safety_number">شمارهٔ امنیتی</string>
+    <string name="settings_safety_hint">آن را حضوری یا در تماس با مخاطب خود مقایسه کنید. شمارهٔ یکسان روی هر دو گوشی = کسی در میانه نیست.</string>
+    <string name="settings_confirm_trust">بررسی کردم — تأیید این مخاطب</string>
+    <string name="settings_trusted">مخاطب تأییدشده</string>
+    <string name="settings_block_hint">مخاطب مسدود دیگر نمی‌تواند وصل شود یا برایتان پیام بفرستد.</string>
+    <string name="settings_delete">حذف مخاطب</string>
+    <string name="settings_delete_confirm">این مخاطب و همهٔ پیام‌ها حذف شود؟ اگر هنوز پیوند شما را دارد، ممکن است به‌عنوان تأییدنشده برگردد — برای جلوگیری، مسدودش کنید.</string>
+    <string name="settings_delete_action">حذف</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">בחירת קוד PIN</string>
+    <string name="lock_hint_setup">לפחות 6 ספרות. אי אפשר לשחזר אותו — אם הוא נשכח, הכול אובד.</string>
+    <string name="lock_title_confirm">להקליד שוב</string>
+    <string name="lock_mismatch">שתי ההקלדות לא תואמות. להתחיל מחדש.</string>
+    <string name="lock_title_unlock">הקלדת קוד ה־PIN</string>
+    <string name="lock_wrong">קוד PIN שגוי</string>
+    <string name="lock_attempts_left">נותרו %1$d ניסיונות לפני שהכול יימחק</string>
+    <string name="lock_busy">בודק…</string>
+    <string name="lock_error">משהו השתבש בפתיחה. אפשר לנסות שוב.</string>
+    <string name="settings_lock_now">נעילה עכשיו</string>
+    <string name="settings_duress_title">קוד PIN לחירום</string>
+    <string name="settings_duress_body">קוד PIN שני, למקרי חירום. הקלדתו במסך הנעילה מוחקת הכול — מפתחות, אנשי קשר, הודעות — והאפליקציה מתחילה מחדש כאילו הותקנה זה עתה.</string>
+    <string name="settings_duress_current">קוד PIN נוכחי</string>
+    <string name="settings_duress_new">קוד PIN לחירום</string>
+    <string name="settings_duress_saved">קוד PIN לחירום הוגדר.</string>
+    <string name="settings_duress_failed">לא הוגדר: קוד ה־PIN הנוכחי שגוי, או שקוד החירום קצר מדי, זהה או באורך אחר.</string>
+</resources>

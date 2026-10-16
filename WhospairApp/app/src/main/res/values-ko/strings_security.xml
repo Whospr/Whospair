@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">PIN을 정하세요</string>
+    <string name="lock_hint_setup">6자리 이상. 복구할 수 없습니다. 잊어버리면 모두 잃게 됩니다.</string>
+    <string name="lock_title_confirm">한 번 더 입력하세요</string>
+    <string name="lock_mismatch">두 입력이 일치하지 않습니다. 다시 시작하세요.</string>
+    <string name="lock_title_unlock">PIN을 입력하세요</string>
+    <string name="lock_wrong">PIN이 틀렸습니다</string>
+    <string name="lock_attempts_left">모두 지워지기까지 %1$d번 남았습니다</string>
+    <string name="lock_busy">확인 중…</string>
+    <string name="lock_error">여는 중에 문제가 생겼습니다. 다시 시도하세요.</string>
+    <string name="settings_lock_now">지금 잠그기</string>
+    <string name="settings_duress_title">긴급 PIN</string>
+    <string name="settings_duress_body">긴급 상황을 위한 두 번째 PIN입니다. 잠금 화면에서 입력하면 키, 연락처, 메시지 등 모든 것이 지워지고, 앱은 새로 설치한 상태로 다시 시작합니다.</string>
+    <string name="settings_duress_current">현재 PIN</string>
+    <string name="settings_duress_new">긴급 PIN</string>
+    <string name="settings_duress_saved">긴급 PIN을 설정했습니다.</string>
+    <string name="settings_duress_failed">설정하지 못했습니다: 현재 PIN이 틀렸거나, 긴급 PIN이 너무 짧거나, 같거나, 자릿수가 다릅니다.</string>
+</resources>

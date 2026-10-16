@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Позови</string>
+    <string name="call_connecting">Повезивање преко Тора…</string>
+    <string name="call_ringing">Звони…</string>
+    <string name="call_incoming">Долазни позив</string>
+    <string name="call_answer">Јави се</string>
+    <string name="call_decline">Одбиј</string>
+    <string name="call_cancel">Откажи</string>
+    <string name="call_hang_up">Прекини</string>
+    <string name="call_mute">Искључи микрофон</string>
+    <string name="call_unmute">Укључи микрофон</string>
+    <string name="call_speaker">Звучник</string>
+    <string name="call_earpiece">Слушалица</string>
+    <string name="call_delay_hint">Преко Тора Ваш глас стиже око секунд касније. Направите кратку паузу пре одговора.</string>
+    <string name="call_ended">Позив је завршен</string>
+    <string name="call_declined">Одбијено</string>
+    <string name="call_busy">Већ у позиву</string>
+    <string name="call_no_answer">Нема одговора</string>
+    <string name="call_unreachable">Тренутно недоступно. Покушајте поново за тренутак.</string>
+    <string name="call_lost">Веза је прекинута</string>
+    <string name="call_mic_denied">Микрофон је искључен за Whospair. Дозволите га у подешавањима Android-a да бисте звали.</string>
+    <string name="call_not_confirmed">Прво потврдите овај контакт. Само потврђени контакти могу међусобно да се зову.</string>
+    <string name="call_log_outgoing">Одлазни позив · %1$s</string>
+    <string name="call_log_incoming">Долазни позив · %1$s</string>
+    <string name="call_log_missed">Пропуштен позив</string>
+    <string name="call_log_refused">Позив је одбијен</string>
+    <string name="call_log_no_answer">Позив без одговора</string>
+    <string name="call_log_busy">Позив: саговорник је већ био у позиву</string>
+    <string name="call_log_unreachable">Позив није успостављен</string>
+    <string name="call_log_cancelled">Позив је отказан</string>
+</resources>

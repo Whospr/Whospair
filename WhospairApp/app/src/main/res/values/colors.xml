@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Couleurs côté ressources XML uniquement (fenêtre, barres système).
+    La palette applicative est dans theme/Theme.kt ; ces valeurs doivent
+    rester alignées avec elle.
+-->
+<resources>
+    <color name="whisper_background">#FF121212</color>
+    <color name="whisper_surface">#FF1E1E1E</color>
+    <color name="whisper_accent">#FF3A9FFF</color>
+    <!-- Fond des images de l'auteur (icône, écran d'ouverture). -->
+    <color name="ic_launcher_background">#FF181818</color>
+</resources>

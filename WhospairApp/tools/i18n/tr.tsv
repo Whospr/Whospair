@@ -1,0 +1,561 @@
+splash_tagline	Tasarımından gizli
+tos_title	Başlamadan önce
+tos_warning	Lütfen dikkatle okuyun. Whospair bildiğiniz mesajlaşma uygulamaları gibi çalışmaz ve bu farkların bazıları geri alınamaz.
+tos_s1_title	1. Tasarımından eşten eşe
+tos_s1_body	Whospair'in sunucusu yoktur. Mesajlar ve aramalar doğrudan bir cihazdan diğerine gider. Hiç kimse — biz de dahil — araya girmez, verilerinizi saklamaz ya da kimseye veremez.
+tos_s2_title	2. Sorumluluk sizde
+tos_s2_body	Bu uygulamanın arkasında hiçbir operatör yoktur. Ne gönderdiğiniz, kime gönderdiğiniz ve aldıklarınızla ne yaptığınız tamamen sizin sorumluluğunuzdadır. Whospair bir araçtır: yazarları, onu nasıl kullandığınızdan ve sonuçlarından sorumlu tutulamaz.
+tos_s3_title	3. Denetim yok
+tos_s3_body	Hiçbir makam içeriği incelemez, süzmez ya da silmez. Birine ulaşan bir şikâyet düğmesi yoktur, çünkü ulaşılacak kimse yoktur.
+tos_s4_title	4. Uçtan uca şifreleme
+tos_s4_body	Mesajlar uçtan uca şifrelenir (X25519 ve AES-256-GCM) ve imzalanır. Aramalar Tor üzerinden geçer; yaklaşık her on saniyede değişen bir anahtarla şifrelenir.
+tos_s5_title	5. Hiçbir şey uzakta saklanmaz
+tos_s5_body	Kimliğiniz, kişileriniz ve mesajlarınız yalnızca bu cihazda bulunur. Uygulamayı kaldırmak onları siler.
+tos_s6_title	6. Kurtarma yok
+tos_s6_body	Kimliğiniz bir hesap değil, bir şifreleme anahtarıdır. Kaybederseniz gider. Parola sıfırlama, destek hattı ya da geri yüklenecek yedek yoktur.
+tos_s7_title	7. Yalnızca yasal kullanım
+tos_s7_body	Gizlilik araçları meşru konuşmaları korur. Whospair'i yasaları çiğnemek için kullanmak yine de yasaları çiğnemektir.
+tos_s8_title	8. Garanti yok
+tos_s8_body	Bu yazılım olduğu gibi sunulur; erişilebilirlik, doğruluk ya da belirli bir amaca uygunluk garantisi yoktur.
+tos_s9_title	9. Güvenliğin sınırları var
+tos_s9_body	Şifreleme, aktarılan verileri korur. Kötü amaçlı yazılım, rootkit ya da elinde tutan biri tarafından ele geçirilmiş bir cihazı koruyamaz.
+tos_s10_title	10. Kabul
+tos_s10_body	Devam etmek, yukarıdakileri ve özellikle kaybolan bir kimliğin kurtarılamayacağını anladığınız anlamına gelir.
+tos_checkbox	Bu koşulları okudum ve kabul ediyorum
+tos_accept	Kabul et
+tos_decline	Reddet
+tos_decline_dialog_title	Koşulları reddediyor musunuz?
+tos_decline_dialog_body	Whospair kabul edilmeden çalışamaz. Uygulama kapanacak.
+tos_decline_confirm	Uygulamayı kapat
+tos_decline_cancel	Geri dön
+tutorial_skip	Atla
+tutorial_next	İleri
+tutorial_back	Geri
+tutorial_start	Başla
+tutorial_page_counter	%1$d / %2$d
+tutorial_p1_title	Whospair'e hoş geldiniz
+tutorial_p1_body	Hiçbir sunucuda iz bırakmayan mesajlar ve aramalar, çünkü sunucu yok.
+tutorial_p1_f1	Uçtan uca şifreli
+tutorial_p1_f2	Sunucu yok, hesap yok
+tutorial_p1_f3	Mesajlar kendiliğinden silinir
+tutorial_p1_f4	Tüm anahtarlar sizde
+tutorial_p2_title	Birini eklemek
+tutorial_p2_body	Kullanıcı adı ya da telefon numarası yoktur. Anahtarlar doğrudan değiştirilir.
+tutorial_p2_s1	Ekle sekmesini açın
+tutorial_p2_s2	Onun kodunu tarayın ya da sizinkini taramasına izin verin
+tutorial_p2_s3	Sohbet hazır
+tutorial_p2_note	Yeni bir kimlik, yeni bir kod demektir. Onu yeniden paylaşmak, bağlantıyı kurmanın tek yoludur.
+tutorial_p3_title	Mesaj göndermek
+tutorial_p3_body	Her mesajın gönderildiği andan itibaren bir ömrü vardır.
+tutorial_p3_s1	Bir sohbet açın
+tutorial_p3_s2	Yazın, ardından ne kadar yaşayacağını seçin
+tutorial_p3_s3	Gönderin
+tutorial_p4_title	Ömür
+tutorial_p4_body	Söylediğinize uygun süreyi seçin. Süre dolduğunda mesaj iki cihazdan da silinir.
+tutorial_p4_note	Ne kadar kısa, o kadar güvenli. Ekranda duran her şey diskte de durur.
+tutorial_p5_title	Kontrol sizde
+tutorial_p5_body	Başlamadan önce bilmeniz gereken birkaç şey.
+tutorial_p5_f1	Herhangi bir kişiyi engelleyin ya da silin
+tutorial_p5_f2	Bir sohbetin tamamını tek seferde silin
+tutorial_p5_f3	Uygulamayı bir PIN ile kilitleyin
+tutorial_p5_f4	Anahtarlar bu cihazdan asla çıkmaz
+identity_creating_title	Kimliğiniz oluşturuluyor
+identity_creating_body	Bu cihazda bir anahtar çifti üretiliyor. Bu biraz sürer.
+identity_ready_title	Bu sizsiniz
+identity_ready_body	Anahtarlarınız hazır. Şimdi PIN'inizi seçin: onları mühürleyen odur. QR kodunuz sizi Ekle sekmesinde bekliyor olacak.
+identity_warning	Özel anahtarınız bu cihazda kalır ve asla gösterilmez. Bu cihazı kaybederseniz bu kimlik sonsuza dek kaybolur.
+identity_continue	Devam
+identity_error_title	Kimliğiniz oluşturulamadı
+identity_retry	Tekrar dene
+nav_home	Mesajlar
+nav_contacts	Kişiler
+nav_calls	Aramalar
+nav_discover	Ekle
+nav_settings	Ayarlar
+ttl_5m	5 dk
+ttl_15m	15 dk
+ttl_1h	1 saat
+ttl_5h	5 saat
+ttl_8h	8 saat
+ttl_24h	24 saat
+ttl_7d	7 gün
+discover_title	Kişi ekle
+discover_subtitle	Kodunuzu kişiye gösterin ya da onunkini tarayın. Yüz yüzeyken kiminle konuştuğunuzu bilirsiniz.
+discover_scan_title	Kodunu tara
+discover_scan_body	Kamerayı kişinin QR koduna tutun
+discover_mycode_title	Kodumu göster
+discover_mycode_body	Birinin sizi eklemesine izin verin
+discover_manual_title	Ya da aldığınız bağlantıyı yapıştırın
+discover_manual_hint	whospair:… ya da 64 onaltılık karakter
+discover_add	Bu kişiyi ekle
+discover_fingerprint	Sesli karşılaştırılacak parmak izi
+discover_copy_link	Davet bağlantısını kopyala
+add_ok	%1$s eklendi. Bir sohbet başlatabilirsiniz.
+add_already	%1$s zaten kişilerinizde.
+add_blocked	%1$s kişilerinizde ama engelli.
+add_self	Bu sizin kendi anahtarınız. Kendinizi ekleyemezsiniz.
+add_malformed	Bu anahtar geçerli değil. Açık anahtar 64 onaltılık karakterdir.
+add_not_whisper	Bu kod bir Whospair anahtarı değil.
+add_unblock	Engeli kaldır
+add_unblocked	%1$s artık engelli değil.
+scan_instruction	Eklemek istediğiniz QR koduna tutun
+scan_permission_title	Kamera erişimi gerekiyor
+scan_permission_body	Kod taramak için kamera gerekir. Hiçbir şey kaydedilmez ya da bir yere gönderilmez.
+scan_permission_denied	Kamera erişimi reddedildi. Cihaz ayarlarından açabilir ya da anahtarı elle yapıştırabilirsiniz.
+scan_permission_grant	Kameraya izin ver
+scan_use_manual	Anahtar yapıştır
+contact_block	Engelle
+contact_unblock	Engeli kaldır
+contact_delete	Kişiyi sil
+contact_delete_confirm	Bu kişi ve tüm sohbet silinsin mi? Bu geri alınamaz.
+contact_blocked_notice	Engellendi. Bu kişiden gelen mesajlar reddedilir.
+common_dismiss	Kapat
+common_loading	Yükleniyor…
+common_cancel	İptal
+common_error	Bir şeyler ters gitti
+chat_today	Bugün
+chat_yesterday	Dün
+message_pending	Gönderiliyor
+message_failed	Gönderilmedi, kişiye ulaşılamıyor
+tutorial_pin_title	PIN'iniz, yalnızca PIN'iniz
+tutorial_pin_body	Whospair'deki her şey, bir sonraki adımda seçeceğiniz PIN ile kilitlenir. Unutursanız hiçbir şey kurtarılamaz.
+tutorial_pin_f1	On yanlış deneme her şeyi siler
+tutorial_pin_f2	Acil durum PIN'i (Ayarlar'dan belirlenir) girildiğinde her şeyi siler: zorlandığınızda ya da tehlikedeyken kullanın
+tutorial_pin_f3	Parmak izi ya da yüz tanıma yok: parmağınız zorla sensöre bastırılabilir, ama sizden kod koparılamaz
+tutorial_pin_note	Uygulama arka plana geçtiğinde kendini kilitler.
+call_action	Ara
+call_connecting	Tor üzerinden ulaşılıyor…
+call_ringing	Çalıyor…
+call_incoming	Gelen arama
+call_answer	Yanıtla
+call_decline	Reddet
+call_cancel	İptal
+call_hang_up	Kapat
+call_mute	Sesi kapat
+call_unmute	Sesi aç
+call_speaker	Hoparlör
+call_earpiece	Kulaklık
+call_delay_hint	Tor üzerinden sesiniz yaklaşık bir saniye gecikmeyle ulaşır. Yanıtlamadan önce kısa bir ara verin.
+call_ended	Arama bitti
+call_declined	Reddedildi
+call_busy	Zaten bir aramada
+call_no_answer	Yanıt yok
+call_unreachable	Şu anda ulaşılamıyor. Biraz sonra tekrar deneyin.
+call_lost	Bağlantı koptu
+call_mic_denied	Whospair için mikrofon kapalı. Aramak için Android ayarlarından izin verin.
+call_not_confirmed	Önce bu kişiyi onaylayın. Yalnızca onaylı kişiler birbirini arayabilir.
+call_log_outgoing	Giden arama · %1$s
+call_log_incoming	Gelen arama · %1$s
+call_log_missed	Cevapsız arama
+call_log_refused	Arama reddedildi
+call_log_no_answer	Arama yanıtlanmadı
+call_log_busy	Arama: karşı taraf zaten bir aramadaydı
+call_log_unreachable	Arama gerçekleşmedi
+call_log_cancelled	Arama iptal edildi
+messages_title	Mesajlar
+search_contact	Kişi ara
+conversations_empty_title	Henüz sohbet yok
+conversations_empty_body	Birini, kodunu yüz yüze tarayarak ekleyin. İkinizde de uygulama açıkken ona yazabilirsiniz.
+search_no_result	Bu adla bir kişi yok.
+add_contact	Kişi ekle
+scan_code	Kod tara
+message_retry	Tekrar dene
+message_sent	Gönderildi
+message_delivered	İletildi
+read_lock_preview	Okuma gizli
+message_expires_in	%1$s içinde silinir
+ttl_button	Mesaj ömrü: %1$s
+send	Gönder
+back	Geri
+close	Kapat
+confirm_identity	Kimliği onayla
+delete_contact_and_chat	Kişiyi ve sohbeti sil
+preview_none	Mesaj yok
+preview_encrypted	Şifreli mesaj
+duration_days	%1$d g
+message_placeholder	Bir mesaj yazın
+discover_code_caption	Bu kod açık anahtarlarınızı ve Tor adresinizi içerir. Başka hiçbir şey değil.
+share_link	Bağlantımı paylaş
+copy_link	Bağlantıyı kopyala
+link_copied	Bağlantı kopyalandı
+memory_advice_title	Telefon belleği
+memory_advice_body	Whospair anahtarlarını yalnızca uygulama açıkken bellekte tutar. Ama bazı telefonlar daha büyük görünmek için belleğin bir kısmını depolamaya kopyalar (“sanal bellek”, “bellek genişletme”). Bu şekilde kopyalanan bir anahtar, Whospair kapandıktan sonra telefonda kalabilir.
+memory_advice_how	Kapatmak için: telefon ayarlarında “sanal bellek” ya da “bellek genişletme” seçeneğini bulun, kapatın ve telefonu yeniden başlatın.
+voice_record	Sesli mesaj kaydet
+voice_cancel	Kaydı sil
+voice_recording	en fazla %1$s
+voice_send	Sesli mesajı gönder
+voice_play	Oynat
+voice_pause	Duraklat
+voice_receiving	Alınıyor…
+voice_preview	Sesli mesaj %1$s
+mic_denied	Whospair için mikrofon kapalı. Sesli mesaj göndermek için Android ayarlarından izin verin.
+tor_state_live	Tor açık
+tor_state_connecting	Tor'a bağlanılıyor
+tor_state_offline	Tor kapalı
+presence_reachable	ulaşılabilir
+ring_action	Çaldır
+ring_calling	%1$s çaldırılıyor…
+ring_incoming	%1$s sizi çaldırıyor
+ring_accept	Yanıtla
+ring_decline	Yoksay
+ring_cancel	Durdur
+ring_declined	%1$s çaldırmayı yoksaydı
+ring_timeout	Yanıt yok
+ring_peer_offline	%1$s şu anda uygulamada değil
+ring_busy	Zaten açık bir oturum var
+indicator_title	Bu ne gösteriyor
+indicator_channel_live	Tor çalışıyor ve adresiniz yayında. Uygulaması açık olan kişiler size ulaşabilir, siz de onlara.
+indicator_channel_none	Tor hazır değil. Hiçbir şey gönderilemez ya da alınamaz ve sonrası için hiçbir yerde bir şey tutulmaz.
+indicator_tunnel_on	Trafiğiniz bir VPN arayüzünden çıkıyor. Whospair bu kadarını görebilir, daha fazlasını değil: hangi sağlayıcı olduğunu ya da tünelin sızdırıp sızdırmadığını bilmez.
+indicator_tunnel_off	Trafiğiniz doğrudan çıkıyor. Ağ sağlayıcınız bu cihazın Tor kullandığını ve ne zaman kullandığını görebilir; kiminle konuştuğunuzu ya da ne söylendiğini değil.
+indicator_dismiss	Kapat
+vpn_advice_title	Ağınız hakkında
+vpn_advice_body	Whospair söylediklerinizi şifreler, Tor ise kime söylediğinizi gizler. İkisi de Tor kullandığınızı gizlemez: trafiğinizi taşıyan bunu, hangi saatlerde ve ne sıklıkla olduğunu görür. Bir VPN bu görüşü tünel işletmecisine taşır. İzleyen, tam da endişe ettiğiniz taraf olduğunda bu gerçek bir değişikliktir.
+vpn_advice_caveat	VPN bir garanti değildir. İzleyeni ortadan kaldırmazsınız, kimin izleyeceğini seçersiniz. Güvenmek için nedeniniz olan birini seçin ve trafiğinizle kendini finanse eden yerine ücretli olanı tercih edin.
+contacts_title	Kişiler
+contacts_empty	Kişi listeniz boş.
+contact_unconfirmed	Onaylanmadı
+contact_blocked	Engelli
+chat_settings	Sohbet ayarları
+chat_unconfirmed_banner	Bu kişi sizi bağlantınızla ekledi. Kim olduğunu henüz onaylamadınız.
+chat_confirm	Onayla
+chat_block	Engelle
+chat_unblock	Engeli kaldır
+chat_blocked_banner	Engellendi. Artık size ulaşamaz.
+settings_rename	Ad
+settings_rename_hint	Bu adı yalnızca siz görürsünüz.
+settings_save	Kaydet
+settings_safety_number	Güvenlik numarası
+settings_safety_hint	Kişinizle yüz yüze ya da arayarak karşılaştırın. İki telefonda aynı numara = arada kimse yok.
+settings_confirm_trust	Kontrol ettim — bu kişiyi onayla
+settings_trusted	Onaylı kişi
+settings_block_hint	Engellenen bir kişi artık bağlanamaz ve size mesaj gönderemez.
+settings_delete	Kişiyi sil
+settings_delete_confirm	Bu kişi ve tüm mesajlar silinsin mi? Bağlantınız hâlâ onda varsa onaylanmamış olarak geri dönebilir; bunu önlemek için engelleyin.
+settings_delete_action	Sil
+settings_section_profile	Profil
+profile_photo	Profil fotoğrafı
+profile_photo_hint	256 px'e kırpılır, meta veriler silinir, yalnızca Tor üzerinden gönderilir.
+profile_photo_choose	Seç
+profile_photo_remove	Kaldır
+profile_photo_error	Bu görüntü okunamadı.
+profile_photo_visibility	Fotoğrafımı kim görür
+profile_photo_everyone	Bana ulaşan herkes
+profile_photo_everyone_hint	Onaylanmamış kişiler dahil
+profile_photo_confirmed	Onaylı kişiler
+profile_photo_hidden	Hiç kimse
+settings_gaze_shield	Kamerayla gizlenen ekran
+settings_gaze_shield_body	Ön kamera ekranın önünde kimin olduğuna bakar. Her şey telefonda kalır: hiçbir görüntü saklanmaz ya da gönderilmez. Whospair açıkken Android'in kamera ışığı yanık kalır ve pil daha hızlı biter. Telefonu masaya ters çevirmek ekranı her zaman karartır.
+settings_off	Kapalı
+settings_gaze_look_away	Başka yere baktığımda
+settings_gaze_onlooker	Başka biri baktığında
+settings_gaze_onlooker_hint	Arkanızda ikinci bir yüz. Riski azaltır ama ortadan kaldırmaz: yandan, uzaktan ya da karanlıkta görülen bir yüz fark edilmeyebilir.
+alert_someone	Biri size ulaşmaya çalışıyor
+alert_bip	%1$s sizi çaldırıyor
+alert_open	Aç
+nudge_title	Dürt
+nudge_hint	Onun Whospair'ini titret.
+nudge_action	Dürt
+nudge_sent	Dürtme gönderildi.
+nudge_unreachable	Şu anda ulaşılamıyor: karşı tarafta Whospair kapalı.
+nudge_received	%1$s sizi dürttü
+private_mode_title	Gizli mod
+private_mode_off_hint	Bu sohbette çevrimiçisiniz ve ulaşılabilirsiniz.
+private_mode_on_hint	Bu sohbette artık ulaşılamazsınız.
+private_mode_enable	Gizli modu aç
+private_mode_disable	Gizli modu kapat
+private_mode_banner	Bu sohbette gizli mod açık. Yalnızca bir mesaj gönderdikten sonraki bir dakika boyunca ulaşılabilirsiniz. Ulaşılabilir kalmak için gizli modu kapatın.
+file_generic	Dosya
+file_attach	Dosya ekle
+file_view_once	tek görüntüleme
+file_sending	gönderiliyor %1$d %%
+file_receiving	alınıyor %1$d %%
+file_send_title	Bu dosya gönderilsin mi?
+file_allow_save	Kaydetmeye izin ver
+file_allow_save_hint	Aksi halde yalnızca Whospair içinde açılır.
+file_view_once_option	Tek görüntüleme
+file_view_once_hint	İlk açılıştan sonra kişinizin telefonundan silinir.
+file_send	Gönder
+file_too_big	Dosya çok büyük: en fazla 25 MB.
+file_unreadable	Okunamayan dosya.
+file_viewer_pending	Bu tür dosyalar yakında Whospair içinde açılacak.
+input_more	Daha fazla: ömür %1$s, dürtme, dosya
+input_ttl	Ömür · %1$s
+input_file	Dosya
+notice_forwarded	%1$s, "%2$s" dosyasını başka bir kişiye iletti
+notice_shared	%1$s, "%2$s" dosyasını başka bir uygulamayla paylaştı
+notice_saved	%1$s, "%2$s" dosyasını telefonuna kaydetti
+notice_opened	%1$s, "%2$s" dosyasını başka bir uygulamada açtı
+notice_viewed	%1$s, "%2$s" dosyasını görüntüledi (tek görüntüleme)
+notice_you_forwarded	"%1$s" dosyasını ilettiniz; gönderene bildirilir
+notice_you_shared	"%1$s" dosyasını paylaştınız; gönderene bildirilir
+notice_you_saved	"%1$s" dosyasını kaydettiniz; gönderene bildirilir
+notice_you_opened	"%1$s" dosyasını başka yerde açtınız; gönderene bildirilir
+notice_you_viewed	"%1$s" dosyasını görüntülediniz; silindi
+notice_preview	Bir dosya hakkında bildirim
+file_share	Paylaş
+file_open_with	Birlikte aç…
+file_open_elsewhere_hint	Whospair bu dosyayı gösteremiyor. Üstteki “Birlikte aç…”, dosyayı kopyalamadan bir anlığına başka bir uygulamaya ödünç verir; gönderene bildirilir.
+media_play	Oynat
+media_pause	Duraklat
+share_forward	Bir kişiye gönder
+share_outside	Başka bir uygulamayla paylaş
+share_save	Telefona kaydet
+share_sender_told	Gönderene bildirilir, ama kime gönderdiğinizi bilmez.
+forward_title	Gönder…
+forward_none	Başka onaylı kişi yok.
+selection_count	%1$d seçildi
+selection_cancel	Seçimi iptal et
+delete_selected_title	%1$d öge silinsin mi?
+delete_selected_body	Ömürlerini beklemeden hemen bu telefondan silinir. Henüz gönderilmemiş olanlar gönderilmez. Kişinizdeki kopya kendi ömrü dolunca kaybolur.
+delete_selected_action	Sil
+file_cancel	Gönderimi iptal et
+notice_cancelled	%1$s bir dosya gönderimini iptal etti
+notice_you_cancelled	Bir dosya gönderimini iptal ettiniz
+file_incoming	Bir dosya geliyor…
+settings_stay_reachable	Ulaşılabilir kal
+settings_on	Açık
+settings_stay_reachable_body	Uygulama kapalıyken adresiniz çevrimiçi kalır. Kişileriniz size yazabilir ve sizi arayabilir.\n\nGelen mesajlar olduğu gibi, hâlâ şifreli olarak saklanır ve ikinci kez mühürlenir: yalnızca PIN'inizle açılabilir. Bağlantınıza sahip tanımadığınız kişiler uygulamanın açılmasını beklemek zorundadır.\n\nBildirim yalnızca “Whospair sizi çaldırıyor” der: ad yok, içerik yok. Bir aramayı yanıtlamak için Whospair'i açın, PIN'inizi girin ve yanıtlayın; kişiniz bir dakika boyunca aramaya devam eder.
+settings_stay_reachable_costs	Bedeli: uygulama kapalıyken onion anahtarınız bellekte kalır, Android kalıcı bir bildirim gösterir, adresiniz günün her saatinde çevrimiçidir ve pil daha hızlı biter. Telefon yeniden başladıktan sonra PIN'inizi girene kadar hiçbir şey çalışmaz.
+settings_reach_enable	Aç
+settings_reach_disable	Kapat
+settings_reach_battery	Arka planda izin ver
+settings_reach_battery_hint	Bu olmadan Android Whospair'i uyutabilir ve ulaşılamaz hale gelirsiniz.
+settings_reach_notifications_off	Whospair için bildirimler kapalı: mesajlar yine PIN'inizi bekleyecek, ama geldiklerini size hiçbir şey söylemeyecek.
+settings_reach_notifications_allow	Bildirimleri aç
+settings_reach_hide_hint	Whospair ulaşılabilir kaldığı sürece Android bir “Ulaşılabilir” bildirimi ister. Onu gizleyebilirsiniz: hizmet çalışmaya devam eder ve durum uygulamada, Tor'un yanında görünür.
+settings_reach_hide	Bildirimi gizle
+reach_channel_service	Ulaşılabilir kalma
+reach_channel_alert	Biri size ulaşmaya çalışıyor
+reach_channel_call	Gelen aramalar
+reach_service_title	Whospair
+reach_service_text	Ulaşılabilir
+reach_alert_title	Whospair sizi çaldırıyor
+reach_call_title	Whospair sizi çaldırıyor
+reach_call_text	Yanıtlamak için Whospair'i açın ve PIN'inizi girin.
+new_chat	Yeni sohbet
+contacts_group_confirmed	Onaylı
+contacts_group_unconfirmed	Onay bekleyen
+contacts_group_blocked	Engelli
+contacts_scan	QR tara
+contacts_show_qr	QR'ımı göster
+profile_title	Profilim
+profile_photo_change	Fotoğrafı değiştir
+settings_appearance	Görünüm
+appearance_auto	Otomatik
+appearance_auto_hint	Sistem ayarlarına göre
+appearance_day	Gündüz
+appearance_night	Gece
+settings_background	Sohbet arka planı
+settings_background_hint	Tüm sohbetler için aynı. Ana ekranlar onun renklerini alır.
+bg_ink	Mürekkep
+bg_sage	Adaçayı
+bg_slate	Arduvaz
+bg_plum	Erik
+bg_sand	Kum
+bg_plain	Düz
+settings_page_lock	Kilit
+settings_page_lock_sub	PIN, acil durum PIN'i, şimdi kilitle
+settings_page_discretion	Gizlilik
+settings_page_discretion_sub	Mesaj ömrü, gizli ekran, fotoğraf
+settings_page_network	Ağ
+settings_page_identity_sub	QR, yeni kimlik
+settings_page_about_sub	Gizlilik, sürüm
+reach_short	kapalıyken ulaşılabilir
+lock_title_setup	Bir PIN seçin
+lock_hint_setup	En az 6 rakam. Kurtarılamaz — unutursanız her şey kaybolur.
+lock_title_confirm	Tekrar girin
+lock_mismatch	İki giriş eşleşmiyor. Baştan başlayın.
+lock_title_unlock	PIN'inizi girin
+lock_wrong	Yanlış PIN
+lock_attempts_left	Her şey silinmeden önce kalan deneme: %1$d
+lock_busy	Kontrol ediliyor…
+lock_error	Açılırken bir sorun oldu. Tekrar deneyin.
+settings_lock_now	Şimdi kilitle
+settings_duress_title	Acil durum PIN'i
+settings_duress_body	Acil durumlar için ikinci bir PIN. Kilit ekranında girildiğinde her şeyi siler — anahtarlar, kişiler, mesajlar — ve uygulama yeni kurulmuş gibi baştan başlar.
+settings_duress_current	Mevcut PIN
+settings_duress_new	Acil durum PIN'i
+settings_duress_saved	Acil durum PIN'i belirlendi.
+settings_duress_failed	Belirlenmedi: mevcut PIN yanlış ya da acil durum PIN'i çok kısa, aynı veya farklı uzunlukta.
+read_lock_title	Okuma
+read_lock_off_hint	Bu sohbete döndüğünüzde mesajlar okunabilir kalır.
+read_lock_on_hint	Mesajlar gizli. Bu ziyarette okumak için kodu girin.
+read_lock_open_hint	Bu sohbetten çıkana kadar okunabilir.
+read_lock_enable	Mesajları bir kodla gizle
+read_lock_unlock	Okumayı aç
+read_lock_disable	Mesajları gizlemeyi bırak
+read_lock_banner	Mesajlar gizli. Okumayı ayarlardan açın.
+read_lock_masked	••••••
+message_unreadable	[Okunamayan mesaj]
+read_code_new	4 haneli bir kod seçin
+read_code_confirm	Tekrar girin
+read_code_enter	Okuma kodu
+read_code_mismatch	İki kod farklı. Baştan başlayın.
+read_code_wrong	Yanlış kod
+settings_section_security	Güvenlik
+settings_section_identity	Kimliğim
+settings_section_network	Ağ
+settings_section_about	Hakkında
+settings_change_pin	PIN'i değiştir
+settings_new_pin	Yeni PIN
+settings_pin_changed	PIN değiştirildi.
+settings_pin_changed_duress_removed	PIN değiştirildi. Uzunluğu değiştiği için acil durum PIN'i kaldırıldı: aynı uzunlukta yeniden belirleyin.
+settings_pin_rejected	Değiştirilmedi: bu PIN çok kısa ya da acil durum PIN'iniz.
+settings_duress_same_length	PIN'inizle aynı sayıda rakam.
+settings_default_ttl	Varsayılan mesaj ömrü
+settings_default_ttl_hint	Bir sohbette başkasını seçene kadar tüm sohbetlerde kullanılır.
+settings_mask_all	Okumayı her yerde gizle
+settings_mask_all_hint	Henüz gizlenmemiş tüm sohbetler için tek bir kod. Kodu olanlar kendi kodlarını korur.
+settings_mask_all_done	Tamam. Artık her sohbet kodu soruyor.
+settings_wipe_now	Her şeyi şimdi sil
+settings_wipe_confirm	Anahtarlar, kişiler ve mesajlar hemen silinsin mi? Hiçbir şey kurtarılamaz. Uygulama yeni kurulmuş gibi baştan başlar.
+settings_wipe_action	Her şeyi sil
+settings_my_qr	QR kodum ve bağlantım
+settings_new_identity	Yeni kimlik
+settings_new_identity_confirm	Yeni anahtarlar ve yeni adres: mevcut bağlantınız ve QR kodunuz çalışmaz hale gelir. Tüm kişiler ve mesajlar silinir — kişilerinizin sizi yeniden eklemesi gerekir. Uygulama yeniden başlar.
+settings_new_identity_action	Yeni kimlik oluştur
+settings_tor_state	Tor
+tor_state_ready	Bağlı
+tor_state_starting	Başlatılıyor… %1$d%%
+tor_state_failed	Başarısız — yeniden başlatmak için dokunun
+tor_state_off	Kapalı
+tor_state_reconnecting	Ağ kayboldu — yeniden bağlanılıyor…
+settings_restart_tor_confirm	Tor'u yeniden başlatmak uygulamayı yeniden başlatır. PIN'inizi tekrar gireceksiniz.
+settings_restart_tor_action	Yeniden başlat
+about_title	Whospair nedir
+about_body	Birbirine söyleyecek hassas şeyleri olanlar için bir mesajlaşma uygulaması. Whospair'de söylenenler yalnızca iki telefonda, seçilen süre boyunca var olur, başka hiçbir yerde değil.\n\nSunucusuz. Hiçbir sunucu yazışmalarınızı aktarmaz, saklamaz ya da görmez. Her telefon Tor ağında kendi erişim noktasıdır; mesajlar doğrudan birinden diğerine gider.\n\nHesapsız. Numara yok, e-posta yok, gerçek ad yok. Kimliğiniz bu telefonda oluşturulan bir anahtar çiftidir. Birbirinizi bir QR kodu tarayarak, yüz yüze ya da bir bağlantıyla eklersiniz.\n\nUçtan uca şifreli. Mesajlar, sesli notlar, dosyalar ve aramalar telefondan çıkmadan önce şifrelenir, ardından IP adresinizi gizleyen Tor üzerinden gider.\n\nGeçici. Her mesajın seçilmiş bir ömrü vardır, sonra iki taraftan da kaybolur. Başka hiçbir yerde yedeklenmez.\n\nCanlı. Yalnızca uygulaması açık olan ya da “Ulaşılabilir kal”ı açmış birine ulaşabilirsiniz.\n\nTelefonda korumalı. Her şey PIN'inizle şifrelenir. On yanlış PIN ya da acil durum PIN'i her şeyi siler.\n\nUyarı. Whospair bir araçtır. Onu nasıl kullandığınız yalnızca sizin sorumluluğunuzdadır. Olduğu gibi, garantisiz sunulur ve yazarları kullanımından ve sonuçlarından sorumlu tutulamaz.
+privacy_title	Gizlilik politikası
+privacy_body	Whospair hiçbir şey toplamaz. Hiçbir sunucu verilerinizi almaz; dolayısıyla onları analiz edecek ya da üçüncü kişilere verecek kimse yoktur.\n\nUygulamanın asla yapmadıkları: profil çıkarma, veri satışı, reklam, izleme kodu, gönderilen hata raporları, rehberinizi okumak, konum. Hiçbir üçüncü taraf şirket hiçbir şey almaz, ne veri ne kullanım sinyali: uygulama yalnızca Tor ağıyla, kişilerinizle ve kendi güncelleme dağıtıcısıyla konuşur.\n\nBu telefonda şifreli olarak kalanlar: anahtarlarınız, kişileriniz, mesajlarınız ve dosyalarınız — süreleri dolana, siz silene ya da 10 yanlış PIN'e kadar. Gönderilen fotoğrafların meta verileri (konum, cihaz modeli) silinir.\n\nBaşkalarının hâlâ görebildikleri: ağ operatörünüz bu telefonun Tor kullandığını görebilir, ama kiminle ya da ne olduğunu değil. Kişiniz, ona gönderdiklerinizi ve izin verirseniz profil fotoğrafınızı görür.\n\nGüncellemeler. Uygulama günde bir kez, Tor üzerinden, daha yeni bir sürüm olup olmadığını sessizce sorar. Bu istek yalnızca sürüm numarasını içerir: ne kimlik, ne kişiler, ne mesajlar.\n\nNeden her gün? Çünkü güncel bir sürüm, çok eski bir sürümle iletişim kurmayı reddeder. Bu bilinçli bir tercihtir: eski bir sürüm bir güvenlik açığı içerebilir. Güncelleme yapmazsanız yakınlarınıza ve iş arkadaşlarınıza artık ulaşamazsınız; size yalnızca güncelleme ulaşmaya devam eder.\n\nWhospair sürekli gelişiyor, sık güncellemeler bu yüzden. Bir güvenlik açığı, kimse fark etmeden keşfedilip istismar edilebilir. Hızlı düzeltme, verilerinizin yanlış ellere geçmesini önler.\n\nHaklarınız. Hiçbir şey toplanmadığı için bizde gösterilecek, düzeltilecek ya da silinecek bir şey yoktur. Her şey sizin elinizdedir: uygulamayı kaldırmak her şeyi siler.\n\nSorumluluk. Ne gönderdiğinizden, kime gönderdiğinizden ve aldıklarınızla ne yaptığınızdan yalnızca siz sorumlusunuz. Whospair olduğu gibi, garantisiz sunulur.
+version_title	Sürüm
+version_fingerprint_hint	Bu uygulamayı imzalayan sertifikanın parmak izi. Yazarın yayımladığıyla karşılaştırın: farklıysa bu gerçek uygulama değildir.
+update_title	Güncelleme
+update_state_current	Güncel
+update_state_available	%1$s sürümü mevcut
+update_state_downloading	İndiriliyor %1$d %%
+update_state_installing	Kuruluyor…
+update_state_failed	Başarısız
+update_body	Güncellemeler kişilerinizden, Tor üzerinden, sunucu olmadan gelir. Her sürüm geliştirici tarafından imzalanır: Whospair indirmeden önce imzayı, sonra dosyayı ona göre denetler; Android de sahip olduğunuz uygulamayla aynı anahtarla imzalandığını denetler. Değiştirilmiş bir uygulama her zaman reddedilir.
+update_available_body	%1$s sürümü (%2$s) kişilerinizden biri tarafından sunuluyor. Whospair açıkken indirilir; bağlantı koparsa kaldığı yerden devam eder.
+update_download	İndir ve kur
+update_cancel	İptal
+update_retry	Tekrar dene
+update_permission_hint	Önce Android'in Whospair'in güncelleme kurmasına izin vermesi gerekir. İzin verin, geri gelin ve tekrar dokunun.
+update_permission_allow	İzin ver
+update_relaying	%1$s sürümünü onaylı kişilerinize aktarıyorsunuz.
+update_import	Güncelleme paketi içe aktar (.wup)
+update_import_unreadable	Okunamayan dosya.
+update_import_invalid	Bu paket Whospair geliştiricisi tarafından imzalanmamış ya da bozuk. Hiçbir şey kurulmadı.
+update_import_installing	İmza doğrulandı. Android kurulumu onaylamanızı isteyecek.
+update_import_relaying	İmza doğrulandı. Bu telefon artık bu sürümü onaylı kişilerinize aktarıyor.
+update_import_mismatch	Bu sizin sürümünüz, ama burada kurulu uygulama aynı dosya değil. Aktarılacak bir şey yok.
+update_import_older	Bu paket sizin sürümünüzden eski. Hiçbir şey kurulmadı.
+update_failed_memory	İndirmek için yeterli bellek yok.
+update_failed_corrupt	Alınan dosya imzayla eşleşmiyor. Atıldı.
+update_failed_install	Android kurulumu reddetti.
+update_failed_signature	Bu sürüm uygulamanızla aynı anahtarla imzalanmamış. Reddedildi.
+update_banner	Güncelleme mevcut
+settings_language	Dil
+language_auto	Telefonun dili
+tutorial_live_title	Yalnızca canlıyken ulaşılabilir
+tutorial_live_body	Whospair bir sunucuda hiçbir şeyi bekletmez. Mesaj, kişinizin uygulaması açıkken ya da “Ulaşılabilir kal” açıkken gider.
+tutorial_live_f1	Tor'un yanındaki nokta: yeşil, çevrimiçisiniz; turuncu, bağlanılıyor
+tutorial_live_f2	İlk bağlantı birkaç saniye, bazen bir dakika sürebilir
+tutorial_live_f3	Bir adın altında “ulaşılabilir”: kişi şu anda orada
+tutorial_confirm_title	Bir kişiyi onaylamak
+tutorial_confirm_body	Konuşmak için tek bir tarama yeter. Ama yalnızca bağlantınıza sahip biri “Onay bekleyen” olarak gelir.
+tutorial_confirm_f1	Güvenlik numarasını yüz yüze ya da arayarak karşılaştırın
+tutorial_confirm_f2	İki telefonda aynı numara: arada kimse yok
+tutorial_confirm_f3	Yalnızca onaylı kişiler sizi arayabilir ve dürtebilir
+tutorial_discreet_title	Gizlilik
+tutorial_discreet_body	Yanınızda biri olduğu anlar için korumalar.
+tutorial_discreet_f1	Telefon masaya ters çevrilince ekran kararır
+tutorial_discreet_f2	Okuma kodu: bir sohbet kod girilene kadar gizli kalır
+tutorial_discreet_f3	Gizli mod: bu kişi size ancak siz yazdığınızda ulaşır
+update_check	Güncellemeleri denetle
+update_checking	Aranıyor…
+chat_peer_outdated	Bu kişi Whospair'in çok eski bir sürümünü kullanıyor. Güncelleyene kadar hiçbir şey geçmez; güncellemenin kendisi ona ulaşır.
+ttl_never	Asla
+reply_cancel	Yanıtı iptal et
+input_emoji	Emojiler
+reply_you	Siz
+share_app	Whospair'i paylaş
+share_app_sub	Uygulamanın kendisini gönderin, mağaza gerekmez
+copy_action	Kopyala
+copy_title	Kopyalanacak kısmı seçin
+copy_all	Tümünü kopyala
+copy_done	Kopyalandı
+delete_everyone_body	“Herkesten”, kişinizdeki kopyayı da hiçbir bildirim olmadan siler. Ulaşılamıyorsa, Whospair açık kaldığı sürece ulaşılır olur olmaz gönderilir.
+select_more	Birden fazla seç
+delete_everyone_action	Herkesten sil
+licenses_title	Lisanslar
+update_notes_title	Yenilikler
+tut_welcome_title	Whospair'e hoş geldiniz
+tut_welcome_body	Bir sunucuda iz bırakmayan mesajlar ve aramalar, çünkü sunucu yok.
+tut_welcome_f1	Uçtan uca şifreli, hesap yok: anahtarlar sizin
+tut_welcome_f2	Bir mesaj, kişiniz uygulamayı açık tuttuğunda ya da «Ulaşılabilir kal» açıkken gider
+tut_welcome_f3	Tor'un yanındaki nokta: yeşil, çevrimiçi; turuncu, bağlanıyor (bazen bir dakika)
+tut_add_title	Ekle ve güven
+tut_add_body	Ne kullanıcı adı ne telefon numarası: anahtar değiş tokuş edersiniz. Onun kodunu tarayın ya da sizinkini taramasına izin verin.
+tut_add_f1	Onay bekliyor: yalnızca bağlantınızla geldi. Mesajları gelir ama arayamaz, dürtemez
+tut_add_f2	Onaylı: onu siz eklediniz ya da kabul ettiniz
+tut_add_f3	Doğrulanmış: yüz yüze, birbirinizin güvenlik kodunu taradınız. Aranıza kimse girmedi
+tut_write_title	Yaz, sonra sil
+tut_write_body	Her mesajın gönderirken seçilen bir ömrü vardır; süresi dolunca iki tarafta da kaybolur.
+tut_write_f1	Daha kısa, daha güvenli: ekrandaki şey hâlâ diskte
+tut_write_f2	Herkesten sil: mesajlarınızı kişinizin telefonundan kaldırır
+tut_write_f3	İki taraflı silme: ikiniz de onaylarsanız, herhangi biriniz her şeyi, iki taraf için, istediği an silebilir
+tutorial_discreet_f5	Hızlı ayarlarda «Whospair'i kilitle» kutucuğu: uygulama tek dokunuşla kapanır
+tile_lock	Whospair'i kilitle
+contact_verified	Doğrulanmış
+verify_title	Yüz yüze doğrula
+verify_hint	Yüz yüze, birbirinizin kodunu tarayın
+verify_done	Yüz yüze doğrulandı
+verify_body	Bu kodu kişinize gösterin ve onunkini tarayın. Aynıysa, aranıza kimse girmemiştir.
+verify_scan	Onun kodunu tara
+verify_ok	Kodlar aynı: kişi doğrulandı.
+verify_fail	Bu kod eşleşmiyor. Bu açıklığa kavuşana kadar bu kişiye güvenmeyin.
+wipe_title	İki taraflı silme
+wipe_off	Kapalı. Önerirseniz kişinizin kabul etmesi gerekir.
+wipe_asked	Kişinizin onayı bekleniyor.
+wipe_to_answer	Kişiniz, herhangi birinizin her şeyi, iki taraf için, istediği an silebilmesini öneriyor.
+wipe_on	Açık: herhangi biriniz her şeyi, iki taraf için, istediği an silebilir.
+wipe_propose	Öner
+wipe_accept	Kabul et
+wipe_refuse	Reddet
+wipe_cancel	İsteği iptal et
+wipe_disable	Kapat
+wipe_now	Sohbeti iki taraf için sil
+wipe_confirm	Tüm sohbet iki telefonda da silinecek. Geri alınamaz.
+wipe_action	Her şeyi sil
+wipe_banner	%1$s iki taraflı silme öneriyor
+settings_gaze_owner	Yalnızca yüzüm
+settings_gaze_owner_hint	Ekran yalnızca size açılır
+face_intro_title	Yalnızca yüzüm
+face_intro_body	Ekran yalnızca ona siz baktığınızda açılır. Başka biri için ya da kimse bakmıyorsa siyah kalır.\n\nYüzünüz değişirse (yara, şişlik, sakal, gözlük) artık tanınmayabilir ve ekran siyah kalır. Ekranın altındaki «Gizlemeyi PIN ile kapat» kilit açma kodunuzla her zaman çalışır. Ardından yüzünüzü yeniden kaydedebilirsiniz.\n\nBu düğme kilit ekranıyla aynı kurallara uyar: baskı PIN'iniz burada yazılırsa her şeyi siler, 10 yanlış kod da öyle.\n\nMeraklı gözlere karşı bir korumadır, kilit değildir: asıl koruma PIN'inizdir. Her şey telefonda olur: yüzünüz şifreli sayılar olarak saklanır, asla fotoğraf olarak değil.
+face_intro_ok	Anladım
+face_enroll_title	Yüzümü kaydet
+face_enroll_body	Yüzünüz iyi aydınlanmış hâlde birkaç saniye ekrana bakın.
+face_enroll_ok	Yüzünüz kaydedildi.
+face_enroll_fail	Yüz tanınmadı. Işığa geçin, doğrudan ekrana bakın ve yeniden deneyin.
+face_reenroll	Yüzümü yeniden kaydet
+face_disable_pin	Gizlemeyi PIN ile kapat
+tutorial_discreet_f4	Kamera (isteğe bağlı): bakışınızı çevirdiğinizde, başkası baktığında ya da yüz sizin değilse ekran gizlenir. Her şey telefonda olur, hiçbir şey kaydedilmez
+conv_pin	Sabitle
+conv_unpin	Sabitlemeyi kaldır
+conv_pinned	Sabitlendi
+update_diffuser_retry	Kaynağa ulaşılamıyor, 10 sn sonra yeniden denenecek
+update_mandatory_title	Güncelleme zorunlu
+update_mandatory_body	Whospair'in daha yeni bir sürümü 5 günden uzun süredir mevcut. Uygulamayı kullanmaya devam etmek için yükleyin: güncel kişileriniz artık eski sürümleri kabul etmiyor.
+gaze_manual	Manuel
+gaze_manual_hint	PIN onu kapatır, örneğin karanlık bir yerde.
+gaze_auto	Otomatik
+gaze_auto_hint	Işık yetersizken 20.00'den 06.00'ya kadar kapalı.
+shield_choice_title	Gizlemeyi kapat
+shield_pause_10	10 dk boyunca
+shield_disable_all	Tamamen kapat
+shield_pause_over_title	Mola bitti
+shield_pause_over_body	Gizleme yeniden etkin.
+shield_keep_paused	Şimdilik kapalı kalsın
+update_interrupted	Güncelleme kesildi, 30 dk sonra yeniden denenecek

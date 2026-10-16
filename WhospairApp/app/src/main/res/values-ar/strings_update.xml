@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">التحديث</string>
+    <string name="update_state_current">محدّث</string>
+    <string name="update_state_available">الإصدار %1$s متاح</string>
+    <string name="update_state_downloading">جارٍ التنزيل %1$d %%</string>
+    <string name="update_state_installing">جارٍ التثبيت…</string>
+    <string name="update_state_failed">فشل</string>
+    <string name="update_body">تصل التحديثات من جهات اتصالك، عبر Tor، بلا خادم. كل إصدار موقّع من المطوّر: يتحقق Whospair من التوقيع قبل التنزيل، ثم من الملف مقابله، ويتحقق Android من أنه موقّع بالمفتاح نفسه الذي وُقّع به تطبيقك. يُرفض دائمًا أي تطبيق معدَّل.</string>
+    <string name="update_available_body">يعرض أحد جهات اتصالك الإصدار %1$s (%2$s). يُنزَّل أثناء فتح Whospair؛ إن انقطع الاتصال، يُستأنف من حيث توقّف.</string>
+    <string name="update_download">تنزيل وتثبيت</string>
+    <string name="update_cancel">إلغاء</string>
+    <string name="update_retry">إعادة المحاولة</string>
+    <string name="update_permission_hint">يجب أن يسمح Android أولًا لـ Whospair بتثبيت التحديثات. اسمح بذلك، ثم عُد والمس مرة أخرى.</string>
+    <string name="update_permission_allow">سماح</string>
+    <string name="update_relaying">أنت تمرّر الإصدار %1$s إلى جهات اتصالك المؤكَّدة.</string>
+    <string name="update_import">استيراد حزمة تحديث (.wup)</string>
+    <string name="update_import_unreadable">ملف غير مقروء.</string>
+    <string name="update_import_invalid">هذه الحزمة غير موقّعة من مطوّر Whospair، أو أنها تالفة. لم يُثبَّت شيء.</string>
+    <string name="update_import_installing">تم التحقق من التوقيع. سيطلب منك Android تأكيد التثبيت.</string>
+    <string name="update_import_relaying">تم التحقق من التوقيع. يمرّر هذا الهاتف الآن هذا الإصدار إلى جهات اتصالك المؤكَّدة.</string>
+    <string name="update_import_mismatch">هذا إصدارك، لكن التطبيق المثبّت هنا ليس الملف نفسه. لا شيء لتمريره.</string>
+    <string name="update_import_older">هذه الحزمة أقدم من إصدارك. لم يُثبَّت شيء.</string>
+    <string name="update_failed_memory">الذاكرة غير كافية لتنزيله.</string>
+    <string name="update_failed_corrupt">الملف المستلم لا يطابق التوقيع. تم تجاهله.</string>
+    <string name="update_failed_install">رفض Android التثبيت.</string>
+    <string name="update_failed_signature">هذا الإصدار غير موقّع بالمفتاح نفسه الذي وُقّع به تطبيقك. مرفوض.</string>
+    <string name="update_banner">تحديث متاح</string>
+    <string name="update_notes_title">الجديد</string>
+    <string name="update_diffuser_retry">المصدر غير متاح، محاولة جديدة خلال 10 ث</string>
+    <string name="update_interrupted">توقف التحديث، محاولة جديدة خلال 30 دقيقة</string>
+    <string name="update_mandatory_title">التحديث إلزامي</string>
+    <string name="update_mandatory_body">يتوفر إصدار أحدث من Whospair منذ أكثر من 5 أيام. ثبّته لمواصلة استخدام التطبيق: جهات اتصالك المحدّثة لم تعد تقبل الإصدارات القديمة.</string>
+</resources>

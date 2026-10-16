@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor يعمل</string>
+    <string name="tor_state_connecting">جارٍ الاتصال بـ Tor</string>
+    <string name="tor_state_offline">Tor متوقف</string>
+    <string name="presence_reachable">متاح</string>
+    <string name="ring_action">تنبيه</string>
+    <string name="ring_calling">جارٍ تنبيه %1$s…</string>
+    <string name="ring_incoming">%1$s ينبّهك</string>
+    <string name="ring_accept">رد</string>
+    <string name="ring_decline">تجاهل</string>
+    <string name="ring_cancel">إيقاف</string>
+    <string name="ring_declined">تجاهل %1$s التنبيه</string>
+    <string name="ring_timeout">لا رد</string>
+    <string name="ring_peer_offline">%1$s ليس في التطبيق الآن</string>
+    <string name="ring_busy">توجد جلسة مفتوحة بالفعل</string>
+    <string name="indicator_title">ماذا يعني هذا</string>
+    <string name="indicator_channel_live">يعمل Tor وعنوانك منشور. يمكن لجهات الاتصال التي فتحت التطبيق أيضًا الوصول إليك، ويمكنك الوصول إليها.</string>
+    <string name="indicator_channel_none">Tor غير جاهز. لا يمكن إرسال أو استلام أي شيء، ولا يُحتفظ بشيء في أي مكان لوقت لاحق.</string>
+    <string name="indicator_tunnel_on">تخرج بياناتك عبر واجهة VPN. يستطيع Whospair رؤية ذلك فقط لا أكثر: لا يعرف أي مزوّد هو، ولا إن كان النفق يسرّب البيانات.</string>
+    <string name="indicator_tunnel_off">تخرج بياناتك مباشرة. يستطيع مزوّد الشبكة أن يرى أن هذا الجهاز يستخدم Tor ومتى، لا مع من تتحدث ولا ما يُقال.</string>
+    <string name="indicator_dismiss">إغلاق</string>
+    <string name="vpn_advice_title">عن شبكتك</string>
+    <string name="vpn_advice_body">يشفّر Whospair ما تقوله، ويُخفي Tor لمن تقوله. لا أحد منهما يُخفي أنك تستخدم Tor: من ينقل بياناتك يرى ذلك، وفي أي أوقات، وكم مرة. تنقل الـ VPN هذه الرؤية إلى مشغّل النفق. هذا تغيير حقيقي عندما يكون الطرف المراقِب هو من تخشاه تحديدًا.</string>
+    <string name="vpn_advice_caveat">الـ VPN ليست ضمانًا. أنت تختار من يراقب، لا تُزيل المراقِب. اختر واحدة لديك سبب للثقة بها، وفضّل المدفوعة على تلك التي تموّل نفسها ببياناتك.</string>
+    <string name="contacts_title">جهات الاتصال</string>
+    <string name="contacts_empty">قائمة جهات اتصالك فارغة.</string>
+    <string name="contact_unconfirmed">غير مؤكَّدة</string>
+    <string name="contact_blocked">محظورة</string>
+    <string name="chat_settings">إعدادات المحادثة</string>
+    <string name="chat_unconfirmed_banner">أضافك هذا الشخص عبر رابطك. لم تؤكّد هويته بعد.</string>
+    <string name="chat_confirm">تأكيد</string>
+    <string name="chat_block">حظر</string>
+    <string name="chat_unblock">إلغاء الحظر</string>
+    <string name="chat_blocked_banner">محظور. لم يعد بإمكانه الوصول إليك.</string>
+    <string name="settings_rename">الاسم</string>
+    <string name="settings_rename_hint">أنت فقط ترى هذا الاسم.</string>
+    <string name="settings_save">حفظ</string>
+    <string name="settings_safety_number">رقم الأمان</string>
+    <string name="settings_safety_hint">قارِنه مع جهة اتصالك شخصيًا أو في مكالمة. الرقم نفسه على الهاتفين = لا أحد في المنتصف.</string>
+    <string name="settings_confirm_trust">لقد تحقّقت — أكّد جهة الاتصال هذه</string>
+    <string name="settings_trusted">جهة اتصال مؤكَّدة</string>
+    <string name="settings_block_hint">لا تستطيع جهة الاتصال المحظورة الاتصال بك أو مراسلتك بعد الآن.</string>
+    <string name="settings_delete">حذف جهة الاتصال</string>
+    <string name="settings_delete_confirm">حذف جهة الاتصال هذه وجميع الرسائل؟ إن كان رابطك ما يزال لديها، فقد تعود كغير مؤكَّدة — احظرها لمنع ذلك.</string>
+    <string name="settings_delete_action">حذف</string>
+</resources>

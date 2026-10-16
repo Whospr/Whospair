@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Default locale: ENGLISH.
+    French lives in values-fr/strings.xml and is applied only when the device
+    is set to French. Referenced in the manifest as @string/app_name.
+-->
+<resources>
+
+    <string name="app_name" translatable="false">Whospair</string>
+
+    <!-- ==================== SPLASH ==================== -->
+    <string name="splash_tagline">Private by design</string>
+
+    <!-- ==================== TERMS OF SERVICE ==================== -->
+    <string name="tos_title">Before you start</string>
+    <string name="tos_warning">Read this carefully. Whospair works differently from the messaging apps you know, and some of those differences cannot be undone.</string>
+
+    <string name="tos_s1_title">1. Peer-to-peer by design</string>
+    <string name="tos_s1_body">Whospair has no server. Messages and calls travel directly between devices. Nobody — including us — sits in the middle, stores your data, or can hand it over.</string>
+
+    <string name="tos_s2_title">2. You are responsible</string>
+    <string name="tos_s2_body">No operator stands behind this app. What you send, to whom, and what you do with what you receive is entirely your responsibility. Whospair is a tool: its authors cannot be held liable for how you use it or its consequences.</string>
+
+    <string name="tos_s3_title">3. No moderation</string>
+    <string name="tos_s3_body">No authority reviews, filters, or removes content. There is no report button that reaches anyone, because there is no one to reach.</string>
+
+    <string name="tos_s4_title">4. End-to-end encryption</string>
+    <string name="tos_s4_body">Messages are end-to-end encrypted (X25519 and AES-256-GCM) and signed. Calls go over Tor, encrypted with a key that changes about every ten seconds.</string>
+
+    <string name="tos_s5_title">5. Nothing is stored remotely</string>
+    <string name="tos_s5_body">Your identity, contacts, and messages exist only on this device. Uninstalling the app erases them.</string>
+
+    <string name="tos_s6_title">6. No recovery</string>
+    <string name="tos_s6_body">Your identity is a cryptographic key, not an account. If you lose it, it is gone. There is no password reset, no support line, no backup we can restore.</string>
+
+    <string name="tos_s7_title">7. Lawful use only</string>
+    <string name="tos_s7_body">Privacy tools protect legitimate conversations. Using Whospair to break the law remains breaking the law.</string>
+
+    <string name="tos_s8_title">8. No warranty</string>
+    <string name="tos_s8_body">This software is provided as is, without guarantee of availability, correctness, or fitness for any particular purpose.</string>
+
+    <string name="tos_s9_title">9. Security has limits</string>
+    <string name="tos_s9_body">Encryption protects data in transit. It cannot protect a device that is already compromised by malware, a rootkit, or someone holding it.</string>
+
+    <string name="tos_s10_title">10. Acceptance</string>
+    <string name="tos_s10_body">Continuing means you understand the above, and specifically that a lost identity cannot be recovered.</string>
+
+    <string name="tos_checkbox">I have read and accept these terms</string>
+    <string name="tos_accept">Accept</string>
+    <string name="tos_decline">Decline</string>
+    <string name="tos_decline_dialog_title">Decline the terms?</string>
+    <string name="tos_decline_dialog_body">Whospair cannot run without accepting them. The app will close.</string>
+    <string name="tos_decline_confirm">Close app</string>
+    <string name="tos_decline_cancel">Go back</string>
+
+    <!-- ==================== TUTORIAL ==================== -->
+    <string name="tutorial_skip">Skip</string>
+    <string name="tutorial_next">Next</string>
+    <string name="tutorial_back">Back</string>
+    <string name="tutorial_start">Get started</string>
+    <string name="tutorial_page_counter">%1$d of %2$d</string>
+
+    <string name="tutorial_p1_title">Welcome to Whospair</string>
+    <string name="tutorial_p1_body">Messaging and calls that leave no trace on any server, because there is no server.</string>
+    <string name="tutorial_p1_f1">End-to-end encrypted</string>
+    <string name="tutorial_p1_f2">No servers, no accounts</string>
+    <string name="tutorial_p1_f3">Messages expire on their own</string>
+    <string name="tutorial_p1_f4">You hold every key</string>
+
+    <string name="tutorial_p2_title">Adding someone</string>
+    <string name="tutorial_p2_body">There are no usernames or phone numbers. You exchange keys directly.</string>
+    <string name="tutorial_p2_s1">Open the Add tab</string>
+    <string name="tutorial_p2_s2">Scan their code, or let them scan yours</string>
+    <string name="tutorial_p2_s3">The conversation is ready</string>
+    <string name="tutorial_p2_note">A new identity means a new code. Sharing it again is the only way back.</string>
+
+    <string name="tutorial_p3_title">Sending a message</string>
+    <string name="tutorial_p3_body">Every message carries an expiry from the moment you send it.</string>
+    <string name="tutorial_p3_s1">Open a conversation</string>
+    <string name="tutorial_p3_s2">Type, then pick how long it should live</string>
+    <string name="tutorial_p3_s3">Send</string>
+
+    <string name="tutorial_p4_title">Expiry</string>
+    <string name="tutorial_p4_body">Pick the lifetime that fits what you are saying. When it runs out, the message is deleted on both devices.</string>
+    <string name="tutorial_p4_note">Shorter is safer. Anything still on screen is still on disk.</string>
+
+    <string name="tutorial_p5_title">Staying in control</string>
+    <string name="tutorial_p5_body">A few things worth knowing before you begin.</string>
+    <string name="tutorial_p5_f1">Block or remove any contact</string>
+    <string name="tutorial_p5_f2">Delete a whole conversation at once</string>
+    <string name="tutorial_p5_f3">Lock the app with a PIN</string>
+    <string name="tutorial_p5_f4">Keys never leave this device</string>
+
+    <!-- ==================== IDENTITY CREATION ==================== -->
+    <string name="identity_creating_title">Creating your identity</string>
+    <string name="identity_creating_body">Generating a key pair on this device. This takes a moment.</string>
+    <string name="identity_ready_title">This is you</string>
+    <string name="identity_ready_body">Your keys are ready. Now choose your PIN: it seals them. Your QR code will be waiting in Add.</string>
+    <string name="identity_warning">Your private key stays on this device and is never shown. If you lose this device, this identity is gone for good.</string>
+    <string name="identity_continue">Continue</string>
+    <string name="identity_error_title">Could not create your identity</string>
+    <string name="identity_retry">Try again</string>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <string name="nav_home">Messages</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_calls">Calls</string>
+    <string name="nav_discover">Add</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- ==================== MESSAGE LIFETIME ==================== -->
+    <string name="ttl_5m">5 min</string>
+    <string name="ttl_15m">15 min</string>
+    <string name="ttl_1h">1 hour</string>
+    <string name="ttl_5h">5 hours</string>
+    <string name="ttl_8h">8 hours</string>
+    <string name="ttl_24h">24 hours</string>
+    <string name="ttl_7d">7 days</string>
+
+    <!-- ==================== DISCOVER / CONTACTS ==================== -->
+    <string name="discover_title">Add a contact</string>
+    <string name="discover_subtitle">Show your code to the person, or scan theirs. Face to face, you know who you are talking to.</string>
+
+    <string name="discover_scan_title">Scan their code</string>
+    <string name="discover_scan_body">Point the camera at their QR code</string>
+
+    <string name="discover_mycode_title">Show my code</string>
+    <string name="discover_mycode_body">Let someone add you</string>
+
+    <string name="discover_manual_title">Or paste a link you received</string>
+    <string name="discover_manual_hint">whospair:… or 64 hex characters</string>
+    <string name="discover_add">Add this contact</string>
+    <string name="discover_fingerprint">Fingerprint to compare out loud</string>
+    <string name="discover_copy_link">Copy invite link</string>
+
+    <string name="add_ok">%1$s added. You can start a conversation.</string>
+    <string name="add_already">%1$s is already in your contacts.</string>
+    <string name="add_blocked">%1$s is in your contacts but blocked.</string>
+    <string name="add_self">That is your own key. You cannot add yourself.</string>
+    <string name="add_malformed">That key is not valid. A public key is 64 hexadecimal characters.</string>
+    <string name="add_not_whisper">This code is not a Whospair key.</string>
+    <string name="add_unblock">Unblock</string>
+    <string name="add_unblocked">%1$s is unblocked again.</string>
+
+    <!-- ==================== QR SCANNER ==================== -->
+    <string name="scan_instruction">Point at the QR code you want to add</string>
+    <string name="scan_permission_title">Camera access needed</string>
+    <string name="scan_permission_body">Scanning a code requires the camera. Nothing is recorded or sent anywhere.</string>
+    <string name="scan_permission_denied">Camera access was denied. You can enable it in your device settings, or paste the key by hand instead.</string>
+    <string name="scan_permission_grant">Allow camera</string>
+    <string name="scan_use_manual">Paste a key instead</string>
+
+    <!-- ==================== CONTACT DETAIL ==================== -->
+    <string name="contact_block">Block</string>
+    <string name="contact_unblock">Unblock</string>
+    <string name="contact_delete">Delete contact</string>
+    <string name="contact_delete_confirm">Delete this contact and the whole conversation? This cannot be undone.</string>
+    <string name="contact_blocked_notice">Blocked. Messages from this contact are rejected.</string>
+    <string name="common_dismiss">Dismiss</string>
+
+    <!-- ==================== COMMON ==================== -->
+    <string name="common_loading">Loading…</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_error">Something went wrong</string>
+
+    <string name="chat_today">Today</string>
+    <string name="chat_yesterday">Yesterday</string>
+    <string name="message_pending">Sending</string>
+    <string name="message_failed">Not sent, contact unreachable</string>
+    <string name="tutorial_pin_title">Your PIN, and only your PIN</string>
+    <string name="tutorial_pin_body">Everything in Whospair is locked behind a PIN you choose at the next step. Forget it and nothing can be recovered.</string>
+    <string name="tutorial_pin_f1">Ten wrong attempts erase everything</string>
+    <string name="tutorial_pin_f2">A duress PIN (set in Settings) erases everything when typed — use it if you are coerced or in danger</string>
+    <string name="tutorial_pin_f3">No fingerprint or face unlock: someone can force your finger onto the sensor, not a code out of you</string>
+    <string name="tutorial_pin_note">When the app goes to the background, it locks itself.</string>
+    <string name="tut_welcome_title">Welcome to Whospair</string>
+    <string name="tut_welcome_body">Messages and calls that leave no trace on a server, because there is no server.</string>
+    <string name="tut_welcome_f1">End-to-end encrypted, no account: the keys belong to you</string>
+    <string name="tut_welcome_f2">A message goes out when your contact has the app open, or \"Stay reachable\" turned on</string>
+    <string name="tut_welcome_f3">The dot next to Tor: green, online; orange, connecting (sometimes a minute)</string>
+    <string name="tut_add_title">Add and trust</string>
+    <string name="tut_add_body">No username, no phone number: you exchange keys. Scan their code, or let them scan yours.</string>
+    <string name="tut_add_f1">To confirm: arrived with your link only. Their messages arrive, but they can\'t call or nudge you</string>
+    <string name="tut_add_f2">Confirmed: you added or accepted them</string>
+    <string name="tut_add_f3">Verified: face to face, you scanned each other\'s security codes. No one slipped in between you</string>
+    <string name="tut_write_title">Write, then erase</string>
+    <string name="tut_write_body">Every message has a lifetime chosen when sending; when it ends, it disappears on both sides.</string>
+    <string name="tut_write_f1">Shorter is safer: what is on screen is still on the disk</string>
+    <string name="tut_write_f2">Delete for everyone: removes your messages on your contact\'s phone</string>
+    <string name="tut_write_f3">Two-way erase: if you both agree, either of you can erase everything, for both, at any time</string>
+    <string name="tutorial_discreet_f5">\"Lock Whospair\" tile in quick settings: the app closes in one tap</string>
+    <string name="tile_lock">Lock Whospair</string>
+    <string name="contact_verified">Verified</string>
+    <string name="verify_title">Verify in person</string>
+    <string name="verify_hint">Face to face, scan each other\'s code</string>
+    <string name="verify_done">Verified in person</string>
+    <string name="verify_body">Show this code to your contact and scan theirs. If they match, no one slipped in between you.</string>
+    <string name="verify_scan">Scan their code</string>
+    <string name="verify_ok">Codes match: contact verified.</string>
+    <string name="verify_fail">This code doesn\'t match. Don\'t trust this contact until it\'s cleared up.</string>
+    <string name="wipe_title">Two-way erase</string>
+    <string name="wipe_off">Off. If you propose it, your contact will have to accept.</string>
+    <string name="wipe_asked">Waiting for your contact to agree.</string>
+    <string name="wipe_to_answer">Your contact proposes that either of you can erase everything, for both, at any time.</string>
+    <string name="wipe_on">On: either of you can erase everything, for both, at any time.</string>
+    <string name="wipe_propose">Propose</string>
+    <string name="wipe_accept">Accept</string>
+    <string name="wipe_refuse">Refuse</string>
+    <string name="wipe_cancel">Cancel request</string>
+    <string name="wipe_disable">Turn off</string>
+    <string name="wipe_now">Erase the conversation for both</string>
+    <string name="wipe_confirm">The whole conversation will be erased on both phones. This can\'t be undone.</string>
+    <string name="wipe_action">Erase everything</string>
+    <string name="wipe_banner">%1$s proposes two-way erase</string>
+    <string name="settings_gaze_owner">Only my face</string>
+    <string name="settings_gaze_owner_hint">The screen opens only for you</string>
+    <string name="face_intro_title">Only my face</string>
+    <string name="face_intro_body">The screen opens only when you are the one looking at it. For anyone else, or if no one is looking, it stays black.\n\nIf your face changes (injury, swelling, beard, glasses), it may no longer be recognized and the screen will stay black. At the bottom of the screen, \"Turn off hiding with the PIN\" always works with your unlock code. You can then record your face again.\n\nThis button follows the same rules as the lock screen: your duress PIN, typed here, erases everything, and so do 10 wrong codes.\n\nIt protects against prying eyes; it is not a lock: your PIN remains the real protection. Everything happens on the phone: your face is kept as encrypted numbers, never as a photo.</string>
+    <string name="face_intro_ok">I understand</string>
+    <string name="face_enroll_title">Record my face</string>
+    <string name="face_enroll_body">Look at the screen for a few seconds, with your face well lit.</string>
+    <string name="face_enroll_ok">Your face is recorded.</string>
+    <string name="face_enroll_fail">Face not recognized. Move into the light, look straight at the screen, then try again.</string>
+    <string name="face_reenroll">Record my face again</string>
+    <string name="face_disable_pin">Turn off hiding with the PIN</string>
+    <string name="tutorial_discreet_f4">Camera (optional): the screen hides when you look away, when someone else looks, or whenever it isn\'t your face. It all happens on the phone, nothing is recorded</string>
+    <string name="conv_pin">Pin</string>
+    <string name="conv_unpin">Unpin</string>
+    <string name="conv_pinned">Pinned</string>
+</resources>

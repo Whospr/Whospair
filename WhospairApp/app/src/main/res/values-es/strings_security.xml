@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Elija un PIN</string>
+    <string name="lock_hint_setup">Al menos 6 cifras. No se puede recuperar: si lo olvida, todo se pierde.</string>
+    <string name="lock_title_confirm">Introdúzcalo otra vez</string>
+    <string name="lock_mismatch">Las dos entradas no coinciden. Empiece de nuevo.</string>
+    <string name="lock_title_unlock">Introduzca su PIN</string>
+    <string name="lock_wrong">PIN incorrecto</string>
+    <string name="lock_attempts_left">Quedan %1$d intentos antes de borrarlo todo</string>
+    <string name="lock_busy">Comprobando…</string>
+    <string name="lock_error">Algo falló al abrir. Inténtelo de nuevo.</string>
+    <string name="settings_lock_now">Bloquear ahora</string>
+    <string name="settings_duress_title">PIN de emergencia</string>
+    <string name="settings_duress_body">Un segundo PIN, para emergencias. Introducirlo en la pantalla de bloqueo lo borra todo —claves, contactos, mensajes— y la aplicación vuelve a empezar como recién instalada.</string>
+    <string name="settings_duress_current">PIN actual</string>
+    <string name="settings_duress_new">PIN de emergencia</string>
+    <string name="settings_duress_saved">PIN de emergencia guardado.</string>
+    <string name="settings_duress_failed">No guardado: el PIN actual es incorrecto, o el PIN de emergencia es demasiado corto, idéntico o de otra longitud.</string>
+</resources>

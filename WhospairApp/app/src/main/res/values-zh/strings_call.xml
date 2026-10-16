@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">通话</string>
+    <string name="call_connecting">正在通过 Tor 联系对方…</string>
+    <string name="call_ringing">正在呼叫…</string>
+    <string name="call_incoming">来电</string>
+    <string name="call_answer">接听</string>
+    <string name="call_decline">拒绝</string>
+    <string name="call_cancel">取消</string>
+    <string name="call_hang_up">挂断</string>
+    <string name="call_mute">静音</string>
+    <string name="call_unmute">取消静音</string>
+    <string name="call_speaker">扬声器</string>
+    <string name="call_earpiece">听筒</string>
+    <string name="call_delay_hint">经由 Tor，您的声音大约会延迟一秒到达。回答前请稍作停顿。</string>
+    <string name="call_ended">通话已结束</string>
+    <string name="call_declined">已拒绝</string>
+    <string name="call_busy">对方正在通话中</string>
+    <string name="call_no_answer">无人接听</string>
+    <string name="call_unreachable">暂时无法连接。请稍后再试。</string>
+    <string name="call_lost">连接中断</string>
+    <string name="call_mic_denied">Whospair 的麦克风已关闭。请在 Android 设置中允许后再通话。</string>
+    <string name="call_not_confirmed">请先确认此联系人。只有已确认的联系人才能互相通话。</string>
+    <string name="call_log_outgoing">呼出通话 · %1$s</string>
+    <string name="call_log_incoming">呼入通话 · %1$s</string>
+    <string name="call_log_missed">未接来电</string>
+    <string name="call_log_refused">通话被拒绝</string>
+    <string name="call_log_no_answer">通话无人接听</string>
+    <string name="call_log_busy">通话：对方正在通话中</string>
+    <string name="call_log_unreachable">通话未能接通</string>
+    <string name="call_log_cancelled">通话已取消</string>
+</resources>

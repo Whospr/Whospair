@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">Aggiornamento</string>
+    <string name="update_state_current">Aggiornata</string>
+    <string name="update_state_available">Versione %1$s disponibile</string>
+    <string name="update_state_downloading">Download %1$d %%</string>
+    <string name="update_state_installing">Installazione…</string>
+    <string name="update_state_failed">Non riuscito</string>
+    <string name="update_body">Gli aggiornamenti arrivano dai suoi contatti, tramite Tor, senza server. Ogni versione è firmata dallo sviluppatore: Whospair verifica la firma prima di scaricare, poi il file rispetto alla firma, e Android verifica che sia firmata con la stessa chiave dell\'app che ha. Un\'app modificata viene sempre rifiutata.</string>
+    <string name="update_available_body">La versione %1$s (%2$s) è offerta da uno dei suoi contatti. Si scarica mentre Whospair è aperta; se la connessione cade, riprende da dove si era fermata.</string>
+    <string name="update_download">Scarica e installa</string>
+    <string name="update_cancel">Annulla</string>
+    <string name="update_retry">Riprova</string>
+    <string name="update_permission_hint">Android deve prima permettere a Whospair di installare aggiornamenti. Lo consenta, torni qui e tocchi di nuovo.</string>
+    <string name="update_permission_allow">Consenti</string>
+    <string name="update_relaying">Trasmette la versione %1$s ai suoi contatti confermati.</string>
+    <string name="update_import">Importa un pacchetto di aggiornamento (.wup)</string>
+    <string name="update_import_unreadable">File illeggibile.</string>
+    <string name="update_import_invalid">Questo pacchetto non è firmato dallo sviluppatore di Whospair, oppure è danneggiato. Nulla è stato installato.</string>
+    <string name="update_import_installing">Firma verificata. Android le chiederà di confermare l\'installazione.</string>
+    <string name="update_import_relaying">Firma verificata. Questo telefono ora trasmette questa versione ai suoi contatti confermati.</string>
+    <string name="update_import_mismatch">È la sua versione, ma l\'app installata qui non è lo stesso file. Niente da trasmettere.</string>
+    <string name="update_import_older">Questo pacchetto è più vecchio della sua versione. Nulla è stato installato.</string>
+    <string name="update_failed_memory">Memoria insufficiente per scaricarlo.</string>
+    <string name="update_failed_corrupt">Il file ricevuto non corrisponde alla firma. È stato scartato.</string>
+    <string name="update_failed_install">Android ha rifiutato l\'installazione.</string>
+    <string name="update_failed_signature">Questa versione non è firmata con la stessa chiave della sua app. Rifiutata.</string>
+    <string name="update_banner">Aggiornamento disponibile</string>
+    <string name="update_notes_title">Novità</string>
+    <string name="update_diffuser_retry">Fonte non raggiungibile, nuovo tentativo tra 10 s</string>
+    <string name="update_interrupted">Aggiornamento interrotto, nuovo tentativo tra 30 min</string>
+    <string name="update_mandatory_title">Aggiornamento obbligatorio</string>
+    <string name="update_mandatory_body">Una versione più recente di Whospair è disponibile da più di 5 giorni. Installala per continuare a usare l\'app: i tuoi contatti aggiornati non accettano più le versioni precedenti.</string>
+</resources>

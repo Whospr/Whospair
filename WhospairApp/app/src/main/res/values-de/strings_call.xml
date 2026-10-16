@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Anrufen</string>
+    <string name="call_connecting">Verbindung über Tor…</string>
+    <string name="call_ringing">Klingelt…</string>
+    <string name="call_incoming">Eingehender Anruf</string>
+    <string name="call_answer">Annehmen</string>
+    <string name="call_decline">Ablehnen</string>
+    <string name="call_cancel">Abbrechen</string>
+    <string name="call_hang_up">Auflegen</string>
+    <string name="call_mute">Stummschalten</string>
+    <string name="call_unmute">Stumm aus</string>
+    <string name="call_speaker">Lautsprecher</string>
+    <string name="call_earpiece">Hörmuschel</string>
+    <string name="call_delay_hint">Über Tor kommt Ihre Stimme etwa eine Sekunde später an. Lassen Sie vor dem Antworten eine kurze Pause.</string>
+    <string name="call_ended">Anruf beendet</string>
+    <string name="call_declined">Abgelehnt</string>
+    <string name="call_busy">Bereits in einem Anruf</string>
+    <string name="call_no_answer">Keine Antwort</string>
+    <string name="call_unreachable">Gerade nicht erreichbar. Versuchen Sie es gleich noch einmal.</string>
+    <string name="call_lost">Verbindung verloren</string>
+    <string name="call_mic_denied">Das Mikrofon ist für Whospair ausgeschaltet. Erlauben Sie es in den Android-Einstellungen, um anzurufen.</string>
+    <string name="call_not_confirmed">Bestätigen Sie zuerst diesen Kontakt. Nur bestätigte Kontakte können einander anrufen.</string>
+    <string name="call_log_outgoing">Ausgehender Anruf · %1$s</string>
+    <string name="call_log_incoming">Eingehender Anruf · %1$s</string>
+    <string name="call_log_missed">Verpasster Anruf</string>
+    <string name="call_log_refused">Anruf abgelehnt</string>
+    <string name="call_log_no_answer">Anruf nicht angenommen</string>
+    <string name="call_log_busy">Anruf: Die Person war bereits im Gespräch</string>
+    <string name="call_log_unreachable">Anruf kam nicht zustande</string>
+    <string name="call_log_cancelled">Anruf abgebrochen</string>
+</resources>

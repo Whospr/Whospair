@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Позвонить</string>
+    <string name="call_connecting">Соединение через Tor…</string>
+    <string name="call_ringing">Вызов…</string>
+    <string name="call_incoming">Входящий звонок</string>
+    <string name="call_answer">Ответить</string>
+    <string name="call_decline">Отклонить</string>
+    <string name="call_cancel">Отмена</string>
+    <string name="call_hang_up">Завершить</string>
+    <string name="call_mute">Выключить микрофон</string>
+    <string name="call_unmute">Включить микрофон</string>
+    <string name="call_speaker">Громкая связь</string>
+    <string name="call_earpiece">Динамик</string>
+    <string name="call_delay_hint">Через Tor ваш голос доходит примерно с секундной задержкой. Делайте короткую паузу перед ответом.</string>
+    <string name="call_ended">Звонок завершён</string>
+    <string name="call_declined">Отклонён</string>
+    <string name="call_busy">Уже идёт звонок</string>
+    <string name="call_no_answer">Нет ответа</string>
+    <string name="call_unreachable">Сейчас недоступен. Попробуйте чуть позже.</string>
+    <string name="call_lost">Соединение потеряно</string>
+    <string name="call_mic_denied">Микрофон для Whospair выключен. Разрешите его в настройках Android, чтобы звонить.</string>
+    <string name="call_not_confirmed">Сначала подтвердите этот контакт. Звонить друг другу могут только подтверждённые контакты.</string>
+    <string name="call_log_outgoing">Исходящий звонок · %1$s</string>
+    <string name="call_log_incoming">Входящий звонок · %1$s</string>
+    <string name="call_log_missed">Пропущенный звонок</string>
+    <string name="call_log_refused">Звонок отклонён</string>
+    <string name="call_log_no_answer">Звонок без ответа</string>
+    <string name="call_log_busy">Звонок: собеседник уже разговаривал</string>
+    <string name="call_log_unreachable">Звонок не прошёл</string>
+    <string name="call_log_cancelled">Звонок отменён</string>
+</resources>

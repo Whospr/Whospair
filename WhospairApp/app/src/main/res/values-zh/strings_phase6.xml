@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor 已开启</string>
+    <string name="tor_state_connecting">正在连接 Tor</string>
+    <string name="tor_state_offline">Tor 已关闭</string>
+    <string name="presence_reachable">可联系</string>
+    <string name="ring_action">响铃</string>
+    <string name="ring_calling">正在向 %1$s 响铃…</string>
+    <string name="ring_incoming">%1$s 在向您响铃</string>
+    <string name="ring_accept">接听</string>
+    <string name="ring_decline">忽略</string>
+    <string name="ring_cancel">停止</string>
+    <string name="ring_declined">%1$s 忽略了响铃</string>
+    <string name="ring_timeout">无人响应</string>
+    <string name="ring_peer_offline">%1$s 现在不在应用中</string>
+    <string name="ring_busy">已有一个会话正在进行</string>
+    <string name="indicator_title">这表示什么</string>
+    <string name="indicator_channel_live">Tor 正在运行，您的地址已发布。同样打开了应用的联系人可以联系您，您也可以联系他们。</string>
+    <string name="indicator_channel_none">Tor 尚未就绪。无法发送或接收任何内容，也没有任何内容被存放在别处留待以后。</string>
+    <string name="indicator_tunnel_on">您的流量正经由 VPN 接口出去。Whospair 只能看到这一点：它不知道是哪家服务商，也不知道隧道是否泄漏。</string>
+    <string name="indicator_tunnel_off">您的流量直接出去。您的网络服务商可以看到这台设备在使用 Tor 以及使用的时间——但看不到您在和谁说话，也看不到说了什么。</string>
+    <string name="indicator_dismiss">关闭</string>
+    <string name="vpn_advice_title">关于您的网络</string>
+    <string name="vpn_advice_body">Whospair 加密您说的内容，Tor 隐藏您在对谁说。两者都无法隐藏您在使用 Tor：承载您流量的一方能看到这一点、在什么时间以及多频繁。VPN 会把这个视角转移给隧道运营方。如果监视者恰恰是您担心的那一方，这就是实实在在的改变。</string>
+    <string name="vpn_advice_caveat">VPN 不是保证。您是在选择由谁来看，而不是消除旁观者。请选择一个您有理由信任的服务，并优先选择付费服务，而不是靠您的流量来盈利的服务。</string>
+    <string name="contacts_title">联系人</string>
+    <string name="contacts_empty">您的联系人列表是空的。</string>
+    <string name="contact_unconfirmed">未确认</string>
+    <string name="contact_blocked">已屏蔽</string>
+    <string name="chat_settings">对话设置</string>
+    <string name="chat_unconfirmed_banner">此人通过您的链接添加了您。您尚未确认对方的身份。</string>
+    <string name="chat_confirm">确认</string>
+    <string name="chat_block">屏蔽</string>
+    <string name="chat_unblock">取消屏蔽</string>
+    <string name="chat_blocked_banner">已屏蔽。对方再也无法联系您。</string>
+    <string name="settings_rename">名称</string>
+    <string name="settings_rename_hint">只有您能看到这个名称。</string>
+    <string name="settings_save">保存</string>
+    <string name="settings_safety_number">安全码</string>
+    <string name="settings_safety_hint">当面或通过通话与联系人核对。两台手机上的号码相同 = 中间没有人。</string>
+    <string name="settings_confirm_trust">我已核对——确认此联系人</string>
+    <string name="settings_trusted">已确认的联系人</string>
+    <string name="settings_block_hint">被屏蔽的联系人无法再连接您或给您发消息。</string>
+    <string name="settings_delete">删除联系人</string>
+    <string name="settings_delete_confirm">删除此联系人及所有消息？如果对方仍有您的链接，可能会以未确认身份回来——屏蔽对方即可避免。</string>
+    <string name="settings_delete_action">删除</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor オン</string>
+    <string name="tor_state_connecting">Tor に接続中</string>
+    <string name="tor_state_offline">Tor オフ</string>
+    <string name="presence_reachable">連絡可能</string>
+    <string name="ring_action">呼び出す</string>
+    <string name="ring_calling">%1$s を呼び出し中…</string>
+    <string name="ring_incoming">%1$s があなたを呼び出しています</string>
+    <string name="ring_accept">応答</string>
+    <string name="ring_decline">無視</string>
+    <string name="ring_cancel">停止</string>
+    <string name="ring_declined">%1$s は呼び出しを無視しました</string>
+    <string name="ring_timeout">応答なし</string>
+    <string name="ring_peer_offline">%1$s は今アプリを開いていません</string>
+    <string name="ring_busy">すでにセッションが開いています</string>
+    <string name="indicator_title">この表示の意味</string>
+    <string name="indicator_channel_live">Tor が動作中で、あなたのアドレスが公開されています。同じくアプリを開いている連絡先はあなたに連絡でき、あなたも連絡できます。</string>
+    <string name="indicator_channel_none">Tor の準備ができていません。何も送受信できず、後のためにどこかへ保管されるものもありません。</string>
+    <string name="indicator_tunnel_on">通信は VPN インターフェース経由で出ています。Whospair にわかるのはそこまでで、どの事業者か、トンネルから漏れていないかはわかりません。</string>
+    <string name="indicator_tunnel_off">通信は直接出ています。ネットワーク事業者には、この端末が Tor をいつ使っているかは見えますが、誰と何を話しているかは見えません。</string>
+    <string name="indicator_dismiss">閉じる</string>
+    <string name="vpn_advice_title">ネットワークについて</string>
+    <string name="vpn_advice_body">Whospair は話す内容を暗号化し、Tor は誰に話しているかを隠します。どちらも、Tor を使っていること自体は隠しません。通信を運ぶ側には、それがいつ、どれくらいの頻度なのかが見えます。VPN はその視点をトンネルの運営者に移します。見張っているのがまさに心配している相手なら、これは実際の変化です。</string>
+    <string name="vpn_advice_caveat">VPN は保証ではありません。見張る人をなくすのではなく、誰に見せるかを選ぶだけです。信頼できる理由のある事業者を選び、あなたの通信で稼ぐ無料のものより有料のものを選んでください。</string>
+    <string name="contacts_title">連絡先</string>
+    <string name="contacts_empty">連絡先リストは空です。</string>
+    <string name="contact_unconfirmed">未確認</string>
+    <string name="contact_blocked">ブロック中</string>
+    <string name="chat_settings">会話の設定</string>
+    <string name="chat_unconfirmed_banner">この人はあなたのリンクであなたを追加しました。相手が誰かはまだ確認されていません。</string>
+    <string name="chat_confirm">確認する</string>
+    <string name="chat_block">ブロック</string>
+    <string name="chat_unblock">ブロックを解除</string>
+    <string name="chat_blocked_banner">ブロック中です。この相手はもうあなたに連絡できません。</string>
+    <string name="settings_rename">名前</string>
+    <string name="settings_rename_hint">この名前はあなたにしか見えません。</string>
+    <string name="settings_save">保存</string>
+    <string name="settings_safety_number">安全番号</string>
+    <string name="settings_safety_hint">対面または通話で相手と照合してください。両方の端末で同じ番号なら、間に誰もいません。</string>
+    <string name="settings_confirm_trust">確認しました — この連絡先を承認</string>
+    <string name="settings_trusted">確認済みの連絡先</string>
+    <string name="settings_block_hint">ブロックした連絡先は、接続もメッセージ送信もできなくなります。</string>
+    <string name="settings_delete">連絡先を削除</string>
+    <string name="settings_delete_confirm">この連絡先とすべてのメッセージを削除しますか？相手がまだあなたのリンクを持っていれば、未確認として戻ってくることがあります。防ぐにはブロックしてください。</string>
+    <string name="settings_delete_action">削除</string>
+</resources>

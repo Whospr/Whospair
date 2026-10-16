@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Поруке</string>
+    <string name="search_contact">Претражи контакт</string>
+    <string name="conversations_empty_title">Још нема разговора</string>
+    <string name="conversations_empty_body">Додајте некога скенирањем његовог кода, лицем у лице. Можете му писати кад обоје имате отворену апликацију.</string>
+    <string name="search_no_result">Нема контакта са тим именом.</string>
+    <string name="add_contact">Додај контакт</string>
+    <string name="scan_code">Скенирај код</string>
+    <string name="message_retry">Покушај поново</string>
+    <string name="message_sent">Послато</string>
+    <string name="message_delivered">Испоручено</string>
+    <string name="read_lock_preview">Читање скривено</string>
+    <string name="message_expires_in">Нестаје за %1$s</string>
+    <string name="ttl_button">Трајање поруке: %1$s</string>
+    <string name="send">Пошаљи</string>
+    <string name="back">Назад</string>
+    <string name="close">Затвори</string>
+    <string name="confirm_identity">Потврди идентитет</string>
+    <string name="delete_contact_and_chat">Избриши контакт и разговор</string>
+    <string name="preview_none">Нема порука</string>
+    <string name="preview_encrypted">Шифрована порука</string>
+    <string name="duration_days">%1$d д</string>
+    <string name="message_placeholder">Напишите поруку</string>
+    <string name="discover_code_caption">Овај код садржи Ваше јавне кључеве и Вашу Тор адресу. Ништа друго.</string>
+    <string name="share_link">Подели мој линк</string>
+    <string name="copy_link">Копирај линк</string>
+    <string name="link_copied">Линк је копиран</string>
+    <string name="memory_advice_title">Меморија телефона</string>
+    <string name="memory_advice_body">Whospair држи кључеве у меморији само док је апликација отворена. Али неки телефони копирају део меморије у складиште да би деловали већим („виртуелна меморија”, „проширење меморије”). Тако копиран кључ могао би остати на телефону после затварања Whospair-a.</string>
+    <string name="memory_advice_how">За искључивање: у подешавањима телефона потражите „виртуелна меморија” или „проширење меморије”, искључите то и поново покрените телефон.</string>
+    <string name="voice_record">Сними гласовну поруку</string>
+    <string name="voice_cancel">Одбаци снимак</string>
+    <string name="voice_recording">до %1$s</string>
+    <string name="voice_send">Пошаљи гласовну поруку</string>
+    <string name="voice_play">Пусти</string>
+    <string name="voice_pause">Пауза</string>
+    <string name="voice_receiving">Примање…</string>
+    <string name="voice_preview">Гласовна порука %1$s</string>
+    <string name="mic_denied">Микрофон је искључен за Whospair. Дозволите га у подешавањима Android-a да бисте послали гласовну поруку.</string>
+</resources>

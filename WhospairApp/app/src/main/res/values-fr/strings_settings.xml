@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Masquage de la lecture, par conversation -->
+    <string name="read_lock_title">Lecture</string>
+    <string name="read_lock_off_hint">Les messages restent lisibles quand vous revenez dans cette conversation.</string>
+    <string name="read_lock_on_hint">Messages masqués. Entrez le code pour les lire pendant cette visite.</string>
+    <string name="read_lock_open_hint">Lisible jusqu\'à ce que vous quittiez la conversation.</string>
+    <string name="read_lock_enable">Masquer les messages par un code</string>
+    <string name="read_lock_unlock">Déverrouiller la lecture</string>
+    <string name="read_lock_disable">Ne plus masquer les messages</string>
+    <string name="read_lock_banner">Messages masqués. Déverrouillez la lecture dans les paramètres.</string>
+    <string name="read_lock_masked">••••••</string>
+    <string name="message_unreadable">[Message illisible]</string>
+    <string name="read_code_new">Choisissez un code à 4 chiffres</string>
+    <string name="read_code_confirm">Saisissez-le à nouveau</string>
+    <string name="read_code_enter">Code de lecture</string>
+    <string name="read_code_mismatch">Les deux codes diffèrent. On recommence.</string>
+    <string name="read_code_wrong">Code incorrect</string>
+
+    <!-- Paramètres principaux -->
+    <string name="settings_section_security">Sécurité</string>
+    <string name="settings_section_identity">Mon identité</string>
+    <string name="settings_section_network">Réseau</string>
+    <string name="settings_section_about">Informations</string>
+    <string name="settings_change_pin">Changer le PIN</string>
+    <string name="settings_new_pin">Nouveau PIN</string>
+    <string name="settings_pin_changed">PIN changé.</string>
+    <string name="settings_pin_changed_duress_removed">PIN changé. Sa longueur a changé, le PIN de contrainte a donc été retiré : redéfinissez-le avec la même longueur.</string>
+    <string name="settings_pin_rejected">Non changé : ce PIN est trop court ou c\'est votre PIN de contrainte.</string>
+    <string name="settings_duress_same_length">Même nombre de chiffres que votre PIN.</string>
+    <string name="settings_default_ttl">Durée de vie par défaut</string>
+    <string name="settings_default_ttl_hint">Utilisée dans chaque conversation, tant que vous n\'en choisissez pas une autre sur place.</string>
+    <string name="settings_mask_all">Masquer la lecture partout</string>
+    <string name="settings_mask_all_hint">Un code pour toutes les conversations pas encore masquées. Celles qui ont un code gardent le leur.</string>
+    <string name="settings_mask_all_done">C\'est fait. Chaque conversation demande désormais le code.</string>
+    <string name="settings_wipe_now">Tout effacer maintenant</string>
+    <string name="settings_wipe_confirm">Effacer tout de suite les clés, contacts et messages ? Rien ne pourra être récupéré. L\'app repartira comme neuve.</string>
+    <string name="settings_wipe_action">Tout effacer</string>
+    <string name="settings_my_qr">Mon QR et mon lien</string>
+    <string name="settings_new_identity">Nouvelle identité</string>
+    <string name="settings_new_identity_confirm">Nouvelles clés et nouvelle adresse : votre lien et votre QR actuels ne marcheront plus. Tous les contacts et messages sont effacés — vos contacts devront vous rajouter. L\'app redémarre.</string>
+    <string name="settings_new_identity_action">Créer une nouvelle identité</string>
+    <string name="settings_tor_state">Tor</string>
+    <string name="tor_state_ready">Connecté</string>
+    <string name="tor_state_starting">Démarrage… %1$d %%</string>
+    <string name="tor_state_failed">En échec — touchez pour redémarrer</string>
+    <string name="tor_state_off">Arrêté</string>
+    <string name="tor_state_reconnecting">Réseau perdu — reconnexion…</string>
+    <string name="settings_restart_tor_confirm">Redémarrer Tor redémarre l\'app. Vous saisirez à nouveau votre PIN.</string>
+    <string name="settings_restart_tor_action">Redémarrer</string>
+
+    <string name="about_title">Qu\'est-ce que Whospair</string>
+    <string name="about_body">Une messagerie pour ceux qui ont des choses sensibles à se dire. Ce qui se dit dans Whospair n\'existe que sur les deux téléphones, pendant le temps choisi, et nulle part ailleurs.\n\nSans serveur. Aucun serveur ne relaie, ne stocke ni ne voit vos échanges. Chaque téléphone est son propre point d\'accès sur le réseau Tor ; les messages vont directement de l\'un à l\'autre.\n\nSans compte. Pas de numéro, pas d\'e-mail, pas de nom réel. Votre identité est une paire de clés créée sur ce téléphone. On s\'ajoute en scannant un QR code, en personne ou par un lien.\n\nChiffré de bout en bout. Messages, vocaux, fichiers et appels sont chiffrés avant de quitter le téléphone, puis passent par Tor, qui cache votre adresse IP.\n\nÉphémère. Chaque message a une durée de vie choisie, puis s\'efface des deux côtés. Rien n\'est sauvegardé ailleurs.\n\nVivant. On ne joint que quelqu\'un qui a l\'app ouverte, ou qui a activé « Rester joignable ».\n\nProtégé sur le téléphone. Tout est chiffré sous votre PIN. Dix erreurs de PIN, ou le PIN de contrainte, effacent tout.\n\nAvertissement. Whospair est un outil. L\'usage que vous en faites relève de votre seule responsabilité. Il est fourni tel quel, sans garantie, et ses auteurs ne peuvent être tenus responsables de son utilisation ni de ses conséquences.</string>
+    <string name="privacy_title">Politique de confidentialité</string>
+    <string name="privacy_body">Whospair ne collecte rien. Aucun serveur ne reçoit vos données : il n\'y a donc personne pour les analyser ou les remettre à un tiers.\n\nCe que l\'app ne fait jamais : profilage, revente de données, publicité, code de suivi, rapport de plantage envoyé, lecture du carnet d\'adresses, localisation. Aucune entreprise tierce ne reçoit quoi que ce soit, ni données ni signal d\'utilisation : l\'app ne parle qu\'au réseau Tor, à vos contacts et à son diffuseur de mises à jour.\n\nCe qui reste sur ce téléphone, chiffré : vos clés, vos contacts, vos messages et vos fichiers — jusqu\'à leur expiration, leur suppression par vous, ou 10 PIN erronés. Les photos envoyées sont nettoyées de leurs métadonnées (lieu, modèle d\'appareil).\n\nCe que voit encore un tiers : votre opérateur réseau peut voir que ce téléphone utilise Tor, mais ni avec qui, ni quoi. Votre contact voit ce que vous lui envoyez, et votre photo de profil si vous l\'autorisez.\n\nMises à jour. Une fois par jour, l\'app demande discrètement, par Tor, s\'il existe une version plus récente. Cette demande ne contient que son numéro de version : ni identité, ni contacts, ni messages.\n\nPourquoi chaque jour ? Parce qu\'une version à jour refuse de communiquer avec une version trop ancienne. C\'est volontaire : une ancienne version peut contenir une faille. Sans mise à jour, vous ne pourriez plus joindre vos proches ni vos collègues ; seule la mise à jour vous parvient encore.\n\nWhospair est en constante évolution, d\'où des mises à jour fréquentes. Une faille peut être découverte et exploitée avant même que quiconque s\'en aperçoive. Corriger rapidement, c\'est empêcher que vos données se retrouvent entre de mauvaises mains.\n\nVos droits. Rien n\'étant collecté, il n\'y a rien à consulter, corriger ou supprimer chez nous. Tout est entre vos mains : désinstaller l\'app efface tout.\n\nResponsabilité. Vous êtes seul responsable de ce que vous envoyez, à qui, et de ce que vous faites de ce que vous recevez. Whospair est fourni tel quel, sans garantie.</string>
+    <string name="version_title">Version</string>
+    <string name="version_fingerprint_hint">Empreinte du certificat qui a signé cette app. Comparez-la avec celle publiée par l\'auteur : si elle diffère, ce n\'est pas la vraie app.</string>
+    <string name="licenses_title">Licences</string>
+</resources>

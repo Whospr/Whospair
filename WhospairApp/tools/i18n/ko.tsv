@@ -1,0 +1,561 @@
+splash_tagline	설계부터 비공개
+tos_title	시작하기 전에
+tos_warning	주의 깊게 읽어 주세요. Whospair는 익숙한 메신저와 다르게 작동하며, 그 차이 중 일부는 되돌릴 수 없습니다.
+tos_s1_title	1. 설계부터 기기 대 기기
+tos_s1_body	Whospair에는 서버가 없습니다. 메시지와 통화는 기기에서 기기로 바로 전달됩니다. 저희를 포함해 누구도 중간에 끼어들거나, 데이터를 보관하거나, 넘겨줄 수 없습니다.
+tos_s2_title	2. 책임은 사용자에게 있습니다
+tos_s2_body	이 앱 뒤에는 운영자가 없습니다. 무엇을 누구에게 보내고, 받은 것을 어떻게 하는지는 전적으로 사용자의 책임입니다. Whospair는 도구입니다. 제작자는 사용자의 사용 방식이나 그 결과에 대해 책임지지 않습니다.
+tos_s3_title	3. 검열 없음
+tos_s3_body	어떤 기관도 콘텐츠를 검토하거나 걸러내거나 삭제하지 않습니다. 누군가에게 닿는 신고 버튼도 없습니다. 반대편에는 아무도 없기 때문입니다.
+tos_s4_title	4. 종단 간 암호화
+tos_s4_body	메시지는 종단 간 암호화(X25519 및 AES-256-GCM)되고 서명됩니다. 통화는 Tor를 거치며, 약 10초마다 바뀌는 키로 암호화됩니다.
+tos_s5_title	5. 원격 저장 없음
+tos_s5_body	신원, 연락처, 메시지는 이 기기에만 존재합니다. 앱을 삭제하면 모두 지워집니다.
+tos_s6_title	6. 복구 불가
+tos_s6_body	신원은 계정이 아니라 암호 키입니다. 잃어버리면 끝입니다. 비밀번호 재설정도, 고객 지원도, 복원할 백업도 없습니다.
+tos_s7_title	7. 합법적 사용만
+tos_s7_body	개인정보 보호 도구는 정당한 대화를 지킵니다. Whospair로 법을 어겨도 여전히 법을 어기는 것입니다.
+tos_s8_title	8. 보증 없음
+tos_s8_body	이 소프트웨어는 있는 그대로 제공되며, 가용성, 정확성, 특정 목적에의 적합성을 보증하지 않습니다.
+tos_s9_title	9. 보안에는 한계가 있습니다
+tos_s9_body	암호화는 전송 중인 데이터를 보호합니다. 이미 악성코드나 루트킷에 감염된 기기, 또는 다른 사람이 손에 쥔 기기까지 보호할 수는 없습니다.
+tos_s10_title	10. 동의
+tos_s10_body	계속하면 위 내용, 특히 잃어버린 신원은 복구할 수 없다는 점을 이해한 것으로 간주됩니다.
+tos_checkbox	이 약관을 읽었으며 동의합니다
+tos_accept	동의
+tos_decline	거부
+tos_decline_dialog_title	약관을 거부하시겠습니까?
+tos_decline_dialog_body	동의하지 않으면 Whospair를 사용할 수 없습니다. 앱이 종료됩니다.
+tos_decline_confirm	앱 종료
+tos_decline_cancel	돌아가기
+tutorial_skip	건너뛰기
+tutorial_next	다음
+tutorial_back	이전
+tutorial_start	시작하기
+tutorial_page_counter	%1$d / %2$d
+tutorial_p1_title	Whospair에 오신 것을 환영합니다
+tutorial_p1_body	어떤 서버에도 흔적을 남기지 않는 메시지와 통화. 서버가 없기 때문입니다.
+tutorial_p1_f1	종단 간 암호화
+tutorial_p1_f2	서버도, 계정도 없음
+tutorial_p1_f3	메시지는 저절로 사라집니다
+tutorial_p1_f4	모든 키는 사용자에게
+tutorial_p2_title	상대 추가하기
+tutorial_p2_body	사용자 이름도 전화번호도 없습니다. 키를 직접 교환합니다.
+tutorial_p2_s1	추가 탭을 여세요
+tutorial_p2_s2	상대의 코드를 스캔하거나, 내 코드를 스캔하게 하세요
+tutorial_p2_s3	대화 준비 완료
+tutorial_p2_note	새 신원은 새 코드를 뜻합니다. 다시 공유하는 것만이 다시 연결하는 유일한 방법입니다.
+tutorial_p3_title	메시지 보내기
+tutorial_p3_body	모든 메시지는 보내는 순간부터 유효 기간을 가집니다.
+tutorial_p3_s1	대화를 여세요
+tutorial_p3_s2	입력한 뒤, 얼마나 남길지 고르세요
+tutorial_p3_s3	보내세요
+tutorial_p4_title	유효 기간
+tutorial_p4_body	하는 말에 맞는 기간을 고르세요. 기간이 끝나면 메시지는 두 기기에서 모두 삭제됩니다.
+tutorial_p4_note	짧을수록 안전합니다. 화면에 남아 있는 것은 디스크에도 남아 있습니다.
+tutorial_p5_title	통제는 사용자에게
+tutorial_p5_body	시작하기 전에 알아 두면 좋은 몇 가지.
+tutorial_p5_f1	어떤 연락처든 차단하거나 삭제
+tutorial_p5_f2	대화 전체를 한 번에 삭제
+tutorial_p5_f3	PIN으로 앱 잠금
+tutorial_p5_f4	키는 절대 이 기기를 떠나지 않습니다
+identity_creating_title	신원을 만드는 중
+identity_creating_body	이 기기에서 키 쌍을 생성하고 있습니다. 잠시만 기다려 주세요.
+identity_ready_title	이것이 당신입니다
+identity_ready_body	키가 준비되었습니다. 이제 PIN을 정하세요. PIN이 키를 봉인합니다. QR 코드는 추가 탭에서 기다리고 있습니다.
+identity_warning	개인 키는 이 기기에 남으며 절대 표시되지 않습니다. 이 기기를 잃어버리면 이 신원은 영원히 사라집니다.
+identity_continue	계속
+identity_error_title	신원을 만들 수 없습니다
+identity_retry	다시 시도
+nav_home	메시지
+nav_contacts	연락처
+nav_calls	통화
+nav_discover	추가
+nav_settings	설정
+ttl_5m	5분
+ttl_15m	15분
+ttl_1h	1시간
+ttl_5h	5시간
+ttl_8h	8시간
+ttl_24h	24시간
+ttl_7d	7일
+discover_title	연락처 추가
+discover_subtitle	내 코드를 상대에게 보여 주거나, 상대의 코드를 스캔하세요. 얼굴을 마주하면 누구와 이야기하는지 알 수 있습니다.
+discover_scan_title	상대 코드 스캔
+discover_scan_body	상대의 QR 코드에 카메라를 맞추세요
+discover_mycode_title	내 코드 보기
+discover_mycode_body	다른 사람이 나를 추가하게 하기
+discover_manual_title	또는 받은 링크 붙여넣기
+discover_manual_hint	whospair:… 또는 16진수 64자
+discover_add	이 연락처 추가
+discover_fingerprint	소리 내어 비교할 지문
+discover_copy_link	초대 링크 복사
+add_ok	%1$s 님을 추가했습니다. 대화를 시작할 수 있습니다.
+add_already	%1$s 님은 이미 연락처에 있습니다.
+add_blocked	%1$s 님은 연락처에 있지만 차단되어 있습니다.
+add_self	본인의 키입니다. 자신을 추가할 수 없습니다.
+add_malformed	유효하지 않은 키입니다. 공개 키는 16진수 64자입니다.
+add_not_whisper	이 코드는 Whospair 키가 아닙니다.
+add_unblock	차단 해제
+add_unblocked	%1$s 님의 차단을 해제했습니다.
+scan_instruction	추가할 QR 코드에 맞추세요
+scan_permission_title	카메라 접근 필요
+scan_permission_body	코드를 스캔하려면 카메라가 필요합니다. 아무것도 녹화되거나 전송되지 않습니다.
+scan_permission_denied	카메라 접근이 거부되었습니다. 기기 설정에서 허용하거나 키를 직접 붙여넣으세요.
+scan_permission_grant	카메라 허용
+scan_use_manual	키 붙여넣기
+contact_block	차단
+contact_unblock	차단 해제
+contact_delete	연락처 삭제
+contact_delete_confirm	이 연락처와 대화 전체를 삭제할까요? 되돌릴 수 없습니다.
+contact_blocked_notice	차단됨. 이 연락처의 메시지는 거부됩니다.
+common_dismiss	닫기
+common_loading	불러오는 중…
+common_cancel	취소
+common_error	문제가 발생했습니다
+chat_today	오늘
+chat_yesterday	어제
+message_pending	보내는 중
+message_failed	전송 실패, 상대에게 연결할 수 없음
+tutorial_pin_title	나의 PIN, 오직 PIN
+tutorial_pin_body	Whospair의 모든 것은 다음 단계에서 정하는 PIN으로 잠깁니다. 잊어버리면 아무것도 복구할 수 없습니다.
+tutorial_pin_f1	10번 틀리면 모두 지워집니다
+tutorial_pin_f2	긴급 PIN(설정에서 지정)을 입력하면 모두 지워집니다. 강요받거나 위험할 때 사용하세요
+tutorial_pin_f3	지문이나 얼굴 인식은 쓰지 않습니다. 손가락은 억지로 센서에 댈 수 있어도, 비밀번호는 억지로 빼낼 수 없습니다
+tutorial_pin_note	앱이 백그라운드로 가면 스스로 잠깁니다.
+call_action	전화
+call_connecting	Tor로 연결 중…
+call_ringing	신호가 가는 중…
+call_incoming	수신 전화
+call_answer	받기
+call_decline	거절
+call_cancel	취소
+call_hang_up	끊기
+call_mute	음소거
+call_unmute	음소거 해제
+call_speaker	스피커
+call_earpiece	수화기
+call_delay_hint	Tor를 거치면 목소리가 약 1초 늦게 도착합니다. 대답하기 전에 잠깐 쉬어 주세요.
+call_ended	통화 종료
+call_declined	거절됨
+call_busy	이미 통화 중
+call_no_answer	응답 없음
+call_unreachable	지금은 연결할 수 없습니다. 잠시 후 다시 시도하세요.
+call_lost	연결이 끊겼습니다
+call_mic_denied	Whospair의 마이크가 꺼져 있습니다. 전화하려면 Android 설정에서 허용하세요.
+call_not_confirmed	먼저 이 연락처를 확인하세요. 확인된 연락처끼리만 통화할 수 있습니다.
+call_log_outgoing	발신 통화 · %1$s
+call_log_incoming	수신 통화 · %1$s
+call_log_missed	부재중 전화
+call_log_refused	통화 거절됨
+call_log_no_answer	응답 없는 통화
+call_log_busy	통화: 상대가 이미 통화 중이었습니다
+call_log_unreachable	통화가 연결되지 않았습니다
+call_log_cancelled	통화 취소됨
+messages_title	메시지
+search_contact	연락처 검색
+conversations_empty_title	아직 대화가 없습니다
+conversations_empty_body	직접 만나 상대의 코드를 스캔해 추가하세요. 두 사람 모두 앱을 열어 두었을 때 메시지를 보낼 수 있습니다.
+search_no_result	그 이름의 연락처가 없습니다.
+add_contact	연락처 추가
+scan_code	코드 스캔
+message_retry	다시 시도
+message_sent	보냄
+message_delivered	전달됨
+read_lock_preview	읽기 숨김
+message_expires_in	%1$s 후 사라짐
+ttl_button	메시지 유효 기간: %1$s
+send	보내기
+back	뒤로
+close	닫기
+confirm_identity	신원 확인
+delete_contact_and_chat	연락처와 대화 삭제
+preview_none	메시지 없음
+preview_encrypted	암호화된 메시지
+duration_days	%1$d일
+message_placeholder	메시지 입력
+discover_code_caption	이 코드에는 공개 키와 Tor 주소만 들어 있습니다. 그 밖에는 없습니다.
+share_link	내 링크 공유
+copy_link	링크 복사
+link_copied	링크를 복사했습니다
+memory_advice_title	휴대전화 메모리
+memory_advice_body	Whospair는 앱이 열려 있는 동안에만 키를 메모리에 보관합니다. 하지만 일부 휴대전화는 메모리를 크게 보이려고 일부를 저장 공간에 복사합니다('가상 메모리', '메모리 확장'). 이렇게 복사된 키는 Whospair를 닫은 뒤에도 휴대전화에 남을 수 있습니다.
+memory_advice_how	끄는 방법: 휴대전화 설정에서 '가상 메모리' 또는 '메모리 확장'을 찾아 끈 다음 휴대전화를 다시 시작하세요.
+voice_record	음성 메시지 녹음
+voice_cancel	녹음 삭제
+voice_recording	최대 %1$s
+voice_send	음성 메시지 보내기
+voice_play	재생
+voice_pause	일시정지
+voice_receiving	받는 중…
+voice_preview	음성 메시지 %1$s
+mic_denied	Whospair의 마이크가 꺼져 있습니다. 음성 메시지를 보내려면 Android 설정에서 허용하세요.
+tor_state_live	Tor 켜짐
+tor_state_connecting	Tor에 연결 중
+tor_state_offline	Tor 꺼짐
+presence_reachable	연결 가능
+ring_action	호출
+ring_calling	%1$s 님 호출 중…
+ring_incoming	%1$s 님이 호출하고 있습니다
+ring_accept	받기
+ring_decline	무시
+ring_cancel	중지
+ring_declined	%1$s 님이 호출을 무시했습니다
+ring_timeout	응답 없음
+ring_peer_offline	%1$s 님은 지금 앱에 없습니다
+ring_busy	이미 세션이 열려 있습니다
+indicator_title	이 표시의 의미
+indicator_channel_live	Tor가 작동 중이며 주소가 공개되어 있습니다. 앱을 열어 둔 연락처는 나에게 연락할 수 있고, 나도 그들에게 연락할 수 있습니다.
+indicator_channel_none	Tor가 준비되지 않았습니다. 아무것도 주고받을 수 없으며, 나중을 위해 어딘가에 보관되는 것도 없습니다.
+indicator_tunnel_on	트래픽이 VPN 인터페이스로 나가고 있습니다. Whospair가 알 수 있는 것은 여기까지입니다. 어느 업체인지, 터널에서 새는지는 알 수 없습니다.
+indicator_tunnel_off	트래픽이 바로 나가고 있습니다. 통신사는 이 기기가 Tor를 언제 쓰는지 볼 수 있지만, 누구와 무슨 이야기를 하는지는 볼 수 없습니다.
+indicator_dismiss	닫기
+vpn_advice_title	네트워크에 대해
+vpn_advice_body	Whospair는 하는 말을 암호화하고, Tor는 누구에게 말하는지를 숨깁니다. 둘 다 Tor를 쓴다는 사실 자체는 숨기지 않습니다. 트래픽을 전달하는 쪽은 그것을, 언제, 얼마나 자주인지 봅니다. VPN은 그 시선을 터널 운영자에게 옮깁니다. 감시하는 쪽이 바로 걱정하는 상대라면 실제로 의미 있는 변화입니다.
+vpn_advice_caveat	VPN은 보장이 아닙니다. 감시자를 없애는 것이 아니라 누가 감시할지를 고르는 것입니다. 믿을 이유가 있는 업체를 고르고, 트래픽으로 돈을 버는 무료 서비스보다 유료 서비스를 택하세요.
+contacts_title	연락처
+contacts_empty	연락처 목록이 비어 있습니다.
+contact_unconfirmed	미확인
+contact_blocked	차단됨
+chat_settings	대화 설정
+chat_unconfirmed_banner	이 사람은 내 링크로 나를 추가했습니다. 아직 누구인지 확인하지 않았습니다.
+chat_confirm	확인
+chat_block	차단
+chat_unblock	차단 해제
+chat_blocked_banner	차단됨. 더 이상 나에게 연락할 수 없습니다.
+settings_rename	이름
+settings_rename_hint	이 이름은 나만 볼 수 있습니다.
+settings_save	저장
+settings_safety_number	안전 번호
+settings_safety_hint	직접 만나거나 통화로 상대와 비교하세요. 두 휴대전화의 번호가 같으면 중간에 아무도 없습니다.
+settings_confirm_trust	확인했습니다 — 이 연락처 승인
+settings_trusted	확인된 연락처
+settings_block_hint	차단한 연락처는 더 이상 연결하거나 메시지를 보낼 수 없습니다.
+settings_delete	연락처 삭제
+settings_delete_confirm	이 연락처와 모든 메시지를 삭제할까요? 상대가 아직 내 링크를 갖고 있다면 미확인 상태로 돌아올 수 있습니다. 막으려면 차단하세요.
+settings_delete_action	삭제
+settings_section_profile	프로필
+profile_photo	프로필 사진
+profile_photo_hint	256px로 자르고 메타데이터를 지운 뒤 Tor로만 보냅니다.
+profile_photo_choose	선택
+profile_photo_remove	제거
+profile_photo_error	이 이미지를 읽을 수 없습니다.
+profile_photo_visibility	내 사진을 볼 수 있는 사람
+profile_photo_everyone	나에게 연락하는 모든 사람
+profile_photo_everyone_hint	미확인 연락처 포함
+profile_photo_confirmed	확인된 연락처
+profile_photo_hidden	아무도 없음
+settings_gaze_shield	카메라로 화면 숨기기
+settings_gaze_shield_body	전면 카메라가 화면 앞에 누가 있는지 봅니다. 모든 것은 휴대전화 안에 머뭅니다. 이미지는 저장되거나 전송되지 않습니다. Whospair가 열려 있는 동안 Android 카메라 표시등이 켜져 있고 배터리가 더 빨리 닳습니다. 탁자 위에 휴대전화를 엎어 두면 화면은 항상 꺼집니다.
+settings_off	끔
+settings_gaze_look_away	내가 시선을 돌릴 때
+settings_gaze_onlooker	다른 사람이 볼 때
+settings_gaze_onlooker_hint	등 뒤의 두 번째 얼굴. 위험을 줄이지만 없애지는 못합니다. 옆모습, 먼 곳, 어두운 곳의 얼굴은 놓칠 수 있습니다.
+alert_someone	누군가 연락하려고 합니다
+alert_bip	%1$s 님이 부르고 있습니다
+alert_open	열기
+nudge_title	신호 보내기
+nudge_hint	상대의 Whospair를 진동시킵니다.
+nudge_action	신호 보내기
+nudge_sent	신호를 보냈습니다.
+nudge_unreachable	지금은 연결할 수 없습니다: 상대의 Whospair가 닫혀 있습니다.
+nudge_received	%1$s 님이 신호를 보냈습니다
+private_mode_title	비공개 모드
+private_mode_off_hint	이 대화에서 온라인이며 연락 가능합니다.
+private_mode_on_hint	이 대화에서 더 이상 연락할 수 없습니다.
+private_mode_enable	비공개 모드 켜기
+private_mode_disable	비공개 모드 끄기
+private_mode_banner	이 대화에서 비공개 모드가 켜져 있습니다. 메시지를 보낸 뒤 1분 동안만 연락 가능합니다. 계속 연락 가능하려면 비공개 모드를 끄세요.
+file_generic	파일
+file_attach	파일 첨부
+file_view_once	한 번만 보기
+file_sending	보내는 중 %1$d %%
+file_receiving	받는 중 %1$d %%
+file_send_title	이 파일을 보낼까요?
+file_allow_save	저장 허용
+file_allow_save_hint	허용하지 않으면 Whospair 안에서만 열립니다.
+file_view_once_option	한 번만 보기
+file_view_once_hint	처음 연 뒤 상대 휴대전화에서 지워집니다.
+file_send	보내기
+file_too_big	파일이 너무 큽니다: 최대 25MB.
+file_unreadable	읽을 수 없는 파일입니다.
+file_viewer_pending	이 종류의 파일은 곧 Whospair 안에서 열 수 있게 됩니다.
+input_more	더 보기: 유효 기간 %1$s, 신호, 파일
+input_ttl	유효 기간 · %1$s
+input_file	파일
+notice_forwarded	%1$s 님이 '%2$s'을(를) 다른 연락처에 전달했습니다
+notice_shared	%1$s 님이 '%2$s'을(를) 다른 앱과 공유했습니다
+notice_saved	%1$s 님이 '%2$s'을(를) 휴대전화에 저장했습니다
+notice_opened	%1$s 님이 '%2$s'을(를) 다른 앱에서 열었습니다
+notice_viewed	%1$s 님이 '%2$s'을(를) 봤습니다(한 번만 보기)
+notice_you_forwarded	'%1$s'을(를) 전달했습니다. 보낸 사람에게 알림이 갑니다
+notice_you_shared	'%1$s'을(를) 공유했습니다. 보낸 사람에게 알림이 갑니다
+notice_you_saved	'%1$s'을(를) 저장했습니다. 보낸 사람에게 알림이 갑니다
+notice_you_opened	'%1$s'을(를) 다른 곳에서 열었습니다. 보낸 사람에게 알림이 갑니다
+notice_you_viewed	'%1$s'을(를) 봤습니다. 지워졌습니다
+notice_preview	파일 관련 알림
+file_share	공유
+file_open_with	다른 앱으로 열기…
+file_open_elsewhere_hint	Whospair에서 이 파일을 표시할 수 없습니다. 위쪽의 '다른 앱으로 열기…'는 복사하지 않고 잠시 다른 앱에 빌려줍니다. 보낸 사람에게 알림이 갑니다.
+media_play	재생
+media_pause	일시정지
+share_forward	연락처에게 보내기
+share_outside	다른 앱과 공유
+share_save	휴대전화에 저장
+share_sender_told	보낸 사람에게 알림이 가지만, 누구에게 보냈는지는 알 수 없습니다.
+forward_title	보낼 대상…
+forward_none	다른 확인된 연락처가 없습니다.
+selection_count	%1$d개 선택됨
+selection_cancel	선택 취소
+delete_selected_title	%1$d개 항목을 삭제할까요?
+delete_selected_body	유효 기간을 기다리지 않고 이 휴대전화에서 바로 지워집니다. 아직 보내지 않은 것은 보내지 않습니다. 상대의 사본은 각자의 유효 기간이 끝나면 사라집니다.
+delete_selected_action	삭제
+file_cancel	전송 취소
+notice_cancelled	%1$s 님이 파일 전송을 취소했습니다
+notice_you_cancelled	파일 전송을 취소했습니다
+file_incoming	파일을 받고 있습니다…
+settings_stay_reachable	연락 가능 상태 유지
+settings_on	켬
+settings_stay_reachable_body	앱을 닫아도 주소는 온라인 상태로 유지됩니다. 연락처는 메시지를 보내거나 전화할 수 있습니다.\n\n도착한 메시지는 암호화된 그대로 보관되고 한 번 더 봉인됩니다. 내 PIN으로만 열 수 있습니다. 내 링크를 가진 모르는 사람은 앱이 열릴 때까지 기다려야 합니다.\n\n알림에는 'Whospair가 부르고 있습니다'라고만 표시되며, 이름도 내용도 없습니다. 전화를 받으려면 Whospair를 열고 PIN을 입력한 뒤 받으세요. 상대는 1분 동안 계속 전화합니다.
+settings_stay_reachable_costs	대가: 앱을 닫아도 onion 키가 메모리에 남고, Android가 상시 알림을 표시하며, 주소가 24시간 온라인이고, 배터리가 더 빨리 닳습니다. 휴대전화를 다시 시작하면 PIN을 입력할 때까지 아무것도 작동하지 않습니다.
+settings_reach_enable	켜기
+settings_reach_disable	끄기
+settings_reach_battery	백그라운드 허용
+settings_reach_battery_hint	허용하지 않으면 Android가 Whospair를 절전 상태로 만들어 연락할 수 없게 될 수 있습니다.
+settings_reach_notifications_off	Whospair 알림이 꺼져 있습니다. 메시지는 계속 PIN을 기다리지만, 도착했다는 사실을 알려 주지 않습니다.
+settings_reach_notifications_allow	알림 켜기
+settings_reach_hide_hint	Whospair가 연락 가능 상태인 동안 Android는 '연락 가능' 알림을 요구합니다. 숨길 수 있습니다. 서비스는 계속 작동하고, 상태는 앱 안의 Tor 옆에 표시됩니다.
+settings_reach_hide	알림 숨기기
+reach_channel_service	연락 가능 상태 유지
+reach_channel_alert	누군가 연락하려고 합니다
+reach_channel_call	수신 전화
+reach_service_title	Whospair
+reach_service_text	연락 가능
+reach_alert_title	Whospair가 부르고 있습니다
+reach_call_title	Whospair가 부르고 있습니다
+reach_call_text	받으려면 Whospair를 열고 PIN을 입력하세요.
+new_chat	새 대화
+contacts_group_confirmed	확인됨
+contacts_group_unconfirmed	확인 대기
+contacts_group_blocked	차단됨
+contacts_scan	QR 스캔
+contacts_show_qr	내 QR 보기
+profile_title	내 프로필
+profile_photo_change	사진 변경
+settings_appearance	화면 모드
+appearance_auto	자동
+appearance_auto_hint	시스템 설정에 맞춤
+appearance_day	라이트
+appearance_night	다크
+settings_background	대화 배경
+settings_background_hint	모든 대화에 동일하게 적용됩니다. 메인 화면도 그 색을 따릅니다.
+bg_ink	잉크
+bg_sage	세이지
+bg_slate	슬레이트
+bg_plum	플럼
+bg_sand	샌드
+bg_plain	단색
+settings_page_lock	잠금
+settings_page_lock_sub	PIN, 긴급 PIN, 지금 잠그기
+settings_page_discretion	보안 표시
+settings_page_discretion_sub	메시지 유효 기간, 화면 숨기기, 사진
+settings_page_network	네트워크
+settings_page_identity_sub	QR, 새 신원
+settings_page_about_sub	개인정보, 버전
+reach_short	닫혀 있어도 연락 가능
+lock_title_setup	PIN을 정하세요
+lock_hint_setup	6자리 이상. 복구할 수 없습니다. 잊어버리면 모두 잃게 됩니다.
+lock_title_confirm	한 번 더 입력하세요
+lock_mismatch	두 입력이 일치하지 않습니다. 다시 시작하세요.
+lock_title_unlock	PIN을 입력하세요
+lock_wrong	PIN이 틀렸습니다
+lock_attempts_left	모두 지워지기까지 %1$d번 남았습니다
+lock_busy	확인 중…
+lock_error	여는 중에 문제가 생겼습니다. 다시 시도하세요.
+settings_lock_now	지금 잠그기
+settings_duress_title	긴급 PIN
+settings_duress_body	긴급 상황을 위한 두 번째 PIN입니다. 잠금 화면에서 입력하면 키, 연락처, 메시지 등 모든 것이 지워지고, 앱은 새로 설치한 상태로 다시 시작합니다.
+settings_duress_current	현재 PIN
+settings_duress_new	긴급 PIN
+settings_duress_saved	긴급 PIN을 설정했습니다.
+settings_duress_failed	설정하지 못했습니다: 현재 PIN이 틀렸거나, 긴급 PIN이 너무 짧거나, 같거나, 자릿수가 다릅니다.
+read_lock_title	읽기
+read_lock_off_hint	이 대화로 돌아와도 메시지를 계속 읽을 수 있습니다.
+read_lock_on_hint	메시지가 숨겨져 있습니다. 이번 방문 동안 읽으려면 코드를 입력하세요.
+read_lock_open_hint	이 대화를 나갈 때까지 읽을 수 있습니다.
+read_lock_enable	코드로 메시지 숨기기
+read_lock_unlock	읽기 잠금 해제
+read_lock_disable	메시지 숨기기 중지
+read_lock_banner	메시지가 숨겨져 있습니다. 설정에서 읽기 잠금을 해제하세요.
+read_lock_masked	••••••
+message_unreadable	[읽을 수 없는 메시지]
+read_code_new	4자리 코드를 정하세요
+read_code_confirm	한 번 더 입력하세요
+read_code_enter	읽기 코드
+read_code_mismatch	두 코드가 다릅니다. 다시 시작하세요.
+read_code_wrong	코드가 틀렸습니다
+settings_section_security	보안
+settings_section_identity	내 신원
+settings_section_network	네트워크
+settings_section_about	정보
+settings_change_pin	PIN 변경
+settings_new_pin	새 PIN
+settings_pin_changed	PIN을 변경했습니다.
+settings_pin_changed_duress_removed	PIN을 변경했습니다. 자릿수가 바뀌어 긴급 PIN이 삭제되었습니다. 같은 자릿수로 다시 설정하세요.
+settings_pin_rejected	변경되지 않았습니다: 이 PIN은 너무 짧거나 긴급 PIN입니다.
+settings_duress_same_length	PIN과 같은 자릿수입니다.
+settings_default_ttl	기본 메시지 유효 기간
+settings_default_ttl_hint	개별 대화에서 다른 기간을 고를 때까지 모든 대화에 적용됩니다.
+settings_mask_all	모든 대화에서 읽기 숨기기
+settings_mask_all_hint	아직 숨기지 않은 모든 대화에 하나의 코드를 씁니다. 이미 코드가 있는 대화는 그대로 유지됩니다.
+settings_mask_all_done	완료. 이제 모든 대화에서 코드를 요구합니다.
+settings_wipe_now	지금 모두 지우기
+settings_wipe_confirm	키, 연락처, 메시지를 지금 바로 지울까요? 아무것도 복구할 수 없습니다. 앱은 새로 설치한 상태로 다시 시작합니다.
+settings_wipe_action	모두 지우기
+settings_my_qr	내 QR 코드와 링크
+settings_new_identity	새 신원
+settings_new_identity_confirm	새 키와 새 주소: 현재 링크와 QR 코드는 더 이상 작동하지 않습니다. 모든 연락처와 메시지가 지워지며, 연락처는 나를 다시 추가해야 합니다. 앱이 다시 시작됩니다.
+settings_new_identity_action	새 신원 만들기
+settings_tor_state	Tor
+tor_state_ready	연결됨
+tor_state_starting	시작 중… %1$d%%
+tor_state_failed	실패 — 눌러서 다시 시작
+tor_state_off	꺼짐
+tor_state_reconnecting	네트워크 끊김 — 다시 연결 중…
+settings_restart_tor_confirm	Tor를 다시 시작하면 앱도 다시 시작됩니다. PIN을 다시 입력해야 합니다.
+settings_restart_tor_action	다시 시작
+about_title	Whospair란
+about_body	서로에게 민감한 이야기를 해야 하는 사람들을 위한 메신저입니다. Whospair에서 나눈 말은 정한 기간 동안 두 휴대전화에만 존재하며, 그 밖의 어디에도 없습니다.\n\n서버 없음. 대화를 중계하거나 저장하거나 보는 서버가 없습니다. 각 휴대전화가 Tor 네트워크에서 자신만의 접속 지점이 되고, 메시지는 한 기기에서 다른 기기로 바로 갑니다.\n\n계정 없음. 전화번호도, 이메일도, 실명도 없습니다. 신원은 이 휴대전화에서 만든 키 쌍입니다. 직접 만나거나 링크로 QR 코드를 스캔해 서로를 추가합니다.\n\n종단 간 암호화. 메시지, 음성 메모, 파일, 통화는 휴대전화를 떠나기 전에 암호화되고, IP 주소를 숨기는 Tor를 거쳐 전달됩니다.\n\n사라지는 메시지. 모든 메시지에는 정한 유효 기간이 있으며, 기간이 끝나면 양쪽에서 사라집니다. 다른 어디에도 백업되지 않습니다.\n\n실시간. 앱을 열어 두었거나 '연락 가능 상태 유지'를 켠 사람에게만 연락할 수 있습니다.\n\n휴대전화에서의 보호. 모든 것이 PIN으로 암호화되어 있습니다. PIN을 10번 틀리거나 긴급 PIN을 입력하면 모두 지워집니다.\n\n면책 조항. Whospair는 도구입니다. 어떻게 사용할지는 전적으로 사용자의 책임입니다. 있는 그대로 보증 없이 제공되며, 제작자는 그 사용과 결과에 대해 책임지지 않습니다.
+privacy_title	개인정보 처리방침
+privacy_body	Whospair는 아무것도 수집하지 않습니다. 어떤 서버도 여러분의 데이터를 받지 않습니다. 따라서 데이터를 분석하거나 제3자에게 넘길 사람도 없습니다.\n\n앱이 절대 하지 않는 일: 프로파일링, 데이터 판매, 광고, 추적 코드, 오류 보고서 전송, 주소록 읽기, 위치 확인. 어떤 제3자 기업도 데이터든 사용 신호든 아무것도 받지 않습니다. 앱은 Tor 네트워크, 연락처, 그리고 업데이트 배포처와만 통신합니다.\n\n이 휴대전화에 암호화되어 남는 것: 키, 연락처, 메시지, 파일. 유효 기간이 끝나거나, 직접 지우거나, PIN을 10번 틀릴 때까지 남습니다. 보내는 사진의 메타데이터(위치, 기기 모델)는 지워집니다.\n\n다른 사람이 여전히 볼 수 있는 것: 통신사는 이 휴대전화가 Tor를 쓴다는 사실은 볼 수 있지만, 누구와 무엇을 주고받는지는 볼 수 없습니다. 연락처는 내가 보낸 것과, 허용한 경우 프로필 사진을 볼 수 있습니다.\n\n업데이트. 앱은 하루에 한 번 Tor를 통해 더 새로운 버전이 있는지 조용히 확인합니다. 이 요청에는 버전 번호만 담기며, 신원도 연락처도 메시지도 포함되지 않습니다.\n\n왜 매일일까요? 최신 버전은 너무 오래된 버전과의 통신을 거부하기 때문입니다. 의도된 동작입니다. 오래된 버전에는 취약점이 있을 수 있습니다. 업데이트하지 않으면 가족이나 동료와 더 이상 연락할 수 없고, 업데이트만 계속 전달됩니다.\n\nWhospair는 끊임없이 발전하고 있어 업데이트가 잦습니다. 취약점은 누구도 알아차리기 전에 발견되고 악용될 수 있습니다. 빠르게 고치는 것이 여러분의 데이터가 엉뚱한 손에 넘어가는 것을 막습니다.\n\n사용자의 권리. 아무것도 수집하지 않으므로 저희 쪽에서 열람, 정정, 삭제할 것이 없습니다. 모든 것은 사용자의 손에 있습니다. 앱을 삭제하면 모두 지워집니다.\n\n책임. 무엇을 누구에게 보내고, 받은 것을 어떻게 하는지는 오직 사용자의 책임입니다. Whospair는 있는 그대로 보증 없이 제공됩니다.
+version_title	버전
+version_fingerprint_hint	이 앱에 서명한 인증서의 지문입니다. 제작자가 공개한 지문과 비교하세요. 다르다면 정품 앱이 아닙니다.
+update_title	업데이트
+update_state_current	최신 버전
+update_state_available	버전 %1$s 사용 가능
+update_state_downloading	다운로드 중 %1$d %%
+update_state_installing	설치 중…
+update_state_failed	실패
+update_body	업데이트는 연락처로부터 Tor를 거쳐, 서버 없이 전달됩니다. 모든 버전은 개발자가 서명합니다. Whospair는 다운로드 전에 서명을, 그다음 서명으로 파일을 확인하고, Android는 지금 쓰는 앱과 같은 키로 서명되었는지 확인합니다. 변조된 앱은 항상 거부됩니다.
+update_available_body	연락처 중 한 명이 버전 %1$s(%2$s)를 제공하고 있습니다. Whospair가 열려 있는 동안 다운로드되며, 연결이 끊기면 멈춘 곳부터 다시 이어집니다.
+update_download	다운로드 및 설치
+update_cancel	취소
+update_retry	다시 시도
+update_permission_hint	먼저 Android에서 Whospair가 업데이트를 설치하도록 허용해야 합니다. 허용한 뒤 돌아와서 다시 누르세요.
+update_permission_allow	허용
+update_relaying	버전 %1$s를 확인된 연락처에게 전달하고 있습니다.
+update_import	업데이트 패키지(.wup) 가져오기
+update_import_unreadable	읽을 수 없는 파일입니다.
+update_import_invalid	이 패키지는 Whospair 개발자가 서명하지 않았거나 손상되었습니다. 아무것도 설치되지 않았습니다.
+update_import_installing	서명을 확인했습니다. Android가 설치 확인을 요청합니다.
+update_import_relaying	서명을 확인했습니다. 이제 이 휴대전화가 이 버전을 확인된 연락처에게 전달합니다.
+update_import_mismatch	내 버전이지만, 여기 설치된 앱과 같은 파일이 아닙니다. 전달할 것이 없습니다.
+update_import_older	이 패키지는 내 버전보다 오래되었습니다. 아무것도 설치되지 않았습니다.
+update_failed_memory	다운로드할 메모리가 부족합니다.
+update_failed_corrupt	받은 파일이 서명과 일치하지 않아 버렸습니다.
+update_failed_install	Android가 설치를 거부했습니다.
+update_failed_signature	이 버전은 내 앱과 같은 키로 서명되지 않았습니다. 거부되었습니다.
+update_banner	업데이트 있음
+settings_language	언어
+language_auto	휴대전화 언어
+tutorial_live_title	실시간일 때만 연락 가능
+tutorial_live_body	Whospair는 서버에 아무것도 대기시키지 않습니다. 메시지는 상대가 앱을 열어 두었거나 '연락 가능 상태 유지'를 켰을 때 전달됩니다.
+tutorial_live_f1	Tor 옆의 점: 초록색은 온라인, 주황색은 연결 중
+tutorial_live_f2	첫 연결에는 몇 초, 때로는 1분이 걸릴 수 있습니다
+tutorial_live_f3	이름 아래 '연결 가능': 상대가 지금 바로 있습니다
+tutorial_confirm_title	연락처 확인하기
+tutorial_confirm_body	대화하려면 한 번의 스캔으로 충분합니다. 하지만 내 링크만 가진 사람은 '확인 대기'로 표시됩니다.
+tutorial_confirm_f1	직접 만나거나 통화로 안전 번호를 비교하세요
+tutorial_confirm_f2	두 휴대전화의 번호가 같으면 중간에 아무도 없습니다
+tutorial_confirm_f3	확인된 연락처만 나에게 전화하고 신호를 보낼 수 있습니다
+tutorial_discreet_title	보안 표시
+tutorial_discreet_body	곁에 누군가 있을 때를 위한 보호 기능.
+tutorial_discreet_f1	휴대전화를 탁자에 엎어 두면 화면이 검게 바뀝니다
+tutorial_discreet_f2	읽기 코드: 코드를 입력할 때까지 대화가 숨겨집니다
+tutorial_discreet_f3	비공개 모드: 내가 메시지를 보낼 때만 이 연락처가 나에게 연락할 수 있습니다
+update_check	업데이트 확인
+update_checking	확인 중…
+chat_peer_outdated	이 연락처는 너무 오래된 Whospair 버전을 사용합니다. 업데이트할 때까지 아무것도 오가지 않지만, 업데이트 자체는 전달됩니다.
+ttl_never	없음
+reply_cancel	답장 취소
+input_emoji	이모지
+reply_you	나
+share_app	Whospair 공유
+share_app_sub	앱 스토어 없이 앱 자체를 보내기
+copy_action	복사
+copy_title	복사할 부분을 선택하세요
+copy_all	모두 복사
+copy_done	복사됨
+delete_everyone_body	‘모두에게서’는 상대방의 사본도 아무 알림 없이 지웁니다. 상대에게 연결할 수 없으면, Whospair가 열려 있는 동안 연결되는 즉시 전송됩니다.
+select_more	여러 개 선택
+delete_everyone_action	모두에게서 삭제
+licenses_title	라이선스
+update_notes_title	새로운 기능
+tut_welcome_title	Whospair에 오신 것을 환영합니다
+tut_welcome_body	서버에 흔적을 남기지 않는 메시지와 통화. 서버가 없기 때문입니다.
+tut_welcome_f1	종단 간 암호화, 계정 없음: 키는 여러분의 것입니다
+tut_welcome_f2	상대가 앱을 열어 두었거나 '연락 가능 상태 유지'를 켜 두면 메시지가 전송됩니다
+tut_welcome_f3	Tor 옆의 점: 초록은 온라인, 주황은 연결 중 (가끔 1분)
+tut_add_title	추가하고 신뢰하기
+tut_add_body	사용자 이름도 전화번호도 없습니다: 키를 교환합니다. 상대의 코드를 스캔하거나 내 코드를 스캔하게 하세요.
+tut_add_f1	확인 대기: 내 링크만으로 온 상대. 메시지는 오지만 전화나 신호는 보낼 수 없습니다
+tut_add_f2	확인됨: 내가 추가했거나 수락한 상대
+tut_add_f3	검증됨: 직접 만나 서로의 보안 코드를 스캔했습니다. 그 사이에 아무도 끼어들지 않았습니다
+tut_write_title	쓰고, 지우기
+tut_write_body	메시지마다 보낼 때 정한 수명이 있으며, 끝나면 양쪽에서 사라집니다.
+tut_write_f1	짧을수록 안전: 화면에 보이는 것은 아직 기기에 남아 있습니다
+tut_write_f2	모두에게서 삭제: 상대 기기에서 내 메시지를 지웁니다
+tut_write_f3	양측 삭제: 두 사람 모두 동의하면 누구든 언제든 양쪽의 대화를 모두 지울 수 있습니다
+tutorial_discreet_f5	빠른 설정의 'Whospair 잠금' 타일: 한 번 눌러 앱을 닫습니다
+tile_lock	Whospair 잠금
+contact_verified	검증됨
+verify_title	직접 만나 검증
+verify_hint	직접 만나 서로의 코드를 스캔하세요
+verify_done	직접 검증됨
+verify_body	이 코드를 상대에게 보여 주고 상대의 코드를 스캔하세요. 일치하면 그 사이에 아무도 끼어들지 않은 것입니다.
+verify_scan	상대 코드 스캔
+verify_ok	코드가 일치합니다: 연락처가 검증되었습니다.
+verify_fail	이 코드는 일치하지 않습니다. 해결될 때까지 이 연락처를 신뢰하지 마세요.
+wipe_title	양측 삭제
+wipe_off	꺼짐. 제안하면 상대가 수락해야 합니다.
+wipe_asked	상대의 동의를 기다리는 중입니다.
+wipe_to_answer	상대가 누구든 언제든 양쪽의 대화를 모두 지울 수 있게 하자고 제안합니다.
+wipe_on	켜짐: 누구든 언제든 양쪽의 대화를 모두 지울 수 있습니다.
+wipe_propose	제안
+wipe_accept	수락
+wipe_refuse	거절
+wipe_cancel	요청 취소
+wipe_disable	끄기
+wipe_now	양쪽에서 대화 지우기
+wipe_confirm	대화 전체가 두 기기에서 모두 지워집니다. 되돌릴 수 없습니다.
+wipe_action	모두 지우기
+wipe_banner	%1$s 님이 양측 삭제를 제안합니다
+settings_gaze_owner	내 얼굴만
+settings_gaze_owner_hint	화면은 나에게만 열립니다
+face_intro_title	내 얼굴만
+face_intro_body	화면은 본인이 보고 있을 때만 열립니다. 다른 사람이 보거나 아무도 보지 않으면 검은 화면으로 남습니다.\n\n얼굴이 바뀌면(부상, 부기, 수염, 안경) 더 이상 인식되지 않아 화면이 검게 남을 수 있습니다. 화면 아래의 'PIN으로 가리기 끄기'는 잠금 해제 코드로 언제든 사용할 수 있습니다. 그 뒤 얼굴을 다시 등록할 수 있습니다.\n\n이 버튼은 잠금 화면과 같은 규칙을 따릅니다. 여기에 강압용 PIN을 입력하면 모든 것이 지워지고, 잘못된 코드를 10번 입력해도 마찬가지입니다.\n\n엿보는 눈을 막는 장치이지 자물쇠가 아닙니다. 진짜 보호는 여전히 PIN입니다. 모든 처리는 기기 안에서 이루어지며, 얼굴은 사진이 아니라 암호화된 숫자로 보관됩니다.
+face_intro_ok	이해했습니다
+face_enroll_title	내 얼굴 등록
+face_enroll_body	얼굴을 밝게 하고 몇 초 동안 화면을 바라보세요.
+face_enroll_ok	얼굴이 등록되었습니다.
+face_enroll_fail	얼굴을 인식하지 못했습니다. 밝은 곳에서 화면을 똑바로 보고 다시 시도하세요.
+face_reenroll	얼굴 다시 등록
+face_disable_pin	PIN으로 가리기 끄기
+tutorial_discreet_f4	카메라 (선택): 시선을 돌리거나, 다른 사람이 보거나, 내 얼굴이 아니면 화면이 가려집니다. 모든 처리는 기기 안에서 이루어지며 아무것도 기록되지 않습니다
+conv_pin	고정
+conv_unpin	고정 해제
+conv_pinned	고정됨
+update_diffuser_retry	소스에 연결할 수 없음, 10초 후 다시 시도
+update_mandatory_title	업데이트 필요
+update_mandatory_body	Whospair의 새 버전이 나온 지 5일이 넘었습니다. 앱을 계속 사용하려면 설치하세요. 최신 버전의 연락처는 더 이상 이전 버전을 받지 않습니다.
+gaze_manual	수동
+gaze_manual_hint	어두운 곳 등에서 PIN으로 끌 수 있습니다.
+gaze_auto	자동
+gaze_auto_hint	빛이 부족한 오후 8시부터 오전 6시까지 꺼짐.
+shield_choice_title	가리기 끄기
+shield_pause_10	10분 동안
+shield_disable_all	완전히 끄기
+shield_pause_over_title	일시 중지 종료
+shield_pause_over_body	가리기가 다시 켜졌습니다.
+shield_keep_paused	당분간 꺼 두기
+update_interrupted	업데이트 중단됨, 30분 후 다시 시도

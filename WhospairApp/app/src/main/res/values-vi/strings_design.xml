@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Tin nhắn</string>
+    <string name="search_contact">Tìm liên hệ</string>
+    <string name="conversations_empty_title">Chưa có cuộc trò chuyện nào</string>
+    <string name="conversations_empty_body">Thêm ai đó bằng cách quét mã của họ khi gặp trực tiếp. Bạn có thể nhắn tin khi cả hai cùng mở ứng dụng.</string>
+    <string name="search_no_result">Không có liên hệ nào tên như vậy.</string>
+    <string name="add_contact">Thêm liên hệ</string>
+    <string name="scan_code">Quét mã</string>
+    <string name="message_retry">Thử lại</string>
+    <string name="message_sent">Đã gửi</string>
+    <string name="message_delivered">Đã nhận</string>
+    <string name="read_lock_preview">Đã ẩn nội dung</string>
+    <string name="message_expires_in">Biến mất sau %1$s</string>
+    <string name="ttl_button">Thời hạn tin nhắn: %1$s</string>
+    <string name="send">Gửi</string>
+    <string name="back">Quay lại</string>
+    <string name="close">Đóng</string>
+    <string name="confirm_identity">Xác nhận danh tính</string>
+    <string name="delete_contact_and_chat">Xóa liên hệ và cuộc trò chuyện</string>
+    <string name="preview_none">Không có tin nhắn</string>
+    <string name="preview_encrypted">Tin nhắn đã mã hóa</string>
+    <string name="duration_days">%1$d ngày</string>
+    <string name="message_placeholder">Nhập tin nhắn</string>
+    <string name="discover_code_caption">Mã này chứa các khóa công khai và địa chỉ Tor của bạn. Không gì khác.</string>
+    <string name="share_link">Chia sẻ liên kết của tôi</string>
+    <string name="copy_link">Sao chép liên kết</string>
+    <string name="link_copied">Đã sao chép liên kết</string>
+    <string name="memory_advice_title">Bộ nhớ điện thoại</string>
+    <string name="memory_advice_body">Whospair chỉ giữ khóa trong bộ nhớ khi ứng dụng đang mở. Nhưng một số điện thoại sao chép một phần bộ nhớ vào bộ lưu trữ để trông lớn hơn («bộ nhớ ảo», «mở rộng bộ nhớ»). Khóa bị sao chép như vậy có thể còn lại trên điện thoại sau khi Whospair đóng.</string>
+    <string name="memory_advice_how">Cách tắt: tìm «bộ nhớ ảo» hoặc «mở rộng bộ nhớ» trong cài đặt điện thoại, tắt đi, rồi khởi động lại điện thoại.</string>
+    <string name="voice_record">Ghi tin nhắn thoại</string>
+    <string name="voice_cancel">Bỏ bản ghi</string>
+    <string name="voice_recording">tối đa %1$s</string>
+    <string name="voice_send">Gửi tin nhắn thoại</string>
+    <string name="voice_play">Phát</string>
+    <string name="voice_pause">Tạm dừng</string>
+    <string name="voice_receiving">Đang nhận…</string>
+    <string name="voice_preview">Tin nhắn thoại %1$s</string>
+    <string name="mic_denied">Micrô đang tắt với Whospair. Hãy cho phép trong cài đặt Android để gửi tin nhắn thoại.</string>
+</resources>

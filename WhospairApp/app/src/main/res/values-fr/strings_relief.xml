@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1.2.5 : relief, jour et nuit, fonds de conversation. -->
+<resources>
+    <string name="new_chat">Nouvelle conversation</string>
+    <string name="contacts_group_confirmed">Confirmés</string>
+    <string name="contacts_group_unconfirmed">À confirmer</string>
+    <string name="contacts_group_blocked">Bloqués</string>
+    <string name="contacts_scan">Scanner un QR</string>
+    <string name="contacts_show_qr">Montrer mon QR</string>
+
+    <string name="profile_title">Mon profil</string>
+    <string name="profile_photo_change">Changer la photo</string>
+    <string name="settings_appearance">Apparence</string>
+    <string name="appearance_auto">Automatique</string>
+    <string name="appearance_auto_hint">Calibré avec les paramètres du système</string>
+    <string name="appearance_day">Jour</string>
+    <string name="appearance_night">Nuit</string>
+    <string name="settings_background">Fond des conversations</string>
+    <string name="settings_background_hint">Le même pour toutes les discussions. Les écrans principaux prennent ses couleurs.</string>
+    <string name="bg_ink">Encre</string>
+    <string name="bg_sage">Sauge</string>
+    <string name="bg_slate">Ardoise</string>
+    <string name="bg_plum">Prune</string>
+    <string name="bg_sand">Sable</string>
+    <string name="bg_plain">Uni</string>
+
+    <string name="settings_page_lock">Verrouillage</string>
+    <string name="settings_page_lock_sub">PIN, PIN de contrainte, verrouiller</string>
+    <string name="settings_page_discretion">Discrétion</string>
+    <string name="settings_page_discretion_sub">Durée des messages, écran masqué, photo</string>
+    <string name="settings_page_network">Réseau</string>
+    <string name="settings_page_identity_sub">QR, nouvelle identité</string>
+    <string name="settings_page_about_sub">Confidentialité, version</string>
+    <string name="reach_short">joignable app fermée</string>
+    <string name="settings_language">Langue</string>
+    <string name="language_auto">Langue du téléphone</string>
+    <string name="tutorial_live_title">Joignable seulement en direct</string>
+    <string name="tutorial_live_body">Whospair ne garde rien en attente sur un serveur. Un message part quand votre contact a l\'app ouverte, ou quand il a activé « Rester joignable ».</string>
+    <string name="tutorial_live_f1">Le point à côté de Tor : vert, vous êtes en ligne ; orange, connexion en cours</string>
+    <string name="tutorial_live_f2">La première connexion peut prendre quelques secondes, parfois une minute</string>
+    <string name="tutorial_live_f3">« joignable » sous un nom : le contact est là, maintenant</string>
+    <string name="tutorial_confirm_title">Confirmer un contact</string>
+    <string name="tutorial_confirm_body">Un seul scan suffit pour se parler. Mais quelqu\'un qui a seulement votre lien arrive comme « À confirmer ».</string>
+    <string name="tutorial_confirm_f1">Comparez le numéro de sécurité, en personne ou par un appel</string>
+    <string name="tutorial_confirm_f2">Même numéro sur les deux téléphones : personne au milieu</string>
+    <string name="tutorial_confirm_f3">Seuls les contacts confirmés peuvent vous appeler et vous faire signe</string>
+    <string name="tutorial_discreet_title">Discrétion</string>
+    <string name="tutorial_discreet_body">Des protections pour les moments où quelqu\'un est à côté de vous.</string>
+    <string name="tutorial_discreet_f1">Téléphone retourné sur la table : l\'écran devient noir</string>
+    <string name="tutorial_discreet_f2">Code de lecture : une conversation reste masquée jusqu\'au code</string>
+    <string name="tutorial_discreet_f3">Mode privé : ce contact ne vous joint que si vous lui écrivez</string>
+    <string name="update_check">Rechercher une mise à jour</string>
+    <string name="update_checking">Recherche…</string>
+    <string name="chat_peer_outdated">Ce contact utilise une version de Whospair trop ancienne. Rien ne passe tant qu\'il ne l\'a pas mise à jour — la mise à jour, elle, lui parvient.</string>
+    <string name="ttl_never">Jamais</string>
+    <string name="reply_cancel">Annuler la réponse</string>
+    <string name="input_emoji">Emojis</string>
+    <string name="reply_you">Vous</string>
+    <string name="share_app">Partager Whospair</string>
+    <string name="share_app_sub">Envoyer l\'app elle-même, sans magasin d\'apps</string>
+    <string name="copy_action">Copier</string>
+    <string name="copy_title">Sélectionnez la partie à copier</string>
+    <string name="copy_all">Tout copier</string>
+    <string name="copy_done">Copié</string>
+    <string name="delete_everyone_body">« Pour tous » efface aussi la copie de votre contact, sans aucun avis. S\'il est injoignable, l\'effacement part dès qu\'il l\'est, tant que Whospair reste ouvert.</string>
+    <string name="select_more">Sélectionner plusieurs</string>
+    <string name="delete_everyone_action">Supprimer pour tous</string>
+</resources>

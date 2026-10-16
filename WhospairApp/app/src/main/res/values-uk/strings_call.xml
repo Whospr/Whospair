@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Подзвонити</string>
+    <string name="call_connecting">З\'єднання через Tor…</string>
+    <string name="call_ringing">Виклик…</string>
+    <string name="call_incoming">Вхідний дзвінок</string>
+    <string name="call_answer">Відповісти</string>
+    <string name="call_decline">Відхилити</string>
+    <string name="call_cancel">Скасувати</string>
+    <string name="call_hang_up">Завершити</string>
+    <string name="call_mute">Вимкнути мікрофон</string>
+    <string name="call_unmute">Увімкнути мікрофон</string>
+    <string name="call_speaker">Гучномовець</string>
+    <string name="call_earpiece">Динамік</string>
+    <string name="call_delay_hint">Через Tor ваш голос доходить із затримкою приблизно в секунду. Робіть коротку паузу перед відповіддю.</string>
+    <string name="call_ended">Дзвінок завершено</string>
+    <string name="call_declined">Відхилено</string>
+    <string name="call_busy">Уже триває дзвінок</string>
+    <string name="call_no_answer">Немає відповіді</string>
+    <string name="call_unreachable">Зараз недоступний. Спробуйте трохи згодом.</string>
+    <string name="call_lost">З\'єднання втрачено</string>
+    <string name="call_mic_denied">Мікрофон для Whospair вимкнено. Дозвольте його в налаштуваннях Android, щоб дзвонити.</string>
+    <string name="call_not_confirmed">Спершу підтвердьте цей контакт. Дзвонити одне одному можуть лише підтверджені контакти.</string>
+    <string name="call_log_outgoing">Вихідний дзвінок · %1$s</string>
+    <string name="call_log_incoming">Вхідний дзвінок · %1$s</string>
+    <string name="call_log_missed">Пропущений дзвінок</string>
+    <string name="call_log_refused">Дзвінок відхилено</string>
+    <string name="call_log_no_answer">Дзвінок без відповіді</string>
+    <string name="call_log_busy">Дзвінок: співрозмовник уже розмовляв</string>
+    <string name="call_log_unreachable">Дзвінок не відбувся</string>
+    <string name="call_log_cancelled">Дзвінок скасовано</string>
+</resources>

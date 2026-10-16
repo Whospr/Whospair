@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">Ажурирање</string>
+    <string name="update_state_current">Ажурно</string>
+    <string name="update_state_available">Доступна је верзија %1$s</string>
+    <string name="update_state_downloading">Преузимање %1$d %%</string>
+    <string name="update_state_installing">Инсталирање…</string>
+    <string name="update_state_failed">Није успело</string>
+    <string name="update_body">Ажурирања стижу од Ваших контаката, преко Тора, без сервера. Сваку верзију потписује програмер: Whospair проверава потпис пре преузимања, затим датотеку према њему, а Android проверава да ли је потписана истим кључем као Ваша апликација. Измењена апликација се увек одбија.</string>
+    <string name="update_available_body">Верзију %1$s (%2$s) нуди један од Ваших контаката. Преузима се док је Whospair отворен; ако се веза прекине, наставља се тамо где је стала.</string>
+    <string name="update_download">Преузми и инсталирај</string>
+    <string name="update_cancel">Откажи</string>
+    <string name="update_retry">Покушај поново</string>
+    <string name="update_permission_hint">Android прво мора да дозволи Whospair-u да инсталира ажурирања. Дозволите, вратите се и додирните поново.</string>
+    <string name="update_permission_allow">Дозволи</string>
+    <string name="update_relaying">Прослеђујете верзију %1$s својим потврђеним контактима.</string>
+    <string name="update_import">Увези пакет ажурирања (.wup)</string>
+    <string name="update_import_unreadable">Нечитљива датотека.</string>
+    <string name="update_import_invalid">Овај пакет није потписао програмер Whospair-a или је оштећен. Ништа није инсталирано.</string>
+    <string name="update_import_installing">Потпис је проверен. Android ће Вас замолити да потврдите инсталацију.</string>
+    <string name="update_import_relaying">Потпис је проверен. Овај телефон сада прослеђује ову верзију Вашим потврђеним контактима.</string>
+    <string name="update_import_mismatch">То је Ваша верзија, али овде инсталирана апликација није иста датотека. Нема шта да се проследи.</string>
+    <string name="update_import_older">Овај пакет је старији од Ваше верзије. Ништа није инсталирано.</string>
+    <string name="update_failed_memory">Нема довољно меморије за преузимање.</string>
+    <string name="update_failed_corrupt">Примљена датотека не одговара потпису. Одбачена је.</string>
+    <string name="update_failed_install">Android је одбио инсталацију.</string>
+    <string name="update_failed_signature">Ова верзија није потписана истим кључем као Ваша апликација. Одбијено.</string>
+    <string name="update_banner">Доступно ажурирање</string>
+    <string name="update_notes_title">Новости</string>
+    <string name="update_diffuser_retry">Извор недоступан, нови покушај за 10 с</string>
+    <string name="update_interrupted">Ажурирање прекинуто, нови покушај за 30 мин</string>
+    <string name="update_mandatory_title">Потребно ажурирање</string>
+    <string name="update_mandatory_body">Новија верзија Whospair-a доступна је већ више од 5 дана. Инсталирајте је да бисте наставили да користите апликацију: ваши ажурни контакти више не прихватају старије верзије.</string>
+</resources>

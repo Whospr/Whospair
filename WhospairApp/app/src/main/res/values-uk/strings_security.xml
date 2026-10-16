@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">Виберіть PIN-код</string>
+    <string name="lock_hint_setup">Щонайменше 6 цифр. Відновити його неможливо — забудете, і все буде втрачено.</string>
+    <string name="lock_title_confirm">Введіть ще раз</string>
+    <string name="lock_mismatch">Введені коди не збігаються. Почніть спочатку.</string>
+    <string name="lock_title_unlock">Введіть PIN-код</string>
+    <string name="lock_wrong">Неправильний PIN-код</string>
+    <string name="lock_attempts_left">Лишилося спроб до повного стирання: %1$d</string>
+    <string name="lock_busy">Перевірка…</string>
+    <string name="lock_error">Під час відкриття щось пішло не так. Спробуйте ще раз.</string>
+    <string name="settings_lock_now">Заблокувати зараз</string>
+    <string name="settings_duress_title">Екстрений PIN-код</string>
+    <string name="settings_duress_body">Другий PIN-код для екстрених випадків. Його введення на екрані блокування стирає все — ключі, контакти, повідомлення, — і застосунок починає наново, як щойно встановлений.</string>
+    <string name="settings_duress_current">Поточний PIN-код</string>
+    <string name="settings_duress_new">Екстрений PIN-код</string>
+    <string name="settings_duress_saved">Екстрений PIN-код задано.</string>
+    <string name="settings_duress_failed">Не задано: поточний PIN неправильний, або екстрений PIN закороткий, збігається з основним чи має іншу довжину.</string>
+</resources>

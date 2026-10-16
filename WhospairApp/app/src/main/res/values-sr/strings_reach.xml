@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">Остани доступан</string>
+    <string name="settings_on">Укључено</string>
+    <string name="settings_stay_reachable_body">Кад је апликација затворена, Ваша адреса остаје на мрежи. Контакти могу да Вам пишу и да Вас зову.\n\nПристигле поруке чувају се такве какве јесу, и даље шифроване, и запечаћују се други пут: отварају се само Вашим PIN-om. Непознате особе које имају Ваш линк морају да сачекају да се апликација отвори.\n\nОбавештење каже само „Whospair Вас дозива”: без имена, без садржаја. За позив отворите Whospair, унесите PIN, па се јавите — контакт наставља да зове још минут.</string>
+    <string name="settings_stay_reachable_costs">Цена: Ваш onion кључ остаје у меморији док је апликација затворена, Android приказује стално обавештење, Ваша адреса је на мрежи цео дан, а батерија се брже празни. После поновног покретања телефона ништа не ради док не унесете PIN.</string>
+    <string name="settings_reach_enable">Укључи</string>
+    <string name="settings_reach_disable">Искључи</string>
+    <string name="settings_reach_battery">Дозволи у позадини</string>
+    <string name="settings_reach_battery_hint">Без тога Android може да успава Whospair и више нећете бити доступни.</string>
+    <string name="settings_reach_notifications_off">Обавештења су искључена за Whospair: поруке ће и даље чекати Ваш PIN, али ништа Вам неће јавити да су стигле.</string>
+    <string name="settings_reach_notifications_allow">Укључи обавештења</string>
+    <string name="settings_reach_hide_hint">Android захтева обавештење „Доступно” док Whospair остаје доступан. Можете га сакрити: услуга наставља да ради, а стање се види у апликацији, поред Тора.</string>
+    <string name="settings_reach_hide">Сакриј обавештење</string>
+    <string name="reach_channel_service">Остати доступан</string>
+    <string name="reach_channel_alert">Неко покушава да Вас добије</string>
+    <string name="reach_channel_call">Долазни позиви</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">Доступно</string>
+    <string name="reach_alert_title">Whospair Вас дозива</string>
+    <string name="reach_call_title">Whospair Вас дозива</string>
+    <string name="reach_call_text">Отворите Whospair и унесите PIN да бисте се јавили.</string>
+</resources>

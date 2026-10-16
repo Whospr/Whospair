@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">Ulaşılabilir kal</string>
+    <string name="settings_on">Açık</string>
+    <string name="settings_stay_reachable_body">Uygulama kapalıyken adresiniz çevrimiçi kalır. Kişileriniz size yazabilir ve sizi arayabilir.\n\nGelen mesajlar olduğu gibi, hâlâ şifreli olarak saklanır ve ikinci kez mühürlenir: yalnızca PIN\'inizle açılabilir. Bağlantınıza sahip tanımadığınız kişiler uygulamanın açılmasını beklemek zorundadır.\n\nBildirim yalnızca “Whospair sizi çaldırıyor” der: ad yok, içerik yok. Bir aramayı yanıtlamak için Whospair\'i açın, PIN\'inizi girin ve yanıtlayın; kişiniz bir dakika boyunca aramaya devam eder.</string>
+    <string name="settings_stay_reachable_costs">Bedeli: uygulama kapalıyken onion anahtarınız bellekte kalır, Android kalıcı bir bildirim gösterir, adresiniz günün her saatinde çevrimiçidir ve pil daha hızlı biter. Telefon yeniden başladıktan sonra PIN\'inizi girene kadar hiçbir şey çalışmaz.</string>
+    <string name="settings_reach_enable">Aç</string>
+    <string name="settings_reach_disable">Kapat</string>
+    <string name="settings_reach_battery">Arka planda izin ver</string>
+    <string name="settings_reach_battery_hint">Bu olmadan Android Whospair\'i uyutabilir ve ulaşılamaz hale gelirsiniz.</string>
+    <string name="settings_reach_notifications_off">Whospair için bildirimler kapalı: mesajlar yine PIN\'inizi bekleyecek, ama geldiklerini size hiçbir şey söylemeyecek.</string>
+    <string name="settings_reach_notifications_allow">Bildirimleri aç</string>
+    <string name="settings_reach_hide_hint">Whospair ulaşılabilir kaldığı sürece Android bir “Ulaşılabilir” bildirimi ister. Onu gizleyebilirsiniz: hizmet çalışmaya devam eder ve durum uygulamada, Tor\'un yanında görünür.</string>
+    <string name="settings_reach_hide">Bildirimi gizle</string>
+    <string name="reach_channel_service">Ulaşılabilir kalma</string>
+    <string name="reach_channel_alert">Biri size ulaşmaya çalışıyor</string>
+    <string name="reach_channel_call">Gelen aramalar</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">Ulaşılabilir</string>
+    <string name="reach_alert_title">Whospair sizi çaldırıyor</string>
+    <string name="reach_call_title">Whospair sizi çaldırıyor</string>
+    <string name="reach_call_text">Yanıtlamak için Whospair\'i açın ve PIN\'inizi girin.</string>
+</resources>

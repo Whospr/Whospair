@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">Messages</string>
+    <string name="search_contact">Search a contact</string>
+    <string name="conversations_empty_title">No conversations yet</string>
+    <string name="conversations_empty_body">Add someone by scanning their code, face to face. You can write to them when you both have the app open.</string>
+    <string name="search_no_result">No contact by that name.</string>
+    <string name="add_contact">Add a contact</string>
+    <string name="scan_code">Scan a code</string>
+    <string name="message_retry">Retry</string>
+    <string name="message_sent">Sent</string>
+    <string name="message_delivered">Delivered</string>
+    <string name="read_lock_preview">Reading hidden</string>
+    <string name="message_expires_in">Fades in %1$s</string>
+    <string name="ttl_button">Message lifetime: %1$s</string>
+    <string name="send">Send</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="confirm_identity">Confirm identity</string>
+    <string name="delete_contact_and_chat">Delete contact and conversation</string>
+    <string name="preview_none">No messages</string>
+    <string name="preview_encrypted">Encrypted message</string>
+    <string name="duration_days">%1$d d</string>
+    <string name="message_placeholder">Write a message</string>
+    <string name="discover_code_caption">This code holds your public keys and your Tor address. Nothing else.</string>
+    <string name="share_link">Share my link</string>
+    <string name="copy_link">Copy link</string>
+    <string name="link_copied">Link copied</string>
+    <string name="memory_advice_title">Phone memory</string>
+    <string name="memory_advice_body">Whospair keeps its keys in memory only while the app is open. But some phones copy part of their memory to storage to seem larger (“virtual memory”, “memory extension”). A key copied that way could stay on the phone after Whospair closes.</string>
+    <string name="memory_advice_how">To turn it off: look for “virtual memory” or “memory extension” in the phone settings, turn it off, then restart the phone.</string>
+    <string name="voice_record">Record a voice message</string>
+    <string name="voice_cancel">Discard the recording</string>
+    <string name="voice_recording">up to %1$s</string>
+    <string name="voice_send">Send the voice message</string>
+    <string name="voice_play">Play</string>
+    <string name="voice_pause">Pause</string>
+    <string name="voice_receiving">Receiving…</string>
+    <string name="voice_preview">Voice message %1$s</string>
+    <string name="mic_denied">The microphone is off for Whospair. Allow it in Android settings to send a voice message.</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">تماس</string>
+    <string name="call_connecting">در حال برقراری از طریق Tor…</string>
+    <string name="call_ringing">در حال زنگ خوردن…</string>
+    <string name="call_incoming">تماس ورودی</string>
+    <string name="call_answer">پاسخ</string>
+    <string name="call_decline">رد</string>
+    <string name="call_cancel">لغو</string>
+    <string name="call_hang_up">قطع</string>
+    <string name="call_mute">بی‌صدا</string>
+    <string name="call_unmute">باصدا</string>
+    <string name="call_speaker">بلندگو</string>
+    <string name="call_earpiece">گوشی</string>
+    <string name="call_delay_hint">از طریق Tor، صدای شما حدود یک ثانیه دیرتر می‌رسد. پیش از پاسخ کمی مکث کنید.</string>
+    <string name="call_ended">تماس پایان یافت</string>
+    <string name="call_declined">رد شد</string>
+    <string name="call_busy">در حال تماس دیگری است</string>
+    <string name="call_no_answer">پاسخی نیامد</string>
+    <string name="call_unreachable">اکنون در دسترس نیست. کمی بعد دوباره تلاش کنید.</string>
+    <string name="call_lost">اتصال قطع شد</string>
+    <string name="call_mic_denied">میکروفون برای Whospair خاموش است. برای تماس، آن را در تنظیمات Android مجاز کنید.</string>
+    <string name="call_not_confirmed">ابتدا این مخاطب را تأیید کنید. فقط مخاطبان تأییدشده می‌توانند با هم تماس بگیرند.</string>
+    <string name="call_log_outgoing">تماس خروجی · %1$s</string>
+    <string name="call_log_incoming">تماس ورودی · %1$s</string>
+    <string name="call_log_missed">تماس از دست رفته</string>
+    <string name="call_log_refused">تماس رد شد</string>
+    <string name="call_log_no_answer">تماس بی‌پاسخ</string>
+    <string name="call_log_busy">تماس: طرف مقابل در تماس دیگری بود</string>
+    <string name="call_log_unreachable">تماس برقرار نشد</string>
+    <string name="call_log_cancelled">تماس لغو شد</string>
+</resources>

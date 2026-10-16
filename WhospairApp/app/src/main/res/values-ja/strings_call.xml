@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">通話</string>
+    <string name="call_connecting">Tor 経由で接続中…</string>
+    <string name="call_ringing">呼び出し中…</string>
+    <string name="call_incoming">着信</string>
+    <string name="call_answer">応答</string>
+    <string name="call_decline">拒否</string>
+    <string name="call_cancel">キャンセル</string>
+    <string name="call_hang_up">切る</string>
+    <string name="call_mute">ミュート</string>
+    <string name="call_unmute">ミュート解除</string>
+    <string name="call_speaker">スピーカー</string>
+    <string name="call_earpiece">受話口</string>
+    <string name="call_delay_hint">Tor 経由では、声が約 1 秒遅れて届きます。答える前に少し間を置いてください。</string>
+    <string name="call_ended">通話終了</string>
+    <string name="call_declined">拒否されました</string>
+    <string name="call_busy">通話中です</string>
+    <string name="call_no_answer">応答なし</string>
+    <string name="call_unreachable">現在つながりません。少ししてから再試行してください。</string>
+    <string name="call_lost">接続が切れました</string>
+    <string name="call_mic_denied">Whospair のマイクがオフです。通話するには Android の設定で許可してください。</string>
+    <string name="call_not_confirmed">先にこの連絡先を確認してください。確認済みの連絡先同士だけが通話できます。</string>
+    <string name="call_log_outgoing">発信 · %1$s</string>
+    <string name="call_log_incoming">着信 · %1$s</string>
+    <string name="call_log_missed">不在着信</string>
+    <string name="call_log_refused">通話は拒否されました</string>
+    <string name="call_log_no_answer">応答のない通話</string>
+    <string name="call_log_busy">通話：相手は通話中でした</string>
+    <string name="call_log_unreachable">通話はつながりませんでした</string>
+    <string name="call_log_cancelled">通話はキャンセルされました</string>
+</resources>

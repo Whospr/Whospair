@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rester joignable (phase 13) -->
+    <string name="settings_stay_reachable">Rester joignable</string>
+    <string name="settings_on">Activé</string>
+    <string name="settings_stay_reachable_body">App fermée, votre adresse reste en ligne. Vos contacts peuvent vous écrire et vous appeler.\n\nLes messages qui arrivent sont rangés tels quels, toujours chiffrés, et scellés une seconde fois : seul votre PIN les ouvre. Un inconnu qui a votre lien doit attendre que l\'app soit ouverte.\n\nUne notification dit seulement « Whospair vous bipe » : ni nom, ni contenu. Pour un appel, ouvrez Whospair, entrez votre PIN, puis décrochez — votre contact continue d\'appeler pendant une minute.</string>
+    <string name="settings_stay_reachable_costs">Le prix : votre clé onion reste en mémoire app fermée, Android affiche une notification permanente, votre adresse est en ligne jour et nuit, et la batterie s\'use plus vite. Après un redémarrage du téléphone, rien ne tourne avant votre PIN.</string>
+    <string name="settings_reach_enable">Activer</string>
+    <string name="settings_reach_disable">Désactiver</string>
+    <string name="settings_reach_battery">Autoriser en arrière-plan</string>
+    <string name="settings_reach_battery_hint">Sans cela, Android peut endormir Whospair et vous cessez d\'être joignable.</string>
+    <string name="settings_reach_notifications_off">Les notifications sont coupées pour Whospair : les messages attendront votre PIN, mais rien ne vous dira qu\'ils sont arrivés.</string>
+    <string name="settings_reach_notifications_allow">Activer les notifications</string>
+
+    <string name="settings_reach_hide_hint">Android impose une notification « Joignable » tant que Whospair reste joignable. Vous pouvez la masquer : le service continue, et l\'état s\'affiche dans l\'app, à côté de Tor.</string>
+    <string name="settings_reach_hide">Masquer la notification</string>
+
+    <string name="reach_channel_service">Rester joignable</string>
+    <string name="reach_channel_alert">Quelqu\'un cherche à vous contacter</string>
+    <string name="reach_channel_call">Appels entrants</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">Joignable</string>
+    <string name="reach_alert_title">Whospair vous bipe</string>
+    <string name="reach_call_title">Whospair vous bipe</string>
+    <string name="reach_call_text">Ouvrez Whospair et entrez votre PIN pour décrocher.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">הודעות</string>
+    <string name="search_contact">חיפוש איש קשר</string>
+    <string name="conversations_empty_title">עדיין אין שיחות</string>
+    <string name="conversations_empty_body">אפשר להוסיף מישהו בסריקת הקוד שלו, פנים אל פנים. אפשר לכתוב כששני הצדדים פתחו את האפליקציה.</string>
+    <string name="search_no_result">אין איש קשר בשם הזה.</string>
+    <string name="add_contact">הוספת איש קשר</string>
+    <string name="scan_code">סריקת קוד</string>
+    <string name="message_retry">ניסיון נוסף</string>
+    <string name="message_sent">נשלחה</string>
+    <string name="message_delivered">נמסרה</string>
+    <string name="read_lock_preview">הקריאה מוסתרת</string>
+    <string name="message_expires_in">נעלמת בעוד %1$s</string>
+    <string name="ttl_button">תוקף ההודעה: %1$s</string>
+    <string name="send">שליחה</string>
+    <string name="back">חזרה</string>
+    <string name="close">סגירה</string>
+    <string name="confirm_identity">אישור זהות</string>
+    <string name="delete_contact_and_chat">מחיקת איש הקשר והשיחה</string>
+    <string name="preview_none">אין הודעות</string>
+    <string name="preview_encrypted">הודעה מוצפנת</string>
+    <string name="duration_days">%1$d ימ׳</string>
+    <string name="message_placeholder">כתיבת הודעה</string>
+    <string name="discover_code_caption">הקוד הזה מכיל את המפתחות הציבוריים שלך ואת כתובת ה־Tor שלך. שום דבר אחר.</string>
+    <string name="share_link">שיתוף הקישור שלי</string>
+    <string name="copy_link">העתקת הקישור</string>
+    <string name="link_copied">הקישור הועתק</string>
+    <string name="memory_advice_title">זיכרון הטלפון</string>
+    <string name="memory_advice_body">Whospair שומרת את המפתחות בזיכרון רק כל עוד האפליקציה פתוחה. אבל טלפונים מסוימים מעתיקים חלק מהזיכרון לאחסון כדי להיראות גדולים יותר („זיכרון וירטואלי”, „הרחבת זיכרון”). מפתח שהועתק כך עלול להישאר בטלפון אחרי סגירת Whospair.</string>
+    <string name="memory_advice_how">כדי לכבות: לחפש „זיכרון וירטואלי” או „הרחבת זיכרון” בהגדרות הטלפון, לכבות, ואז להפעיל מחדש את הטלפון.</string>
+    <string name="voice_record">הקלטת הודעה קולית</string>
+    <string name="voice_cancel">מחיקת ההקלטה</string>
+    <string name="voice_recording">עד %1$s</string>
+    <string name="voice_send">שליחת ההודעה הקולית</string>
+    <string name="voice_play">הפעלה</string>
+    <string name="voice_pause">השהיה</string>
+    <string name="voice_receiving">מתקבלת…</string>
+    <string name="voice_preview">הודעה קולית %1$s</string>
+    <string name="mic_denied">המיקרופון כבוי עבור Whospair. כדי לשלוח הודעה קולית, יש לאשר אותו בהגדרות Android.</string>
+</resources>

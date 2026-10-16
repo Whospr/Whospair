@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor פועל</string>
+    <string name="tor_state_connecting">מתחבר ל־Tor</string>
+    <string name="tor_state_offline">Tor כבוי</string>
+    <string name="presence_reachable">זמין/ה</string>
+    <string name="ring_action">צלצול</string>
+    <string name="ring_calling">מצלצל אל %1$s…</string>
+    <string name="ring_incoming">%1$s מצלצל/ת אליך</string>
+    <string name="ring_accept">מענה</string>
+    <string name="ring_decline">התעלמות</string>
+    <string name="ring_cancel">עצירה</string>
+    <string name="ring_declined">%1$s התעלם/ה מהצלצול</string>
+    <string name="ring_timeout">אין מענה</string>
+    <string name="ring_peer_offline">%1$s לא נמצא/ת באפליקציה כרגע</string>
+    <string name="ring_busy">כבר פתוח סשן</string>
+    <string name="indicator_title">מה זה מציין</string>
+    <string name="indicator_channel_live">Tor פועל והכתובת שלך מפורסמת. אנשי קשר שגם אצלם האפליקציה פתוחה יכולים להשיג אותך, ואת/ה אותם.</string>
+    <string name="indicator_channel_none">Tor לא מוכן. אי אפשר לשלוח או לקבל דבר, ושום דבר לא נשמר בשום מקום לאחר כך.</string>
+    <string name="indicator_tunnel_on">התעבורה שלך יוצאת דרך ממשק VPN. זה כל מה ש־Whospair רואה: היא לא יודעת איזה ספק זה ואם המנהרה דולפת.</string>
+    <string name="indicator_tunnel_off">התעבורה שלך יוצאת ישירות. ספק הרשת יכול לראות שהמכשיר הזה משתמש ב־Tor, ומתי — לא עם מי מדברים ולא מה נאמר.</string>
+    <string name="indicator_dismiss">סגירה</string>
+    <string name="vpn_advice_title">על הרשת שלך</string>
+    <string name="vpn_advice_body">Whospair מצפינה את מה שנאמר, ו־Tor מסתיר למי זה נאמר. אף אחד מהם לא מסתיר שיש שימוש ב־Tor: מי שמעביר את התעבורה שלך רואה את זה, באילו שעות ובאיזו תדירות. VPN מעביר את נקודת המבט הזו למפעיל המנהרה. זה שינוי אמיתי כשמי שצופה הוא בדיוק מי שמדאיג אותך.</string>
+    <string name="vpn_advice_caveat">VPN אינו ערובה. בוחרים מי צופה, לא מבטלים את הצופה. כדאי לבחור ספק שיש סיבה לסמוך עליו, ולהעדיף שירות בתשלום על פני כזה שמממן את עצמו מהתעבורה שלך.</string>
+    <string name="contacts_title">אנשי קשר</string>
+    <string name="contacts_empty">רשימת אנשי הקשר ריקה.</string>
+    <string name="contact_unconfirmed">לא מאושר</string>
+    <string name="contact_blocked">חסום</string>
+    <string name="chat_settings">הגדרות השיחה</string>
+    <string name="chat_unconfirmed_banner">האדם הזה הוסיף אותך דרך הקישור שלך. עדיין לא אישרת מי הוא.</string>
+    <string name="chat_confirm">אישור</string>
+    <string name="chat_block">חסימה</string>
+    <string name="chat_unblock">ביטול חסימה</string>
+    <string name="chat_blocked_banner">חסום. לא יכול/ה להשיג אותך יותר.</string>
+    <string name="settings_rename">שם</string>
+    <string name="settings_rename_hint">רק את/ה רואה את השם הזה.</string>
+    <string name="settings_save">שמירה</string>
+    <string name="settings_safety_number">מספר בטיחות</string>
+    <string name="settings_safety_hint">להשוות אותו עם איש הקשר פנים אל פנים או בשיחה. אותו מספר בשני הטלפונים = אין אף אחד באמצע.</string>
+    <string name="settings_confirm_trust">בדקתי — אישור איש הקשר</string>
+    <string name="settings_trusted">איש קשר מאושר</string>
+    <string name="settings_block_hint">איש קשר חסום לא יכול יותר להתחבר או לשלוח לך הודעות.</string>
+    <string name="settings_delete">מחיקת איש קשר</string>
+    <string name="settings_delete_confirm">למחוק את איש הקשר ואת כל ההודעות? אם הקישור שלך עדיין אצלו, הוא עלול לחזור כלא מאושר — כדי למנוע זאת, כדאי לחסום.</string>
+    <string name="settings_delete_action">מחיקה</string>
+</resources>

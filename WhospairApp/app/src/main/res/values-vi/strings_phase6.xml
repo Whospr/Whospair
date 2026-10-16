@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor đang bật</string>
+    <string name="tor_state_connecting">Đang kết nối Tor</string>
+    <string name="tor_state_offline">Tor đang tắt</string>
+    <string name="presence_reachable">có thể liên lạc</string>
+    <string name="ring_action">Rung chuông</string>
+    <string name="ring_calling">Đang rung chuông %1$s…</string>
+    <string name="ring_incoming">%1$s đang rung chuông gọi bạn</string>
+    <string name="ring_accept">Trả lời</string>
+    <string name="ring_decline">Bỏ qua</string>
+    <string name="ring_cancel">Dừng</string>
+    <string name="ring_declined">%1$s đã bỏ qua tiếng chuông</string>
+    <string name="ring_timeout">Không trả lời</string>
+    <string name="ring_peer_offline">%1$s hiện không mở ứng dụng</string>
+    <string name="ring_busy">Đã có một phiên đang mở</string>
+    <string name="indicator_title">Điều này cho biết gì</string>
+    <string name="indicator_channel_live">Tor đang chạy và địa chỉ của bạn đã được công bố. Những liên hệ cũng đang mở ứng dụng có thể liên lạc với bạn, và bạn với họ.</string>
+    <string name="indicator_channel_none">Tor chưa sẵn sàng. Không gửi hay nhận được gì, và không có gì được giữ ở đâu để dành sau.</string>
+    <string name="indicator_tunnel_on">Lưu lượng của bạn đang đi qua giao diện VPN. Whospair chỉ thấy được chừng đó: nó không biết nhà cung cấp nào, cũng không biết đường hầm có bị rò rỉ hay không.</string>
+    <string name="indicator_tunnel_off">Lưu lượng của bạn đi thẳng ra ngoài. Nhà mạng có thể thấy thiết bị này dùng Tor và vào lúc nào — nhưng không thấy bạn nói chuyện với ai hay nói gì.</string>
+    <string name="indicator_dismiss">Đóng</string>
+    <string name="vpn_advice_title">Về mạng của bạn</string>
+    <string name="vpn_advice_body">Whospair mã hóa điều bạn nói, còn Tor che giấu bạn nói với ai. Cả hai đều không che giấu việc bạn dùng Tor: bên truyền tải lưu lượng của bạn sẽ thấy điều đó, vào những giờ nào và bao lâu một lần. VPN chuyển góc nhìn đó sang nhà vận hành đường hầm. Đó là thay đổi thực sự khi kẻ theo dõi chính là người bạn lo ngại.</string>
+    <string name="vpn_advice_caveat">VPN không phải là bảo đảm. Bạn chọn ai được quan sát, chứ không loại bỏ người quan sát. Hãy chọn nhà cung cấp mà bạn có lý do để tin, và ưu tiên dịch vụ trả phí hơn dịch vụ kiếm tiền từ lưu lượng của bạn.</string>
+    <string name="contacts_title">Danh bạ</string>
+    <string name="contacts_empty">Danh bạ của bạn đang trống.</string>
+    <string name="contact_unconfirmed">Chưa xác nhận</string>
+    <string name="contact_blocked">Đã chặn</string>
+    <string name="chat_settings">Cài đặt cuộc trò chuyện</string>
+    <string name="chat_unconfirmed_banner">Người này đã thêm bạn bằng liên kết của bạn. Bạn chưa xác nhận họ là ai.</string>
+    <string name="chat_confirm">Xác nhận</string>
+    <string name="chat_block">Chặn</string>
+    <string name="chat_unblock">Bỏ chặn</string>
+    <string name="chat_blocked_banner">Đã chặn. Họ không thể liên lạc với bạn nữa.</string>
+    <string name="settings_rename">Tên</string>
+    <string name="settings_rename_hint">Chỉ bạn thấy tên này.</string>
+    <string name="settings_save">Lưu</string>
+    <string name="settings_safety_number">Mã an toàn</string>
+    <string name="settings_safety_hint">Đối chiếu với liên hệ khi gặp trực tiếp hoặc qua cuộc gọi. Cùng một mã trên cả hai điện thoại = không ai ở giữa.</string>
+    <string name="settings_confirm_trust">Tôi đã kiểm tra — xác nhận liên hệ này</string>
+    <string name="settings_trusted">Liên hệ đã xác nhận</string>
+    <string name="settings_block_hint">Liên hệ bị chặn không thể kết nối hay nhắn tin cho bạn nữa.</string>
+    <string name="settings_delete">Xóa liên hệ</string>
+    <string name="settings_delete_confirm">Xóa liên hệ này và mọi tin nhắn? Nếu họ vẫn còn liên kết của bạn, họ có thể quay lại dưới dạng chưa xác nhận — hãy chặn để tránh điều đó.</string>
+    <string name="settings_delete_action">Xóa</string>
+</resources>

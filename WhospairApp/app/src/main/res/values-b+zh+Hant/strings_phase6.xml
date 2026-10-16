@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor 已開啟</string>
+    <string name="tor_state_connecting">正在連線至 Tor</string>
+    <string name="tor_state_offline">Tor 已關閉</string>
+    <string name="presence_reachable">可聯繫</string>
+    <string name="ring_action">響鈴</string>
+    <string name="ring_calling">正在向 %1$s 響鈴…</string>
+    <string name="ring_incoming">%1$s 正在向您響鈴</string>
+    <string name="ring_accept">接聽</string>
+    <string name="ring_decline">忽略</string>
+    <string name="ring_cancel">停止</string>
+    <string name="ring_declined">%1$s 忽略了響鈴</string>
+    <string name="ring_timeout">無人回應</string>
+    <string name="ring_peer_offline">%1$s 目前不在應用程式中</string>
+    <string name="ring_busy">已有一個工作階段正在進行</string>
+    <string name="indicator_title">這代表什麼</string>
+    <string name="indicator_channel_live">Tor 正在運作，您的位址已發布。同樣開啟了應用程式的聯絡人可以聯繫您，您也可以聯繫他們。</string>
+    <string name="indicator_channel_none">Tor 尚未就緒。無法傳送或接收任何內容，也沒有任何內容被存放在別處留待之後。</string>
+    <string name="indicator_tunnel_on">您的流量正透過 VPN 介面傳出。Whospair 只看得到這一點：它不知道是哪家業者，也不知道通道是否外洩。</string>
+    <string name="indicator_tunnel_off">您的流量直接傳出。您的網路業者可以看到這台裝置在使用 Tor 以及使用的時間——但看不到您在跟誰說話，也看不到說了什麼。</string>
+    <string name="indicator_dismiss">關閉</string>
+    <string name="vpn_advice_title">關於您的網路</string>
+    <string name="vpn_advice_body">Whospair 加密您說的內容，Tor 隱藏您在對誰說。兩者都無法隱藏您在使用 Tor：承載您流量的一方看得到這一點、在什麼時間以及多頻繁。VPN 會把這個視角轉移給通道營運者。如果監視者恰恰是您擔心的那一方，這就是實實在在的改變。</string>
+    <string name="vpn_advice_caveat">VPN 不是保證。您是在選擇由誰來看，而不是消除旁觀者。請選擇您有理由信任的業者，並優先選擇付費服務，而不是靠您的流量獲利的服務。</string>
+    <string name="contacts_title">聯絡人</string>
+    <string name="contacts_empty">您的聯絡人清單是空的。</string>
+    <string name="contact_unconfirmed">未確認</string>
+    <string name="contact_blocked">已封鎖</string>
+    <string name="chat_settings">對話設定</string>
+    <string name="chat_unconfirmed_banner">此人透過您的連結新增了您。您尚未確認對方的身分。</string>
+    <string name="chat_confirm">確認</string>
+    <string name="chat_block">封鎖</string>
+    <string name="chat_unblock">解除封鎖</string>
+    <string name="chat_blocked_banner">已封鎖。對方再也無法聯繫您。</string>
+    <string name="settings_rename">名稱</string>
+    <string name="settings_rename_hint">只有您看得到這個名稱。</string>
+    <string name="settings_save">儲存</string>
+    <string name="settings_safety_number">安全碼</string>
+    <string name="settings_safety_hint">當面或透過通話與聯絡人核對。兩支手機上的號碼相同 = 中間沒有人。</string>
+    <string name="settings_confirm_trust">我已核對——確認此聯絡人</string>
+    <string name="settings_trusted">已確認的聯絡人</string>
+    <string name="settings_block_hint">被封鎖的聯絡人無法再連線或傳送訊息給您。</string>
+    <string name="settings_delete">刪除聯絡人</string>
+    <string name="settings_delete_confirm">刪除此聯絡人及所有訊息？如果對方仍有您的連結，可能會以未確認的身分回來——封鎖對方即可避免。</string>
+    <string name="settings_delete_action">刪除</string>
+</resources>

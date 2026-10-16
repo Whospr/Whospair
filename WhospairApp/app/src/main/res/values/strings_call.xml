@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Phase 11d — appel vocal sur Tor. -->
+<resources>
+    <string name="call_action">Call</string>
+    <string name="call_connecting">Reaching them through Tor…</string>
+    <string name="call_ringing">Ringing…</string>
+    <string name="call_incoming">Incoming call</string>
+    <string name="call_answer">Answer</string>
+    <string name="call_decline">Decline</string>
+    <string name="call_cancel">Cancel</string>
+    <string name="call_hang_up">Hang up</string>
+    <string name="call_mute">Mute</string>
+    <string name="call_unmute">Unmute</string>
+    <string name="call_speaker">Speaker</string>
+    <string name="call_earpiece">Earpiece</string>
+    <string name="call_delay_hint">Through Tor, your voice arrives about a second late. Leave a short pause before answering.</string>
+    <string name="call_ended">Call ended</string>
+    <string name="call_declined">Declined</string>
+    <string name="call_busy">Already on a call</string>
+    <string name="call_no_answer">No answer</string>
+    <string name="call_unreachable">Not reachable right now. Try again in a moment.</string>
+    <string name="call_lost">Connection lost</string>
+    <string name="call_mic_denied">The microphone is off for Whospair. Allow it in Android settings to call.</string>
+    <string name="call_not_confirmed">Confirm this contact first. Only confirmed contacts can call each other.</string>
+    <string name="call_log_outgoing">Outgoing call · %1$s</string>
+    <string name="call_log_incoming">Incoming call · %1$s</string>
+    <string name="call_log_missed">Missed call</string>
+    <string name="call_log_refused">Call declined</string>
+    <string name="call_log_no_answer">Call not answered</string>
+    <string name="call_log_busy">Call: they were already on a call</string>
+    <string name="call_log_unreachable">Call did not go through</string>
+    <string name="call_log_cancelled">Call cancelled</string>
+</resources>

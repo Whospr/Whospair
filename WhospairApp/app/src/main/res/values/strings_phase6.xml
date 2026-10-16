@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Phase 6 — présence, sonnerie (en attente de la voix sur Tor), indicateur réseau.
+
+    À fusionner dans res/values/strings.xml. Les libellés sont volontairement
+    plats : pas de « sécurisé », pas de « protégé », pas de cadenas. L'app
+    n'énonce que ce qu'elle constate.
+-->
+<resources>
+
+    <!-- État du canal -->
+    <string name="tor_state_live">Tor on</string>
+    <string name="tor_state_connecting">Connecting to Tor</string>
+    <string name="tor_state_offline">Tor off</string>
+
+    <!-- Présence -->
+    <string name="presence_reachable">reachable</string>
+
+    <!-- Sonnerie -->
+    <string name="ring_action">Ring</string>
+    <string name="ring_calling">Ringing %1$s…</string>
+    <string name="ring_incoming">%1$s is ringing you</string>
+    <string name="ring_accept">Answer</string>
+    <string name="ring_decline">Dismiss</string>
+    <string name="ring_cancel">Stop</string>
+    <string name="ring_declined">%1$s dismissed the ring</string>
+    <string name="ring_timeout">No answer</string>
+    <string name="ring_peer_offline">%1$s is not in the app right now</string>
+    <string name="ring_busy">A session is already open</string>
+
+    <!-- Explication de l'indicateur, au clic -->
+    <string name="indicator_title">What this shows</string>
+    <string name="indicator_channel_live">Tor is running and your address is published. Contacts who also
+        have the app open can reach you, and you can reach them.</string>
+    <string name="indicator_channel_none">Tor is not ready. Nothing can be sent or received,
+        and nothing is being held anywhere for later.</string>
+    <string name="indicator_tunnel_on">Your traffic is leaving through a VPN
+        interface. Whospair can see that much, and no more — it does not know
+        which provider, or whether the tunnel leaks.</string>
+    <string name="indicator_tunnel_off">Your traffic is leaving directly. Your
+        network provider can see that this device uses Tor, and when — not who
+        you talk to, nor what is said.</string>
+    <string name="indicator_dismiss">Close</string>
+
+    <!-- Page de conseil (phase 7, chaînes posées ici pour rester groupées) -->
+    <string name="vpn_advice_title">About your network</string>
+    <string name="vpn_advice_body">Whospair encrypts what you say, and Tor hides who
+        you say it to. Neither hides that you use Tor: whoever carries your
+        traffic sees it, at what times, and how often. A VPN moves that view to
+        the tunnel operator instead. That is a real change when the party
+        watching is the one you are worried about.</string>
+    <string name="vpn_advice_caveat">A VPN is not a guarantee. You are choosing
+        who gets to watch, not removing the watcher. Pick one you have reason to
+        trust, and prefer one you pay for over one that pays for itself with
+        your traffic.</string>
+
+    <!-- Contacts et paramètres de conversation -->
+    <string name="contacts_title">Contacts</string>
+    <string name="contacts_empty">Your contact list is empty.</string>
+    <string name="contact_unconfirmed">Not confirmed</string>
+    <string name="contact_blocked">Blocked</string>
+    <string name="chat_settings">Conversation settings</string>
+    <string name="chat_unconfirmed_banner">This person added you with your link. You have not confirmed who they are.</string>
+    <string name="chat_confirm">Confirm</string>
+    <string name="chat_block">Block</string>
+    <string name="chat_unblock">Unblock</string>
+    <string name="chat_blocked_banner">Blocked. They can no longer reach you.</string>
+    <string name="settings_rename">Name</string>
+    <string name="settings_rename_hint">Only you see this name.</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_safety_number">Safety number</string>
+    <string name="settings_safety_hint">Compare it with your contact in person or by a call. Same number on both phones = no one in between.</string>
+    <string name="settings_confirm_trust">I have checked — confirm this contact</string>
+    <string name="settings_trusted">Confirmed contact</string>
+    <string name="settings_block_hint">A blocked contact can no longer connect or send you messages.</string>
+    <string name="settings_delete">Delete contact</string>
+    <string name="settings_delete_confirm">Delete this contact and all messages? If they still have your link, they may come back as unconfirmed — block them to prevent that.</string>
+    <string name="settings_delete_action">Delete</string>
+
+</resources>

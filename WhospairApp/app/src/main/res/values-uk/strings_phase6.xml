@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Tor увімкнено</string>
+    <string name="tor_state_connecting">Підключення до Tor</string>
+    <string name="tor_state_offline">Tor вимкнено</string>
+    <string name="presence_reachable">на зв\'язку</string>
+    <string name="ring_action">Покликати</string>
+    <string name="ring_calling">Кличу %1$s…</string>
+    <string name="ring_incoming">%1$s кличе вас</string>
+    <string name="ring_accept">Відповісти</string>
+    <string name="ring_decline">Відхилити</string>
+    <string name="ring_cancel">Стоп</string>
+    <string name="ring_declined">%1$s відхилив(ла) виклик</string>
+    <string name="ring_timeout">Немає відповіді</string>
+    <string name="ring_peer_offline">%1$s зараз не в застосунку</string>
+    <string name="ring_busy">Сеанс уже відкрито</string>
+    <string name="indicator_title">Що це показує</string>
+    <string name="indicator_channel_live">Tor працює, і вашу адресу опубліковано. Контакти, у яких теж відкрито застосунок, можуть зв\'язатися з вами, а ви — з ними.</string>
+    <string name="indicator_channel_none">Tor не готовий. Нічого не можна ні надіслати, ні отримати, і ніде нічого не зберігається на потім.</string>
+    <string name="indicator_tunnel_on">Ваш трафік виходить через VPN-інтерфейс. Whospair бачить лише це: він не знає, який це провайдер і чи має тунель витоки.</string>
+    <string name="indicator_tunnel_off">Ваш трафік виходить напряму. Ваш провайдер бачить, що цей пристрій використовує Tor, і коли, — але не з ким ви говорите і що кажете.</string>
+    <string name="indicator_dismiss">Закрити</string>
+    <string name="vpn_advice_title">Про вашу мережу</string>
+    <string name="vpn_advice_body">Whospair шифрує те, що ви кажете, а Tor приховує, кому ви це кажете. Ні те, ні інше не приховує, що ви користуєтеся Tor: той, хто передає ваш трафік, бачить це, о котрій і як часто. VPN переносить цей огляд до оператора тунелю. Це справжня зміна, якщо спостерігає саме той, кого ви остерігаєтеся.</string>
+    <string name="vpn_advice_caveat">VPN — не гарантія. Ви обираєте, хто спостерігає, а не позбуваєтеся спостерігача. Обирайте того, кому маєте підстави довіряти, і віддавайте перевагу платному перед тим, що заробляє на вашому трафіку.</string>
+    <string name="contacts_title">Контакти</string>
+    <string name="contacts_empty">Ваш список контактів порожній.</string>
+    <string name="contact_unconfirmed">Не підтверджено</string>
+    <string name="contact_blocked">Заблоковано</string>
+    <string name="chat_settings">Налаштування розмови</string>
+    <string name="chat_unconfirmed_banner">Ця людина додала вас за вашим посиланням. Ви ще не підтвердили, хто це.</string>
+    <string name="chat_confirm">Підтвердити</string>
+    <string name="chat_block">Заблокувати</string>
+    <string name="chat_unblock">Розблокувати</string>
+    <string name="chat_blocked_banner">Заблоковано. Більше не може з вами зв\'язатися.</string>
+    <string name="settings_rename">Ім\'я</string>
+    <string name="settings_rename_hint">Це ім\'я бачите лише ви.</string>
+    <string name="settings_save">Зберегти</string>
+    <string name="settings_safety_number">Код безпеки</string>
+    <string name="settings_safety_hint">Звірте його зі співрозмовником особисто або під час дзвінка. Однаковий код на обох телефонах = нікого посередині.</string>
+    <string name="settings_confirm_trust">Я перевірив(ла) — підтвердити контакт</string>
+    <string name="settings_trusted">Контакт підтверджено</string>
+    <string name="settings_block_hint">Заблокований контакт більше не може підключатися й писати вам.</string>
+    <string name="settings_delete">Видалити контакт</string>
+    <string name="settings_delete_confirm">Видалити цей контакт і всі повідомлення? Якщо в нього лишилося ваше посилання, він може повернутися як непідтверджений — заблокуйте його, щоб цього уникнути.</string>
+    <string name="settings_delete_action">Видалити</string>
+</resources>

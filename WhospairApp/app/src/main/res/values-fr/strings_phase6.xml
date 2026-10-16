@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Phase 6 — version française. Parité stricte avec values/strings_phase6.xml.
+-->
+<resources>
+
+    <!-- État du canal -->
+    <string name="tor_state_live">Tor actif</string>
+    <string name="tor_state_connecting">Tor en connexion</string>
+    <string name="tor_state_offline">Tor éteint</string>
+
+    <!-- Présence -->
+    <string name="presence_reachable">joignable</string>
+
+    <!-- Sonnerie -->
+    <string name="ring_action">Faire signe</string>
+    <string name="ring_calling">Sonne chez %1$s…</string>
+    <string name="ring_incoming">%1$s vous fait signe</string>
+    <string name="ring_accept">Répondre</string>
+    <string name="ring_decline">Écarter</string>
+    <string name="ring_cancel">Arrêter</string>
+    <string name="ring_declined">%1$s a écarté l\'appel</string>
+    <string name="ring_timeout">Pas de réponse</string>
+    <string name="ring_peer_offline">%1$s n\'est pas dans l\'app en ce moment</string>
+    <string name="ring_busy">Une session est déjà ouverte</string>
+
+    <!-- Explication de l'indicateur, au clic -->
+    <string name="indicator_title">Ce que ça indique</string>
+    <string name="indicator_channel_live">Tor tourne et votre adresse est publiée. Les contacts qui ont
+        aussi l\'app ouverte peuvent vous joindre, et vous les joindre.</string>
+    <string name="indicator_channel_none">Tor n\'est pas prêt. Rien ne peut partir ni arriver,
+        et rien n\'est gardé nulle part pour plus tard.</string>
+    <string name="indicator_tunnel_on">Votre trafic sort par une interface VPN.
+        Whospair voit ça, et rien de plus — ni quel fournisseur, ni si le tunnel
+        fuit.</string>
+    <string name="indicator_tunnel_off">Votre trafic sort en direct. Votre
+        opérateur voit que cet appareil utilise Tor, et à quels moments — ni à
+        qui vous parlez, ni ce qui s\'y dit.</string>
+    <string name="indicator_dismiss">Fermer</string>
+
+    <!-- Page de conseil (phase 7) -->
+    <string name="vpn_advice_title">À propos de votre réseau</string>
+    <string name="vpn_advice_body">Whospair chiffre ce que vous dites, et Tor cache à
+        qui vous le dites. Aucun des deux ne cache que vous utilisez Tor : celui
+        qui transporte votre trafic le voit, à quelles heures et à quelle
+        fréquence. Un VPN déplace cette vue chez l\'opérateur du tunnel. Ça
+        change beaucoup quand celui qui regarde est justement celui qui vous
+        inquiète.</string>
+    <string name="vpn_advice_caveat">Un VPN n\'est pas une garantie. Vous
+        choisissez qui regarde, vous ne supprimez pas le regard. Prenez-en un
+        que vous avez des raisons de croire, et préférez celui que vous payez à
+        celui qui se paie sur votre trafic.</string>
+
+    <!-- Contacts et paramètres de conversation -->
+    <string name="contacts_title">Contacts</string>
+    <string name="contacts_empty">Votre carnet est vide.</string>
+    <string name="contact_unconfirmed">Non confirmé</string>
+    <string name="contact_blocked">Bloqué</string>
+    <string name="chat_settings">Paramètres de la conversation</string>
+    <string name="chat_unconfirmed_banner">Cette personne vous a ajouté avec votre lien. Vous n\'avez pas confirmé qui elle est.</string>
+    <string name="chat_confirm">Confirmer</string>
+    <string name="chat_block">Bloquer</string>
+    <string name="chat_unblock">Débloquer</string>
+    <string name="chat_blocked_banner">Bloqué. Ce contact ne peut plus vous joindre.</string>
+    <string name="settings_rename">Nom</string>
+    <string name="settings_rename_hint">Vous seul voyez ce nom.</string>
+    <string name="settings_save">Enregistrer</string>
+    <string name="settings_safety_number">Numéro de sécurité</string>
+    <string name="settings_safety_hint">Comparez-le avec votre contact, en personne ou par un appel. Même numéro sur les deux téléphones = personne entre vous.</string>
+    <string name="settings_confirm_trust">J\'ai vérifié — confirmer ce contact</string>
+    <string name="settings_trusted">Contact confirmé</string>
+    <string name="settings_block_hint">Un contact bloqué ne peut plus se connecter ni vous écrire.</string>
+    <string name="settings_delete">Supprimer le contact</string>
+    <string name="settings_delete_confirm">Supprimer ce contact et tous les messages ? S\'il a encore votre lien, il pourra revenir comme non confirmé — bloquez-le pour l\'empêcher.</string>
+    <string name="settings_delete_action">Supprimer</string>
+
+</resources>

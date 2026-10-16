@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">업데이트</string>
+    <string name="update_state_current">최신 버전</string>
+    <string name="update_state_available">버전 %1$s 사용 가능</string>
+    <string name="update_state_downloading">다운로드 중 %1$d %%</string>
+    <string name="update_state_installing">설치 중…</string>
+    <string name="update_state_failed">실패</string>
+    <string name="update_body">업데이트는 연락처로부터 Tor를 거쳐, 서버 없이 전달됩니다. 모든 버전은 개발자가 서명합니다. Whospair는 다운로드 전에 서명을, 그다음 서명으로 파일을 확인하고, Android는 지금 쓰는 앱과 같은 키로 서명되었는지 확인합니다. 변조된 앱은 항상 거부됩니다.</string>
+    <string name="update_available_body">연락처 중 한 명이 버전 %1$s(%2$s)를 제공하고 있습니다. Whospair가 열려 있는 동안 다운로드되며, 연결이 끊기면 멈춘 곳부터 다시 이어집니다.</string>
+    <string name="update_download">다운로드 및 설치</string>
+    <string name="update_cancel">취소</string>
+    <string name="update_retry">다시 시도</string>
+    <string name="update_permission_hint">먼저 Android에서 Whospair가 업데이트를 설치하도록 허용해야 합니다. 허용한 뒤 돌아와서 다시 누르세요.</string>
+    <string name="update_permission_allow">허용</string>
+    <string name="update_relaying">버전 %1$s를 확인된 연락처에게 전달하고 있습니다.</string>
+    <string name="update_import">업데이트 패키지(.wup) 가져오기</string>
+    <string name="update_import_unreadable">읽을 수 없는 파일입니다.</string>
+    <string name="update_import_invalid">이 패키지는 Whospair 개발자가 서명하지 않았거나 손상되었습니다. 아무것도 설치되지 않았습니다.</string>
+    <string name="update_import_installing">서명을 확인했습니다. Android가 설치 확인을 요청합니다.</string>
+    <string name="update_import_relaying">서명을 확인했습니다. 이제 이 휴대전화가 이 버전을 확인된 연락처에게 전달합니다.</string>
+    <string name="update_import_mismatch">내 버전이지만, 여기 설치된 앱과 같은 파일이 아닙니다. 전달할 것이 없습니다.</string>
+    <string name="update_import_older">이 패키지는 내 버전보다 오래되었습니다. 아무것도 설치되지 않았습니다.</string>
+    <string name="update_failed_memory">다운로드할 메모리가 부족합니다.</string>
+    <string name="update_failed_corrupt">받은 파일이 서명과 일치하지 않아 버렸습니다.</string>
+    <string name="update_failed_install">Android가 설치를 거부했습니다.</string>
+    <string name="update_failed_signature">이 버전은 내 앱과 같은 키로 서명되지 않았습니다. 거부되었습니다.</string>
+    <string name="update_banner">업데이트 있음</string>
+    <string name="update_notes_title">새로운 기능</string>
+    <string name="update_diffuser_retry">소스에 연결할 수 없음, 10초 후 다시 시도</string>
+    <string name="update_interrupted">업데이트 중단됨, 30분 후 다시 시도</string>
+    <string name="update_mandatory_title">업데이트 필요</string>
+    <string name="update_mandatory_body">Whospair의 새 버전이 나온 지 5일이 넘었습니다. 앱을 계속 사용하려면 설치하세요. 최신 버전의 연락처는 더 이상 이전 버전을 받지 않습니다.</string>
+</resources>

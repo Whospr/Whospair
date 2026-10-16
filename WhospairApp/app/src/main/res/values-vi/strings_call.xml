@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Gọi</string>
+    <string name="call_connecting">Đang kết nối qua Tor…</string>
+    <string name="call_ringing">Đang đổ chuông…</string>
+    <string name="call_incoming">Cuộc gọi đến</string>
+    <string name="call_answer">Trả lời</string>
+    <string name="call_decline">Từ chối</string>
+    <string name="call_cancel">Hủy</string>
+    <string name="call_hang_up">Kết thúc</string>
+    <string name="call_mute">Tắt tiếng</string>
+    <string name="call_unmute">Bật tiếng</string>
+    <string name="call_speaker">Loa ngoài</string>
+    <string name="call_earpiece">Loa trong</string>
+    <string name="call_delay_hint">Qua Tor, giọng nói của bạn đến chậm khoảng một giây. Hãy ngừng một chút trước khi trả lời.</string>
+    <string name="call_ended">Cuộc gọi đã kết thúc</string>
+    <string name="call_declined">Đã từ chối</string>
+    <string name="call_busy">Đang trong cuộc gọi khác</string>
+    <string name="call_no_answer">Không trả lời</string>
+    <string name="call_unreachable">Hiện không liên lạc được. Hãy thử lại sau giây lát.</string>
+    <string name="call_lost">Mất kết nối</string>
+    <string name="call_mic_denied">Micrô đang tắt với Whospair. Hãy cho phép trong cài đặt Android để gọi.</string>
+    <string name="call_not_confirmed">Hãy xác nhận liên hệ này trước. Chỉ các liên hệ đã xác nhận mới gọi được cho nhau.</string>
+    <string name="call_log_outgoing">Cuộc gọi đi · %1$s</string>
+    <string name="call_log_incoming">Cuộc gọi đến · %1$s</string>
+    <string name="call_log_missed">Cuộc gọi nhỡ</string>
+    <string name="call_log_refused">Cuộc gọi bị từ chối</string>
+    <string name="call_log_no_answer">Cuộc gọi không được trả lời</string>
+    <string name="call_log_busy">Cuộc gọi: người kia đang bận cuộc gọi khác</string>
+    <string name="call_log_unreachable">Cuộc gọi không kết nối được</string>
+    <string name="call_log_cancelled">Cuộc gọi đã hủy</string>
+</resources>

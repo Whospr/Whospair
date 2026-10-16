@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">اتصال</string>
+    <string name="call_connecting">جارٍ الوصول عبر Tor…</string>
+    <string name="call_ringing">يرن…</string>
+    <string name="call_incoming">مكالمة واردة</string>
+    <string name="call_answer">رد</string>
+    <string name="call_decline">رفض</string>
+    <string name="call_cancel">إلغاء</string>
+    <string name="call_hang_up">إنهاء</string>
+    <string name="call_mute">كتم</string>
+    <string name="call_unmute">إلغاء الكتم</string>
+    <string name="call_speaker">مكبّر الصوت</string>
+    <string name="call_earpiece">سماعة الأذن</string>
+    <string name="call_delay_hint">عبر Tor، يصل صوتك متأخرًا بنحو ثانية. اترك وقفة قصيرة قبل الرد.</string>
+    <string name="call_ended">انتهت المكالمة</string>
+    <string name="call_declined">مرفوضة</string>
+    <string name="call_busy">في مكالمة بالفعل</string>
+    <string name="call_no_answer">لا رد</string>
+    <string name="call_unreachable">غير متاح الآن. حاول مرة أخرى بعد قليل.</string>
+    <string name="call_lost">انقطع الاتصال</string>
+    <string name="call_mic_denied">الميكروفون معطّل لـ Whospair. اسمح به في إعدادات Android لإجراء المكالمات.</string>
+    <string name="call_not_confirmed">أكّد جهة الاتصال هذه أولًا. يمكن فقط لجهات الاتصال المؤكَّدة الاتصال ببعضها.</string>
+    <string name="call_log_outgoing">مكالمة صادرة · %1$s</string>
+    <string name="call_log_incoming">مكالمة واردة · %1$s</string>
+    <string name="call_log_missed">مكالمة فائتة</string>
+    <string name="call_log_refused">مكالمة مرفوضة</string>
+    <string name="call_log_no_answer">مكالمة دون رد</string>
+    <string name="call_log_busy">مكالمة: كان الطرف الآخر في مكالمة</string>
+    <string name="call_log_unreachable">لم تتم المكالمة</string>
+    <string name="call_log_cancelled">أُلغيت المكالمة</string>
+</resources>

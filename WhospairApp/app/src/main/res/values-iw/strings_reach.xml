@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">להישאר זמין</string>
+    <string name="settings_on">פועל</string>
+    <string name="settings_stay_reachable_body">כשהאפליקציה סגורה, הכתובת שלך נשארת מחוברת. אנשי הקשר יכולים לכתוב לך ולהתקשר.\n\nהודעות שמגיעות נשמרות כמו שהן, עדיין מוצפנות, ונחתמות פעם שנייה: אפשר לפתוח אותן רק עם קוד ה־PIN שלך. זרים שיש להם את הקישור שלך צריכים לחכות עד שהאפליקציה תיפתח.\n\nההתראה אומרת רק „Whospair קוראת לך”: בלי שם, בלי תוכן. כדי לענות לשיחה, לפתוח את Whospair, להקליד את קוד ה־PIN ולענות — איש הקשר ממשיך להתקשר במשך דקה.</string>
+    <string name="settings_stay_reachable_costs">המחיר: מפתח ה־onion שלך נשאר בזיכרון כשהאפליקציה סגורה, Android מציגה התראה קבועה, הכתובת שלך מחוברת מסביב לשעון והסוללה מתרוקנת מהר יותר. אחרי הפעלה מחדש של הטלפון, שום דבר לא פועל עד שמקלידים את קוד ה־PIN.</string>
+    <string name="settings_reach_enable">הפעלה</string>
+    <string name="settings_reach_disable">כיבוי</string>
+    <string name="settings_reach_battery">לאפשר ברקע</string>
+    <string name="settings_reach_battery_hint">בלי זה, Android עלולה להרדים את Whospair ותפסיק/י להיות זמין/ה.</string>
+    <string name="settings_reach_notifications_off">ההתראות כבויות עבור Whospair: ההודעות עדיין יחכו לקוד ה־PIN שלך, אבל שום דבר לא יודיע שהן הגיעו.</string>
+    <string name="settings_reach_notifications_allow">הפעלת התראות</string>
+    <string name="settings_reach_hide_hint">Android דורשת התראת „זמין” כל עוד Whospair נשארת זמינה. אפשר להסתיר אותה: השירות ממשיך לפעול, והמצב מוצג באפליקציה, ליד Tor.</string>
+    <string name="settings_reach_hide">הסתרת ההתראה</string>
+    <string name="reach_channel_service">להישאר זמין</string>
+    <string name="reach_channel_alert">מישהו מנסה להשיג אותך</string>
+    <string name="reach_channel_call">שיחות נכנסות</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">זמין</string>
+    <string name="reach_alert_title">Whospair קוראת לך</string>
+    <string name="reach_call_title">Whospair קוראת לך</string>
+    <string name="reach_call_text">כדי לענות, לפתוח את Whospair ולהקליד את קוד ה־PIN.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">메시지</string>
+    <string name="search_contact">연락처 검색</string>
+    <string name="conversations_empty_title">아직 대화가 없습니다</string>
+    <string name="conversations_empty_body">직접 만나 상대의 코드를 스캔해 추가하세요. 두 사람 모두 앱을 열어 두었을 때 메시지를 보낼 수 있습니다.</string>
+    <string name="search_no_result">그 이름의 연락처가 없습니다.</string>
+    <string name="add_contact">연락처 추가</string>
+    <string name="scan_code">코드 스캔</string>
+    <string name="message_retry">다시 시도</string>
+    <string name="message_sent">보냄</string>
+    <string name="message_delivered">전달됨</string>
+    <string name="read_lock_preview">읽기 숨김</string>
+    <string name="message_expires_in">%1$s 후 사라짐</string>
+    <string name="ttl_button">메시지 유효 기간: %1$s</string>
+    <string name="send">보내기</string>
+    <string name="back">뒤로</string>
+    <string name="close">닫기</string>
+    <string name="confirm_identity">신원 확인</string>
+    <string name="delete_contact_and_chat">연락처와 대화 삭제</string>
+    <string name="preview_none">메시지 없음</string>
+    <string name="preview_encrypted">암호화된 메시지</string>
+    <string name="duration_days">%1$d일</string>
+    <string name="message_placeholder">메시지 입력</string>
+    <string name="discover_code_caption">이 코드에는 공개 키와 Tor 주소만 들어 있습니다. 그 밖에는 없습니다.</string>
+    <string name="share_link">내 링크 공유</string>
+    <string name="copy_link">링크 복사</string>
+    <string name="link_copied">링크를 복사했습니다</string>
+    <string name="memory_advice_title">휴대전화 메모리</string>
+    <string name="memory_advice_body">Whospair는 앱이 열려 있는 동안에만 키를 메모리에 보관합니다. 하지만 일부 휴대전화는 메모리를 크게 보이려고 일부를 저장 공간에 복사합니다(\'가상 메모리\', \'메모리 확장\'). 이렇게 복사된 키는 Whospair를 닫은 뒤에도 휴대전화에 남을 수 있습니다.</string>
+    <string name="memory_advice_how">끄는 방법: 휴대전화 설정에서 \'가상 메모리\' 또는 \'메모리 확장\'을 찾아 끈 다음 휴대전화를 다시 시작하세요.</string>
+    <string name="voice_record">음성 메시지 녹음</string>
+    <string name="voice_cancel">녹음 삭제</string>
+    <string name="voice_recording">최대 %1$s</string>
+    <string name="voice_send">음성 메시지 보내기</string>
+    <string name="voice_play">재생</string>
+    <string name="voice_pause">일시정지</string>
+    <string name="voice_receiving">받는 중…</string>
+    <string name="voice_preview">음성 메시지 %1$s</string>
+    <string name="mic_denied">Whospair의 마이크가 꺼져 있습니다. 음성 메시지를 보내려면 Android 설정에서 허용하세요.</string>
+</resources>

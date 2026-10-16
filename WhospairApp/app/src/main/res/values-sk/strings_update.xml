@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="update_title">Aktualizácia</string>
+    <string name="update_state_current">Aktuálne</string>
+    <string name="update_state_available">K dispozícii je verzia %1$s</string>
+    <string name="update_state_downloading">Sťahuje sa %1$d %%</string>
+    <string name="update_state_installing">Inštaluje sa…</string>
+    <string name="update_state_failed">Zlyhalo</string>
+    <string name="update_body">Aktualizácie prichádzajú od Vašich kontaktov, cez Tor, bez servera. Každú verziu podpisuje vývojár: Whospair pred stiahnutím overí podpis, potom súbor podľa neho a Android overí, že je podpísaná rovnakým kľúčom ako Vaša aplikácia. Upravená aplikácia sa vždy odmietne.</string>
+    <string name="update_available_body">Verziu %1$s (%2$s) ponúka jeden z Vašich kontaktov. Sťahuje sa, kým je Whospair otvorený; ak sa spojenie preruší, pokračuje tam, kde prestalo.</string>
+    <string name="update_download">Stiahnuť a nainštalovať</string>
+    <string name="update_cancel">Zrušiť</string>
+    <string name="update_retry">Skúsiť znova</string>
+    <string name="update_permission_hint">Android musí najprv povoliť Whospair inštalovať aktualizácie. Povoľte to, vráťte sa a ťuknite znova.</string>
+    <string name="update_permission_allow">Povoliť</string>
+    <string name="update_relaying">Odovzdávate verziu %1$s svojim potvrdeným kontaktom.</string>
+    <string name="update_import">Importovať balík aktualizácie (.wup)</string>
+    <string name="update_import_unreadable">Nečitateľný súbor.</string>
+    <string name="update_import_invalid">Tento balík nepodpísal vývojár Whospair alebo je poškodený. Nič sa nenainštalovalo.</string>
+    <string name="update_import_installing">Podpis overený. Android Vás požiada o potvrdenie inštalácie.</string>
+    <string name="update_import_relaying">Podpis overený. Tento telefón teraz odovzdáva túto verziu Vašim potvrdeným kontaktom.</string>
+    <string name="update_import_mismatch">Je to Vaša verzia, ale tu nainštalovaná aplikácia nie je ten istý súbor. Nie je čo odovzdať.</string>
+    <string name="update_import_older">Tento balík je starší ako Vaša verzia. Nič sa nenainštalovalo.</string>
+    <string name="update_failed_memory">Na stiahnutie nie je dosť pamäte.</string>
+    <string name="update_failed_corrupt">Prijatý súbor nezodpovedá podpisu. Bol zahodený.</string>
+    <string name="update_failed_install">Android inštaláciu odmietol.</string>
+    <string name="update_failed_signature">Táto verzia nie je podpísaná rovnakým kľúčom ako Vaša aplikácia. Odmietnuté.</string>
+    <string name="update_banner">Dostupná aktualizácia</string>
+    <string name="update_notes_title">Novinky</string>
+    <string name="update_diffuser_retry">Zdroj je nedostupný, nový pokus o 10 s</string>
+    <string name="update_interrupted">Aktualizácia prerušená, nový pokus o 30 min</string>
+    <string name="update_mandatory_title">Vyžaduje sa aktualizácia</string>
+    <string name="update_mandatory_body">Novšia verzia Whospair je dostupná už viac ako 5 dní. Nainštalujte ju, ak chcete aplikáciu ďalej používať: vaše aktuálne kontakty už staršie verzie neprijímajú.</string>
+</resources>

@@ -1,0 +1,10 @@
+.env
+*.zip
+build/
+
+.gradle/
+build.log
+WhospairApp/app/libs/*.aar
+WhospairApp/app/src/public/assets/face/*.onnx
+WhospairApp/app/src/public/jniLibs/
+local.properties

@@ -1,0 +1,561 @@
+splash_tagline	Privado por diseño
+tos_title	Antes de empezar
+tos_warning	Lea esto con atención. Whospair no funciona como las aplicaciones de mensajería que conoce, y algunas de esas diferencias no tienen vuelta atrás.
+tos_s1_title	1. De igual a igual por diseño
+tos_s1_body	Whospair no tiene servidor. Los mensajes y las llamadas van directamente de un dispositivo a otro. Nadie —ni siquiera nosotros— se interpone, guarda sus datos ni puede entregarlos.
+tos_s2_title	2. Usted es responsable
+tos_s2_body	Ningún operador está detrás de esta aplicación. Lo que envía, a quién, y lo que hace con lo que recibe es responsabilidad exclusivamente suya. Whospair es una herramienta: sus autores no pueden ser considerados responsables del uso que usted haga de ella ni de sus consecuencias.
+tos_s3_title	3. Sin moderación
+tos_s3_body	Ninguna autoridad revisa, filtra ni elimina contenido. No hay botón de denuncia que llegue a nadie, porque no hay nadie al otro lado.
+tos_s4_title	4. Cifrado de extremo a extremo
+tos_s4_body	Los mensajes están cifrados de extremo a extremo (X25519 y AES-256-GCM) y firmados. Las llamadas pasan por Tor, cifradas con una clave que cambia cada diez segundos aproximadamente.
+tos_s5_title	5. Nada se guarda a distancia
+tos_s5_body	Su identidad, sus contactos y sus mensajes solo existen en este dispositivo. Desinstalar la aplicación los borra.
+tos_s6_title	6. Sin recuperación
+tos_s6_body	Su identidad es una clave criptográfica, no una cuenta. Si la pierde, se pierde. No hay restablecimiento de contraseña, ni soporte, ni copia de seguridad que restaurar.
+tos_s7_title	7. Solo uso legal
+tos_s7_body	Las herramientas de privacidad protegen conversaciones legítimas. Usar Whospair para infringir la ley sigue siendo infringir la ley.
+tos_s8_title	8. Sin garantía
+tos_s8_body	Este software se ofrece tal cual, sin garantía de disponibilidad, exactitud ni adecuación a un uso concreto.
+tos_s9_title	9. La seguridad tiene límites
+tos_s9_body	El cifrado protege los datos en tránsito. No puede proteger un dispositivo ya comprometido por software malicioso, un rootkit o alguien que lo tiene en la mano.
+tos_s10_title	10. Aceptación
+tos_s10_body	Continuar significa que entiende lo anterior y, en particular, que una identidad perdida no se puede recuperar.
+tos_checkbox	He leído y acepto estas condiciones
+tos_accept	Aceptar
+tos_decline	Rechazar
+tos_decline_dialog_title	¿Rechazar las condiciones?
+tos_decline_dialog_body	Whospair no puede funcionar sin su aceptación. La aplicación se cerrará.
+tos_decline_confirm	Cerrar la aplicación
+tos_decline_cancel	Volver
+tutorial_skip	Omitir
+tutorial_next	Siguiente
+tutorial_back	Atrás
+tutorial_start	Empezar
+tutorial_page_counter	%1$d de %2$d
+tutorial_p1_title	Bienvenido a Whospair
+tutorial_p1_body	Mensajes y llamadas que no dejan rastro en ningún servidor, porque no hay servidor.
+tutorial_p1_f1	Cifrado de extremo a extremo
+tutorial_p1_f2	Sin servidores ni cuentas
+tutorial_p1_f3	Los mensajes caducan solos
+tutorial_p1_f4	Usted guarda todas las claves
+tutorial_p2_title	Añadir a alguien
+tutorial_p2_body	No hay nombres de usuario ni números de teléfono. Las claves se intercambian directamente.
+tutorial_p2_s1	Abra la pestaña Añadir
+tutorial_p2_s2	Escanee su código, o deje que escanee el suyo
+tutorial_p2_s3	La conversación está lista
+tutorial_p2_note	Una identidad nueva significa un código nuevo. Volver a compartirlo es la única manera de reconectar.
+tutorial_p3_title	Enviar un mensaje
+tutorial_p3_body	Cada mensaje lleva una caducidad desde el momento en que lo envía.
+tutorial_p3_s1	Abra una conversación
+tutorial_p3_s2	Escriba y elija cuánto tiempo debe durar
+tutorial_p3_s3	Envíe
+tutorial_p4_title	Caducidad
+tutorial_p4_body	Elija la duración que corresponde a lo que dice. Al vencer, el mensaje se borra en ambos dispositivos.
+tutorial_p4_note	Cuanto más corto, más seguro. Lo que sigue en pantalla sigue en el disco.
+tutorial_p5_title	Mantener el control
+tutorial_p5_body	Algunas cosas que conviene saber antes de empezar.
+tutorial_p5_f1	Bloquear o eliminar cualquier contacto
+tutorial_p5_f2	Borrar una conversación entera de una vez
+tutorial_p5_f3	Bloquear la aplicación con un PIN
+tutorial_p5_f4	Las claves nunca salen de este dispositivo
+identity_creating_title	Creando su identidad
+identity_creating_body	Generando un par de claves en este dispositivo. Tarda un momento.
+identity_ready_title	Este es usted
+identity_ready_body	Sus claves están listas. Ahora elija su PIN: es lo que las sella. Su código QR le esperará en Añadir.
+identity_warning	Su clave privada se queda en este dispositivo y nunca se muestra. Si pierde este dispositivo, esta identidad se pierde para siempre.
+identity_continue	Continuar
+identity_error_title	No se pudo crear su identidad
+identity_retry	Reintentar
+nav_home	Mensajes
+nav_contacts	Contactos
+nav_calls	Llamadas
+nav_discover	Añadir
+nav_settings	Ajustes
+ttl_5m	5 min
+ttl_15m	15 min
+ttl_1h	1 hora
+ttl_5h	5 horas
+ttl_8h	8 horas
+ttl_24h	24 horas
+ttl_7d	7 días
+discover_title	Añadir un contacto
+discover_subtitle	Muestre su código a la persona, o escanee el suyo. Cara a cara, sabe con quién habla.
+discover_scan_title	Escanear su código
+discover_scan_body	Apunte la cámara a su código QR
+discover_mycode_title	Mostrar mi código
+discover_mycode_body	Deje que alguien le añada
+discover_manual_title	O pegue un enlace recibido
+discover_manual_hint	whospair:… o 64 caracteres hexadecimales
+discover_add	Añadir este contacto
+discover_fingerprint	Huella para comparar en voz alta
+discover_copy_link	Copiar el enlace de invitación
+add_ok	%1$s añadido. Puede empezar una conversación.
+add_already	%1$s ya está en sus contactos.
+add_blocked	%1$s está en sus contactos, pero bloqueado.
+add_self	Es su propia clave. No puede añadirse a sí mismo.
+add_malformed	Esta clave no es válida. Una clave pública tiene 64 caracteres hexadecimales.
+add_not_whisper	Este código no es una clave de Whospair.
+add_unblock	Desbloquear
+add_unblocked	%1$s vuelve a estar desbloqueado.
+scan_instruction	Apunte al código QR que quiere añadir
+scan_permission_title	Se necesita la cámara
+scan_permission_body	Para escanear un código hace falta la cámara. No se graba ni se envía nada.
+scan_permission_denied	Se denegó el acceso a la cámara. Puede activarlo en los ajustes del dispositivo, o pegar la clave a mano.
+scan_permission_grant	Permitir la cámara
+scan_use_manual	Pegar una clave
+contact_block	Bloquear
+contact_unblock	Desbloquear
+contact_delete	Eliminar contacto
+contact_delete_confirm	¿Eliminar este contacto y toda la conversación? No se puede deshacer.
+contact_blocked_notice	Bloqueado. Los mensajes de este contacto se rechazan.
+common_dismiss	Cerrar
+common_loading	Cargando…
+common_cancel	Cancelar
+common_error	Algo ha fallado
+chat_today	Hoy
+chat_yesterday	Ayer
+message_pending	Enviando
+message_failed	No enviado, contacto inaccesible
+tutorial_pin_title	Su PIN, y solo su PIN
+tutorial_pin_body	Todo en Whospair queda cerrado tras un PIN que elegirá en el siguiente paso. Si lo olvida, no se puede recuperar nada.
+tutorial_pin_f1	Diez intentos fallidos lo borran todo
+tutorial_pin_f2	Un PIN de emergencia (en Ajustes) lo borra todo al introducirlo: úselo si está bajo coacción o en peligro
+tutorial_pin_f3	Sin huella ni reconocimiento facial: pueden forzar su dedo sobre el sensor, no sacarle un código
+tutorial_pin_note	Cuando la aplicación pasa a segundo plano, se bloquea sola.
+call_action	Llamar
+call_connecting	Conectando a través de Tor…
+call_ringing	Llamando…
+call_incoming	Llamada entrante
+call_answer	Responder
+call_decline	Rechazar
+call_cancel	Cancelar
+call_hang_up	Colgar
+call_mute	Silenciar
+call_unmute	Activar micrófono
+call_speaker	Altavoz
+call_earpiece	Auricular
+call_delay_hint	A través de Tor, su voz llega con un segundo de retraso. Deje una breve pausa antes de responder.
+call_ended	Llamada finalizada
+call_declined	Rechazada
+call_busy	Ya está en una llamada
+call_no_answer	Sin respuesta
+call_unreachable	No se puede contactar ahora. Vuelva a intentarlo en un momento.
+call_lost	Conexión perdida
+call_mic_denied	El micrófono está desactivado para Whospair. Permítalo en los ajustes de Android para llamar.
+call_not_confirmed	Primero confirme este contacto. Solo los contactos confirmados pueden llamarse.
+call_log_outgoing	Llamada saliente · %1$s
+call_log_incoming	Llamada entrante · %1$s
+call_log_missed	Llamada perdida
+call_log_refused	Llamada rechazada
+call_log_no_answer	Llamada sin respuesta
+call_log_busy	Llamada: ya estaba en otra llamada
+call_log_unreachable	La llamada no se pudo establecer
+call_log_cancelled	Llamada cancelada
+messages_title	Mensajes
+search_contact	Buscar un contacto
+conversations_empty_title	Aún no hay conversaciones
+conversations_empty_body	Añada a alguien escaneando su código, cara a cara. Podrá escribirle cuando ambos tengan la aplicación abierta.
+search_no_result	Ningún contacto con ese nombre.
+add_contact	Añadir un contacto
+scan_code	Escanear un código
+message_retry	Reintentar
+message_sent	Enviado
+message_delivered	Entregado
+read_lock_preview	Lectura oculta
+message_expires_in	Se borra en %1$s
+ttl_button	Duración del mensaje: %1$s
+send	Enviar
+back	Atrás
+close	Cerrar
+confirm_identity	Confirmar identidad
+delete_contact_and_chat	Eliminar contacto y conversación
+preview_none	Sin mensajes
+preview_encrypted	Mensaje cifrado
+duration_days	%1$d d
+message_placeholder	Escriba un mensaje
+discover_code_caption	Este código contiene sus claves públicas y su dirección Tor. Nada más.
+share_link	Compartir mi enlace
+copy_link	Copiar el enlace
+link_copied	Enlace copiado
+memory_advice_title	Memoria del teléfono
+memory_advice_body	Whospair guarda sus claves en memoria solo mientras la aplicación está abierta. Pero algunos teléfonos copian parte de su memoria al almacenamiento para parecer más grandes («memoria virtual», «ampliación de memoria»). Una clave copiada así podría quedar en el teléfono después de cerrar Whospair.
+memory_advice_how	Para desactivarlo: busque «memoria virtual» o «ampliación de memoria» en los ajustes del teléfono, desactívelo y reinicie el teléfono.
+voice_record	Grabar un mensaje de voz
+voice_cancel	Descartar la grabación
+voice_recording	hasta %1$s
+voice_send	Enviar el mensaje de voz
+voice_play	Reproducir
+voice_pause	Pausa
+voice_receiving	Recibiendo…
+voice_preview	Mensaje de voz %1$s
+mic_denied	El micrófono está desactivado para Whospair. Permítalo en los ajustes de Android para enviar un mensaje de voz.
+tor_state_live	Tor activo
+tor_state_connecting	Conectando a Tor
+tor_state_offline	Tor inactivo
+presence_reachable	accesible
+ring_action	Timbrar
+ring_calling	Timbrando a %1$s…
+ring_incoming	%1$s le está timbrando
+ring_accept	Responder
+ring_decline	Ignorar
+ring_cancel	Detener
+ring_declined	%1$s ignoró el timbre
+ring_timeout	Sin respuesta
+ring_peer_offline	%1$s no está en la aplicación ahora
+ring_busy	Ya hay una sesión abierta
+indicator_title	Qué indica esto
+indicator_channel_live	Tor funciona y su dirección está publicada. Los contactos que también tienen la aplicación abierta pueden contactarle, y usted a ellos.
+indicator_channel_none	Tor no está listo. No se puede enviar ni recibir nada, y nada queda guardado en ningún sitio para después.
+indicator_tunnel_on	Su tráfico sale por una interfaz VPN. Whospair puede ver eso y nada más: no sabe qué proveedor es ni si el túnel tiene fugas.
+indicator_tunnel_off	Su tráfico sale directamente. Su proveedor de red puede ver que este dispositivo usa Tor, y cuándo; no con quién habla ni qué dice.
+indicator_dismiss	Cerrar
+vpn_advice_title	Sobre su red
+vpn_advice_body	Whospair cifra lo que dice, y Tor oculta a quién se lo dice. Ninguno oculta que usa Tor: quien transporta su tráfico lo ve, a qué horas y con qué frecuencia. Una VPN traslada esa vista al operador del túnel. Es un cambio real cuando quien vigila es justamente quien le preocupa.
+vpn_advice_caveat	Una VPN no es una garantía. Elige quién vigila; no elimina la vigilancia. Escoja una en la que tenga motivos para confiar, y prefiera una de pago a una que se paga con su tráfico.
+contacts_title	Contactos
+contacts_empty	Su lista de contactos está vacía.
+contact_unconfirmed	Sin confirmar
+contact_blocked	Bloqueado
+chat_settings	Ajustes de la conversación
+chat_unconfirmed_banner	Esta persona le añadió con su enlace. Aún no ha confirmado quién es.
+chat_confirm	Confirmar
+chat_block	Bloquear
+chat_unblock	Desbloquear
+chat_blocked_banner	Bloqueado. Ya no puede contactarle.
+settings_rename	Nombre
+settings_rename_hint	Solo usted ve este nombre.
+settings_save	Guardar
+settings_safety_number	Número de seguridad
+settings_safety_hint	Compárelo con su contacto en persona o por llamada. Mismo número en ambos teléfonos = nadie en medio.
+settings_confirm_trust	Lo he comprobado: confirmar este contacto
+settings_trusted	Contacto confirmado
+settings_block_hint	Un contacto bloqueado ya no puede conectarse ni enviarle mensajes.
+settings_delete	Eliminar contacto
+settings_delete_confirm	¿Eliminar este contacto y todos los mensajes? Si aún tiene su enlace, puede volver como no confirmado; bloquéelo para evitarlo.
+settings_delete_action	Eliminar
+settings_section_profile	Perfil
+profile_photo	Foto de perfil
+profile_photo_hint	Recortada a 256 px, sin metadatos, enviada solo por Tor.
+profile_photo_choose	Elegir
+profile_photo_remove	Quitar
+profile_photo_error	No se pudo leer esta imagen.
+profile_photo_visibility	Quién ve mi foto
+profile_photo_everyone	Todos los que me contactan
+profile_photo_everyone_hint	Incluidos los contactos sin confirmar
+profile_photo_confirmed	Contactos confirmados
+profile_photo_hidden	Nadie
+settings_gaze_shield	Pantalla ocultada por la cámara
+settings_gaze_shield_body	La cámara frontal mira quién está frente a la pantalla. Todo se queda en el teléfono: no se guarda ni se envía ninguna imagen. El indicador de cámara de Android permanece encendido mientras Whospair está abierta, y la batería se gasta más rápido. Poner el teléfono boca abajo sobre una mesa siempre oscurece la pantalla.
+settings_off	Desactivado
+settings_gaze_look_away	Cuando aparto la vista
+settings_gaze_onlooker	Cuando otra persona mira
+settings_gaze_onlooker_hint	Una segunda cara detrás de usted. Reduce el riesgo sin eliminarlo: una cara vista de lado, de lejos o en la oscuridad puede pasar desapercibida.
+alert_someone	Alguien intenta contactarle
+alert_bip	%1$s le está avisando
+alert_open	Abrir
+nudge_title	Dar un toque
+nudge_hint	Hacer vibrar su Whospair.
+nudge_action	Dar un toque
+nudge_sent	Toque enviado.
+nudge_unreachable	No accesible ahora: Whospair está cerrada en su lado.
+nudge_received	%1$s le ha dado un toque
+private_mode_title	Modo privado
+private_mode_off_hint	Está en línea y accesible en esta conversación.
+private_mode_on_hint	Ya no está accesible en esta conversación.
+private_mode_enable	Activar el modo privado
+private_mode_disable	Desactivar el modo privado
+private_mode_banner	Modo privado activado en esta conversación. Solo está accesible durante un minuto tras enviar un mensaje. Para seguir accesible, desactive el modo privado.
+file_generic	Archivo
+file_attach	Adjuntar un archivo
+file_view_once	una sola vista
+file_sending	enviando %1$d %%
+file_receiving	recibiendo %1$d %%
+file_send_title	¿Enviar este archivo?
+file_allow_save	Permitir guardarlo
+file_allow_save_hint	Si no, solo se abre dentro de Whospair.
+file_view_once_option	Una sola vista
+file_view_once_hint	Se borra del teléfono de su contacto tras la primera apertura.
+file_send	Enviar
+file_too_big	Archivo demasiado grande: 25 MB como máximo.
+file_unreadable	Archivo ilegible.
+file_viewer_pending	Este tipo de archivo pronto se abrirá dentro de Whospair.
+input_more	Más: duración %1$s, toque, archivo
+input_ttl	Duración · %1$s
+input_file	Archivo
+notice_forwarded	%1$s reenvió "%2$s" a otro contacto
+notice_shared	%1$s compartió "%2$s" con otra aplicación
+notice_saved	%1$s guardó "%2$s" en su teléfono
+notice_opened	%1$s abrió "%2$s" en otra aplicación
+notice_viewed	%1$s vio "%2$s" (una sola vista)
+notice_you_forwarded	Reenvió "%1$s"; se avisa al remitente
+notice_you_shared	Compartió "%1$s"; se avisa al remitente
+notice_you_saved	Guardó "%1$s"; se avisa al remitente
+notice_you_opened	Abrió "%1$s" en otro lugar; se avisa al remitente
+notice_you_viewed	Vio "%1$s"; se ha borrado
+notice_preview	Aviso sobre un archivo
+file_share	Compartir
+file_open_with	Abrir con…
+file_open_elsewhere_hint	Whospair no puede mostrar este archivo. «Abrir con…», arriba, lo presta un momento a otra aplicación, sin copiarlo; se avisa al remitente.
+media_play	Reproducir
+media_pause	Pausa
+share_forward	Enviar a un contacto
+share_outside	Compartir con otra aplicación
+share_save	Guardar en el teléfono
+share_sender_told	Se avisará al remitente, sin saber a quién lo envía.
+forward_title	Enviar a…
+forward_none	Ningún otro contacto confirmado.
+selection_count	%1$d seleccionados
+selection_cancel	Cancelar la selección
+delete_selected_title	¿Eliminar %1$d elemento(s)?
+delete_selected_body	Se borran de este teléfono ahora mismo, sin esperar a su duración. Lo que aún no se ha enviado no se enviará. La copia de su contacto desaparece al final de su propia duración.
+delete_selected_action	Eliminar
+file_cancel	Cancelar el envío
+notice_cancelled	%1$s canceló el envío de un archivo
+notice_you_cancelled	Canceló el envío de un archivo
+file_incoming	Llega un archivo…
+settings_stay_reachable	Seguir accesible
+settings_on	Activado
+settings_stay_reachable_body	Con la aplicación cerrada, su dirección sigue en línea. Sus contactos pueden escribirle y llamarle.\n\nLos mensajes que llegan se guardan tal cual, aún cifrados, y sellados una segunda vez: solo se abren con su PIN. Los desconocidos que tienen su enlace deben esperar a que la aplicación esté abierta.\n\nUna notificación dice solo «Whospair le está avisando»: sin nombre, sin contenido. Para una llamada, abra Whospair, introduzca su PIN y responda; su contacto sigue llamando durante un minuto.
+settings_stay_reachable_costs	El precio: su clave onion sigue en memoria con la aplicación cerrada, Android muestra una notificación permanente, su dirección está en línea a todas horas y la batería se gasta más rápido. Tras reiniciar el teléfono, nada funciona hasta que introduzca su PIN.
+settings_reach_enable	Activar
+settings_reach_disable	Desactivar
+settings_reach_battery	Permitir en segundo plano
+settings_reach_battery_hint	Sin esto, Android puede dormir Whospair y dejará de estar accesible.
+settings_reach_notifications_off	Las notificaciones están desactivadas para Whospair: los mensajes seguirán esperando su PIN, pero nada le avisará de que han llegado.
+settings_reach_notifications_allow	Activar las notificaciones
+settings_reach_hide_hint	Android exige una notificación «Accesible» mientras Whospair sigue accesible. Puede ocultarla: el servicio sigue funcionando y el estado aparece en la aplicación, junto a Tor.
+settings_reach_hide	Ocultar la notificación
+reach_channel_service	Seguir accesible
+reach_channel_alert	Alguien intenta contactarle
+reach_channel_call	Llamadas entrantes
+reach_service_title	Whospair
+reach_service_text	Accesible
+reach_alert_title	Whospair le está avisando
+reach_call_title	Whospair le está avisando
+reach_call_text	Abra Whospair e introduzca su PIN para responder.
+new_chat	Nueva conversación
+contacts_group_confirmed	Confirmados
+contacts_group_unconfirmed	Por confirmar
+contacts_group_blocked	Bloqueados
+contacts_scan	Escanear un QR
+contacts_show_qr	Mostrar mi QR
+profile_title	Mi perfil
+profile_photo_change	Cambiar la foto
+settings_appearance	Apariencia
+appearance_auto	Automática
+appearance_auto_hint	Ajustada a la configuración del sistema
+appearance_day	Día
+appearance_night	Noche
+settings_background	Fondo de las conversaciones
+settings_background_hint	El mismo para todas las conversaciones. Las pantallas principales toman sus colores.
+bg_ink	Tinta
+bg_sage	Salvia
+bg_slate	Pizarra
+bg_plum	Ciruela
+bg_sand	Arena
+bg_plain	Liso
+settings_page_lock	Bloqueo
+settings_page_lock_sub	PIN, PIN de emergencia, bloquear
+settings_page_discretion	Discreción
+settings_page_discretion_sub	Duración de los mensajes, pantalla oculta, foto
+settings_page_network	Red
+settings_page_identity_sub	QR, nueva identidad
+settings_page_about_sub	Privacidad, versión
+reach_short	accesible con la app cerrada
+lock_title_setup	Elija un PIN
+lock_hint_setup	Al menos 6 cifras. No se puede recuperar: si lo olvida, todo se pierde.
+lock_title_confirm	Introdúzcalo otra vez
+lock_mismatch	Las dos entradas no coinciden. Empiece de nuevo.
+lock_title_unlock	Introduzca su PIN
+lock_wrong	PIN incorrecto
+lock_attempts_left	Quedan %1$d intentos antes de borrarlo todo
+lock_busy	Comprobando…
+lock_error	Algo falló al abrir. Inténtelo de nuevo.
+settings_lock_now	Bloquear ahora
+settings_duress_title	PIN de emergencia
+settings_duress_body	Un segundo PIN, para emergencias. Introducirlo en la pantalla de bloqueo lo borra todo —claves, contactos, mensajes— y la aplicación vuelve a empezar como recién instalada.
+settings_duress_current	PIN actual
+settings_duress_new	PIN de emergencia
+settings_duress_saved	PIN de emergencia guardado.
+settings_duress_failed	No guardado: el PIN actual es incorrecto, o el PIN de emergencia es demasiado corto, idéntico o de otra longitud.
+read_lock_title	Lectura
+read_lock_off_hint	Los mensajes siguen legibles cuando vuelve a esta conversación.
+read_lock_on_hint	Los mensajes están ocultos. Introduzca el código para leerlos durante esta visita.
+read_lock_open_hint	Legibles hasta que salga de esta conversación.
+read_lock_enable	Ocultar los mensajes con un código
+read_lock_unlock	Desbloquear la lectura
+read_lock_disable	Dejar de ocultar los mensajes
+read_lock_banner	Mensajes ocultos. Desbloquee la lectura en los ajustes.
+read_lock_masked	••••••
+message_unreadable	[Mensaje ilegible]
+read_code_new	Elija un código de 4 cifras
+read_code_confirm	Introdúzcalo otra vez
+read_code_enter	Código de lectura
+read_code_mismatch	Los dos códigos no coinciden. Empiece de nuevo.
+read_code_wrong	Código incorrecto
+settings_section_security	Seguridad
+settings_section_identity	Mi identidad
+settings_section_network	Red
+settings_section_about	Acerca de
+settings_change_pin	Cambiar el PIN
+settings_new_pin	PIN nuevo
+settings_pin_changed	PIN cambiado.
+settings_pin_changed_duress_removed	PIN cambiado. Su longitud cambió, así que se eliminó el PIN de emergencia: vuelva a definirlo con la misma longitud.
+settings_pin_rejected	No cambiado: este PIN es demasiado corto o es su PIN de emergencia.
+settings_duress_same_length	El mismo número de cifras que su PIN.
+settings_default_ttl	Duración predeterminada de los mensajes
+settings_default_ttl_hint	Se usa en todas las conversaciones hasta que elija otra en una de ellas.
+settings_mask_all	Ocultar la lectura en todas partes
+settings_mask_all_hint	Un código para todas las conversaciones aún no ocultas. Las que ya tienen código conservan el suyo.
+settings_mask_all_done	Hecho. Cada conversación pide ahora el código.
+settings_wipe_now	Borrar todo ahora
+settings_wipe_confirm	¿Borrar claves, contactos y mensajes ahora mismo? No se podrá recuperar nada. La aplicación volverá a empezar como recién instalada.
+settings_wipe_action	Borrar todo
+settings_my_qr	Mi QR y mi enlace
+settings_new_identity	Nueva identidad
+settings_new_identity_confirm	Claves y dirección nuevas: su enlace y su QR actuales dejan de funcionar. Todos los contactos y mensajes se borran; sus contactos tendrán que volver a añadirle. La aplicación se reinicia.
+settings_new_identity_action	Crear una nueva identidad
+settings_tor_state	Tor
+tor_state_ready	Conectado
+tor_state_starting	Iniciando… %1$d%%
+tor_state_failed	Error: toque para reiniciar
+tor_state_off	Desactivado
+tor_state_reconnecting	Red perdida: reconectando…
+settings_restart_tor_confirm	Reiniciar Tor reinicia la aplicación. Tendrá que volver a introducir su PIN.
+settings_restart_tor_action	Reiniciar
+about_title	Qué es Whospair
+about_body	Una mensajería para quienes tienen cosas delicadas que decirse. Lo que se dice en Whospair solo existe en los dos teléfonos, durante el tiempo elegido, y en ningún otro lugar.\n\nSin servidor. Ningún servidor retransmite, guarda ni ve sus intercambios. Cada teléfono es su propio punto de acceso en la red Tor; los mensajes van directamente de uno a otro.\n\nSin cuenta. Sin número, sin correo, sin nombre real. Su identidad es un par de claves creado en este teléfono. Se añaden escaneando un código QR, en persona o mediante un enlace.\n\nCifrado de extremo a extremo. Mensajes, notas de voz, archivos y llamadas se cifran antes de salir del teléfono y luego pasan por Tor, que oculta su dirección IP.\n\nEfímero. Cada mensaje tiene una duración elegida y después desaparece en ambos lados. Nada se guarda en otro lugar.\n\nEn vivo. Solo se puede contactar a alguien que tiene la aplicación abierta o que activó «Seguir accesible».\n\nProtegido en el teléfono. Todo está cifrado bajo su PIN. Diez PIN erróneos, o el PIN de emergencia, lo borran todo.\n\nAdvertencia. Whospair es una herramienta. El uso que haga de ella es responsabilidad exclusivamente suya. Se ofrece tal cual, sin garantía, y sus autores no pueden ser considerados responsables de su uso ni de sus consecuencias.
+privacy_title	Política de privacidad
+privacy_body	Whospair no recopila nada. Ningún servidor recibe sus datos: por tanto, no hay nadie que los analice o los entregue a terceros.\n\nLo que la aplicación nunca hace: elaboración de perfiles, venta de datos, publicidad, código de seguimiento, informes de fallos enviados, lectura de la agenda, localización. Ninguna empresa externa recibe nada, ni datos ni señales de uso: la aplicación solo habla con la red Tor, con sus contactos y con su distribuidor de actualizaciones.\n\nLo que queda en este teléfono, cifrado: sus claves, contactos, mensajes y archivos, hasta que caducan, usted los borra o tras 10 PIN erróneos. A las fotos enviadas se les quitan los metadatos (ubicación, modelo del dispositivo).\n\nLo que otros aún pueden ver: su operador de red puede ver que este teléfono usa Tor, pero no con quién ni qué. Su contacto ve lo que usted le envía, y su foto de perfil si lo permite.\n\nActualizaciones. Una vez al día, la aplicación pregunta discretamente, a través de Tor, si existe una versión más reciente. Esta consulta solo contiene su número de versión: ni identidad, ni contactos, ni mensajes.\n\n¿Por qué cada día? Porque una versión actualizada se niega a comunicarse con una versión demasiado antigua. Es intencionado: una versión antigua puede contener una vulnerabilidad. Sin actualizar, ya no podría comunicarse con sus allegados ni con sus colegas; solo la actualización le seguiría llegando.\n\nWhospair está en constante evolución, de ahí las actualizaciones frecuentes. Una vulnerabilidad puede descubrirse y explotarse antes incluso de que nadie lo note. Corregir rápido evita que sus datos acaben en malas manos.\n\nSus derechos. Como no se recopila nada, no hay nada que consultar, corregir ni borrar en nuestro lado. Todo está en sus manos: desinstalar la aplicación lo borra todo.\n\nResponsabilidad. Usted es el único responsable de lo que envía, a quién, y de lo que hace con lo que recibe. Whospair se ofrece tal cual, sin garantía.
+version_title	Versión
+version_fingerprint_hint	Huella del certificado que firmó esta aplicación. Compárela con la publicada por el autor: si difiere, no es la aplicación auténtica.
+update_title	Actualización
+update_state_current	Al día
+update_state_available	Versión %1$s disponible
+update_state_downloading	Descargando %1$d %%
+update_state_installing	Instalando…
+update_state_failed	Error
+update_body	Las actualizaciones llegan de sus contactos, por Tor, sin servidor. Cada versión está firmada por el desarrollador: Whospair comprueba la firma antes de descargar, luego el archivo con ella, y Android comprueba que está firmada con la misma clave que su aplicación. Una aplicación modificada siempre se rechaza.
+update_available_body	Uno de sus contactos ofrece la versión %1$s (%2$s). Se descarga mientras Whospair está abierta; si se corta la conexión, continúa donde se detuvo.
+update_download	Descargar e instalar
+update_cancel	Cancelar
+update_retry	Reintentar
+update_permission_hint	Android debe permitir primero que Whospair instale actualizaciones. Permítalo, vuelva y toque de nuevo.
+update_permission_allow	Permitir
+update_relaying	Transmite la versión %1$s a sus contactos confirmados.
+update_import	Importar un paquete de actualización (.wup)
+update_import_unreadable	Archivo ilegible.
+update_import_invalid	Este paquete no está firmado por el desarrollador de Whospair, o está dañado. No se instaló nada.
+update_import_installing	Firma verificada. Android le pedirá que confirme la instalación.
+update_import_relaying	Firma verificada. Este teléfono transmite ahora esta versión a sus contactos confirmados.
+update_import_mismatch	Es su versión, pero la aplicación instalada aquí no es el mismo archivo. Nada que transmitir.
+update_import_older	Este paquete es más antiguo que su versión. No se instaló nada.
+update_failed_memory	No hay memoria suficiente para descargarla.
+update_failed_corrupt	El archivo recibido no coincide con la firma. Se descartó.
+update_failed_install	Android rechazó la instalación.
+update_failed_signature	Esta versión no está firmada con la misma clave que su aplicación. Rechazada.
+update_banner	Actualización disponible
+settings_language	Idioma
+language_auto	Idioma del teléfono
+tutorial_live_title	Accesible solo en vivo
+tutorial_live_body	Whospair no deja nada esperando en un servidor. Un mensaje sale cuando su contacto tiene la aplicación abierta o ha activado «Seguir accesible».
+tutorial_live_f1	El punto junto a Tor: verde, está en línea; naranja, conectando
+tutorial_live_f2	La primera conexión puede tardar unos segundos, a veces un minuto
+tutorial_live_f3	«accesible» bajo un nombre: el contacto está ahí, ahora mismo
+tutorial_confirm_title	Confirmar un contacto
+tutorial_confirm_body	Basta un escaneo para hablar. Pero quien solo tiene su enlace llega como «Por confirmar».
+tutorial_confirm_f1	Compare el número de seguridad, en persona o por llamada
+tutorial_confirm_f2	Mismo número en ambos teléfonos: nadie en medio
+tutorial_confirm_f3	Solo los contactos confirmados pueden llamarle y darle un toque
+tutorial_discreet_title	Discreción
+tutorial_discreet_body	Protecciones para los momentos en que alguien está a su lado.
+tutorial_discreet_f1	Teléfono boca abajo sobre la mesa: la pantalla se pone negra
+tutorial_discreet_f2	Código de lectura: una conversación queda oculta hasta el código
+tutorial_discreet_f3	Modo privado: este contacto solo le alcanza cuando usted le escribe
+update_check	Buscar actualizaciones
+update_checking	Buscando…
+chat_peer_outdated	Este contacto usa una versión de Whospair demasiado antigua. Nada pasa hasta que la actualice; la actualización sí le llega.
+ttl_never	Nunca
+reply_cancel	Cancelar la respuesta
+input_emoji	Emojis
+reply_you	Usted
+share_app	Compartir Whospair
+share_app_sub	Enviar la propia app, sin tienda de apps
+copy_action	Copiar
+copy_title	Selecciona la parte que quieres copiar
+copy_all	Copiar todo
+copy_done	Copiado
+delete_everyone_body	«Para todos» borra también la copia de tu contacto, sin ningún aviso. Si no está disponible, el borrado sale en cuanto lo esté, mientras Whospair siga abierto.
+select_more	Seleccionar varios
+delete_everyone_action	Eliminar para todos
+licenses_title	Licencias
+update_notes_title	Novedades
+tut_welcome_title	Bienvenido a Whospair
+tut_welcome_body	Mensajes y llamadas que no dejan rastro en ningún servidor, porque no hay servidor.
+tut_welcome_f1	Cifrado de extremo a extremo, sin cuenta: las claves son suyas
+tut_welcome_f2	Un mensaje sale cuando su contacto tiene la app abierta o «Seguir accesible» activado
+tut_welcome_f3	El punto junto a Tor: verde, en línea; naranja, conectando (a veces un minuto)
+tut_add_title	Añadir y confiar
+tut_add_body	Ni usuario ni número de teléfono: intercambian claves. Escanee su código o deje que escanee el suyo.
+tut_add_f1	Por confirmar: llegó solo con su enlace. Sus mensajes llegan, pero no puede llamar ni dar un toque
+tut_add_f2	Confirmado: usted lo añadió o lo aceptó
+tut_add_f3	Verificado: cara a cara, escanearon sus códigos de seguridad. Nadie se ha colado entre ustedes
+tut_write_title	Escribir y luego borrar
+tut_write_body	Cada mensaje tiene una duración elegida al enviarlo; al terminar, desaparece en ambos lados.
+tut_write_f1	Más corto, más seguro: lo que está en pantalla sigue en el disco
+tut_write_f2	Eliminar para todos: quita sus mensajes del teléfono de su contacto
+tut_write_f3	Borrado mutuo: si ambos lo aceptan, cualquiera puede borrarlo todo, para los dos, en cualquier momento
+tutorial_discreet_f5	Mosaico «Bloquear Whospair» en los ajustes rápidos: la app se cierra con un toque
+tile_lock	Bloquear Whospair
+contact_verified	Verificado
+verify_title	Verificar en persona
+verify_hint	Cara a cara, escaneen el código del otro
+verify_done	Verificado en persona
+verify_body	Muestre este código a su contacto y escanee el suyo. Si coinciden, nadie se ha colado entre ustedes.
+verify_scan	Escanear su código
+verify_ok	Los códigos coinciden: contacto verificado.
+verify_fail	Este código no coincide. No confíe en este contacto hasta aclararlo.
+wipe_title	Borrado mutuo
+wipe_off	Desactivado. Si lo propone, su contacto deberá aceptarlo.
+wipe_asked	Esperando el acuerdo de su contacto.
+wipe_to_answer	Su contacto propone que cualquiera pueda borrarlo todo, para los dos, en cualquier momento.
+wipe_on	Activado: cualquiera puede borrarlo todo, para los dos, en cualquier momento.
+wipe_propose	Proponer
+wipe_accept	Aceptar
+wipe_refuse	Rechazar
+wipe_cancel	Cancelar la solicitud
+wipe_disable	Desactivar
+wipe_now	Borrar la conversación para los dos
+wipe_confirm	Toda la conversación se borrará en ambos teléfonos. No se puede deshacer.
+wipe_action	Borrarlo todo
+wipe_banner	%1$s propone el borrado mutuo
+settings_gaze_owner	Solo mi cara
+settings_gaze_owner_hint	La pantalla solo se abre para usted
+face_intro_title	Solo mi cara
+face_intro_body	La pantalla solo se abre cuando es usted quien la mira. Para cualquier otra persona, o si nadie mira, sigue en negro.\n\nSi su cara cambia (herida, hinchazón, barba, gafas), puede dejar de reconocerse y la pantalla seguirá en negro. Abajo, «Desactivar la ocultación con el PIN» siempre funciona con su código de desbloqueo. Después podrá volver a registrar su cara.\n\nEste botón sigue las mismas reglas que la pantalla de bloqueo: su PIN de coacción, escrito aquí, lo borra todo, igual que 10 códigos erróneos.\n\nProtege de las miradas indiscretas, no es una cerradura: su PIN sigue siendo la verdadera protección. Todo ocurre en el teléfono: su cara se guarda como números cifrados, nunca como foto.
+face_intro_ok	Entendido
+face_enroll_title	Registrar mi cara
+face_enroll_body	Mire la pantalla unos segundos, con la cara bien iluminada.
+face_enroll_ok	Su cara está registrada.
+face_enroll_fail	Cara no reconocida. Póngase a la luz, mire bien la pantalla y vuelva a intentarlo.
+face_reenroll	Volver a registrar mi cara
+face_disable_pin	Desactivar la ocultación con el PIN
+tutorial_discreet_f4	Cámara (opcional): la pantalla se oculta cuando aparta la mirada, cuando otra persona mira o en cuanto no es su cara. Todo ocurre en el teléfono, nada se graba
+conv_pin	Fijar
+conv_unpin	Dejar de fijar
+conv_pinned	Fijada
+update_diffuser_retry	Fuente inaccesible, nuevo intento en 10 s
+update_mandatory_title	Actualización obligatoria
+update_mandatory_body	Hay una versión más reciente de Whospair disponible desde hace más de 5 días. Instálala para seguir usando la app: tus contactos actualizados ya no aceptan versiones antiguas.
+gaze_manual	Manual
+gaze_manual_hint	El PIN lo desactiva, por ejemplo en un lugar oscuro.
+gaze_auto	Automático
+gaze_auto_hint	Apagado de 20 h a 6 h, cuando falta luz.
+shield_choice_title	Desactivar la ocultación
+shield_pause_10	Durante 10 min
+shield_disable_all	Desactivar por completo
+shield_pause_over_title	Pausa terminada
+shield_pause_over_body	La ocultación vuelve a estar activa.
+shield_keep_paused	Mantenerla desactivada por ahora
+update_interrupted	Actualización interrumpida, nuevo intento en 30 min

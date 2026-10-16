@@ -1,0 +1,561 @@
+splash_tagline	Riêng tư ngay từ thiết kế
+tos_title	Trước khi bắt đầu
+tos_warning	Vui lòng đọc kỹ. Whospair không hoạt động như các ứng dụng nhắn tin bạn quen dùng, và một số khác biệt không thể đảo ngược.
+tos_s1_title	1. Ngang hàng ngay từ thiết kế
+tos_s1_body	Whospair không có máy chủ. Tin nhắn và cuộc gọi đi thẳng từ thiết bị này sang thiết bị kia. Không ai — kể cả chúng tôi — đứng ở giữa, lưu dữ liệu của bạn hay có thể giao nộp nó.
+tos_s2_title	2. Bạn chịu trách nhiệm
+tos_s2_body	Không có nhà vận hành nào đứng sau ứng dụng này. Bạn gửi gì, gửi cho ai và làm gì với những gì nhận được hoàn toàn thuộc trách nhiệm của bạn. Whospair là một công cụ: tác giả không chịu trách nhiệm về cách bạn sử dụng nó hay hậu quả của việc đó.
+tos_s3_title	3. Không kiểm duyệt
+tos_s3_body	Không cơ quan nào xem xét, lọc hay xóa nội dung. Không có nút báo cáo nào đến được ai, vì ở đầu bên kia không có ai.
+tos_s4_title	4. Mã hóa đầu cuối
+tos_s4_body	Tin nhắn được mã hóa đầu cuối (X25519 và AES-256-GCM) và được ký. Cuộc gọi đi qua Tor, được mã hóa bằng một khóa thay đổi khoảng mười giây một lần.
+tos_s5_title	5. Không lưu trữ từ xa
+tos_s5_body	Danh tính, danh bạ và tin nhắn của bạn chỉ tồn tại trên thiết bị này. Gỡ ứng dụng sẽ xóa chúng.
+tos_s6_title	6. Không thể khôi phục
+tos_s6_body	Danh tính của bạn là một khóa mật mã, không phải tài khoản. Mất là mất. Không có đặt lại mật khẩu, không có hỗ trợ, không có bản sao lưu để khôi phục.
+tos_s7_title	7. Chỉ sử dụng hợp pháp
+tos_s7_body	Công cụ bảo mật bảo vệ những cuộc trò chuyện chính đáng. Dùng Whospair để vi phạm pháp luật vẫn là vi phạm pháp luật.
+tos_s8_title	8. Không bảo đảm
+tos_s8_body	Phần mềm này được cung cấp nguyên trạng, không bảo đảm về tính sẵn sàng, tính chính xác hay sự phù hợp cho mục đích cụ thể nào.
+tos_s9_title	9. Bảo mật có giới hạn
+tos_s9_body	Mã hóa bảo vệ dữ liệu khi truyền đi. Nó không thể bảo vệ một thiết bị đã bị phần mềm độc hại, rootkit xâm nhập, hoặc đang nằm trong tay người khác.
+tos_s10_title	10. Chấp nhận
+tos_s10_body	Tiếp tục nghĩa là bạn hiểu những điều trên, đặc biệt là danh tính đã mất thì không thể khôi phục.
+tos_checkbox	Tôi đã đọc và chấp nhận các điều khoản này
+tos_accept	Chấp nhận
+tos_decline	Từ chối
+tos_decline_dialog_title	Từ chối điều khoản?
+tos_decline_dialog_body	Whospair không thể hoạt động nếu bạn không chấp nhận. Ứng dụng sẽ đóng.
+tos_decline_confirm	Đóng ứng dụng
+tos_decline_cancel	Quay lại
+tutorial_skip	Bỏ qua
+tutorial_next	Tiếp
+tutorial_back	Quay lại
+tutorial_start	Bắt đầu
+tutorial_page_counter	%1$d / %2$d
+tutorial_p1_title	Chào mừng đến với Whospair
+tutorial_p1_body	Tin nhắn và cuộc gọi không để lại dấu vết trên bất kỳ máy chủ nào, vì không có máy chủ.
+tutorial_p1_f1	Mã hóa đầu cuối
+tutorial_p1_f2	Không máy chủ, không tài khoản
+tutorial_p1_f3	Tin nhắn tự hết hạn
+tutorial_p1_f4	Bạn giữ mọi khóa
+tutorial_p2_title	Thêm một người
+tutorial_p2_body	Không có tên người dùng hay số điện thoại. Hai bên trao đổi khóa trực tiếp.
+tutorial_p2_s1	Mở thẻ Thêm
+tutorial_p2_s2	Quét mã của họ, hoặc để họ quét mã của bạn
+tutorial_p2_s3	Cuộc trò chuyện đã sẵn sàng
+tutorial_p2_note	Danh tính mới nghĩa là mã mới. Chia sẻ lại mã là cách duy nhất để kết nối lại.
+tutorial_p3_title	Gửi tin nhắn
+tutorial_p3_body	Mỗi tin nhắn có thời hạn tính từ lúc bạn gửi.
+tutorial_p3_s1	Mở một cuộc trò chuyện
+tutorial_p3_s2	Nhập nội dung, rồi chọn thời gian lưu giữ
+tutorial_p3_s3	Gửi
+tutorial_p4_title	Thời hạn
+tutorial_p4_body	Chọn thời hạn phù hợp với điều bạn nói. Khi hết hạn, tin nhắn bị xóa trên cả hai thiết bị.
+tutorial_p4_note	Càng ngắn càng an toàn. Thứ gì còn trên màn hình thì vẫn còn trên bộ nhớ.
+tutorial_p5_title	Bạn nắm quyền kiểm soát
+tutorial_p5_body	Vài điều nên biết trước khi bắt đầu.
+tutorial_p5_f1	Chặn hoặc xóa bất kỳ liên hệ nào
+tutorial_p5_f2	Xóa toàn bộ cuộc trò chuyện một lần
+tutorial_p5_f3	Khóa ứng dụng bằng mã PIN
+tutorial_p5_f4	Khóa không bao giờ rời khỏi thiết bị này
+identity_creating_title	Đang tạo danh tính của bạn
+identity_creating_body	Đang tạo cặp khóa trên thiết bị này. Việc này mất một lát.
+identity_ready_title	Đây là bạn
+identity_ready_body	Khóa của bạn đã sẵn sàng. Bây giờ hãy chọn mã PIN: nó niêm phong các khóa. Mã QR của bạn sẽ chờ sẵn trong thẻ Thêm.
+identity_warning	Khóa riêng tư của bạn ở lại trên thiết bị này và không bao giờ được hiển thị. Nếu mất thiết bị này, danh tính này sẽ mất vĩnh viễn.
+identity_continue	Tiếp tục
+identity_error_title	Không thể tạo danh tính của bạn
+identity_retry	Thử lại
+nav_home	Tin nhắn
+nav_contacts	Danh bạ
+nav_calls	Cuộc gọi
+nav_discover	Thêm
+nav_settings	Cài đặt
+ttl_5m	5 phút
+ttl_15m	15 phút
+ttl_1h	1 giờ
+ttl_5h	5 giờ
+ttl_8h	8 giờ
+ttl_24h	24 giờ
+ttl_7d	7 ngày
+discover_title	Thêm liên hệ
+discover_subtitle	Cho người đó xem mã của bạn, hoặc quét mã của họ. Gặp mặt trực tiếp, bạn biết mình đang nói chuyện với ai.
+discover_scan_title	Quét mã của họ
+discover_scan_body	Hướng camera vào mã QR của họ
+discover_mycode_title	Hiện mã của tôi
+discover_mycode_body	Để người khác thêm bạn
+discover_manual_title	Hoặc dán liên kết bạn nhận được
+discover_manual_hint	whospair:… hoặc 64 ký tự thập lục phân
+discover_add	Thêm liên hệ này
+discover_fingerprint	Dấu vân tay để đối chiếu thành tiếng
+discover_copy_link	Sao chép liên kết mời
+add_ok	Đã thêm %1$s. Bạn có thể bắt đầu trò chuyện.
+add_already	%1$s đã có trong danh bạ của bạn.
+add_blocked	%1$s có trong danh bạ nhưng đang bị chặn.
+add_self	Đây là khóa của chính bạn. Bạn không thể tự thêm mình.
+add_malformed	Khóa này không hợp lệ. Khóa công khai gồm 64 ký tự thập lục phân.
+add_not_whisper	Mã này không phải khóa Whospair.
+add_unblock	Bỏ chặn
+add_unblocked	Đã bỏ chặn %1$s.
+scan_instruction	Hướng vào mã QR bạn muốn thêm
+scan_permission_title	Cần quyền truy cập camera
+scan_permission_body	Quét mã cần dùng camera. Không có gì được ghi lại hay gửi đi.
+scan_permission_denied	Quyền truy cập camera đã bị từ chối. Bạn có thể bật trong cài đặt thiết bị, hoặc dán khóa thủ công.
+scan_permission_grant	Cho phép camera
+scan_use_manual	Dán khóa thay thế
+contact_block	Chặn
+contact_unblock	Bỏ chặn
+contact_delete	Xóa liên hệ
+contact_delete_confirm	Xóa liên hệ này và toàn bộ cuộc trò chuyện? Không thể hoàn tác.
+contact_blocked_notice	Đã chặn. Tin nhắn từ liên hệ này bị từ chối.
+common_dismiss	Đóng
+common_loading	Đang tải…
+common_cancel	Hủy
+common_error	Đã xảy ra lỗi
+chat_today	Hôm nay
+chat_yesterday	Hôm qua
+message_pending	Đang gửi
+message_failed	Chưa gửi được, không liên lạc được
+tutorial_pin_title	Mã PIN của bạn, chỉ mã PIN của bạn
+tutorial_pin_body	Mọi thứ trong Whospair được khóa sau mã PIN bạn chọn ở bước tiếp theo. Nếu quên, không gì có thể khôi phục.
+tutorial_pin_f1	Nhập sai mười lần sẽ xóa mọi thứ
+tutorial_pin_f2	Mã PIN khẩn cấp (đặt trong Cài đặt) sẽ xóa mọi thứ khi được nhập: hãy dùng khi bạn bị ép buộc hoặc gặp nguy hiểm
+tutorial_pin_f3	Không dùng vân tay hay khuôn mặt: người ta có thể ép ngón tay bạn vào cảm biến, nhưng không thể ép bạn nói ra mã
+tutorial_pin_note	Khi ứng dụng chuyển xuống nền, nó tự khóa.
+call_action	Gọi
+call_connecting	Đang kết nối qua Tor…
+call_ringing	Đang đổ chuông…
+call_incoming	Cuộc gọi đến
+call_answer	Trả lời
+call_decline	Từ chối
+call_cancel	Hủy
+call_hang_up	Kết thúc
+call_mute	Tắt tiếng
+call_unmute	Bật tiếng
+call_speaker	Loa ngoài
+call_earpiece	Loa trong
+call_delay_hint	Qua Tor, giọng nói của bạn đến chậm khoảng một giây. Hãy ngừng một chút trước khi trả lời.
+call_ended	Cuộc gọi đã kết thúc
+call_declined	Đã từ chối
+call_busy	Đang trong cuộc gọi khác
+call_no_answer	Không trả lời
+call_unreachable	Hiện không liên lạc được. Hãy thử lại sau giây lát.
+call_lost	Mất kết nối
+call_mic_denied	Micrô đang tắt với Whospair. Hãy cho phép trong cài đặt Android để gọi.
+call_not_confirmed	Hãy xác nhận liên hệ này trước. Chỉ các liên hệ đã xác nhận mới gọi được cho nhau.
+call_log_outgoing	Cuộc gọi đi · %1$s
+call_log_incoming	Cuộc gọi đến · %1$s
+call_log_missed	Cuộc gọi nhỡ
+call_log_refused	Cuộc gọi bị từ chối
+call_log_no_answer	Cuộc gọi không được trả lời
+call_log_busy	Cuộc gọi: người kia đang bận cuộc gọi khác
+call_log_unreachable	Cuộc gọi không kết nối được
+call_log_cancelled	Cuộc gọi đã hủy
+messages_title	Tin nhắn
+search_contact	Tìm liên hệ
+conversations_empty_title	Chưa có cuộc trò chuyện nào
+conversations_empty_body	Thêm ai đó bằng cách quét mã của họ khi gặp trực tiếp. Bạn có thể nhắn tin khi cả hai cùng mở ứng dụng.
+search_no_result	Không có liên hệ nào tên như vậy.
+add_contact	Thêm liên hệ
+scan_code	Quét mã
+message_retry	Thử lại
+message_sent	Đã gửi
+message_delivered	Đã nhận
+read_lock_preview	Đã ẩn nội dung
+message_expires_in	Biến mất sau %1$s
+ttl_button	Thời hạn tin nhắn: %1$s
+send	Gửi
+back	Quay lại
+close	Đóng
+confirm_identity	Xác nhận danh tính
+delete_contact_and_chat	Xóa liên hệ và cuộc trò chuyện
+preview_none	Không có tin nhắn
+preview_encrypted	Tin nhắn đã mã hóa
+duration_days	%1$d ngày
+message_placeholder	Nhập tin nhắn
+discover_code_caption	Mã này chứa các khóa công khai và địa chỉ Tor của bạn. Không gì khác.
+share_link	Chia sẻ liên kết của tôi
+copy_link	Sao chép liên kết
+link_copied	Đã sao chép liên kết
+memory_advice_title	Bộ nhớ điện thoại
+memory_advice_body	Whospair chỉ giữ khóa trong bộ nhớ khi ứng dụng đang mở. Nhưng một số điện thoại sao chép một phần bộ nhớ vào bộ lưu trữ để trông lớn hơn («bộ nhớ ảo», «mở rộng bộ nhớ»). Khóa bị sao chép như vậy có thể còn lại trên điện thoại sau khi Whospair đóng.
+memory_advice_how	Cách tắt: tìm «bộ nhớ ảo» hoặc «mở rộng bộ nhớ» trong cài đặt điện thoại, tắt đi, rồi khởi động lại điện thoại.
+voice_record	Ghi tin nhắn thoại
+voice_cancel	Bỏ bản ghi
+voice_recording	tối đa %1$s
+voice_send	Gửi tin nhắn thoại
+voice_play	Phát
+voice_pause	Tạm dừng
+voice_receiving	Đang nhận…
+voice_preview	Tin nhắn thoại %1$s
+mic_denied	Micrô đang tắt với Whospair. Hãy cho phép trong cài đặt Android để gửi tin nhắn thoại.
+tor_state_live	Tor đang bật
+tor_state_connecting	Đang kết nối Tor
+tor_state_offline	Tor đang tắt
+presence_reachable	có thể liên lạc
+ring_action	Rung chuông
+ring_calling	Đang rung chuông %1$s…
+ring_incoming	%1$s đang rung chuông gọi bạn
+ring_accept	Trả lời
+ring_decline	Bỏ qua
+ring_cancel	Dừng
+ring_declined	%1$s đã bỏ qua tiếng chuông
+ring_timeout	Không trả lời
+ring_peer_offline	%1$s hiện không mở ứng dụng
+ring_busy	Đã có một phiên đang mở
+indicator_title	Điều này cho biết gì
+indicator_channel_live	Tor đang chạy và địa chỉ của bạn đã được công bố. Những liên hệ cũng đang mở ứng dụng có thể liên lạc với bạn, và bạn với họ.
+indicator_channel_none	Tor chưa sẵn sàng. Không gửi hay nhận được gì, và không có gì được giữ ở đâu để dành sau.
+indicator_tunnel_on	Lưu lượng của bạn đang đi qua giao diện VPN. Whospair chỉ thấy được chừng đó: nó không biết nhà cung cấp nào, cũng không biết đường hầm có bị rò rỉ hay không.
+indicator_tunnel_off	Lưu lượng của bạn đi thẳng ra ngoài. Nhà mạng có thể thấy thiết bị này dùng Tor và vào lúc nào — nhưng không thấy bạn nói chuyện với ai hay nói gì.
+indicator_dismiss	Đóng
+vpn_advice_title	Về mạng của bạn
+vpn_advice_body	Whospair mã hóa điều bạn nói, còn Tor che giấu bạn nói với ai. Cả hai đều không che giấu việc bạn dùng Tor: bên truyền tải lưu lượng của bạn sẽ thấy điều đó, vào những giờ nào và bao lâu một lần. VPN chuyển góc nhìn đó sang nhà vận hành đường hầm. Đó là thay đổi thực sự khi kẻ theo dõi chính là người bạn lo ngại.
+vpn_advice_caveat	VPN không phải là bảo đảm. Bạn chọn ai được quan sát, chứ không loại bỏ người quan sát. Hãy chọn nhà cung cấp mà bạn có lý do để tin, và ưu tiên dịch vụ trả phí hơn dịch vụ kiếm tiền từ lưu lượng của bạn.
+contacts_title	Danh bạ
+contacts_empty	Danh bạ của bạn đang trống.
+contact_unconfirmed	Chưa xác nhận
+contact_blocked	Đã chặn
+chat_settings	Cài đặt cuộc trò chuyện
+chat_unconfirmed_banner	Người này đã thêm bạn bằng liên kết của bạn. Bạn chưa xác nhận họ là ai.
+chat_confirm	Xác nhận
+chat_block	Chặn
+chat_unblock	Bỏ chặn
+chat_blocked_banner	Đã chặn. Họ không thể liên lạc với bạn nữa.
+settings_rename	Tên
+settings_rename_hint	Chỉ bạn thấy tên này.
+settings_save	Lưu
+settings_safety_number	Mã an toàn
+settings_safety_hint	Đối chiếu với liên hệ khi gặp trực tiếp hoặc qua cuộc gọi. Cùng một mã trên cả hai điện thoại = không ai ở giữa.
+settings_confirm_trust	Tôi đã kiểm tra — xác nhận liên hệ này
+settings_trusted	Liên hệ đã xác nhận
+settings_block_hint	Liên hệ bị chặn không thể kết nối hay nhắn tin cho bạn nữa.
+settings_delete	Xóa liên hệ
+settings_delete_confirm	Xóa liên hệ này và mọi tin nhắn? Nếu họ vẫn còn liên kết của bạn, họ có thể quay lại dưới dạng chưa xác nhận — hãy chặn để tránh điều đó.
+settings_delete_action	Xóa
+settings_section_profile	Hồ sơ
+profile_photo	Ảnh hồ sơ
+profile_photo_hint	Cắt còn 256 px, xóa siêu dữ liệu, chỉ gửi qua Tor.
+profile_photo_choose	Chọn
+profile_photo_remove	Gỡ
+profile_photo_error	Không đọc được ảnh này.
+profile_photo_visibility	Ai thấy ảnh của tôi
+profile_photo_everyone	Mọi người liên lạc với tôi
+profile_photo_everyone_hint	Kể cả liên hệ chưa xác nhận
+profile_photo_confirmed	Liên hệ đã xác nhận
+profile_photo_hidden	Không ai
+settings_gaze_shield	Che màn hình bằng camera
+settings_gaze_shield_body	Camera trước nhìn xem ai đang ở trước màn hình. Mọi thứ ở lại trên điện thoại: không ảnh nào được lưu hay gửi đi. Đèn báo camera của Android sáng khi Whospair đang mở, và pin hao nhanh hơn. Úp điện thoại xuống bàn luôn làm tối màn hình.
+settings_off	Tắt
+settings_gaze_look_away	Khi tôi nhìn đi chỗ khác
+settings_gaze_onlooker	Khi có người khác nhìn
+settings_gaze_onlooker_hint	Một khuôn mặt thứ hai phía sau bạn. Giảm rủi ro nhưng không loại bỏ: khuôn mặt nhìn nghiêng, ở xa hoặc trong bóng tối có thể không bị phát hiện.
+alert_someone	Có người đang tìm cách liên lạc với bạn
+alert_bip	%1$s đang gọi bạn
+alert_open	Mở
+nudge_title	Ra hiệu
+nudge_hint	Làm Whospair của họ rung.
+nudge_action	Ra hiệu
+nudge_sent	Đã ra hiệu.
+nudge_unreachable	Hiện không liên lạc được: Whospair bên họ đang đóng.
+nudge_received	%1$s ra hiệu cho bạn
+private_mode_title	Chế độ riêng tư
+private_mode_off_hint	Bạn đang trực tuyến và có thể được liên lạc trong cuộc trò chuyện này.
+private_mode_on_hint	Bạn không còn có thể được liên lạc trong cuộc trò chuyện này.
+private_mode_enable	Bật chế độ riêng tư
+private_mode_disable	Tắt chế độ riêng tư
+private_mode_banner	Chế độ riêng tư đang bật cho cuộc trò chuyện này. Bạn chỉ có thể được liên lạc trong một phút sau khi gửi tin nhắn. Để luôn có thể được liên lạc, hãy tắt chế độ riêng tư.
+file_generic	Tệp
+file_attach	Đính kèm tệp
+file_view_once	xem một lần
+file_sending	đang gửi %1$d %%
+file_receiving	đang nhận %1$d %%
+file_send_title	Gửi tệp này?
+file_allow_save	Cho phép lưu
+file_allow_save_hint	Nếu không, tệp chỉ mở được bên trong Whospair.
+file_view_once_option	Xem một lần
+file_view_once_hint	Bị xóa khỏi điện thoại của liên hệ sau lần mở đầu tiên.
+file_send	Gửi
+file_too_big	Tệp quá lớn: tối đa 25 MB.
+file_unreadable	Tệp không đọc được.
+file_viewer_pending	Loại tệp này sắp mở được ngay trong Whospair.
+input_more	Thêm: thời hạn %1$s, ra hiệu, tệp
+input_ttl	Thời hạn · %1$s
+input_file	Tệp
+notice_forwarded	%1$s đã chuyển tiếp "%2$s" cho một liên hệ khác
+notice_shared	%1$s đã chia sẻ "%2$s" với một ứng dụng khác
+notice_saved	%1$s đã lưu "%2$s" vào điện thoại
+notice_opened	%1$s đã mở "%2$s" trong một ứng dụng khác
+notice_viewed	%1$s đã xem "%2$s" (xem một lần)
+notice_you_forwarded	Bạn đã chuyển tiếp "%1$s"; người gửi được thông báo
+notice_you_shared	Bạn đã chia sẻ "%1$s"; người gửi được thông báo
+notice_you_saved	Bạn đã lưu "%1$s"; người gửi được thông báo
+notice_you_opened	Bạn đã mở "%1$s" ở nơi khác; người gửi được thông báo
+notice_you_viewed	Bạn đã xem "%1$s"; tệp đã bị xóa
+notice_preview	Thông báo về một tệp
+file_share	Chia sẻ
+file_open_with	Mở bằng…
+file_open_elsewhere_hint	Whospair không hiển thị được tệp này. «Mở bằng…» ở phía trên cho một ứng dụng khác mượn tệp trong chốc lát mà không sao chép; người gửi được thông báo.
+media_play	Phát
+media_pause	Tạm dừng
+share_forward	Gửi cho một liên hệ
+share_outside	Chia sẻ với ứng dụng khác
+share_save	Lưu vào điện thoại
+share_sender_told	Người gửi sẽ được thông báo, nhưng không biết bạn gửi cho ai.
+forward_title	Gửi cho…
+forward_none	Không có liên hệ đã xác nhận nào khác.
+selection_count	Đã chọn %1$d
+selection_cancel	Hủy chọn
+delete_selected_title	Xóa %1$d mục?
+delete_selected_body	Bị xóa ngay khỏi điện thoại này, không cần chờ hết thời hạn. Những gì chưa gửi sẽ không được gửi. Bản sao ở phía liên hệ biến mất khi hết thời hạn riêng của nó.
+delete_selected_action	Xóa
+file_cancel	Hủy gửi
+notice_cancelled	%1$s đã hủy gửi một tệp
+notice_you_cancelled	Bạn đã hủy gửi một tệp
+file_incoming	Đang có tệp gửi đến…
+settings_stay_reachable	Luôn có thể liên lạc
+settings_on	Bật
+settings_stay_reachable_body	Khi ứng dụng đóng, địa chỉ của bạn vẫn trực tuyến. Liên hệ có thể nhắn tin và gọi cho bạn.\n\nTin nhắn đến được lưu nguyên vẹn, vẫn được mã hóa, và được niêm phong thêm lần nữa: chỉ mở được bằng mã PIN của bạn. Người lạ có liên kết của bạn phải đợi đến khi ứng dụng được mở.\n\nThông báo chỉ ghi «Whospair đang gọi bạn»: không tên, không nội dung. Để nghe cuộc gọi, hãy mở Whospair, nhập mã PIN rồi trả lời — liên hệ sẽ tiếp tục gọi trong một phút.
+settings_stay_reachable_costs	Cái giá: khóa onion của bạn ở lại trong bộ nhớ khi ứng dụng đóng, Android hiển thị một thông báo thường trực, địa chỉ của bạn trực tuyến suốt ngày đêm và pin hao nhanh hơn. Sau khi khởi động lại điện thoại, không gì chạy cho đến khi bạn nhập mã PIN.
+settings_reach_enable	Bật
+settings_reach_disable	Tắt
+settings_reach_battery	Cho phép chạy nền
+settings_reach_battery_hint	Nếu không, Android có thể cho Whospair ngủ và bạn sẽ không còn liên lạc được.
+settings_reach_notifications_off	Thông báo của Whospair đang tắt: tin nhắn vẫn chờ mã PIN của bạn, nhưng sẽ không có gì báo cho bạn biết chúng đã đến.
+settings_reach_notifications_allow	Bật thông báo
+settings_reach_hide_hint	Android yêu cầu một thông báo «Có thể liên lạc» khi Whospair luôn sẵn sàng. Bạn có thể ẩn nó: dịch vụ vẫn chạy, và trạng thái hiển thị trong ứng dụng, cạnh Tor.
+settings_reach_hide	Ẩn thông báo
+reach_channel_service	Luôn có thể liên lạc
+reach_channel_alert	Có người đang tìm cách liên lạc với bạn
+reach_channel_call	Cuộc gọi đến
+reach_service_title	Whospair
+reach_service_text	Có thể liên lạc
+reach_alert_title	Whospair đang gọi bạn
+reach_call_title	Whospair đang gọi bạn
+reach_call_text	Mở Whospair và nhập mã PIN để trả lời.
+new_chat	Cuộc trò chuyện mới
+contacts_group_confirmed	Đã xác nhận
+contacts_group_unconfirmed	Chờ xác nhận
+contacts_group_blocked	Đã chặn
+contacts_scan	Quét mã QR
+contacts_show_qr	Hiện mã QR của tôi
+profile_title	Hồ sơ của tôi
+profile_photo_change	Đổi ảnh
+settings_appearance	Giao diện
+appearance_auto	Tự động
+appearance_auto_hint	Theo cài đặt hệ thống
+appearance_day	Sáng
+appearance_night	Tối
+settings_background	Hình nền trò chuyện
+settings_background_hint	Dùng chung cho mọi cuộc trò chuyện. Các màn hình chính lấy theo màu của nó.
+bg_ink	Mực
+bg_sage	Xô thơm
+bg_slate	Đá phiến
+bg_plum	Mận
+bg_sand	Cát
+bg_plain	Trơn
+settings_page_lock	Khóa
+settings_page_lock_sub	PIN, PIN khẩn cấp, khóa ngay
+settings_page_discretion	Kín đáo
+settings_page_discretion_sub	Thời hạn tin nhắn, ẩn màn hình, ảnh
+settings_page_network	Mạng
+settings_page_identity_sub	QR, danh tính mới
+settings_page_about_sub	Quyền riêng tư, phiên bản
+reach_short	liên lạc được khi đóng ứng dụng
+lock_title_setup	Chọn mã PIN
+lock_hint_setup	Ít nhất 6 chữ số. Không thể khôi phục — nếu quên, mọi thứ sẽ mất.
+lock_title_confirm	Nhập lại
+lock_mismatch	Hai lần nhập không khớp. Hãy bắt đầu lại.
+lock_title_unlock	Nhập mã PIN của bạn
+lock_wrong	Sai mã PIN
+lock_attempts_left	Còn %1$d lần thử trước khi mọi thứ bị xóa
+lock_busy	Đang kiểm tra…
+lock_error	Đã xảy ra lỗi khi mở. Hãy thử lại.
+settings_lock_now	Khóa ngay
+settings_duress_title	Mã PIN khẩn cấp
+settings_duress_body	Mã PIN thứ hai, dùng khi khẩn cấp. Nhập nó ở màn hình khóa sẽ xóa mọi thứ — khóa, danh bạ, tin nhắn — và ứng dụng bắt đầu lại như mới cài.
+settings_duress_current	Mã PIN hiện tại
+settings_duress_new	Mã PIN khẩn cấp
+settings_duress_saved	Đã đặt mã PIN khẩn cấp.
+settings_duress_failed	Chưa đặt được: mã PIN hiện tại sai, hoặc mã PIN khẩn cấp quá ngắn, trùng hoặc khác độ dài.
+read_lock_title	Đọc
+read_lock_off_hint	Tin nhắn vẫn đọc được khi bạn quay lại cuộc trò chuyện này.
+read_lock_on_hint	Tin nhắn đang bị ẩn. Nhập mã để đọc trong lần xem này.
+read_lock_open_hint	Đọc được cho đến khi bạn rời cuộc trò chuyện này.
+read_lock_enable	Ẩn tin nhắn bằng mã
+read_lock_unlock	Mở khóa đọc
+read_lock_disable	Thôi ẩn tin nhắn
+read_lock_banner	Tin nhắn đang bị ẩn. Hãy mở khóa đọc trong cài đặt.
+read_lock_masked	••••••
+message_unreadable	[Tin nhắn không đọc được]
+read_code_new	Chọn mã gồm 4 chữ số
+read_code_confirm	Nhập lại
+read_code_enter	Mã đọc
+read_code_mismatch	Hai mã không khớp. Hãy bắt đầu lại.
+read_code_wrong	Sai mã
+settings_section_security	Bảo mật
+settings_section_identity	Danh tính của tôi
+settings_section_network	Mạng
+settings_section_about	Giới thiệu
+settings_change_pin	Đổi mã PIN
+settings_new_pin	Mã PIN mới
+settings_pin_changed	Đã đổi mã PIN.
+settings_pin_changed_duress_removed	Đã đổi mã PIN. Độ dài đã thay đổi nên mã PIN khẩn cấp đã bị gỡ: hãy đặt lại với cùng độ dài.
+settings_pin_rejected	Chưa đổi: mã PIN này quá ngắn hoặc là mã PIN khẩn cấp của bạn.
+settings_duress_same_length	Cùng số chữ số với mã PIN của bạn.
+settings_default_ttl	Thời hạn tin nhắn mặc định
+settings_default_ttl_hint	Dùng cho mọi cuộc trò chuyện cho đến khi bạn chọn thời hạn khác trong từng cuộc.
+settings_mask_all	Ẩn nội dung ở mọi nơi
+settings_mask_all_hint	Một mã cho mọi cuộc trò chuyện chưa bị ẩn. Những cuộc đã có mã giữ nguyên mã của mình.
+settings_mask_all_done	Xong. Giờ mỗi cuộc trò chuyện đều yêu cầu mã.
+settings_wipe_now	Xóa mọi thứ ngay
+settings_wipe_confirm	Xóa khóa, danh bạ và tin nhắn ngay bây giờ? Không gì có thể khôi phục. Ứng dụng sẽ bắt đầu lại như mới cài.
+settings_wipe_action	Xóa mọi thứ
+settings_my_qr	Mã QR và liên kết của tôi
+settings_new_identity	Danh tính mới
+settings_new_identity_confirm	Khóa mới và địa chỉ mới: liên kết và mã QR hiện tại sẽ ngừng hoạt động. Mọi liên hệ và tin nhắn bị xóa — liên hệ của bạn sẽ phải thêm lại bạn. Ứng dụng khởi động lại.
+settings_new_identity_action	Tạo danh tính mới
+settings_tor_state	Tor
+tor_state_ready	Đã kết nối
+tor_state_starting	Đang khởi động… %1$d%%
+tor_state_failed	Thất bại — chạm để khởi động lại
+tor_state_off	Tắt
+tor_state_reconnecting	Mất mạng — đang kết nối lại…
+settings_restart_tor_confirm	Khởi động lại Tor sẽ khởi động lại ứng dụng. Bạn sẽ nhập lại mã PIN.
+settings_restart_tor_action	Khởi động lại
+about_title	Whospair là gì
+about_body	Một ứng dụng nhắn tin cho những người có điều nhạy cảm cần nói với nhau. Những gì được nói trong Whospair chỉ tồn tại trên hai điện thoại, trong thời gian đã chọn, và không ở đâu khác.\n\nKhông máy chủ. Không máy chủ nào chuyển tiếp, lưu trữ hay nhìn thấy các trao đổi của bạn. Mỗi điện thoại là điểm truy cập riêng trên mạng Tor; tin nhắn đi thẳng từ máy này sang máy kia.\n\nKhông tài khoản. Không số điện thoại, không email, không tên thật. Danh tính của bạn là một cặp khóa được tạo trên điện thoại này. Hai bên thêm nhau bằng cách quét mã QR, trực tiếp hoặc qua liên kết.\n\nMã hóa đầu cuối. Tin nhắn, ghi âm, tệp và cuộc gọi được mã hóa trước khi rời điện thoại, rồi đi qua Tor, vốn che giấu địa chỉ IP của bạn.\n\nPhù du. Mỗi tin nhắn có thời hạn đã chọn, sau đó biến mất ở cả hai phía. Không gì được sao lưu ở nơi khác.\n\nTrực tiếp. Bạn chỉ liên lạc được với người đang mở ứng dụng hoặc đã bật «Luôn có thể liên lạc».\n\nĐược bảo vệ trên điện thoại. Mọi thứ được mã hóa dưới mã PIN của bạn. Mười lần sai mã PIN, hoặc mã PIN khẩn cấp, sẽ xóa mọi thứ.\n\nTuyên bố miễn trừ. Whospair là một công cụ. Cách bạn sử dụng nó hoàn toàn thuộc trách nhiệm của bạn. Ứng dụng được cung cấp nguyên trạng, không bảo đảm, và tác giả không chịu trách nhiệm về việc sử dụng cũng như hậu quả của nó.
+privacy_title	Chính sách quyền riêng tư
+privacy_body	Whospair không thu thập gì. Không máy chủ nào nhận dữ liệu của bạn: vì vậy không có ai phân tích hay giao chúng cho bên thứ ba.\n\nNhững việc ứng dụng không bao giờ làm: lập hồ sơ người dùng, bán dữ liệu, quảng cáo, mã theo dõi, gửi báo cáo sự cố, đọc danh bạ, định vị. Không công ty bên thứ ba nào nhận được bất cứ thứ gì, kể cả dữ liệu hay tín hiệu sử dụng: ứng dụng chỉ giao tiếp với mạng Tor, với danh bạ liên lạc của bạn và với nơi phân phối bản cập nhật của nó.\n\nNhững gì ở lại trên điện thoại này, đã mã hóa: khóa, danh bạ, tin nhắn và tệp của bạn — cho đến khi hết hạn, khi bạn xóa, hoặc sau 10 lần sai mã PIN. Ảnh gửi đi được xóa siêu dữ liệu (vị trí, kiểu máy).\n\nNhững gì người khác vẫn thấy được: nhà mạng có thể thấy điện thoại này dùng Tor, nhưng không biết với ai hay nội dung gì. Liên hệ của bạn thấy những gì bạn gửi, và ảnh hồ sơ nếu bạn cho phép.\n\nCập nhật. Mỗi ngày một lần, ứng dụng lặng lẽ hỏi qua Tor xem có phiên bản mới hơn không. Yêu cầu này chỉ chứa số phiên bản: không danh tính, không danh bạ, không tin nhắn.\n\nVì sao mỗi ngày? Vì một phiên bản đã cập nhật sẽ từ chối giao tiếp với phiên bản quá cũ. Điều này là có chủ ý: phiên bản cũ có thể chứa lỗ hổng. Nếu không cập nhật, bạn sẽ không còn liên lạc được với người thân hay đồng nghiệp; chỉ bản cập nhật vẫn đến được với bạn.\n\nWhospair không ngừng phát triển, vì vậy cập nhật thường xuyên. Một lỗ hổng có thể bị phát hiện và khai thác trước khi bất kỳ ai nhận ra. Sửa nhanh giúp dữ liệu của bạn không rơi vào tay kẻ xấu.\n\nQuyền của bạn. Vì không thu thập gì, phía chúng tôi không có gì để xem, sửa hay xóa. Mọi thứ nằm trong tay bạn: gỡ ứng dụng sẽ xóa tất cả.\n\nTrách nhiệm. Chỉ mình bạn chịu trách nhiệm về những gì bạn gửi, gửi cho ai, và cách bạn xử lý những gì nhận được. Whospair được cung cấp nguyên trạng, không bảo đảm.
+version_title	Phiên bản
+version_fingerprint_hint	Dấu vân tay của chứng chỉ đã ký ứng dụng này. Hãy đối chiếu với dấu vân tay tác giả công bố: nếu khác, đây không phải ứng dụng chính gốc.
+update_title	Cập nhật
+update_state_current	Đã là bản mới nhất
+update_state_available	Đã có phiên bản %1$s
+update_state_downloading	Đang tải %1$d %%
+update_state_installing	Đang cài đặt…
+update_state_failed	Thất bại
+update_body	Bản cập nhật đến từ các liên hệ của bạn, qua Tor, không cần máy chủ. Mỗi phiên bản đều được nhà phát triển ký: Whospair kiểm tra chữ ký trước khi tải, sau đó đối chiếu tệp với chữ ký, và Android kiểm tra rằng nó được ký bằng cùng khóa với ứng dụng bạn đang dùng. Ứng dụng bị sửa đổi luôn bị từ chối.
+update_available_body	Một liên hệ của bạn đang cung cấp phiên bản %1$s (%2$s). Bản này được tải khi Whospair đang mở; nếu mất kết nối, việc tải sẽ tiếp tục từ chỗ đã dừng.
+update_download	Tải và cài đặt
+update_cancel	Hủy
+update_retry	Thử lại
+update_permission_hint	Android cần cho phép Whospair cài đặt bản cập nhật trước. Hãy cho phép, quay lại rồi chạm lần nữa.
+update_permission_allow	Cho phép
+update_relaying	Bạn đang chuyển phiên bản %1$s cho các liên hệ đã xác nhận.
+update_import	Nhập gói cập nhật (.wup)
+update_import_unreadable	Tệp không đọc được.
+update_import_invalid	Gói này không được nhà phát triển Whospair ký, hoặc đã bị hỏng. Không có gì được cài đặt.
+update_import_installing	Đã xác minh chữ ký. Android sẽ yêu cầu bạn xác nhận cài đặt.
+update_import_relaying	Đã xác minh chữ ký. Giờ điện thoại này sẽ chuyển phiên bản này cho các liên hệ đã xác nhận của bạn.
+update_import_mismatch	Đây là phiên bản của bạn, nhưng ứng dụng cài ở đây không phải cùng một tệp. Không có gì để chuyển.
+update_import_older	Gói này cũ hơn phiên bản của bạn. Không có gì được cài đặt.
+update_failed_memory	Không đủ bộ nhớ để tải xuống.
+update_failed_corrupt	Tệp nhận được không khớp với chữ ký. Đã bị loại bỏ.
+update_failed_install	Android đã từ chối cài đặt.
+update_failed_signature	Phiên bản này không được ký bằng cùng khóa với ứng dụng của bạn. Đã từ chối.
+update_banner	Có bản cập nhật
+settings_language	Ngôn ngữ
+language_auto	Ngôn ngữ của điện thoại
+tutorial_live_title	Chỉ liên lạc được khi trực tiếp
+tutorial_live_body	Whospair không để gì chờ trên máy chủ. Tin nhắn chỉ đi khi liên hệ của bạn đang mở ứng dụng, hoặc đã bật «Luôn có thể liên lạc».
+tutorial_live_f1	Chấm cạnh Tor: xanh lá là bạn đang trực tuyến; cam là đang kết nối
+tutorial_live_f2	Lần kết nối đầu có thể mất vài giây, đôi khi một phút
+tutorial_live_f3	«có thể liên lạc» dưới một cái tên: liên hệ đang ở đó, ngay lúc này
+tutorial_confirm_title	Xác nhận liên hệ
+tutorial_confirm_body	Chỉ cần quét một lần là trò chuyện được. Nhưng người chỉ có liên kết của bạn sẽ hiện là «Chờ xác nhận».
+tutorial_confirm_f1	Đối chiếu mã an toàn khi gặp trực tiếp hoặc qua cuộc gọi
+tutorial_confirm_f2	Cùng một mã trên hai điện thoại: không ai ở giữa
+tutorial_confirm_f3	Chỉ liên hệ đã xác nhận mới có thể gọi và ra hiệu cho bạn
+tutorial_discreet_title	Kín đáo
+tutorial_discreet_body	Bảo vệ cho những lúc có người ở bên cạnh bạn.
+tutorial_discreet_f1	Úp điện thoại xuống bàn: màn hình tối đen
+tutorial_discreet_f2	Mã đọc: cuộc trò chuyện được ẩn cho đến khi nhập mã
+tutorial_discreet_f3	Chế độ riêng tư: liên hệ này chỉ liên lạc được với bạn khi bạn nhắn cho họ
+update_check	Kiểm tra cập nhật
+update_checking	Đang kiểm tra…
+chat_peer_outdated	Liên hệ này dùng phiên bản Whospair quá cũ. Không gì được truyền đi cho đến khi họ cập nhật — riêng bản cập nhật vẫn đến được với họ.
+ttl_never	Không bao giờ
+reply_cancel	Hủy trả lời
+input_emoji	Biểu tượng cảm xúc
+reply_you	Bạn
+share_app	Chia sẻ Whospair
+share_app_sub	Gửi chính ứng dụng, không cần cửa hàng ứng dụng
+copy_action	Sao chép
+copy_title	Chọn phần cần sao chép
+copy_all	Sao chép tất cả
+copy_done	Đã sao chép
+delete_everyone_body	“Cho mọi người” cũng xóa bản sao của liên hệ, không có thông báo nào. Nếu không liên lạc được, lệnh xóa sẽ gửi ngay khi có thể, miễn là Whospair vẫn mở.
+select_more	Chọn nhiều
+delete_everyone_action	Xóa cho mọi người
+licenses_title	Giấy phép
+update_notes_title	Có gì mới
+tut_welcome_title	Chào mừng đến với Whospair
+tut_welcome_body	Tin nhắn và cuộc gọi không để lại dấu vết trên máy chủ, vì không có máy chủ.
+tut_welcome_f1	Mã hóa đầu cuối, không cần tài khoản: khóa thuộc về bạn
+tut_welcome_f2	Tin nhắn được gửi khi người liên hệ đang mở ứng dụng, hoặc đã bật «Luôn có thể liên lạc»
+tut_welcome_f3	Chấm cạnh Tor: xanh lá, trực tuyến; cam, đang kết nối (đôi khi một phút)
+tut_add_title	Thêm và tin tưởng
+tut_add_body	Không tên người dùng, không số điện thoại: hai bên trao đổi khóa. Quét mã của họ, hoặc để họ quét mã của bạn.
+tut_add_f1	Chờ xác nhận: chỉ đến qua liên kết của bạn. Tin nhắn vẫn đến, nhưng không thể gọi hay ra hiệu
+tut_add_f2	Đã xác nhận: bạn đã thêm hoặc chấp nhận họ
+tut_add_f3	Đã xác minh: gặp trực tiếp, hai bên đã quét mã bảo mật của nhau. Không ai chen vào giữa
+tut_write_title	Viết, rồi xóa
+tut_write_body	Mỗi tin nhắn có thời gian tồn tại chọn khi gửi; hết hạn, nó biến mất ở cả hai phía.
+tut_write_f1	Ngắn hơn, an toàn hơn: những gì trên màn hình vẫn còn trong bộ nhớ
+tut_write_f2	Xóa cho mọi người: gỡ tin nhắn của bạn khỏi máy người liên hệ
+tut_write_f3	Xóa cả hai phía: nếu cả hai đồng ý, bất kỳ ai cũng có thể xóa toàn bộ, cho cả hai, bất cứ lúc nào
+tutorial_discreet_f5	Ô «Khóa Whospair» trong cài đặt nhanh: đóng ứng dụng chỉ với một chạm
+tile_lock	Khóa Whospair
+contact_verified	Đã xác minh
+verify_title	Xác minh trực tiếp
+verify_hint	Gặp trực tiếp, quét mã của nhau
+verify_done	Đã xác minh trực tiếp
+verify_body	Cho người liên hệ xem mã này và quét mã của họ. Nếu trùng khớp, không ai chen vào giữa hai bạn.
+verify_scan	Quét mã của họ
+verify_ok	Mã trùng khớp: đã xác minh người liên hệ.
+verify_fail	Mã này không khớp. Đừng tin người liên hệ này cho đến khi làm rõ.
+wipe_title	Xóa cả hai phía
+wipe_off	Đang tắt. Nếu bạn đề xuất, người liên hệ phải chấp nhận.
+wipe_asked	Đang chờ người liên hệ đồng ý.
+wipe_to_answer	Người liên hệ đề xuất để bất kỳ ai cũng có thể xóa toàn bộ, cho cả hai, bất cứ lúc nào.
+wipe_on	Đang bật: bất kỳ ai cũng có thể xóa toàn bộ, cho cả hai, bất cứ lúc nào.
+wipe_propose	Đề xuất
+wipe_accept	Chấp nhận
+wipe_refuse	Từ chối
+wipe_cancel	Hủy yêu cầu
+wipe_disable	Tắt
+wipe_now	Xóa cuộc trò chuyện cho cả hai
+wipe_confirm	Toàn bộ cuộc trò chuyện sẽ bị xóa trên cả hai điện thoại. Không thể hoàn tác.
+wipe_action	Xóa tất cả
+wipe_banner	%1$s đề xuất xóa cả hai phía
+settings_gaze_owner	Chỉ khuôn mặt tôi
+settings_gaze_owner_hint	Màn hình chỉ mở cho bạn
+face_intro_title	Chỉ khuôn mặt tôi
+face_intro_body	Màn hình chỉ mở khi chính bạn đang nhìn. Với bất kỳ ai khác, hoặc khi không ai nhìn, màn hình vẫn đen.\n\nNếu khuôn mặt bạn thay đổi (vết thương, sưng, râu, kính), nó có thể không còn được nhận ra và màn hình sẽ vẫn đen. Ở cuối màn hình, «Tắt che màn hình bằng mã PIN» luôn hoạt động với mã mở khóa của bạn. Sau đó bạn có thể ghi lại khuôn mặt.\n\nNút này tuân theo cùng quy tắc với màn hình khóa: mã PIN cưỡng ép nhập tại đây sẽ xóa tất cả, 10 lần nhập sai cũng vậy.\n\nĐây là lớp bảo vệ trước ánh nhìn tò mò, không phải ổ khóa: mã PIN vẫn là bảo vệ thực sự. Mọi thứ diễn ra trên điện thoại: khuôn mặt được lưu dưới dạng các con số đã mã hóa, không bao giờ là ảnh.
+face_intro_ok	Tôi đã hiểu
+face_enroll_title	Ghi lại khuôn mặt tôi
+face_enroll_body	Nhìn vào màn hình vài giây, khuôn mặt được chiếu sáng tốt.
+face_enroll_ok	Đã ghi lại khuôn mặt của bạn.
+face_enroll_fail	Không nhận ra khuôn mặt. Hãy ra chỗ sáng, nhìn thẳng vào màn hình rồi thử lại.
+face_reenroll	Ghi lại khuôn mặt lần nữa
+face_disable_pin	Tắt che màn hình bằng mã PIN
+tutorial_discreet_f4	Camera (tùy chọn): màn hình được che khi bạn nhìn đi chỗ khác, khi người khác nhìn vào, hoặc khi đó không phải khuôn mặt bạn. Mọi thứ diễn ra trên điện thoại, không ghi lại gì
+conv_pin	Ghim
+conv_unpin	Bỏ ghim
+conv_pinned	Đã ghim
+update_diffuser_retry	Không kết nối được nguồn, thử lại sau 10 giây
+update_mandatory_title	Cần cập nhật
+update_mandatory_body	Phiên bản mới hơn của Whospair đã có hơn 5 ngày. Hãy cài đặt để tiếp tục dùng ứng dụng: các liên hệ đã cập nhật không còn chấp nhận phiên bản cũ.
+gaze_manual	Thủ công
+gaze_manual_hint	Mã PIN tắt nó, ví dụ ở nơi tối.
+gaze_auto	Tự động
+gaze_auto_hint	Tắt từ 20 giờ đến 6 giờ, khi thiếu ánh sáng.
+shield_choice_title	Tắt che màn hình
+shield_pause_10	Trong 10 phút
+shield_disable_all	Tắt hoàn toàn
+shield_pause_over_title	Hết tạm dừng
+shield_pause_over_body	Che màn hình đã bật lại.
+shield_keep_paused	Tạm thời giữ tắt
+update_interrupted	Cập nhật bị gián đoạn, thử lại sau 30 phút

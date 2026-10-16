@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">Оставаться на связи</string>
+    <string name="settings_on">Включено</string>
+    <string name="settings_stay_reachable_body">Когда приложение закрыто, ваш адрес остаётся в сети. Контакты могут писать вам и звонить.\n\nПришедшие сообщения хранятся как есть, всё ещё зашифрованными, и запечатываются второй раз: открыть их можно только вашим PIN-кодом. Незнакомцы, у которых есть ваша ссылка, должны ждать, пока приложение будет открыто.\n\nУведомление говорит только «Whospair зовёт вас»: без имени и содержания. Чтобы ответить на звонок, откройте Whospair, введите PIN и ответьте — собеседник продолжает звонить в течение минуты.</string>
+    <string name="settings_stay_reachable_costs">Цена: ваш onion-ключ остаётся в памяти при закрытом приложении, Android показывает постоянное уведомление, ваш адрес в сети круглосуточно, и батарея садится быстрее. После перезагрузки телефона ничего не работает, пока вы не введёте PIN.</string>
+    <string name="settings_reach_enable">Включить</string>
+    <string name="settings_reach_disable">Выключить</string>
+    <string name="settings_reach_battery">Разрешить работу в фоне</string>
+    <string name="settings_reach_battery_hint">Без этого Android может усыпить Whospair, и вы перестанете быть на связи.</string>
+    <string name="settings_reach_notifications_off">Уведомления для Whospair выключены: сообщения по-прежнему будут ждать ваш PIN, но ничто не сообщит об их приходе.</string>
+    <string name="settings_reach_notifications_allow">Включить уведомления</string>
+    <string name="settings_reach_hide_hint">Android требует уведомление «На связи», пока Whospair остаётся доступным. Его можно скрыть: служба продолжит работать, а состояние видно в приложении, рядом с Tor.</string>
+    <string name="settings_reach_hide">Скрыть уведомление</string>
+    <string name="reach_channel_service">На связи</string>
+    <string name="reach_channel_alert">Кто-то пытается связаться с вами</string>
+    <string name="reach_channel_call">Входящие звонки</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">На связи</string>
+    <string name="reach_alert_title">Whospair зовёт вас</string>
+    <string name="reach_call_title">Whospair зовёт вас</string>
+    <string name="reach_call_text">Откройте Whospair и введите PIN, чтобы ответить.</string>
+</resources>

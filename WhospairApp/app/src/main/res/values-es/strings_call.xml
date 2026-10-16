@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_action">Llamar</string>
+    <string name="call_connecting">Conectando a través de Tor…</string>
+    <string name="call_ringing">Llamando…</string>
+    <string name="call_incoming">Llamada entrante</string>
+    <string name="call_answer">Responder</string>
+    <string name="call_decline">Rechazar</string>
+    <string name="call_cancel">Cancelar</string>
+    <string name="call_hang_up">Colgar</string>
+    <string name="call_mute">Silenciar</string>
+    <string name="call_unmute">Activar micrófono</string>
+    <string name="call_speaker">Altavoz</string>
+    <string name="call_earpiece">Auricular</string>
+    <string name="call_delay_hint">A través de Tor, su voz llega con un segundo de retraso. Deje una breve pausa antes de responder.</string>
+    <string name="call_ended">Llamada finalizada</string>
+    <string name="call_declined">Rechazada</string>
+    <string name="call_busy">Ya está en una llamada</string>
+    <string name="call_no_answer">Sin respuesta</string>
+    <string name="call_unreachable">No se puede contactar ahora. Vuelva a intentarlo en un momento.</string>
+    <string name="call_lost">Conexión perdida</string>
+    <string name="call_mic_denied">El micrófono está desactivado para Whospair. Permítalo en los ajustes de Android para llamar.</string>
+    <string name="call_not_confirmed">Primero confirme este contacto. Solo los contactos confirmados pueden llamarse.</string>
+    <string name="call_log_outgoing">Llamada saliente · %1$s</string>
+    <string name="call_log_incoming">Llamada entrante · %1$s</string>
+    <string name="call_log_missed">Llamada perdida</string>
+    <string name="call_log_refused">Llamada rechazada</string>
+    <string name="call_log_no_answer">Llamada sin respuesta</string>
+    <string name="call_log_busy">Llamada: ya estaba en otra llamada</string>
+    <string name="call_log_unreachable">La llamada no se pudo establecer</string>
+    <string name="call_log_cancelled">Llamada cancelada</string>
+</resources>

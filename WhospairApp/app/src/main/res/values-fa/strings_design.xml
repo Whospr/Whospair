@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages_title">پیام‌ها</string>
+    <string name="search_contact">جست‌وجوی مخاطب</string>
+    <string name="conversations_empty_title">هنوز گفت‌وگویی نیست</string>
+    <string name="conversations_empty_body">کسی را با اسکن کدش، رو در رو، اضافه کنید. وقتی برنامه نزد هر دو باز باشد می‌توانید برایش بنویسید.</string>
+    <string name="search_no_result">مخاطبی با این نام نیست.</string>
+    <string name="add_contact">افزودن مخاطب</string>
+    <string name="scan_code">اسکن کد</string>
+    <string name="message_retry">تلاش دوباره</string>
+    <string name="message_sent">ارسال شد</string>
+    <string name="message_delivered">تحویل شد</string>
+    <string name="read_lock_preview">خواندن پنهان است</string>
+    <string name="message_expires_in">پس از %1$s محو می‌شود</string>
+    <string name="ttl_button">مدت پیام: %1$s</string>
+    <string name="send">ارسال</string>
+    <string name="back">بازگشت</string>
+    <string name="close">بستن</string>
+    <string name="confirm_identity">تأیید هویت</string>
+    <string name="delete_contact_and_chat">حذف مخاطب و گفت‌وگو</string>
+    <string name="preview_none">پیامی نیست</string>
+    <string name="preview_encrypted">پیام رمزشده</string>
+    <string name="duration_days">%1$d روز</string>
+    <string name="message_placeholder">پیامی بنویسید</string>
+    <string name="discover_code_caption">این کد کلیدهای عمومی و نشانی Tor شما را دارد. چیز دیگری نه.</string>
+    <string name="share_link">هم‌رسانی پیوند من</string>
+    <string name="copy_link">رونوشت پیوند</string>
+    <string name="link_copied">پیوند رونوشت شد</string>
+    <string name="memory_advice_title">حافظهٔ گوشی</string>
+    <string name="memory_advice_body">Whospair کلیدهایش را فقط تا وقتی برنامه باز است در حافظه نگه می‌دارد. اما برخی گوشی‌ها بخشی از حافظه را برای بزرگ‌تر نشان دادن آن روی فضای ذخیره‌سازی رونوشت می‌کنند («حافظهٔ مجازی»، «گسترش حافظه»). کلیدی که این‌گونه رونوشت شود ممکن است پس از بسته شدن Whospair روی گوشی بماند.</string>
+    <string name="memory_advice_how">برای خاموش کردن: «حافظهٔ مجازی» یا «گسترش حافظه» را در تنظیمات گوشی پیدا کنید، خاموشش کنید و گوشی را دوباره راه‌اندازی کنید.</string>
+    <string name="voice_record">ضبط پیام صوتی</string>
+    <string name="voice_cancel">دور انداختن ضبط</string>
+    <string name="voice_recording">تا %1$s</string>
+    <string name="voice_send">ارسال پیام صوتی</string>
+    <string name="voice_play">پخش</string>
+    <string name="voice_pause">مکث</string>
+    <string name="voice_receiving">در حال دریافت…</string>
+    <string name="voice_preview">پیام صوتی %1$s</string>
+    <string name="mic_denied">میکروفون برای Whospair خاموش است. برای ارسال پیام صوتی، آن را در تنظیمات Android مجاز کنید.</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tor_state_live">Тор укључен</string>
+    <string name="tor_state_connecting">Повезивање са Тором</string>
+    <string name="tor_state_offline">Тор искључен</string>
+    <string name="presence_reachable">доступан/а</string>
+    <string name="ring_action">Позвони</string>
+    <string name="ring_calling">Звоним особи %1$s…</string>
+    <string name="ring_incoming">%1$s Вам звони</string>
+    <string name="ring_accept">Јави се</string>
+    <string name="ring_decline">Занемари</string>
+    <string name="ring_cancel">Заустави</string>
+    <string name="ring_declined">%1$s је занемарио/ла звоно</string>
+    <string name="ring_timeout">Нема одговора</string>
+    <string name="ring_peer_offline">%1$s тренутно није у апликацији</string>
+    <string name="ring_busy">Сесија је већ отворена</string>
+    <string name="indicator_title">Шта ово приказује</string>
+    <string name="indicator_channel_live">Тор ради и Ваша адреса је објављена. Контакти који такође имају отворену апликацију могу да Вас добију, а и Ви њих.</string>
+    <string name="indicator_channel_none">Тор није спреман. Ништа се не може послати ни примити, и ништа се нигде не чува за касније.</string>
+    <string name="indicator_tunnel_on">Ваш саобраћај излази кроз VPN интерфејс. Whospair види само толико: не зна који је то провајдер нити да ли тунел цури.</string>
+    <string name="indicator_tunnel_off">Ваш саобраћај излази директно. Ваш мрежни провајдер може да види да овај уређај користи Тор, и када — не и са ким разговарате нити шта се говори.</string>
+    <string name="indicator_dismiss">Затвори</string>
+    <string name="vpn_advice_title">О Вашој мрежи</string>
+    <string name="vpn_advice_body">Whospair шифрује оно што говорите, а Тор скрива коме то говорите. Ниједно не скрива да користите Тор: онај ко преноси Ваш саобраћај то види, у које време и колико често. VPN тај поглед премешта на оператера тунела. То је стварна промена када посматра управо онај кога се плашите.</string>
+    <string name="vpn_advice_caveat">VPN није гаранција. Бирате ко посматра, а не уклањате посматрача. Изаберите онога коме имате разлога да верујете и радије платите него да користите бесплатан који се финансира Вашим саобраћајем.</string>
+    <string name="contacts_title">Контакти</string>
+    <string name="contacts_empty">Ваша листа контаката је празна.</string>
+    <string name="contact_unconfirmed">Непотврђен</string>
+    <string name="contact_blocked">Блокиран</string>
+    <string name="chat_settings">Подешавања разговора</string>
+    <string name="chat_unconfirmed_banner">Ова особа Вас је додала преко Вашег линка. Још нисте потврдили ко је.</string>
+    <string name="chat_confirm">Потврди</string>
+    <string name="chat_block">Блокирај</string>
+    <string name="chat_unblock">Одблокирај</string>
+    <string name="chat_blocked_banner">Блокирано. Више не може да Вас добије.</string>
+    <string name="settings_rename">Име</string>
+    <string name="settings_rename_hint">Само Ви видите ово име.</string>
+    <string name="settings_save">Сачувај</string>
+    <string name="settings_safety_number">Безбедносни број</string>
+    <string name="settings_safety_hint">Упоредите га са контактом уживо или позивом. Исти број на оба телефона = нико у средини.</string>
+    <string name="settings_confirm_trust">Проверио/ла сам — потврди овај контакт</string>
+    <string name="settings_trusted">Потврђен контакт</string>
+    <string name="settings_block_hint">Блокирани контакт више не може да се повеже нити да Вам шаље поруке.</string>
+    <string name="settings_delete">Избриши контакт</string>
+    <string name="settings_delete_confirm">Избрисати овај контакт и све поруке? Ако још има Ваш линк, може се вратити као непотврђен — блокирајте га да то спречите.</string>
+    <string name="settings_delete_action">Избриши</string>
+</resources>

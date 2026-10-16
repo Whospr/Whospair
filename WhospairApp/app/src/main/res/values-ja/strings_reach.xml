@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_stay_reachable">連絡可能な状態を保つ</string>
+    <string name="settings_on">オン</string>
+    <string name="settings_stay_reachable_body">アプリを閉じても、あなたのアドレスはオンラインのままです。連絡先はメッセージを送ったり電話をかけたりできます。\n\n届いたメッセージは暗号化されたまま保存され、さらにもう一度封印されます。開けるのはあなたの PIN だけです。あなたのリンクを持つ見知らぬ人は、アプリが開くまで待つ必要があります。\n\n通知には「Whospair があなたを呼んでいます」とだけ表示され、名前も内容も出ません。通話の場合は Whospair を開き、PIN を入力して応答してください。相手は 1 分間呼び出し続けます。</string>
+    <string name="settings_stay_reachable_costs">代償：アプリを閉じている間も onion 鍵がメモリに残り、Android が常時通知を表示し、アドレスは 24 時間オンラインになり、電池の消耗も早くなります。端末を再起動した後は、PIN を入力するまで何も動きません。</string>
+    <string name="settings_reach_enable">オンにする</string>
+    <string name="settings_reach_disable">オフにする</string>
+    <string name="settings_reach_battery">バックグラウンドでの動作を許可</string>
+    <string name="settings_reach_battery_hint">許可しないと、Android が Whospair をスリープさせ、連絡できない状態になることがあります。</string>
+    <string name="settings_reach_notifications_off">Whospair の通知がオフです。メッセージは PIN を待ち続けますが、届いたことは知らされません。</string>
+    <string name="settings_reach_notifications_allow">通知をオンにする</string>
+    <string name="settings_reach_hide_hint">Whospair が連絡可能な状態の間、Android は「連絡可能」の通知を求めます。通知は非表示にできます。サービスは動き続け、状態はアプリ内の Tor の横に表示されます。</string>
+    <string name="settings_reach_hide">通知を非表示にする</string>
+    <string name="reach_channel_service">連絡可能な状態の維持</string>
+    <string name="reach_channel_alert">誰かがあなたに連絡しようとしています</string>
+    <string name="reach_channel_call">着信</string>
+    <string name="reach_service_title">Whospair</string>
+    <string name="reach_service_text">連絡可能</string>
+    <string name="reach_alert_title">Whospair があなたを呼んでいます</string>
+    <string name="reach_call_title">Whospair があなたを呼んでいます</string>
+    <string name="reach_call_text">応答するには Whospair を開き、PIN を入力してください。</string>
+</resources>

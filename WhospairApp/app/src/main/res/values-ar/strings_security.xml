@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_title_setup">اختر رمز PIN</string>
+    <string name="lock_hint_setup">6 أرقام على الأقل. لا يمكن استعادته — إن نسيته، يضيع كل شيء.</string>
+    <string name="lock_title_confirm">أدخله مرة أخرى</string>
+    <string name="lock_mismatch">الإدخالان غير متطابقين. ابدأ من جديد.</string>
+    <string name="lock_title_unlock">أدخل رمز PIN</string>
+    <string name="lock_wrong">رمز PIN خاطئ</string>
+    <string name="lock_attempts_left">المحاولات المتبقية قبل محو كل شيء: %1$d</string>
+    <string name="lock_busy">جارٍ التحقق…</string>
+    <string name="lock_error">حدث خطأ أثناء الفتح. حاول مرة أخرى.</string>
+    <string name="settings_lock_now">القفل الآن</string>
+    <string name="settings_duress_title">رمز PIN للطوارئ</string>
+    <string name="settings_duress_body">رمز PIN ثانٍ لحالات الطوارئ. إدخاله على شاشة القفل يمحو كل شيء — المفاتيح وجهات الاتصال والرسائل — ويبدأ التطبيق من جديد كأنه مثبّت للتو.</string>
+    <string name="settings_duress_current">رمز PIN الحالي</string>
+    <string name="settings_duress_new">رمز PIN للطوارئ</string>
+    <string name="settings_duress_saved">ضُبط رمز PIN للطوارئ.</string>
+    <string name="settings_duress_failed">لم يُضبط: رمز PIN الحالي خاطئ، أو رمز الطوارئ قصير جدًا أو مطابق أو بطول مختلف.</string>
+</resources>
