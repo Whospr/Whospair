@@ -32,8 +32,8 @@ android {
         targetSdk = 34
         // Phase 14 : chaque sortie monte versionCode — les mises à jour
         // refusent toute version égale ou plus ancienne.
-        versionCode = 15
-        versionName = "1.3.8"
+        versionCode = 16
+        versionName = "1.3.9"
         // Version minimale d'un contact (versionCode) : en dessous, plus aucun
         // message, appel ni signe dans un sens ou dans l'autre — seules les
         // mises à jour passent. À relever pour une sortie qui corrige une faille ;

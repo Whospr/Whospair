@@ -42,9 +42,10 @@ import javax.inject.Singleton
  *
  * ### Ce qui tourne
  *
- * Le démon Tor du Guardian Project (tor-android), DANS notre processus : il
- * démarre au déverrouillage et meurt avec l'app en arrière-plan. Pas de
- * service de premier plan, pas de notification — il n'y a rien à maintenir.
+ * Le démon Tor du Guardian Project (tor-android). Par défaut, DANS notre
+ * processus : il démarre au déverrouillage et meurt avec l'app. Avec
+ * « Rester joignable », il vit dans `:reach`, service de premier plan avec
+ * notification (voir plus bas).
  *
  * ### Aucun port réseau ouvert sur le téléphone
  *

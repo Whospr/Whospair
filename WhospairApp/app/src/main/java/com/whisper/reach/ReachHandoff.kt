@@ -5,8 +5,9 @@ import android.os.ParcelFileDescriptor
 
 /**
  * Ce que l'app ouverte confie au processus d'arrière-plan, au moment de
- * se tuer. Le strict nécessaire pour ACCEPTER des connexions et ranger ce
- * qui arrive — rien pour en ouvrir, rien pour lire :
+ * se tuer. Le strict nécessaire pour accepter des connexions, ranger ce
+ * qui arrive et finir une mise à jour — aucun moyen de joindre un contact,
+ * rien pour lire un message :
  *
  *   - la graine de l'adresse onion (Tor la publie, puis elle est effacée) ;
  *   - notre clé publique X25519 (la poignée de main la signe côté appelant) ;
@@ -22,7 +23,8 @@ import android.os.ParcelFileDescriptor
  *     chiffrement ne sert qu'à ne rien laisser en clair) et le flux ouvert
  *     vers sa source, pour qu'elle continue app fermée.
  *
- * Aucune clé privée d'identité, aucune clé de base, aucun message.
+ * Aucune clé privée X25519/Ed25519, aucune clé de base, aucun message —
+ * seule la graine onion, effacée une fois l'adresse publiée.
  *
  * Transmis par un appel Binder direct entre nos deux processus : rien ne
  * passe par un Intent, que le système garderait.

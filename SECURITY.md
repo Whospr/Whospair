@@ -14,7 +14,7 @@ version becomes mandatory 5 days after it arrives.
 
 ## Supported versions
 Only the latest version is supported. Older versions stop being able to
-talk to up-to-date ones 5 days after a new version arrives.
+talk to up-to-date ones 5 days after those installed the new version.
 
 ## Verifying the app
 Official APKs are signed with this certificate (SHA-256):

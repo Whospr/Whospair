@@ -4,7 +4,7 @@
 
 > What is said in Whospair exists only on the two phones, for the time you chose, and nowhere else.
 
-## [Download Whospair 1.3.8 (APK, 39 MB)](https://github.com/Whospr/Whospair/releases/latest/download/whospair-1.3.8.apk)
+## [Download Whospair 1.3.9 (APK, 39 MB)](https://github.com/Whospr/Whospair/releases/latest/download/whospair-1.3.9.apk)
 
 Android 10 or later (arm64) · Not on the Play Store · [All releases](https://github.com/Whospr/Whospair/releases) · [Check the app before installing](#install) · [Donate](https://liberapay.com/Whospair/donate)
 
@@ -26,8 +26,8 @@ Most messengers encrypt your messages but still route them through a company's s
 - Signed handshake on every connection: you know you reached the right contact.
 - Voice calls encrypted with a key that changes about every ten seconds.
 - Local storage encrypted with SQLCipher, its key wrapped under your PIN (Argon2id).
-- Private keys sealed on disk, in clear only in memory while the app is unlocked. The Tor key is never written to disk.
-- Received files are opened in memory only, never written in clear.
+- Private keys sealed on disk, in clear only in memory while the app is unlocked. The Tor key is derived from a seed sealed with them; Tor itself never writes it to disk.
+- Received files are opened in memory only; they are written in clear only if you save them (when the sender allows it).
 
 ### Lock and coercion
 - Mandatory PIN with the app's own keypad. No fingerprint or face unlock: you can be forced to touch a sensor, not to reveal a code.
@@ -61,14 +61,14 @@ Most messengers encrypt your messages but still route them through a company's s
 
 ### Privacy on screen
 - Phone face down on the table: the screen goes black.
-- Optional front-camera shield, processed entirely on the phone: hides the screen when you look away, when someone else looks, or when it is not your face. A PIN always turns it off, and the look-away mode can switch itself off at night.
+- Optional front-camera shield, processed entirely on the phone: hides the screen when you look away, when someone else looks, or when it is not your face. A PIN always gets you out of it (pause, until morning, or off), and the look-away mode can switch itself off at night.
 - Per-conversation reading code: messages stay hidden until the code is entered.
 
 ### Updates without a store
 - Updates travel from contact to contact, or from the update distributor, over Tor. No Play Store.
 - Each version is signed by the developer. Whospair checks the signature before downloading, then the file, and Android checks the APK signature at install.
 - Downloads resume where they stopped, and continue with the app closed when *Stay reachable* is on.
-- Every new version becomes mandatory 5 days after it arrives: an up-to-date app stops talking to older versions, which may contain a flaw.
+- Every new version becomes mandatory 5 days after your phone learns of it, and an up-to-date app stops talking to older versions 5 days after its own install: an older version may contain a flaw.
 
 ### Interface
 - Sober design, day and night modes, 6 conversation backgrounds.
@@ -90,7 +90,7 @@ The same fingerprint is shown in the app, under *Settings › About › Version*
 You can check a downloaded APK with:
 
 ```
-apksigner verify --print-certs whospair-1.3.8.apk
+apksigner verify --print-certs whospair-1.3.9.apk
 ```
 
 Once installed, later updates arrive by themselves over Tor.
@@ -106,6 +106,8 @@ python3 tools/face-models.py   # fetches the face models (pinned SHA-256)
 gradle :app:testPublicDebugUnitTest
 gradle :app:assemblePublicDebug
 ```
+
+The native face module (`native/face`) is not built by Gradle: a source build has no "Only my face" mode.
 
 Official release APKs (R8, arm64) are built and signed by the developer. The signing key is not part of this repository.
 

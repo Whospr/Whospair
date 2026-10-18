@@ -20,8 +20,9 @@ import java.util.concurrent.ConcurrentHashMap
  * Les octets restent en mémoire ; l'autre app reçoit un descripteur en
  * mémoire vive (MemFd), jamais un chemin sur le disque. Adresse au jeton
  * aléatoire, non exportée : seule l'app à qui Android a accordé la lecture
- * peut l'ouvrir. Au retour dans Whisper, tout est effacé et les accès
- * retirés (voir [revokeAll]).
+ * peut l'ouvrir. Au retour dans Whisper, nos copies sont effacées et les
+ * adresses retirées (voir [revokeAll]) ; une app qui a déjà ouvert le
+ * fichier garde son descripteur (MemFd).
  */
 class TempFileProvider : ContentProvider() {
 

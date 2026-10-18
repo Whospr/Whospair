@@ -98,9 +98,10 @@ class SignatureVerificationException(message: String) : SecurityException(messag
  * - AES-256-GCM avec données authentifiées pour le chiffrement
  *
  * Note sur le stockage : Android Keystore ne gère ni X25519 ni Ed25519 avant
- * l'API 33. Les deux clés privées sont donc persistées par StorageService
- * (EncryptedSharedPreferences, adossé à une clé AES du Keystore). Compromis
- * assumé sur minSdk 29, documenté plutôt que masqué.
+ * l'API 33. Les clés privées sont donc scellées sous le PIN (IdentityService,
+ * sous-clé HKDF de la clé de base), puis rangées dans
+ * EncryptedSharedPreferences. Compromis assumé sur minSdk 29, documenté
+ * plutôt que masqué.
  */
 class CryptoManager {
 
@@ -174,9 +175,12 @@ class CryptoManager {
      * du chiffrement GCM. Chaque champ ferme une attaque précise —
      *  - expéditeur et destinataire : un message ne peut pas être rejoué vers
      *    un autre destinataire, ni réfléchi vers son auteur,
-     *  - clé éphémère : elle ne peut pas être substituée par un relais,
+     *  - clé éphémère : elle ne peut pas être substituée en route,
      *  - compteur : le même message ne passe pas deux fois,
-     *  - horodatage : borne la fenêtre d'acceptation.
+     *  - horodatage : signé, donc infalsifiable, mais jamais comparé à une
+     *    fenêtre de temps. La fraîcheur vient du compteur, et la durée de
+     *    vie annoncée est recomptée sur l'horloge du destinataire
+     *    (MessageTransport).
      *
      * Le format suit la discipline du prototype : une chaîne, des champs
      * séparés par « | », un préfixe de version en tête.

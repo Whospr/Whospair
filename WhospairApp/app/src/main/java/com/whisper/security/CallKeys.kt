@@ -9,7 +9,7 @@ import org.bouncycastle.crypto.params.X25519PublicKeyParameters
 import java.security.SecureRandom
 
 /**
- * Clés de média d'un appel. En attente : la voix sur Tor (phase 11d).
+ * Clés de média d'un appel vocal sur Tor (phase 11d, call/).
  *
  * Chaque côté tire une clé X25519 éphémère par appel et l'envoie, signée par
  * son identité, dans la poignée de main de l'appel. L'accord des deux

@@ -8,9 +8,9 @@ import androidx.security.crypto.MasterKeys
  * Persistance chiffrée : EncryptedSharedPreferences, clé maîtresse dans le Keystore.
  *
  * Toutes les écritures passent par `commit()`, pas `apply()`. `apply()` écrit
- * en différé : un processus tué dans la foulée perd l'écriture. Pour la
- * passphrase de base, ça veut dire une base créée avec une clé jamais
- * sauvegardée — irrécupérable. Pour l'effacement d'urgence, une passphrase
+ * en différé : un processus tué dans la foulée perd l'écriture. Pour la clé
+ * de base emballée, ça veut dire une base créée avec une clé jamais
+ * sauvegardée — irrécupérable. Pour l'effacement d'urgence, une clé
  * « supprimée » qui survit sur le disque. Ces écritures sont rares et
  * minuscules : le coût du synchrone est nul.
  */
@@ -47,7 +47,7 @@ class StorageService(private val context: Context) {
     /**
      * Effacement total, au-delà du contenu : le fichier (qui garde aussi les
      * jeux de clés internes d'EncryptedSharedPreferences) et la clé maîtresse
-     * du Keystore. Plus rien ne subsiste, ni sur le disque ni dans la puce.
+     * du Keystore. Plus rien ne subsiste, ni dans le fichier ni dans le Keystore.
      *
      * Rend CETTE instance inutilisable : à n'appeler que juste avant de tuer
      * le processus.
@@ -65,15 +65,15 @@ class StorageService(private val context: Context) {
         const val KEY_IDENTITY_PUBKEY = "identity_pubkey"
 
         /**
-         * Clés privées X25519 et Ed25519. Ici parce que le Keystore ne gère
-         * ni l'une ni l'autre avant l'API 33.
+         * Clés privées X25519 et Ed25519, non scellées : seulement entre
+         * l'onboarding et le choix du PIN, puis effacées (KEY_IDENTITY_SEALED).
          */
         const val KEY_IDENTITY_PRIVKEY = "identity_privkey"
         const val KEY_IDENTITY_SIGN_PRIV = "identity_sign_priv"
         const val KEY_IDENTITY_SIGN_PUB = "identity_sign_pub"
         const val KEY_IDENTITY_CREATED_AT = "identity_created_at"
 
-        /** Les deux clés privées, scellées sous une sous-clé du coffre. */
+        /** Les deux clés privées et la graine onion, scellées sous une sous-clé du coffre. */
         const val KEY_IDENTITY_SEALED = "identity_sealed"
         const val KEY_FIRST_LAUNCH = "first_launch"
 
@@ -81,7 +81,7 @@ class StorageService(private val context: Context) {
         const val KEY_TERMS_ACCEPTED = "terms_accepted"
         const val KEY_TUTORIAL_COMPLETED = "tutorial_completed"
 
-        /** Passphrase SQLCipher. La supprimer rend la base illisible. */
+        /** Ancienne passphrase SQLCipher, sans PIN (avant la phase 7) : migrée puis supprimée. */
         const val KEY_DB_PASSPHRASE = "db_passphrase"
         /** Durée de vie choisie dans les Paramètres, appliquée à chaque nouvelle conversation. */
         const val KEY_DEFAULT_TTL = "default_ttl_minutes"
@@ -91,7 +91,7 @@ class StorageService(private val context: Context) {
         /** Qui la reçoit : EVERYONE, CONFIRMED ou HIDDEN (ProfilePhotoService.Visibility). */
         const val KEY_PROFILE_PHOTO_VISIBILITY = "profile_photo_visibility"
 
-        /** Écran masqué par la caméra frontale : OFF, LOOK_AWAY ou ONLOOKER (ScreenShield.GazeMode). */
+        /** Écran masqué par la caméra frontale : OFF, LOOK_AWAY, ONLOOKER ou OWNER (ScreenShield.GazeMode). */
         const val KEY_GAZE_MODE = "gaze_mode"
     }
 }

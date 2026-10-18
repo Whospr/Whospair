@@ -6,11 +6,13 @@ import java.io.File
 /**
  * Les messages reçus app fermée, en attente du PIN : un fichier par
  * message, scellé (InboxSeal). Le nom n'est qu'un numéro d'ordre (le
- * compteur anti-rejeu exige l'ordre d'arrivée) ; aucune heure, ni dans le
- * nom ni dans la date du fichier.
+ * compteur anti-rejeu exige l'ordre d'arrivée) ; aucune heure dans le nom,
+ * mtime remis à zéro — mais le ctime de l'inode et la date du dossier
+ * trahissent encore l'heure d'arrivée.
  *
  * Écrit par le processus d'arrière-plan, vidé par l'app au déverrouillage
- * — jamais les deux à la fois : l'app tue l'arrière-plan avant de vider.
+ * — jamais les deux à la fois : avant de vider, l'app tue l'arrière-plan
+ * ou s'y rattache (il cesse alors de ranger).
  */
 class Inbox(context: Context) {
 

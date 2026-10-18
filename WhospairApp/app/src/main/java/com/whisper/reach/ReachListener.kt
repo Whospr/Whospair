@@ -30,13 +30,15 @@ import java.util.concurrent.ConcurrentHashMap
 import com.whisper.util.DebugLog
 
 /**
- * Le côté « appelé » de MessageTransport, app fermée — et rien d'autre.
+ * Le côté « appelé » de MessageTransport, app fermée — plus le flux d'un
+ * contact confié avec une mise à jour (1.3.8).
  *
  * Même poignée de main (défi, HELLO signé), mais :
  *   - seuls les contacts connus et non bloqués passent. Un inconnu qui a
  *     notre lien réessaiera quand l'app sera ouverte : l'ajouter exigerait
  *     d'écrire dans la base, verrouillée ici ;
- *   - jamais d'appel sortant : aucune clé privée d'identité n'est là ;
+ *   - jamais d'appel vers un contact (aucune clé privée d'identité ici) ;
+ *     seul le diffuseur peut être recomposé, par ReachDownload ;
  *   - un message n'est ni vérifié ni lu : il est scellé tel quel pour la
  *     boîte (InboxSeal), puis accusé. Signature, compteur anti-rejeu et
  *     déchiffrement se font au déverrouillage, par le chemin habituel ;

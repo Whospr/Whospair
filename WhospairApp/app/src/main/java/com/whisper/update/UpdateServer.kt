@@ -15,7 +15,8 @@ import java.util.concurrent.ConcurrentHashMap
 /**
  * Transmet un APK signé à qui le demande (phase 14) — app ouverte
  * (MessageTransport) comme fermée (ReachListener, processus `:reach`), et
- * depuis la phase 17 le diffuseur, qui sert tous les Whospair. Aucun secret
+ * l'app diffuseur (à part, non publiée), qui sert tous les Whospair via
+ * [maxStreams], [onProgress] et l'APK en mémoire. Aucun secret
  * ici : le manifeste est signé ailleurs, l'APK est lu tel quel.
  *
  * Côté Whospair, seuls les contacts confirmés sont servis : un inconnu qui a

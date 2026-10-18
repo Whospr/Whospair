@@ -26,9 +26,10 @@ import javax.crypto.spec.SecretKeySpec
  * copié le blob.
  *
  * Le blob n'est jamais copiable en clair : il vit dans
- * EncryptedSharedPreferences, sous une clé du Keystore matériel qui ne sort
- * pas de la puce. Hors de l'appareil, il est illisible. Sur l'appareil, il
- * faut passer par l'app — qui compte les essais et efface tout au dixième.
+ * EncryptedSharedPreferences, sous une clé du Keystore Android, non
+ * exportable (dans le TEE quand l'appareil en a un). Hors de l'appareil, il
+ * est illisible. Sur l'appareil, il faut passer par l'app — qui compte les
+ * essais et efface tout au dixième.
  * C'est la combinaison des deux qui protège, pas l'un ou l'autre.
  *
  * Limite honnête : un appareil rooté peut appeler le Keystore sans passer
@@ -95,9 +96,10 @@ object PinCrypto {
     }
 
     /**
-     * Sous-clé à usage unique, tirée d'une clé maîtresse par HKDF-SHA256.
-     * Une clé = un usage : la clé de base ouvre SQLCipher, ses dérivées
-     * scellent le reste (identité, bientôt la clé onion).
+     * Sous-clé tirée d'une clé maîtresse par HKDF-SHA256. La clé de base
+     * ouvre SQLCipher ; sa dérivée « identity » scelle l'identité (clés et
+     * graine onion) et sert de racine aux sous-clés « local-copy » et
+     * « inbox ».
      */
     fun subKey(master: ByteArray, label: String): ByteArray = ByteArray(KEY_SIZE).also { out ->
         HKDFBytesGenerator(SHA256Digest()).apply {

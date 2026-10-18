@@ -62,7 +62,8 @@ enum class EndReason { HUNG_UP, DECLINED, BUSY, NO_ANSWER, UNREACHABLE, LOST }
 /**
  * Un appel vocal en direct, sur le flux Tor du contact. Un seul à la fois.
  *
- * Rien n'est écrit : pas d'historique, pas de journal de qui a appelé qui.
+ * Aucun journal d'appels à part : seule une ligne « Appel » dans la
+ * conversation, chiffrée et expirante (CallEvent).
  * L'appel existe tant que les deux apps sont ouvertes — mode strictement
  * vivant : quitter l'app tue le processus, donc raccroche.
  *
@@ -151,7 +152,7 @@ class CallManager @Inject constructor(
 
         val ephemeral = CallKeys.newEphemeral().also { s.ephemeral = it }
         val offer = signedSignal(CallProtocol.OFFER, s, ephemeral) ?: return@launch finish(s, EndReason.LOST, null)
-        // Jusqu'à 30 s : le circuit de rendez-vous, si aucun flux n'est ouvert.
+        // Jusqu'à 60 s : le circuit de rendez-vous, si aucun flux n'est ouvert.
         // Un premier circuit raté est courant (adresse à rechercher, réseau
         // qui revient) : on insiste le temps d'une sonnerie avant de dire
         // « injoignable ».

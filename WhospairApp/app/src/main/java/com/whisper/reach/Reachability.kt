@@ -183,6 +183,7 @@ class Reachability @Inject constructor(
 
     /** Arrière-plan mort ou option coupée, app ouverte : elle reprend son propre Tor. */
     private fun onSharedLost() {
+        sharedTor = false
         killBackground(context)
         if (_enabled.value) startIdle()
         tor.start()

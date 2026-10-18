@@ -216,8 +216,9 @@ class MessageService @Inject constructor(
 
     companion object {
         /**
-         * Durée de vie par défaut : 8 heures, qui est aussi le plafond.
-         * Le public visé partage des informations sensibles — au-delà, un
+         * Durée de vie par défaut : 8 heures. Le plafond est « jamais »
+         * (MAX_TTL_MINUTES, cent ans), au choix de l'utilisateur. Le public
+         * visé partage des informations sensibles — au-delà de 8 h, un
          * message n'allonge que la fenêtre d'exposition sur l'appareil.
          */
         const val DEFAULT_TTL_MINUTES = 8 * 60

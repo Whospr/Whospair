@@ -62,8 +62,9 @@ import com.whisper.util.DebugLog
  * Le manifeste de la version installée est gardé (StorageService, chiffré).
  * Au déverrouillage, l'APK installé est comparé à son empreinte : s'il
  * correspond, on l'offre à nos contacts confirmés, app ouverte comme fermée
- * (« Rester joignable » confie le manifeste à `:reach`). Le téléphone qui
- * diffuse n'est qu'un Whisper qui a importé le paquet signé (.wup).
+ * (« Rester joignable » confie le manifeste à `:reach`). La version vient
+ * du diffuseur (app à part, non publiée) ou d'un contact ; l'app publique
+ * n'importe aucun paquet.
  *
  * Anti-retour : seule une version strictement plus haute que l'installée
  * est proposée ; Android refuse de toute façon de revenir en arrière.
@@ -177,8 +178,9 @@ class UpdateManager @Inject constructor(
 
     /**
      * Les deux délais, sur l'horloge interne (GraceClock : la date du
-     * téléphone n'y fait rien). L'utilisateur a toujours ses 120 h pleines,
-     * comptées depuis que SON téléphone a appris la nouvelle version.
+     * téléphone n'y fait rien). Le blocage de l'app arrive 120 h après que
+     * SON téléphone a appris la version ; ses contacts à jour, eux, le
+     * coupent 120 h après leur propre installation.
      */
     private fun refreshPolicy() {
         val now = clock.now()
@@ -219,7 +221,7 @@ class UpdateManager @Inject constructor(
     /** Vrai pendant qu'on interroge le diffuseur. */
     val checking: StateFlow<Boolean> = _checking.asStateFlow()
 
-    /** « Rechercher une mise à jour » : tout de suite, sans attendre le jour suivant. */
+    /** « Rechercher une mise à jour » : tout de suite, sans attendre les 30 min. */
     fun checkNow() {
         scope.launch { askDiffuser(force = true) }
     }
@@ -767,7 +769,7 @@ class UpdateManager @Inject constructor(
     }
 
     /* ====================================================================== *
-     *  Importer (téléphone qui diffuse)
+     *  Importer (app diffuseur seulement ; inutilisé dans l'app publique)
      * ====================================================================== */
 
     /**

@@ -87,12 +87,12 @@ class UpdateManifest private constructor(
 }
 
 /**
- * Le paquet de mise à jour (.wup), tel que le produit tools/make-update.sh :
+ * Le paquet de mise à jour (.wup), produit hors de ce dépôt public :
  * "WUP1" | longueur du manifeste (4 octets) | manifeste | signature (64) | APK
  * "WUP2" | longueur du manifeste | manifeste | signature | longueur des notes
  *        (4) | notes | signature des notes (64) | APK   (1.3.6 : UpdateNotes).
- * Importé une fois sur le téléphone qui diffuse ; ensuite, seul l'APK
- * installé et le manifeste circulent.
+ * Importé une fois dans l'app diffuseur (à part, non publiée) ; ensuite,
+ * seul l'APK installé et le manifeste circulent.
  */
 object UpdatePackage {
     private val MAGIC = "WUP1".toByteArray(Charsets.US_ASCII)

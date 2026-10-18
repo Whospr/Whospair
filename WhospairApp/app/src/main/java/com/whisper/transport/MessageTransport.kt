@@ -88,7 +88,7 @@ import com.whisper.util.DebugLog
  * Un message écrit reste « en attente » (PENDING), chiffré dans la base, tant
  * qu'il n'est pas parti — TTL compris : expiré, il disparaît sans partir.
  * Une file par contact l'envoie dans l'ordre des compteurs (l'autre refuse
- * un compteur dépassé), retente de plus en plus espacé jusqu'à 30 s, et
+ * un compteur dépassé), retente de plus en plus espacé jusqu'à 15 s, et
  * repart aussitôt qu'un flux s'ouvre avec ce contact ou que Tor revient.
  * À chaque flux neuf, les messages partis sans accusé sont renvoyés : un
  * circuit mort accepte encore des octets sans les livrer. Le contact accuse
@@ -478,7 +478,8 @@ class MessageTransport @Inject constructor(
     /**
      * Le flux du contact : celui qui existe, le nôtre une fois composé, ou
      * le sien s'il nous joint pendant que notre circuit se construit — sans
-     * ça, un envoi restait bloqué jusqu'à 90 s alors que le contact était là.
+     * ça, un envoi restait bloqué jusqu'au délai de connexion (60 s) alors
+     * que le contact était là.
      * Notre composition continue à part ; l'arbitrage de [register] tranche.
      */
     private suspend fun linkTo(contactKey: String): TorLink {
@@ -824,16 +825,14 @@ class MessageTransport @Inject constructor(
         }
         contactRepository.markReceivedCounter(contactPublicKey, message.counter)
 
-        // Le plafond part de NOTRE horloge, pas de l'horodatage de
-        // l'expéditeur : sinon un message daté d'un an dans le futur, avec
-        // 8 h de TTL par-dessus, restait un an sur l'appareil.
-        val now = System.currentTimeMillis()
-        val cap = now + MessageService.MAX_TTL_MINUTES * 60_000L
-        // Rangé app fermée : le TTL part du déverrouillage, pas de l'envoi —
-        // un message ne meurt pas avant d'avoir pu être lu.
-        val expiresAt = if (deferred) now + (message.expiresAt - message.timestamp).coerceAtLeast(0) else message.expiresAt
+        // La durée de vie annoncée est recomptée sur NOTRE horloge, à
+        // l'arrivée : l'horloge de l'expéditeur, en avance ou en retard, n'y
+        // fait rien (un message daté d'un an dans le futur, avec 8 h de TTL,
+        // reste ici 8 h). Rangé app fermée : le TTL part du déverrouillage,
+        // pas de l'envoi — un message ne meurt pas avant d'avoir pu être lu.
+        val ttl = (message.expiresAt - message.timestamp).coerceIn(0L, MessageService.MAX_TTL_MINUTES * 60_000L)
         val sane = message.copy(
-            expiresAt = minOf(expiresAt, cap),
+            expiresAt = System.currentTimeMillis() + ttl,
             status = MessageStatus.DELIVERED
         )
 
@@ -919,7 +918,8 @@ class MessageTransport @Inject constructor(
 
     /**
      * Faire signe : une trame sans contenu, sur le flux du contact (composé
-     * s'il le faut). Arrive seulement s'il a l'app ouverte — rien n'attend.
+     * s'il le faut). Arrive s'il a l'app ouverte, ou « Rester joignable »
+     * actif ; sinon rien n'attend.
      */
     suspend fun sendNudge(contactPublicKey: String): Boolean {
         val frame = buildJsonObject {
@@ -1236,7 +1236,7 @@ class MessageTransport @Inject constructor(
         /** Début commun de nos trames de contrôle (buildJsonObject garde l'ordre). */
         private val CONTROL_PREFIX = "{\"v\":1,\"t\":\"".toByteArray(Charsets.UTF_8)
         private const val MAX_ID_LENGTH = 64
-        /** Entre deux tentatives de la file : vite au début, puis toutes les 30 s. */
+        /** Entre deux tentatives de la file : vite au début, puis toutes les 15 s. */
         // 1.3.6 : 15 s au plus (30 avant) ; avec l'attente de connexion, l'écart montait à 2 min.
         private val OUTBOX_RETRY_MS = longArrayOf(3_000, 5_000, 10_000, 15_000)
         private const val LINK_POLL_MS = 500L

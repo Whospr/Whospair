@@ -23,13 +23,14 @@ you allow it.
 
 ## Camera
 The screen shield (optional) uses the front camera. Everything happens on
-the phone: no image is kept or sent anywhere.
+the phone: no image is kept or sent anywhere. "Only my face" keeps a
+numeric face template (not a photo), encrypted on the phone.
 
 ## Updates
 While the app is open, it regularly asks the update distributor, over Tor,
 whether a newer version exists (at most every 30 minutes). This request
 contains only its version number: no identity, no contacts, no messages.
-Updates can also come from your confirmed contacts, over Tor.
+Updates can also come from contacts who have confirmed you, over Tor.
 
 Why so often? Because every new version becomes mandatory 5 days after it
 arrives: an up-to-date version refuses to communicate with an older one.

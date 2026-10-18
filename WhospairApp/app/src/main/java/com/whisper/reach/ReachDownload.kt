@@ -27,6 +27,9 @@ import kotlinx.coroutines.launch
  * contact confirmé qui nous joint et offre la même version sert aussi. Ce
  * processus ne peut pas appeler un contact : il n'a pas nos clés.
  *
+ * Tunnel ouvert mais muet (source occupée, ou passée à une autre version) :
+ * trois relances, puis arrêt — l'app reprendra à sa réouverture.
+ *
  * À la réouverture, le diffuseur continue jusqu'au bout et l'app suit la
  * progression ; un contact, lui, est rendu à l'app, qui va se reconnecter à
  * lui de toute façon (et le contact garde le flux le plus récent). Fichier
@@ -50,6 +53,8 @@ class ReachDownload(
     @Volatile private var source: String? = null
     @Volatile private var link: TorLink? = null
     @Volatile private var lastData = SystemClock.elapsedRealtime()
+    /** Relances restées sans réponse sur le flux en cours. */
+    @Volatile private var stalls = 0
     private var fallbackJob: Job? = null
 
     val received: Long get() = file.length()
@@ -79,6 +84,7 @@ class ReachDownload(
                 return stop()
             }
             lastData = SystemClock.elapsedRealtime()
+            stalls = 0
             if (file.length() >= manifest.size) {
                 state = State.COMPLETE
                 DebugLog.d(TAG) { "Mise à jour complète, app fermée" }
@@ -101,6 +107,7 @@ class ReachDownload(
             source = from
             link = via
             lastData = SystemClock.elapsedRealtime()
+            stalls = 0
         }
         via.send(UpdateProtocol.get(manifest.versionCode, file.length()))
     }
@@ -144,13 +151,18 @@ class ReachDownload(
         }
     }
 
-    /** Plus rien depuis 45 s sur un flux encore ouvert : on redemande où on en est. */
+    /**
+     * Plus rien depuis 45 s sur un flux encore ouvert : on redemande où on en
+     * est. Trois relances sans réponse (source occupée, ou passée à une autre
+     * version) : on arrête, l'app reprendra à sa réouverture.
+     */
     private fun watchStall() {
         scope.launch {
             while (state == State.RUNNING) {
                 delay(STALL_MS / 3)
                 val current = link
                 if (current != null && current.isOpen && SystemClock.elapsedRealtime() - lastData > STALL_MS) {
+                    if (synchronized(lock) { ++stalls > MAX_STALLS }) return@launch stop()
                     lastData = SystemClock.elapsedRealtime()
                     current.send(UpdateProtocol.get(manifest.versionCode, file.length()))
                 }
@@ -174,7 +186,7 @@ class ReachDownload(
                         if (opened != null) {
                             val taken = synchronized(lock) {
                                 if (state != State.RUNNING || link?.isOpen == true) false
-                                else { source = DIFFUSER; link = opened; lastData = SystemClock.elapsedRealtime(); true }
+                                else { source = DIFFUSER; link = opened; lastData = SystemClock.elapsedRealtime(); stalls = 0; true }
                             }
                             if (!taken) { opened.close(); return@launch }
                             opened.send(UpdateProtocol.get(manifest.versionCode, file.length()))
@@ -205,6 +217,7 @@ class ReachDownload(
         private const val TAG = "ReachDownload"
         const val DIFFUSER = "diffuseur"
         private const val STALL_MS = 45_000L
+        private const val MAX_STALLS = 3
         private const val RETRY_MS = 10_000L
         private const val RETRY_WINDOW_MS = 5 * 60 * 1000L
     }

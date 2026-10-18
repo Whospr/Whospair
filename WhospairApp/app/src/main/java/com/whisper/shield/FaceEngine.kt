@@ -19,8 +19,8 @@ import kotlin.math.sqrt
  * dans le stockage chiffré par le Keystore. Aucune image n'est écrite ni ne
  * sort du téléphone.
  *
- * Le module natif n'existe que dans l'app publique compilée par GitHub
- * Actions ; ailleurs [available] est faux et l'option n'est pas proposée.
+ * Le module natif (native/face) n'est pas compilé par Gradle, il l'est à
+ * part ; sans lui, [loaded] est faux et l'option n'est pas proposée.
  */
 class FaceEngine(private val context: Context, private val storage: StorageService) {
 

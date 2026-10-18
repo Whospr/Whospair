@@ -40,8 +40,10 @@ sealed interface UnlockResult {
  *   la clé de base ouvre SQLCipher, qui chiffre le fichier entier ;
  *   HKDF(clé de base, "identity") scelle les clés privées d'identité.
  *
- * La clé de base n'est jamais gardée en mémoire : elle est remise à SQLCipher
- * puis effacée. Verrouiller, c'est tuer le processus (voir SessionLifecycle).
+ * La clé de base n'est gardée qu'en un endroit : la copie remise à SQLCipher,
+ * qui la conserve tant que la base est ouverte (il en a besoin pour rouvrir).
+ * La nôtre est effacée. Verrouiller, c'est tuer le processus, qui emporte
+ * l'autre (voir SessionLifecycle).
  */
 @Singleton
 class Vault @Inject constructor(
@@ -118,8 +120,9 @@ class Vault @Inject constructor(
     private suspend fun checkPin(pin: CharArray, openOnSuccess: Boolean): UnlockResult = withContext(Dispatchers.Default) {
         val failed = storage.getInt(KEY_FAILED)
 
-        // Frein à partir du 4e échec. Le vrai rempart est l'effacement au
-        // dixième ; ce délai sert surtout à décourager l'essai à la chaîne.
+        // Frein à partir du 4e essai (après 3 échecs). Le vrai rempart est
+        // l'effacement au dixième ; ce délai sert surtout à décourager
+        // l'essai à la chaîne.
         if (failed >= 3) delay(minOf(1_000L shl (failed - 3), 30_000L))
 
         // Compté AVANT la vérification : tuer l'app pendant le calcul ne doit
@@ -133,8 +136,9 @@ class Vault @Inject constructor(
         kek.fill(0)
 
         // Le PIN de contrainte est testé À CHAQUE FOIS, même quand le vrai PIN
-        // vient de passer : deux calculs Argon2 dans tous les cas, donc un
-        // temps de réponse identique quel que soit le PIN saisi.
+        // vient de passer : deux calculs Argon2 dans tous les cas, pour que
+        // la durée de vérification ne trahisse pas l'existence d'un PIN de
+        // contrainte.
         val duress = isDuress(pin)
 
         when {
@@ -256,7 +260,8 @@ class Vault @Inject constructor(
     }
 
     /**
-     * SQLCipher remet sa copie à zéro ; on efface la nôtre.
+     * SQLCipher garde sa copie tant que la base est ouverte ; on efface la
+     * nôtre.
      *
      * Room ouvre la base paresseusement, au premier accès d'un DAO : une
      * erreur d'ouverture éclaterait alors plus tard, n'importe où. On force

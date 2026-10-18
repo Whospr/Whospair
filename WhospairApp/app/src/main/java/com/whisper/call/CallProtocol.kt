@@ -115,8 +115,8 @@ object CallProtocol {
     /**
      * Un sens de l'appel. La clé avance toutes les [PACKETS_PER_EPOCH]
      * trames (~10 s) : chaque nouvelle clé est tirée de la précédente, qui est
-     * aussitôt effacée. Voler la clé en cours ne déchiffre rien de ce qui
-     * précède.
+     * aussitôt effacée. Voler la clé en cours ne déchiffre rien des
+     * intervalles précédents (au plus les ~10 s en cours).
      *
      * Tor livre dans l'ordre et sans perte : le numéro d'une trame reçue doit
      * donc toujours monter. Un numéro qui ne monte pas est un rejeu.

@@ -11,7 +11,8 @@ import kotlinx.serialization.json.put
  * Les trames de mise à jour, sur le flux Tor d'un contact (phase 14).
  *
  *   upd       {"v":1,"t":"upd","m":<manifeste hex>,"s":<signature hex>,
- *              "n":<notes base64>,"ns":<signature des notes hex>}
+ *              "n":<notes base64>,"ns":<signature des notes hex>,"a":1}
+ *             « a » (1.3.8, facultatif) : annonce seule, pas de fichier servi ;
  *             envoyée à l'ouverture de chaque flux par qui a une version
  *             signée à transmettre ; « n »/« ns » (1.3.6, facultatifs) : les
  *             notes de la version (UpdateNotes), ignorées avant 1.3.6 ;

@@ -14,12 +14,14 @@ import org.bouncycastle.util.encoders.Hex
  *
  * Les clés publiques restent lisibles sans PIN (elles ne sont pas secrètes,
  * et l'onboarding en a besoin pour savoir qu'une identité existe). Les deux
- * clés privées, elles, sont scellées ensemble en AES-GCM avec une sous-clé de
- * la clé du coffre : sans le PIN, elles n'existent que chiffrées.
+ * clés privées et la graine onion, elles, sont scellées ensemble en AES-GCM
+ * avec une sous-clé de la clé du coffre : sans le PIN, elles n'existent que
+ * chiffrées.
  *
- * Le seul moment où elles sont en clair sur le disque : entre la création de
- * l'identité (onboarding) et le choix du PIN, qui vient juste après. Le
- * premier déverrouillage les scelle et efface la version en clair.
+ * Le seul moment où elles ne sont pas sous le PIN : entre la création de
+ * l'identité (onboarding) et le choix du PIN, qui vient juste après. Elles
+ * sont alors seulement dans EncryptedSharedPreferences ; le réglage du PIN
+ * les scelle et efface cette copie.
  */
 class IdentityService(
     private val storageService: StorageService,

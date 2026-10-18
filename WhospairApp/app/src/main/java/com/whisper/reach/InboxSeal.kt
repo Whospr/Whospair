@@ -13,7 +13,8 @@ import java.security.SecureRandom
  * PUBLIQUE. Il peut ranger ce qui arrive, jamais le relire. La clé privée
  * est tirée de la clé du coffre : seul le PIN rouvre la boîte. Un téléphone
  * saisi app fermée, mémoire comprise, ne livre donc aucun message rangé —
- * ni son contenu, ni qui l'a envoyé, ni quand.
+ * ni son contenu, ni qui l'a envoyé (l'heure d'arrivée, elle, reste dans
+ * les métadonnées du système de fichiers : voir Inbox).
  *
  *   [clé éphémère X25519, 32][PinCrypto.wrap(contenu, HKDF(ECDH ‖ éphémère ‖ destinataire))]
  */

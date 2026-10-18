@@ -36,7 +36,8 @@ import javax.inject.Singleton
  *    code le coupe jusqu'au prochain 6 h ;
  *  - curieux : pause de 10 min (pour montrer l'écran), ou arrêt complet. La
  *    pause finie, l'app propose de la prolonger ou d'arrêter. Passer en
- *    arrière-plan met fin à la pause.
+ *    arrière-plan met fin à la pause ;
+ *  - seulement mon visage : coupé jusqu'à ce qu'on le réactive.
  */
 @Singleton
 class ScreenShield @Inject constructor(

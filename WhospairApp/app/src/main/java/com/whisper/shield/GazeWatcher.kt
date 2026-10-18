@@ -23,20 +23,22 @@ import java.nio.ShortBuffer
 import java.util.concurrent.Executor
 
 /**
- * Regarde, par la caméra frontale, qui est devant l'écran. Deux modes :
+ * Regarde, par la caméra frontale, qui est devant l'écran. Trois modes :
  *  - LOOK_AWAY : aucun visage → masqué (l'utilisateur a détourné le regard) ;
  *  - ONLOOKER : deux visages ou plus → masqué (quelqu'un regarde par-dessus
  *    l'épaule). Image plus grande (480 px) : un visage à un mètre derrière
- *    n'est sinon qu'une poignée de pixels.
+ *    n'est sinon qu'une poignée de pixels ;
+ *  - OWNER : seulement le visage du propriétaire (FaceEngine, modèles
+ *    YuNet/SFace intégrés à l'APK, image couleur de 480 px).
  *
- * Tout reste dans le téléphone : une petite image en niveaux de gris,
- * analysée par android.media.FaceDetector (dans Android depuis toujours,
- * aucun modèle téléchargé, pas de ML Kit), puis oubliée. Rien n'est écrit,
- * rien ne sort. Une analyse toutes les 700 ms environ.
+ * Tout reste dans le téléphone. LOOK_AWAY et ONLOOKER : une petite image en
+ * niveaux de gris, analysée par android.media.FaceDetector (dans Android
+ * depuis toujours, pas de ML Kit), puis oubliée. Rien n'est écrit (hors
+ * l'empreinte du propriétaire), rien ne sort. Une analyse toutes les 700 ms environ.
  *
  * [onChange] (true = l'écran peut rester visible) est appelé depuis le fil de la caméra.
- * Caméra perdue (prise par le scanner QR, par une autre app) : on considère
- * que quelqu'un regarde — un défaut ne doit jamais masquer l'écran pour rien.
+ * Caméra perdue (prise par le scanner QR, par une autre app) : l'écran
+ * reste visible — un défaut ne doit jamais masquer l'écran pour rien.
  */
 class GazeWatcher(
     private val context: Context,
