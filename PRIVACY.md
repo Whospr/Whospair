@@ -1,7 +1,8 @@
 # Whospair — Privacy Policy
 
-Whospair collects nothing. No server receives your data, so there is no
-one to analyse it or hand it to a third party.
+Whospair collects nothing about you. No server receives your data, so
+there is no one to analyse it or hand it to a third party. The only thing
+counted anywhere is an anonymous daily total of updates (see "Updates").
 
 ## What the app never does
 Profiling, selling data, advertising, tracking code, crash reports sent
@@ -31,6 +32,12 @@ While the app is open, it regularly asks the update distributor, over Tor,
 whether a newer version exists (at most every 30 minutes). This request
 contains only its version number: no identity, no contacts, no messages.
 Updates can also come from contacts who have confirmed you, over Tor.
+
+The update distributor keeps a daily log, per version: how many update
+requests it received, how many downloads finished, and from which version
+to which. Nothing else is recorded: no address (requests arrive over Tor),
+no identity, no time of day. These totals give a rough idea of how widely
+Whospair is used, never who uses it.
 
 Why so often? Because every new version becomes mandatory 5 days after it
 arrives: an up-to-date version refuses to communicate with an older one.

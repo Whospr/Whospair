@@ -16,7 +16,7 @@ Most messengers encrypt your messages but still route them through a company's s
 
 - **No server, no account.** Your identity is a key pair created on your phone. There is no phone number, no e-mail and no username.
 - **Everything goes over Tor.** Each phone gets its own onion address. Nobody, including us, sees who talks to whom.
-- **Nothing is collected.** No analytics, no ads, no crash reports sent anywhere, no Google code (no Play Services, no Firebase).
+- **Nothing is collected about you.** No analytics, no ads, no crash reports sent anywhere, no Google code (no Play Services, no Firebase).
 - **Nothing to hand over.** Since nothing is stored anywhere else, there is nothing anyone could be forced to give away.
 
 ## Features
@@ -113,7 +113,7 @@ Official release APKs (R8, arm64) are built and signed by the developer. The sig
 
 ## Limits
 
-Whospair protects what you say in transit and on the phone. It does not protect a phone that is already compromised by malware, or that someone holds unlocked in their hands. Your network operator can see that the phone uses Tor, but not with whom or what. Read [SECURITY.md](SECURITY.md) and [PRIVACY.md](PRIVACY.md).
+Whospair protects what you say in transit and on the phone. It does not protect a phone that is already compromised by malware, or that someone holds unlocked in their hands. Your network operator can see that the phone uses Tor, but not with whom or what. Read [SECURITY.md](SECURITY.md), [PRIVACY.md](PRIVACY.md) and [PROTOCOL.md](PROTOCOL.md), which also lists the known limits of the design.
 
 ## Third-party software
 
