@@ -129,4 +129,4 @@ Donations go through [Liberapay](https://liberapay.com/Whospair/donate), a non-p
 
 ## License
 
-Whospair is **source-available, not open source**: the code is public so that anyone can read and audit it, under the [PolyForm Strict License 1.0.0](LICENSE.md). It may not be redistributed or modified. Free for personal and noncommercial use. Anyone may use the official app, for any purpose. Companies that need a custom version, or a commercial license for the code, can contact us. The name "Whospair" and its logo are not licensed. Third-party components keep their own licenses: see [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
+Whospair is **source-available, not open source**: the code is public so that anyone can read and audit it, under the [PolyForm Strict License 1.0.0](LICENSE.md). It may not be redistributed or modified. Anyone may use the official app, for any purpose. Companies that need a custom version, or a commercial license for the code, can contact us. The name "Whospair" and its logo are not licensed. Third-party components keep their own licenses: see [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
