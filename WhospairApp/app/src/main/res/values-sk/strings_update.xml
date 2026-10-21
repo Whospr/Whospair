@@ -31,4 +31,5 @@
     <string name="update_interrupted">Aktualizácia prerušená, nový pokus o 30 min</string>
     <string name="update_mandatory_title">Vyžaduje sa aktualizácia</string>
     <string name="update_mandatory_body">Novšia verzia Whospair je dostupná už viac ako 5 dní. Nainštalujte ju, ak chcete aplikáciu ďalej používať: vaše aktuálne kontakty už staršie verzie neprijímajú.</string>
+    <string name="update_retry_now">Skúsiť znova teraz</string>
 </resources>

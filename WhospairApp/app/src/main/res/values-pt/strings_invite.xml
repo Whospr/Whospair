@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invite_message">Vamos conversar no Whospair: sem servidor, sem número, tudo passa pelo Tor.\nToque para me adicionar: %1$s\nAinda não tem o app? Peça que eu envio.</string>
+</resources>

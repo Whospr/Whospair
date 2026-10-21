@@ -81,7 +81,7 @@ class Reachability @Inject constructor(
         val shared = _enabled.value && attach()
         sharedTor = shared
         if (shared) {
-            tor.useShared(::torStatus, ::onSharedLost)
+            tor.useShared(::torStatus, ::onSharedLost, ::refetchShared)
         } else {
             killBackground(context)
             // Arrière-plan muet : un neuf attend le départ, il prendra le relais de notre Tor.
@@ -123,6 +123,22 @@ class Reachability @Inject constructor(
             false
         } finally {
             seed.fill(0)
+            data.recycle()
+            reply.recycle()
+        }
+    }
+
+    /** Le Tor de l'arrière-plan redemande le descripteur de [onion]. */
+    private fun refetchShared(onion: String) {
+        val b = service ?: return
+        val data = Parcel.obtain()
+        val reply = Parcel.obtain()
+        try {
+            data.writeString(onion)
+            b.transact(ReachService.REFETCH, data, reply, 0)
+        } catch (e: Exception) {
+            DebugLog.w(TAG, "Arrière-plan injoignable : descripteur non redemandé")
+        } finally {
             data.recycle()
             reply.recycle()
         }

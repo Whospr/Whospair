@@ -4,7 +4,7 @@
 
 > What is said in Whospair exists only on the two phones, for the time you chose, and nowhere else.
 
-## [Download Whospair 1.3.9 (APK, 39 MB)](https://github.com/Whospr/Whospair/releases/latest/download/whospair-1.3.9.apk)
+## [Download Whospair 1.4.1 (APK, 39 MB)](https://github.com/Whospr/Whospair/releases/latest/download/whospair-1.4.1.apk)
 
 Android 10 or later (arm64) · Not on the Play Store · [All releases](https://github.com/Whospr/Whospair/releases) · [Check the app before installing](#install) · [Donate](https://liberapay.com/Whospair/donate)
 
@@ -90,7 +90,7 @@ The same fingerprint is shown in the app, under *Settings › About › Version*
 You can check a downloaded APK with:
 
 ```
-apksigner verify --print-certs whospair-1.3.9.apk
+apksigner verify --print-certs whospair-1.4.1.apk
 ```
 
 Once installed, later updates arrive by themselves over Tor.

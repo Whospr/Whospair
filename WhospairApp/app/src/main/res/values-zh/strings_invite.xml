@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invite_message">我们用 Whospair 聊吧：没有服务器，不用手机号，一切都经过 Tor。\n点按添加我：%1$s\n还没有这个应用？跟我说，我发给你。</string>
+</resources>

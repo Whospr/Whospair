@@ -297,8 +297,8 @@ class UpdateManager @Inject constructor(
      * redémarre reste injoignable quelques minutes, le temps de publier ses
      * nouveaux points d'introduction. Avant, un seul essai, puis une barre
      * figée. Désormais : un essai, 10 s après la fin du précédent, jamais deux
-     * à la fois, tant que l'app est ouverte. Tous les deux échecs, Tor
-     * redemande le descripteur du diffuseur au lieu de garder l'ancien. Son
+     * à la fois, tant que l'app est ouverte. À chaque échec, Tor redemande
+     * le descripteur du diffuseur (1er, 3e… échec) au lieu de garder l'ancien. Son
      * offre, au retour, relance la demande de morceaux (onOffer).
      */
     private fun retryDiffuser() {
@@ -310,14 +310,16 @@ class UpdateManager @Inject constructor(
                 try {
                     while (true) {
                         val waiting = synchronized(lock) {
-                            _state.value is State.Downloading && offerers.none(::isReachable) && !isReachable(DIFFUSER_SOURCE)
+                            // Diffuseur choisi (« Réessayer maintenant »), ou plus personne d'autre.
+                            _state.value is State.Downloading && !isReachable(DIFFUSER_SOURCE) &&
+                                (source == null || source == DIFFUSER_SOURCE || offerers.none(::isReachable))
                         }
                         if (!waiting) break
                         if (tor.state.value is TorRuntime.State.Ready) {
                             if (openDiffuser() != null) break
                             failures++
                             _retrying.value = true
-                            if (failures % 2 == 0) BuildConfig.DIFFUSER_ONIONS.forEach(tor::refetchOnion)
+                            if (failures % 2 == 1) BuildConfig.DIFFUSER_ONIONS.forEach(tor::refetchOnion)
                         }
                         // Ni diffuseur ni contact confirmé qui l'a, depuis 5 min :
                         // « interrompue », et nouvel essai tout seul dans 30 min.
@@ -703,6 +705,31 @@ class UpdateManager @Inject constructor(
         }
     }
 
+    private fun others(): List<String> = offerers.filter { it != source && isReachable(it) }
+
+    /**
+     * « Réessayer maintenant » (1.4.1) : descripteurs redemandés, flux du
+     * diffuseur fermé, et nouvel appel tout de suite, sans attendre 10 s.
+     */
+    fun retryNow() {
+        synchronized(lock) {
+            if (following || _state.value !is State.Downloading) return
+            retryJob?.cancel()
+            retryJob = null
+            lastProgress = SystemClock.elapsedRealtime()
+        }
+        // Hors du fil de l'écran : en mode partagé, chaque demande passe par `:reach`.
+        scope.launch(Dispatchers.IO) {
+            BuildConfig.DIFFUSER_ONIONS.forEach(tor::refetchOnion)
+            closeDiffuser()
+            synchronized(lock) {
+                if (_state.value !is State.Downloading) return@launch
+                // request() prévient l'ancienne source (« stop ») et suit le chemin habituel.
+                request(others().firstOrNull() ?: DIFFUSER_SOURCE)
+            }
+        }
+    }
+
     /** Plus rien depuis un moment : on redemande, au même ou à un autre. */
     private fun watch() {
         watchdog?.cancel()
@@ -712,8 +739,15 @@ class UpdateManager @Inject constructor(
                 synchronized(lock) {
                     if (_state.value !is State.Downloading) return@launch
                     if (stalled()) {
-                        val others = offerers.filter { it != source && isReachable(it) }
-                        (others.firstOrNull() ?: pickSource())?.let(::request)
+                        // Flux du diffuseur ouvert mais muet (circuit mort sans
+                        // fermeture) : on le ferme, sa fin relance l'appel.
+                        if (source == DIFFUSER_SOURCE && others().isEmpty()) {
+                            lastProgress = SystemClock.elapsedRealtime()
+                            closeDiffuser()
+                            retryDiffuser()
+                            return@synchronized
+                        }
+                        (others().firstOrNull() ?: pickSource())?.let(::request)
                         // Personne de joignable : le diffuseur, relancé toutes les 10 s.
                         if (offerers.none(::isReachable)) retryDiffuser()
                     }

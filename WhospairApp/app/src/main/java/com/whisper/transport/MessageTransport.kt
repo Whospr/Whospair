@@ -460,10 +460,23 @@ class MessageTransport @Inject constructor(
      * sinon, flux déjà ouvert ou rien (la voix n'attend pas un circuit).
      */
     suspend fun sendCallFrame(contactPublicKey: String, frame: ByteArray, dial: Boolean): Boolean =
-        sendFrame(contactPublicKey, frame, dial, gated = true)
+        sendFrame(contactPublicKey, dial, gated = true) { frame }
+
+    /**
+     * Trame construite une fois le flux ouvert et la version du contact connue
+     * (OFFRE/ACCEPTE : leur format dépend de cette version). [build] reçoit
+     * cette version ; null = rien à envoyer.
+     */
+    suspend fun sendCallFrame(contactPublicKey: String, dial: Boolean, build: (peerVersion: Long) -> ByteArray?): Boolean =
+        sendFrame(contactPublicKey, dial, gated = true) { build(peerVersion(it)) }
+
+    private suspend fun sendFrame(contactPublicKey: String, frame: ByteArray, dial: Boolean, gated: Boolean): Boolean =
+        sendFrame(contactPublicKey, dial, gated) { frame }
 
     /** [gated] : refusé à un contact trop ancien (tout sauf les mises à jour). */
-    private suspend fun sendFrame(contactPublicKey: String, frame: ByteArray, dial: Boolean, gated: Boolean): Boolean {
+    private suspend fun sendFrame(
+        contactPublicKey: String, dial: Boolean, gated: Boolean, build: (key: String) -> ByteArray?
+    ): Boolean {
         val key = contactPublicKey.lowercase()
         touch(key)
         val link = if (dial) {
@@ -472,6 +485,7 @@ class MessageTransport @Inject constructor(
             links[key]?.takeIf { it.isOpen }
         } ?: return false
         if (gated && !upToDate(key, link)) return false
+        val frame = build(key) ?: return false
         return withContext(Dispatchers.IO) { link.send(frame) }
     }
 

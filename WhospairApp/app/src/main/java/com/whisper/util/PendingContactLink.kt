@@ -21,7 +21,9 @@ object PendingContactLink {
     data class PendingIdentity(
         val publicKeyHex: String,
         val signingPublicKeyHex: String,
-        val onionAddress: String
+        val onionAddress: String,
+        /** Scanné en face (QR) : fait foi. Sinon : lien, qui peut venir de n'importe qui. */
+        val scanned: Boolean
     ) {
         /** Forme concaténée, telle qu'elle apparaît dans un QR ou un lien. */
         fun asPayload(): String = publicKeyHex + signingPublicKeyHex + onionAddress
@@ -33,11 +35,15 @@ object PendingContactLink {
     /**
      * Dépose une clé reçue par lien profond.
      *
-     * Volontairement SANS ajout automatique : n'importe quelle page web peut
-     * faire ouvrir un lien whisper://. L'ajout reste un geste explicite.
+     * Ajouté dès l'app déverrouillée (WhisperApp). N'importe quelle page web
+     * ou app peut faire ouvrir un lien : un contact venu par lien arrive
+     * « non confirmé » (bandeau Confirmer / Bloquer) et ne touche jamais à
+     * un contact déjà connu. Seul le scan du QR fait foi.
      */
-    fun submit(identity: ContactKeyParser.Result.Valid) {
-        _pending.value = PendingIdentity(identity.publicKeyHex, identity.signingPublicKeyHex, identity.onionAddress)
+    fun submit(identity: ContactKeyParser.Result.Valid, scanned: Boolean) {
+        _pending.value = PendingIdentity(
+            identity.publicKeyHex, identity.signingPublicKeyHex, identity.onionAddress, scanned
+        )
     }
 
     /**

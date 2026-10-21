@@ -654,6 +654,8 @@ fun SettingsScreen(
                                 if (retrying) {
                                     Text(stringResource(R.string.update_diffuser_retry), style = MaterialTheme.typography.bodySmall, color = Ink.Ash)
                                 }
+                                // Bloqué ? Recontacter la source tout de suite (1.4.1).
+                                TextButton(onClick = viewModel::retryUpdateNow) { Text(stringResource(R.string.update_retry_now)) }
                             }
                             is UpdateManager.State.Installing -> Text(stringResource(R.string.update_state_installing))
                             is UpdateManager.State.Failed -> Text(stringResource(u.message), color = Ink.Brick)
@@ -1216,6 +1218,7 @@ class SettingsViewModel @Inject constructor(
 
     fun downloadUpdate() = updates.download()
     fun cancelUpdate() = updates.cancel()
+    fun retryUpdateNow() = updates.retryNow()
     fun checkUpdate() = updates.checkNow()
 
     val stayReachable = reachability.enabled

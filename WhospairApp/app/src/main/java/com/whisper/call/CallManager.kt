@@ -25,7 +25,9 @@ import com.whisper.services.IdentityService
 import com.whisper.transport.MessageTransport
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.SupervisorJob
@@ -99,6 +101,8 @@ class CallManager @Inject constructor(
     ) {
         var ephemeral: CallKeys.Ephemeral? = null
         var peerEphemeral: ByteArray? = null
+        /** Pré-saut de l'encodeur du contact, lu dans son OFFRE ou son ACCEPTE. */
+        var peerPreSkip = CallProtocol.DEFAULT_PRE_SKIP
         var send: CallProtocol.Direction? = null
         var receive: CallProtocol.Direction? = null
         var audio: CallAudio? = null
@@ -117,6 +121,21 @@ class CallManager @Inject constructor(
     private var session: Session? = null
     private var started = false
 
+    /**
+     * Pré-saut de notre encodeur : il ne change pas d'un appel à l'autre sur
+     * un même téléphone. Lu une fois au déverrouillage, hors de toute
+     * sonnerie ; un appel qui arrive avant attend la même sonde (≤ 200 ms).
+     * Une sonde ratée n'est pas gardée : l'appel part avec 312, le suivant
+     * réessaie. Toujours sur [serial] : pas deux sondes à la fois.
+     */
+    private var preSkipProbe: Deferred<Int?>? = null
+
+    private suspend fun ownPreSkip(): Int {
+        val known = preSkipProbe?.takeUnless { it.isCompleted && it.getCompleted() == null }
+        val probe = known ?: scope.async(Dispatchers.IO) { CallAudio.probePreSkip() }.also { preSkipProbe = it }
+        return probe.await() ?: CallProtocol.DEFAULT_PRE_SKIP
+    }
+
     private var ringtone: Ringtone? = null
     private var ringback: ToneGenerator? = null
     private var proximity: PowerManager.WakeLock? = null
@@ -125,6 +144,7 @@ class CallManager @Inject constructor(
     fun start() = scope.launch {
         if (started) return@launch
         started = true
+        launch { ownPreSkip() }
         launch { transport.callFrames.collect { (from, frame) -> onFrame(from, frame) } }
         launch {
             transport.reachable.collect { open ->
@@ -151,16 +171,23 @@ class CallManager @Inject constructor(
         callService.start()
 
         val ephemeral = CallKeys.newEphemeral().also { s.ephemeral = it }
-        val offer = signedSignal(CallProtocol.OFFER, s, ephemeral) ?: return@launch finish(s, EndReason.LOST, null)
+        val preSkip = ownPreSkip()
+        if (session !== s) return@launch
+        // Les deux formats, signés une fois : le bon se choisit au moment
+        // d'envoyer, quand la version du contact est connue (flux ouvert).
+        val legacy = signedSignal(CallProtocol.OFFER, s, ephemeral.publicKey, null)
+        val current = signedSignal(CallProtocol.OFFER, s, ephemeral.publicKey, preSkip)
+        if (legacy == null || current == null) return@launch finish(s, EndReason.LOST, null)
+        val offer = { peerVersion: Long -> if (CallProtocol.sendsPreSkip(peerVersion)) current else legacy }
         // Jusqu'à 60 s : le circuit de rendez-vous, si aucun flux n'est ouvert.
         // Un premier circuit raté est courant (adresse à rechercher, réseau
         // qui revient) : on insiste le temps d'une sonnerie avant de dire
         // « injoignable ».
         val dialDeadline = System.currentTimeMillis() + RING_TIMEOUT_MS
-        var sent = transport.sendCallFrame(s.peer.publicKeyHex, offer, dial = true)
+        var sent = transport.sendCallFrame(s.peer.publicKeyHex, dial = true, offer)
         while (!sent && session === s && System.currentTimeMillis() < dialDeadline) {
             delay(CALL_REDIAL_MS)
-            if (session === s) sent = transport.sendCallFrame(s.peer.publicKeyHex, offer, dial = true)
+            if (session === s) sent = transport.sendCallFrame(s.peer.publicKeyHex, dial = true, offer)
         }
         if (session !== s) {
             // Annulé pendant la connexion : l'offre est partie quand même, le
@@ -181,9 +208,9 @@ class CallManager @Inject constructor(
             while (System.currentTimeMillis() < deadline) {
                 delay(OFFER_REPEAT_MS)
                 if (session !== s || s.send != null) return@launch
-                if (!transport.sendCallFrame(s.peer.publicKeyHex, offer, dial = false) && redial?.isActive != true) {
+                if (!transport.sendCallFrame(s.peer.publicKeyHex, dial = false, offer) && redial?.isActive != true) {
                     // Flux tombé : on recompose à part, la boucle garde son rythme.
-                    redial = launch(Dispatchers.IO) { transport.sendCallFrame(s.peer.publicKeyHex, offer, dial = true) }
+                    redial = launch(Dispatchers.IO) { transport.sendCallFrame(s.peer.publicKeyHex, dial = true, offer) }
                 }
             }
             redial?.cancel()
@@ -195,9 +222,13 @@ class CallManager @Inject constructor(
         val s = session?.takeIf { !it.initiator && it.send == null } ?: return@launch
         val peerEphemeral = s.peerEphemeral ?: return@launch
         stopRinging()
+        val preSkip = ownPreSkip()
+        if (session !== s) return@launch
         val ephemeral = CallKeys.newEphemeral()
-        val answer = signedSignal(CallProtocol.ACCEPT, s, ephemeral)
-        val keys = answer?.let { runCatching { CallProtocol.directions(ephemeral, peerEphemeral, s.callId, initiator = false) }.getOrNull() }
+        val legacy = signedSignal(CallProtocol.ACCEPT, s, ephemeral.publicKey, null)
+        val current = signedSignal(CallProtocol.ACCEPT, s, ephemeral.publicKey, preSkip)
+        val keys = if (legacy == null || current == null) null
+        else runCatching { CallProtocol.directions(ephemeral, peerEphemeral, s.callId, initiator = false) }.getOrNull()
         if (keys == null) {
             ephemeral.destroy()
             return@launch finish(s, EndReason.LOST, CallProtocol.END_HANGUP)
@@ -205,7 +236,10 @@ class CallManager @Inject constructor(
         s.send = keys.first
         s.receive = keys.second
         callService.start()
-        if (!transport.sendCallFrame(s.peer.publicKeyHex, answer, dial = false) || session !== s) {
+        val sent = transport.sendCallFrame(s.peer.publicKeyHex, dial = false) { peerVersion ->
+            if (CallProtocol.sendsPreSkip(peerVersion)) current else legacy
+        }
+        if (!sent || session !== s) {
             return@launch finish(s, EndReason.LOST, null)
         }
         goActive(s)
@@ -307,6 +341,7 @@ class CallManager @Inject constructor(
     private fun startIncoming(contact: Contact, offer: CallProtocol.Signal) {
         val s = Session(peerOf(contact), offer.callId, initiator = false)
         s.peerEphemeral = offer.ephemeral
+        s.peerPreSkip = offer.preSkip
         s.linked = true
         session = s
         _state.value = CallState.Incoming(s.peer)
@@ -330,6 +365,7 @@ class CallManager @Inject constructor(
             .getOrElse { return finish(s, EndReason.LOST, CallProtocol.END_HANGUP) }
         s.send = keys.first
         s.receive = keys.second
+        s.peerPreSkip = answer.preSkip
         goActive(s)
     }
 
@@ -342,7 +378,7 @@ class CallManager @Inject constructor(
         stopRinging()
         val send = s.send ?: return
         s.lastHeardAt = System.currentTimeMillis()
-        s.audio = CallAudio(onFailure = {
+        s.audio = CallAudio(s.peerPreSkip, onFailure = {
             scope.launch { if (session === s) finish(s, EndReason.LOST, CallProtocol.END_HANGUP) }
         }) { group ->
             // Fil du micro. seal est synchronisé ; la boîte d'envoi jette le
@@ -445,18 +481,20 @@ class CallManager @Inject constructor(
      *  Signatures
      * ====================================================================== */
 
-    private fun signedSignal(type: Byte, s: Session, ephemeral: CallKeys.Ephemeral): ByteArray? {
+    /** [preSkip] null : ancien format, pour un contact qui ne le lit pas encore. */
+    private fun signedSignal(type: Byte, s: Session, ephemeralPublic: ByteArray, preSkip: Int?): ByteArray? {
         val me = identityService.getIdentity() ?: return null
         val binding = CallProtocol.signalBinding(
-            type, s.callId, ephemeral.publicKey, Hex.decode(me.publicKeyHex), Hex.decode(s.peer.publicKeyHex)
+            type, s.callId, ephemeralPublic, Hex.decode(me.publicKeyHex), Hex.decode(s.peer.publicKeyHex), preSkip
         )
-        return CallProtocol.signal(type, s.callId, ephemeral.publicKey, cryptoManager.sign(binding, me.signingPrivateKeyHex))
+        return CallProtocol.signal(type, s.callId, ephemeralPublic, cryptoManager.sign(binding, me.signingPrivateKeyHex), preSkip)
     }
 
     private fun verifySignal(signal: CallProtocol.Signal, contact: Contact): Boolean {
         val me = identityService.getIdentity() ?: return false
         val binding = CallProtocol.signalBinding(
-            signal.type, signal.callId, signal.ephemeral, Hex.decode(contact.publicKeyHex), Hex.decode(me.publicKeyHex)
+            signal.type, signal.callId, signal.ephemeral, Hex.decode(contact.publicKeyHex), Hex.decode(me.publicKeyHex),
+            signal.preSkip.takeIf { signal.preSkipSigned }
         )
         return cryptoManager.verify(binding, signal.signature, contact.signingPublicKeyHex)
     }

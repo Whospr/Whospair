@@ -155,39 +155,13 @@ class VoicePlayer(private val scope: CoroutineScope) {
             .also { it.play() }
     }
 
-    /**
-     * L'encodeur d'Android rend son en-tête sous l'une de deux formes : l'en-tête
-     * Opus standard (« OpusHead »), ou un paquet balisé (« AOPUSHDR »…) qui
-     * contient aussi le délai initial et la pré-lecture. Le décodeur veut les
-     * trois séparément : csd-0, csd-1 et csd-2.
-     */
+    /** Le décodeur veut l'en-tête, le pré-saut et la pré-lecture séparément : csd-0, csd-1, csd-2. */
     private fun decoderFormat(header: ByteArray): MediaFormat {
-        var head = header
-        var delayNs = -1L
-        var prerollNs = 80_000_000L
-        if (String(header, 0, minOf(8, header.size), Charsets.US_ASCII) == "AOPUSHDR") {
-            val b = ByteBuffer.wrap(header).order(ByteOrder.LITTLE_ENDIAN)
-            while (b.remaining() >= 16) {
-                val tag = ByteArray(8).also { b.get(it) }.toString(Charsets.US_ASCII)
-                val len = b.long.toInt()
-                if (len < 0 || len > b.remaining()) break
-                val body = ByteArray(len).also { b.get(it) }
-                when (tag) {
-                    "AOPUSHDR" -> head = body
-                    "AOPUSDLY" -> delayNs = ByteBuffer.wrap(body).order(ByteOrder.LITTLE_ENDIAN).long
-                    "AOPUSPRL" -> prerollNs = ByteBuffer.wrap(body).order(ByteOrder.LITTLE_ENDIAN).long
-                }
-            }
-        }
-        if (delayNs < 0 && head.size >= 12) {
-            // Pré-saut de l'en-tête Opus (octets 10-11), en échantillons à 48 kHz.
-            val preSkip = (head[10].toInt() and 0xFF) or ((head[11].toInt() and 0xFF) shl 8)
-            delayNs = preSkip * 1_000_000_000L / 48_000
-        }
+        val parsed = OpusHeader.parse(header)
         return MediaFormat.createAudioFormat(MediaFormat.MIMETYPE_AUDIO_OPUS, VoiceRecorder.RATE, 1).apply {
-            setByteBuffer("csd-0", ByteBuffer.wrap(head))
-            setByteBuffer("csd-1", nativeLong(maxOf(delayNs, 0)))
-            setByteBuffer("csd-2", nativeLong(prerollNs))
+            setByteBuffer("csd-0", ByteBuffer.wrap(parsed.head))
+            setByteBuffer("csd-1", nativeLong(maxOf(parsed.delayNs, 0)))
+            setByteBuffer("csd-2", nativeLong(parsed.prerollNs))
         }
     }
 

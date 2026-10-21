@@ -31,4 +31,5 @@
     <string name="update_interrupted">Aggiornamento interrotto, nuovo tentativo tra 30 min</string>
     <string name="update_mandatory_title">Aggiornamento obbligatorio</string>
     <string name="update_mandatory_body">Una versione più recente di Whospair è disponibile da più di 5 giorni. Installala per continuare a usare l\'app: i tuoi contatti aggiornati non accettano più le versioni precedenti.</string>
+    <string name="update_retry_now">Riprova ora</string>
 </resources>

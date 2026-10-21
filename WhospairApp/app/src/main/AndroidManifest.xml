@@ -82,6 +82,18 @@
                 <data android:scheme="whospair" android:host="add_contact" />
                 <data android:scheme="whisper" android:host="add_contact" />
             </intent-filter>
+            <!--
+              Lien d'invitation https://whospair.github.io/a#<clé> — la seule
+              forme cliquable dans WhatsApp, Signal ou un SMS. autoVerify :
+              Android vérifie .well-known/assetlinks.json sur le domaine et
+              ouvre l'app sans demander. Aligné sur ContactKeyParser.WEB_LINK_PREFIX.
+            -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="whospair.github.io" android:path="/a" />
+            </intent-filter>
         </activity>
 
         <!--

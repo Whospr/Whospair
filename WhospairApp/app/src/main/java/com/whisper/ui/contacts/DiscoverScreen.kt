@@ -134,7 +134,10 @@ fun DiscoverScreen(
                 onClick = {
                     val send = Intent(Intent.ACTION_SEND)
                         .setType("text/plain")
-                        .putExtra(Intent.EXTRA_TEXT, viewModel.myShareableLink())
+                        .putExtra(
+                            Intent.EXTRA_TEXT,
+                            context.getString(R.string.invite_message, viewModel.myShareableLink())
+                        )
                     context.startActivity(Intent.createChooser(send, null))
                 },
                 modifier = Modifier

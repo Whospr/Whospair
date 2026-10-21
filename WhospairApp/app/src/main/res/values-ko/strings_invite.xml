@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invite_message">Whospair에서 이야기해요: 서버도, 전화번호도 없이 모두 Tor로 전달돼요.\n눌러서 저를 추가하세요: %1$s\n아직 앱이 없나요? 말해 주면 보내 드릴게요.</string>
+</resources>

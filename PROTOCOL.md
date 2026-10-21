@@ -1,6 +1,6 @@
 # Whospair — Protocol
 
-This document describes what Whospair actually does on the wire and on disk, as of version 1.3.9 (versionCode 16). It is written from the source code; when the two disagree, the code is right and this file is a bug.
+This document describes what Whospair actually does on the wire and on disk, as of version 1.4.1 (versionCode 18). It is written from the source code; when the two disagree, the code is right and this file is a bug.
 
 Source pointers are given as `package/File.kt`, under `WhospairApp/app/src/main/java/com/whisper/`.
 
@@ -119,15 +119,26 @@ Binary values are hex. When the JSON would exceed one frame, the message goes as
 `call/CallProtocol.kt`, `security/CallKeys.kt`. Calls are allowed only between confirmed contacts and travel on the same Tor stream.
 
 ```
-OFFER   [0xC1][call id 16][eph X25519 32][sig 64]
-ACCEPT  [0xC2][call id 16][eph X25519 32][sig 64]
+OFFER   [0xC1][call id 16][eph X25519 32][sig 64]([pre-skip u16 LE])
+ACCEPT  [0xC2][call id 16][eph X25519 32][sig 64]([pre-skip u16 LE])
 END     [0xC3][call id 16][reason 1]
 AUDIO   [0xC4][call id 16][seq u32][AES-GCM(Opus packets) + tag 16]
 
 sig = Ed25519 over "whisper-v1|call|offer|" (or "accept|") ‖ call id ‖ eph ‖ sender.x ‖ recipient.x
+      (‖ pre-skip u16 LE, when the frame carries it)
 ```
 
 Each side makes a fresh ephemeral X25519 key per call. The signature ties it to the identity in the QR and cannot be reused for another call or another contact. `END` is not signed: only the contact at the other end of the stream can send it, and only for its own call.
+
+**Pre-skip (optional field, from versionCode 17, Whospair 1.4):** the sender's Opus encoder pre-skip, in samples at 48 kHz, read from the encoder's own header (`OpusHead` bytes 10–11, or the `AOPUSDLY` tag of an `AOPUSHDR` packet — `voice/OpusHeader.kt`, shared with voice messages). The other side builds its decoder header (`csd-0`, `csd-1`) with it. When the encoder gives no readable header, the sender puts 312. The receiver rejects the whole frame if the value is above 48 000 (one second).
+
+**Compatibility:** versions before 17 reject any OFFER/ACCEPT whose size is not 113 bytes. So:
+
+- a receiver accepts 113 bytes (old format, pre-skip taken as 312) or 115 bytes (new format); any other size is rejected;
+- a sender uses the new format only if the contact announced versionCode ≥ 17 on the stream (`ver` frame); otherwise it sends the old format, byte for byte, with the old signed string;
+- the pre-skip is in the signed string only when it is in the frame. Removing it to fake the old format, or changing it, breaks the signature.
+
+`AUDIO` frames and key derivation are unchanged.
 
 **Keys:**
 

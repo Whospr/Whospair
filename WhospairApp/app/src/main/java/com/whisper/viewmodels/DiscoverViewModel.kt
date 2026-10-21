@@ -73,16 +73,26 @@ class DiscoverViewModel @Inject constructor(
             }
         }
 
-        // Clé déposée par un QR scanné ou un lien profond : on la pré-remplit
-        // dans le champ au lieu d'ajouter tout seul, pour que l'utilisateur
-        // voie ce qu'il valide.
+    }
+
+    /**
+     * Lien touché ou QR scanné : ajouté tout de suite, sans repasser par le
+     * champ (1.4.1 : pré-remplir laissait croire que le lien n'avait pas
+     * marché). Appelé par WhisperApp, seul lecteur de [PendingContactLink].
+     */
+    fun addPending(identity: PendingContactLink.PendingIdentity) {
         viewModelScope.launch {
-            PendingContactLink.pending.collect { identity ->
-                if (identity != null) {
-                    _state.update { it.copy(manualInput = identity.asPayload(), outcome = null) }
-                    PendingContactLink.consume()
-                }
+            // Le refus de soi-même a besoin de notre clé : pas de course avec init.
+            val me = withContext(Dispatchers.IO) { identityService.getIdentity() }
+            if (me == null) {
+                _state.update { it.copy(outcome = AddContactOutcome.Failed(null)) }
+                return@launch
             }
+            _state.update { it.copy(myPublicKeyHex = me.publicKeyHex) }
+            val parsed = ContactKeyParser.Result.Valid(
+                identity.publicKeyHex, identity.signingPublicKeyHex, identity.onionAddress
+            )
+            persist(parsed, alias = "", fromLink = !identity.scanned)
         }
     }
 
@@ -111,11 +121,16 @@ class DiscoverViewModel @Inject constructor(
             is ContactKeyParser.Result.MalformedKey ->
                 _state.update { it.copy(outcome = AddContactOutcome.MalformedKey) }
 
-            is ContactKeyParser.Result.Valid -> persist(parsed, alias)
+            is ContactKeyParser.Result.Valid -> persist(parsed, alias, fromLink = false)
         }
     }
 
-    private fun persist(parsed: ContactKeyParser.Result.Valid, alias: String) {
+    /**
+     * [fromLink] : venu par un lien touché, donc de n'importe qui. Ajouté non
+     * confirmé, et jamais de confirmation ni de remplacement d'un contact déjà
+     * dans le carnet — ça, seul un scan (ou un collage à la main) le fait.
+     */
+    private fun persist(parsed: ContactKeyParser.Result.Valid, alias: String, fromLink: Boolean) {
         val publicKeyHex = parsed.publicKeyHex
         viewModelScope.launch {
             _state.update { it.copy(isAdding = true, outcome = null) }
@@ -135,7 +150,7 @@ class DiscoverViewModel @Inject constructor(
                 // Venu seul, non confirmé : le scan fait foi. Mêmes clés →
                 // confirmé ; clés différentes → celui du carnet usurpait
                 // cette clé X25519, le scan le remplace.
-                if (existing != null && !existing.isTrusted && !existing.isBlocked) {
+                if (existing != null && !existing.isTrusted && !existing.isBlocked && !fromLink) {
                     val scanned = Contact.fromPublicKeys(
                         publicKeyHex, parsed.signingPublicKeyHex, parsed.onionAddress, alias
                     )
@@ -185,11 +200,14 @@ class DiscoverViewModel @Inject constructor(
                     return@launch
                 }
 
-                val saved = withContext(Dispatchers.IO) { contactRepository.addContact(contact) }
+                // Par lien : comme un inconnu qui se présente, plafond compris.
+                val saved = withContext(Dispatchers.IO) {
+                    if (fromLink) contactRepository.addUnconfirmed(contact) else contactRepository.addContact(contact)
+                }
                 _state.update {
                     it.copy(
                         isAdding = false,
-                        manualInput = if (saved) "" else it.manualInput,
+                        manualInput = if (saved && !fromLink) "" else it.manualInput,
                         outcome = if (saved) AddContactOutcome.Added(contact)
                         else AddContactOutcome.Failed(null)
                     )

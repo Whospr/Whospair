@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invite_message">Whospairで話そう：サーバーなし、電話番号なし、すべてTor経由。\nタップして追加：%1$s\nまだアプリがない？言ってくれれば送るよ。</string>
+</resources>

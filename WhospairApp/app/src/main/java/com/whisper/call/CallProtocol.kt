@@ -15,13 +15,20 @@ import javax.crypto.spec.SecretKeySpec
  * Les messages y voyagent en JSON (premier octet « { ») ; une trame d'appel
  * commence par un octet de type ≥ 0xC1, qu'aucun JSON ne produit.
  *
- *   OFFRE    [C1][appel 16][éphémère X25519 32][signature Ed25519 64]
- *   ACCEPTE  [C2][appel 16][éphémère X25519 32][signature Ed25519 64]
+ *   OFFRE    [C1][appel 16][éphémère X25519 32][signature Ed25519 64]([pré-saut u16 LE])
+ *   ACCEPTE  [C2][appel 16][éphémère X25519 32][signature Ed25519 64]([pré-saut u16 LE])
  *   FIN      [C3][appel 16][motif 1]
  *   VOIX     [C4][appel 16][numéro u32][AES-GCM(paquets Opus) + étiquette 16]
  *
+ * Pré-saut : celui de l'encodeur de l'émetteur, en échantillons à 48 kHz,
+ * pour que le décodeur d'en face coupe exactement le bon début. Absent
+ * (ancien format, versions < [PRE_SKIP_MIN_VERSION]) : [DEFAULT_PRE_SKIP].
+ * Une version ancienne refuse toute taille autre que [SIGNAL_SIZE] : on ne
+ * lui envoie que l'ancien format, octet pour octet.
+ *
  * Signé : "whisper-v1|call|offer|" (ou accept) ‖ appel ‖ éphémère ‖ X25519
- * de l'émetteur ‖ X25519 du destinataire. Le flux est déjà authentifié par la
+ * de l'émetteur ‖ X25519 du destinataire (‖ pré-saut u16 LE s'il est dans la
+ * trame). Le flux est déjà authentifié par la
  * poignée de main ; la signature lie en plus l'éphémère à l'identité du QR, et
  * ne peut pas être resservie dans un autre appel ni à un autre contact.
  *
@@ -40,7 +47,15 @@ object CallProtocol {
     private const val SIG_SIZE = 64
     private const val TAG_BITS = 128
     const val SIGNAL_SIZE = 1 + CALL_ID_SIZE + KEY_SIZE + SIG_SIZE
+    private const val PRE_SKIP_SIZE = 2
     private const val AUDIO_HEADER = 1 + CALL_ID_SIZE + 4
+
+    /** Ce que supposaient toutes les versions avant le pré-saut transmis. */
+    const val DEFAULT_PRE_SKIP = 312
+    /** Une seconde à 48 kHz : au-delà, la valeur reçue est absurde. */
+    const val MAX_PRE_SKIP = 48_000
+    /** Premier versionCode (1.4) qui lit le pré-saut dans OFFRE et ACCEPTE. */
+    const val PRE_SKIP_MIN_VERSION = 17L
 
     /** Motifs de FIN. */
     const val END_HANGUP: Byte = 0
@@ -51,25 +66,58 @@ object CallProtocol {
     fun isCallFrame(payload: ByteArray): Boolean =
         payload.isNotEmpty() && payload[0] in OFFER..AUDIO
 
-    fun signalBinding(type: Byte, callId: ByteArray, ephemeral: ByteArray, from: ByteArray, to: ByteArray): ByteArray {
+    /** [preSkip] null : ancien format, lien signé inchangé. */
+    fun signalBinding(
+        type: Byte, callId: ByteArray, ephemeral: ByteArray, from: ByteArray, to: ByteArray, preSkip: Int?
+    ): ByteArray {
         val label = if (type == OFFER) "offer" else "accept"
-        return "whisper-v1|call|$label|".toByteArray(Charsets.US_ASCII) + callId + ephemeral + from + to
+        val base = "whisper-v1|call|$label|".toByteArray(Charsets.US_ASCII) + callId + ephemeral + from + to
+        return if (preSkip == null) base else base + u16(preSkip)
     }
 
-    fun signal(type: Byte, callId: ByteArray, ephemeral: ByteArray, signature: ByteArray): ByteArray =
-        byteArrayOf(type) + callId + ephemeral + signature
+    /** [preSkip] null : ancien format, pour un contact < [PRE_SKIP_MIN_VERSION]. */
+    fun signal(type: Byte, callId: ByteArray, ephemeral: ByteArray, signature: ByteArray, preSkip: Int?): ByteArray {
+        require(preSkip == null || preSkip in 0..MAX_PRE_SKIP) { "Pré-saut hors bornes" }
+        val base = byteArrayOf(type) + callId + ephemeral + signature
+        return if (preSkip == null) base else base + u16(preSkip)
+    }
 
-    class Signal(val type: Byte, val callId: ByteArray, val ephemeral: ByteArray, val signature: ByteArray)
+    /** Ce contact lit-il le pré-saut ? Sinon : ancien format, octet pour octet. */
+    fun sendsPreSkip(peerVersion: Long): Boolean = peerVersion >= PRE_SKIP_MIN_VERSION
+
+    /**
+     * @property preSkip celui de l'encodeur d'en face, borné ; [DEFAULT_PRE_SKIP] en ancien format.
+     * @property preSkipSigned le pré-saut était dans la trame, donc dans le lien signé.
+     */
+    class Signal(
+        val type: Byte,
+        val callId: ByteArray,
+        val ephemeral: ByteArray,
+        val signature: ByteArray,
+        val preSkip: Int,
+        val preSkipSigned: Boolean
+    )
 
     fun parseSignal(frame: ByteArray): Signal? {
-        if (frame.size != SIGNAL_SIZE || (frame[0] != OFFER && frame[0] != ACCEPT)) return null
+        if (frame.size != SIGNAL_SIZE && frame.size != SIGNAL_SIZE + PRE_SKIP_SIZE) return null
+        if (frame[0] != OFFER && frame[0] != ACCEPT) return null
+        val extended = frame.size == SIGNAL_SIZE + PRE_SKIP_SIZE
+        // Donnée venue du réseau : hors de [0, 1 s], la trame entière est refusée.
+        val preSkip = if (extended) {
+            ((frame[SIGNAL_SIZE].toInt() and 0xFF) or ((frame[SIGNAL_SIZE + 1].toInt() and 0xFF) shl 8))
+                .takeIf { it <= MAX_PRE_SKIP } ?: return null
+        } else DEFAULT_PRE_SKIP
         return Signal(
             frame[0],
             frame.copyOfRange(1, 1 + CALL_ID_SIZE),
             frame.copyOfRange(1 + CALL_ID_SIZE, 1 + CALL_ID_SIZE + KEY_SIZE),
-            frame.copyOfRange(1 + CALL_ID_SIZE + KEY_SIZE, frame.size)
+            frame.copyOfRange(1 + CALL_ID_SIZE + KEY_SIZE, SIGNAL_SIZE),
+            preSkip,
+            extended
         )
     }
+
+    private fun u16(value: Int): ByteArray = byteArrayOf((value and 0xFF).toByte(), ((value shr 8) and 0xFF).toByte())
 
     fun end(callId: ByteArray, reason: Byte): ByteArray = byteArrayOf(END) + callId + reason
 

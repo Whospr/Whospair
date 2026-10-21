@@ -31,4 +31,5 @@
     <string name="update_interrupted">Cập nhật bị gián đoạn, thử lại sau 30 phút</string>
     <string name="update_mandatory_title">Cần cập nhật</string>
     <string name="update_mandatory_body">Phiên bản mới hơn của Whospair đã có hơn 5 ngày. Hãy cài đặt để tiếp tục dùng ứng dụng: các liên hệ đã cập nhật không còn chấp nhận phiên bản cũ.</string>
+    <string name="update_retry_now">Thử lại ngay</string>
 </resources>

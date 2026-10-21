@@ -31,4 +31,5 @@
     <string name="update_interrupted">アップデートが中断されました。30 分後に再試行します</string>
     <string name="update_mandatory_title">アップデートが必要です</string>
     <string name="update_mandatory_body">Whospair の新しいバージョンが公開されてから 5 日以上たちました。引き続き使うにはインストールしてください。最新の連絡先は古いバージョンを受け付けません。</string>
+    <string name="update_retry_now">今すぐ再試行</string>
 </resources>

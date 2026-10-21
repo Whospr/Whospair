@@ -11,6 +11,7 @@ import android.os.Build
 import android.os.IBinder
 import android.os.Parcel
 import android.os.Process
+import com.whisper.tor.OnionAddress
 import com.whisper.tor.TorRuntime
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -57,7 +58,7 @@ class ReachService : Service() {
 
     private val binder = object : Binder() {
         override fun onTransact(code: Int, data: Parcel, reply: Parcel?, flags: Int): Boolean {
-            if (code !in HANDOFF..DOWNLOAD_STOP) return super.onTransact(code, data, reply, flags)
+            if (code !in HANDOFF..REFETCH) return super.onTransact(code, data, reply, flags)
             // Service non exporté ; on vérifie quand même que c'est nous.
             if (Binder.getCallingUid() != Process.myUid()) return false
             reply?.writeNoException()
@@ -80,6 +81,7 @@ class ReachService : Service() {
                     download?.stop()
                     download = null
                 }
+                REFETCH -> data.readString()?.takeIf(OnionAddress::isValid)?.let { tor?.refetchOnion(it) }
             }
             return true
         }
@@ -220,6 +222,8 @@ class ReachService : Service() {
         const val DOWNLOAD = IBinder.FIRST_CALL_TRANSACTION + 3
         /** L'app annule ou reprend la main sur le téléchargement. */
         const val DOWNLOAD_STOP = IBinder.FIRST_CALL_TRANSACTION + 4
+        /** L'app, sur notre Tor : redemander le descripteur de cette adresse onion. */
+        const val REFETCH = IBinder.FIRST_CALL_TRANSACTION + 5
         private const val TAG = "ReachService"
         const val VERSION = 1
         const val EXTRA_MAIN_PID = "main_pid"

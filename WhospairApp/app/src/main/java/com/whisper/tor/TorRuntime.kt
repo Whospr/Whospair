@@ -222,8 +222,9 @@ class TorRuntime(
      * tout de suite — Tor doit trouver hs.sock dès la première visite. S'il
      * meurt, [onLost] relance un Tor dans l'app.
      */
-    fun useShared(status: () -> State?, onLost: () -> Unit) {
+    fun useShared(status: () -> State?, onLost: () -> Unit, refetch: (String) -> Unit) {
         if (_state.value != State.Off || shared) return
+        sharedRefetch = refetch
         shared = true
         _state.value = State.Starting(0)
         scope.launch {
@@ -465,12 +466,17 @@ class TorRuntime(
      * Fait rechercher par Tor le descripteur à jour d'une adresse onion.
      * Après une mise à jour, le contact relance un Tor neuf : nouveaux points
      * d'introduction, et le nôtre insistait sur les anciens, morts, pendant
-     * des minutes. Sans effet si le démon est celui de `:reach` (pas de port
-     * de contrôle ici) : le prochain essai suivra le chemin normal.
+     * des minutes. Démon de `:reach` (pas de port de contrôle ici) : la
+     * demande passe par lui (1.4.1 ; avant, elle se perdait, et un diffuseur
+     * redémarré restait injoignable avec « Rester joignable »).
      */
     fun refetchOnion(onionAddress: String) {
-        runCatching { control?.hsFetch(onionAddress.lowercase().removeSuffix(".onion")) }
+        val address = onionAddress.lowercase().removeSuffix(".onion")
+        if (shared) runCatching { sharedRefetch?.invoke(address) }
+        else runCatching { control?.hsFetch(address) }
     }
+
+    @Volatile private var sharedRefetch: ((String) -> Unit)? = null
 
     companion object {
         /**

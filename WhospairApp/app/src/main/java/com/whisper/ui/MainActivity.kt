@@ -39,6 +39,8 @@ import com.whisper.ui.contacts.DiscoverScreen
 import com.whisper.ui.contacts.QrScannerScreen
 import com.whisper.util.ContactKeyParser
 import com.whisper.util.PendingContactLink
+import com.whisper.viewmodels.DiscoverViewModel
+import kotlinx.coroutines.flow.filterNotNull
 import com.whisper.viewmodels.ContactViewModel
 import com.whisper.viewmodels.IdentityViewModel
 import com.whisper.ui.screens.ChatScreenContainer
@@ -137,15 +139,12 @@ class MainActivity : ComponentActivity() {
     /**
      * Extrait une clé publique d'un lien entrant.
      *
-     * On ne fait que la MÉMORISER : ajouter un contact sans confirmation
-     * permettrait à n'importe quelle page web d'injecter un contact en
-     * faisant ouvrir un lien. L'écran Discover présente la clé et attend
-     * une action explicite.
+     * Mémorisée seulement : l'ajout attend le déverrouillage (WhisperApp).
      */
     private fun handleDeepLink(intent: Intent?) {
         val data = intent?.data?.toString() ?: return
         val parsed = ContactKeyParser.parse(data)
-        if (parsed is ContactKeyParser.Result.Valid) PendingContactLink.submit(parsed)
+        if (parsed is ContactKeyParser.Result.Valid) PendingContactLink.submit(parsed, scanned = false)
     }
 }
 
@@ -166,6 +165,19 @@ fun WhisperApp(
     // Le scanner QR se pose PAR-DESSUS l'app plutôt que d'être un onglet :
     // c'est une action ponctuelle, pas une destination.
     var showScanner by remember { mutableStateOf(false) }
+
+    // Lien touché (avant ou après le PIN) ou QR scanné : un seul lecteur, ici.
+    // On montre « Ajouter un contact », qui ajoute et affiche le résultat.
+    val discoverViewModel: DiscoverViewModel = hiltViewModel()
+    LaunchedEffect(Unit) {
+        PendingContactLink.pending.filterNotNull().collect {
+            PendingContactLink.consume()
+            showScanner = false
+            openChat = null
+            currentRoute = NavigationRoute.Discover.route
+            discoverViewModel.addPending(it)
+        }
+    }
 
     // Retour système : ferme ce qui est posé par-dessus, puis revient à
     // l'accueil. Sans ça, Retour fermait l'activité — et l'app se tue en
@@ -229,6 +241,7 @@ fun WhisperApp(
             NavigationRoute.Discover.route -> {
                 DiscoverScreen(
                     paddingValues = paddingValues,
+                    viewModel = discoverViewModel,
                     onOpenScanner = { showScanner = true }
                 )
             }
@@ -271,9 +284,8 @@ fun WhisperApp(
                     // profonds : un seul chemin d'ajout, donc un seul endroit
                     // où les garde-fous s'appliquent.
                     val parsed = ContactKeyParser.parse(scanned)
-                    if (parsed is ContactKeyParser.Result.Valid) PendingContactLink.submit(parsed)
-                    showScanner = false
-                    currentRoute = NavigationRoute.Discover.route
+                    if (parsed is ContactKeyParser.Result.Valid) PendingContactLink.submit(parsed, scanned = true)
+                    else showScanner = false
                 },
                 onCancel = { showScanner = false }
             )

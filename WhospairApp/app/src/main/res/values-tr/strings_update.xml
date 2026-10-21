@@ -31,4 +31,5 @@
     <string name="update_interrupted">Güncelleme kesildi, 30 dk sonra yeniden denenecek</string>
     <string name="update_mandatory_title">Güncelleme zorunlu</string>
     <string name="update_mandatory_body">Whospair\'in daha yeni bir sürümü 5 günden uzun süredir mevcut. Uygulamayı kullanmaya devam etmek için yükleyin: güncel kişileriniz artık eski sürümleri kabul etmiyor.</string>
+    <string name="update_retry_now">Şimdi yeniden dene</string>
 </resources>

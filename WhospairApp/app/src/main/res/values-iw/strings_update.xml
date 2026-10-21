@@ -31,4 +31,5 @@
     <string name="update_interrupted">העדכון נקטע, ניסיון נוסף בעוד 30 דק׳</string>
     <string name="update_mandatory_title">נדרש עדכון</string>
     <string name="update_mandatory_body">גרסה חדשה יותר של Whospair זמינה כבר יותר מ-5 ימים. התקינו אותה כדי להמשיך להשתמש באפליקציה: אנשי הקשר המעודכנים שלכם כבר לא מקבלים גרסאות ישנות.</string>
+    <string name="update_retry_now">נסה שוב עכשיו</string>
 </resources>

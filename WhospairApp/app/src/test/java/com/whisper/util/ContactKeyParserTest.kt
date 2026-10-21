@@ -19,6 +19,18 @@ class ContactKeyParserTest {
         assertEquals(expected, ContactKeyParser.parse(" whisper:$x$ed\n$onion "))
         assertEquals(expected, ContactKeyParser.parse("whospair:$x$ed$onion"))
         assertEquals(expected, ContactKeyParser.parse("whospair://add_contact?key=$x$ed$onion"))
+        assertEquals(expected, ContactKeyParser.parse("https://whospair.github.io/a#$x$ed$onion"))
+    }
+
+    @Test fun `le message d'invitation colle en entier est lu`() {
+        val link = ContactKeyParser.toShareableLink(x, ed, onion)
+        assertTrue(link.startsWith("https://"))
+        assertEquals(
+            ContactKeyParser.Result.Valid(x, ed, onion),
+            ContactKeyParser.parse("Parlons sur Whospair.\nAjoute-moi : $link\nPas encore l'app ?")
+        )
+        // « İ » s'allonge en minuscules : l'indice ne doit pas se décaler.
+        assertEquals(ContactKeyParser.Result.Valid(x, ed, onion), ContactKeyParser.parse("İşte İzmir $link"))
     }
 
     @Test fun `sans onion, ou onion corrompue, c'est refuse`() {

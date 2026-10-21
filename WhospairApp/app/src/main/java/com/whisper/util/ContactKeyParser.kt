@@ -25,6 +25,12 @@ import com.whisper.tor.OnionAddress
  *
  *  3. `<184>` brut — collé à la main depuis un message ou un mail.
  *
+ *  4. `https://whospair.github.io/a#<184>` — lien d'invitation. Seule forme
+ *     que WhatsApp, Signal ou un SMS rendent cliquable. La clé est APRÈS le
+ *     `#` : un navigateur n'envoie jamais le fragment au serveur, la page
+ *     ne voit donc ni qui invite ni qui est invité. Sans l'app, la page
+ *     explique comment l'obtenir ; avec, Android ouvre l'app directement.
+ *
  * Toutes convergent vers la même identité, normalisée en minuscules.
  * L'ancien préfixe `whisper:` (avant le nom Whospair) est toujours lu.
  */
@@ -35,6 +41,8 @@ object ContactKeyParser {
     const val LEGACY_SCHEME = "whisper"
     const val DEEP_LINK_HOST = "add_contact"
     const val KEY_PARAM = "key"
+    /** Page d'invitation. Doit rester alignée sur le filtre https du manifeste. */
+    const val WEB_LINK_PREFIX = "https://whospair.github.io/a#"
 
     /** X25519 (64) + Ed25519 (64) en hex. */
     private const val KEY_LENGTH = 128
@@ -75,6 +83,13 @@ object ContactKeyParser {
         if (input.length == PAYLOAD_LENGTH) return validate(input)
 
         val lower = input.lowercase()
+
+        // Forme 4 : lien d'invitation web, cherché partout — on colle souvent
+        // le message d'invitation entier, pas seulement le lien.
+        // Cherché dans l'entrée elle-même : lowercase() peut allonger un texte
+        // (« İ » → 2 caractères) et décaler l'indice.
+        val web = input.indexOf(WEB_LINK_PREFIX, ignoreCase = true)
+        if (web >= 0) return validate(input.substring(web + WEB_LINK_PREFIX.length).take(PAYLOAD_LENGTH))
 
         for (scheme in listOf(SCHEME, LEGACY_SCHEME)) {
             // Forme 2 : lien profond hiérarchique
@@ -118,11 +133,12 @@ object ContactKeyParser {
         "$SCHEME:" + payload(publicKeyHex, signingPublicKeyHex, onionAddress)
 
     /**
-     * Lien partageable par message, mail ou presse-papiers.
-     * Cliquable, contrairement au payload du QR.
+     * Lien partageable par message, mail ou presse-papiers : forme 4, la seule
+     * que les messageries rendent cliquable. Les liens `whospair://` déjà
+     * envoyés restent lus.
      */
     fun toShareableLink(publicKeyHex: String, signingPublicKeyHex: String, onionAddress: String): String =
-        "$SCHEME://$DEEP_LINK_HOST?$KEY_PARAM=" + payload(publicKeyHex, signingPublicKeyHex, onionAddress)
+        WEB_LINK_PREFIX + payload(publicKeyHex, signingPublicKeyHex, onionAddress)
 
     /**
      * Empreinte courte d'UNE clé, pour l'affichage compact dans les listes.

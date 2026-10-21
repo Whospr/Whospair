@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Message d'invitation : texte lisible + lien https cliquable. -->
+<resources>
+    <string name="invite_message">Let\'s talk on Whospair: no server, no phone number, everything goes through Tor.\nTap to add me: %1$s\nDon\'t have the app yet? Ask me and I\'ll send it to you.</string>
+</resources>

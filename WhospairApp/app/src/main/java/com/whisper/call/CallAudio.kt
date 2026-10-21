@@ -10,6 +10,7 @@ import android.media.MediaFormat
 import android.media.MediaRecorder
 import android.media.audiofx.AcousticEchoCanceler
 import android.media.audiofx.NoiseSuppressor
+import com.whisper.voice.OpusHeader
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.util.concurrent.LinkedBlockingDeque
@@ -33,6 +34,8 @@ import java.util.concurrent.TimeUnit
  * Deux fils : [start] les lance, [stop] les arrête. Pas de réutilisation.
  */
 class CallAudio(
+    /** Pré-saut de l'encodeur du contact (OFFRE/ACCEPTE), déjà borné. */
+    private val peerPreSkip: Int,
     /** Micro ou haut-parleur en panne : l'appel ne peut plus continuer. */
     private val onFailure: () -> Unit,
     /** Appelé depuis le fil du micro, un envoi toutes les 60 ms. */
@@ -90,13 +93,7 @@ class CallAudio(
         noise?.enabled = true
 
         val codec = MediaCodec.createEncoderByType(MediaFormat.MIMETYPE_AUDIO_OPUS)
-        codec.configure(
-            MediaFormat.createAudioFormat(MediaFormat.MIMETYPE_AUDIO_OPUS, RATE, 1).apply {
-                setInteger(MediaFormat.KEY_BIT_RATE, BITRATE)
-                setInteger(MediaFormat.KEY_MAX_INPUT_SIZE, FRAME_BYTES * 4)
-            },
-            null, null, MediaCodec.CONFIGURE_FLAG_ENCODE
-        )
+        codec.configure(encoderFormat(), null, null, MediaCodec.CONFIGURE_FLAG_ENCODE)
 
         val pcm = ByteArray(FRAME_BYTES)
         val info = MediaCodec.BufferInfo()
@@ -128,7 +125,8 @@ class CallAudio(
                     val buffer = codec.getOutputBuffer(index)!!
                     val packet = ByteArray(info.size).also { buffer.position(info.offset); buffer.get(it) }
                     codec.releaseOutputBuffer(index, false)
-                    // L'en-tête de l'encodeur ne voyage pas : l'autre côté le reconstruit.
+                    // L'en-tête ne voyage pas : son pré-saut, lu par [probePreSkip]
+                    // sur la même configuration, est parti dans OFFRE/ACCEPTE.
                     if (info.flags and MediaCodec.BUFFER_FLAG_CODEC_CONFIG != 0 || packet.isEmpty()) continue
                     pending += packet
                     if (pending.size == GROUP) {
@@ -231,22 +229,23 @@ class CallAudio(
     }
 
     /**
-     * L'en-tête Opus ne voyage pas : il est toujours le même (mono, 48 kHz),
-     * on le reconstruit. Voir RFC 7845 §5.1.
+     * L'en-tête Opus ne voyage pas : mono, 48 kHz, seul le pré-saut change
+     * d'un encodeur à l'autre, et il arrive du contact. Voir RFC 7845 §5.1.
      */
     private fun decoderFormat(): MediaFormat {
+        val preSkip = peerPreSkip.coerceIn(0, CallProtocol.MAX_PRE_SKIP)
         val head = ByteBuffer.allocate(19).order(ByteOrder.LITTLE_ENDIAN)
             .put("OpusHead".toByteArray(Charsets.US_ASCII))
             .put(1)                     // version
             .put(1)                     // mono
-            .putShort(PRE_SKIP.toShort())
+            .putShort(preSkip.toShort())
             .putInt(RATE)
             .putShort(0)                // gain
             .put(0)                     // mappage simple
             .array()
         return MediaFormat.createAudioFormat(MediaFormat.MIMETYPE_AUDIO_OPUS, RATE, 1).apply {
             setByteBuffer("csd-0", ByteBuffer.wrap(head))
-            setByteBuffer("csd-1", nativeLong(PRE_SKIP * 1_000_000_000L / RATE))
+            setByteBuffer("csd-1", nativeLong(preSkip * 1_000_000_000L / RATE))
             setByteBuffer("csd-2", nativeLong(80_000_000L))
         }
     }
@@ -260,7 +259,58 @@ class CallAudio(
         /** 20 ms de son mono 16 bits. */
         private const val FRAME_BYTES = RATE / 50 * 2
         private const val FRAME_US = 20_000L
-        private const val PRE_SKIP = 312
+        /** Délai maximal pour que l'encodeur rende son en-tête. */
+        private const val PROBE_TIMEOUT_US = 200_000L
+
+        private fun encoderFormat(): MediaFormat =
+            MediaFormat.createAudioFormat(MediaFormat.MIMETYPE_AUDIO_OPUS, RATE, 1).apply {
+                setInteger(MediaFormat.KEY_BIT_RATE, BITRATE)
+                setInteger(MediaFormat.KEY_MAX_INPUT_SIZE, FRAME_BYTES * 4)
+            }
+
+        /**
+         * Le pré-saut réel de notre encodeur, lu dans son en-tête (CODEC_CONFIG)
+         * sur la configuration exacte de l'appel. Encodeur démarré à part, une
+         * trame de silence, puis libéré : aucun micro ouvert. null : en-tête
+         * absent, illisible ou trop lent — l'appelant met
+         * [CallProtocol.DEFAULT_PRE_SKIP] et ne garde pas l'échec.
+         */
+        fun probePreSkip(): Int? {
+            val codec = runCatching { MediaCodec.createEncoderByType(MediaFormat.MIMETYPE_AUDIO_OPUS) }
+                .getOrNull() ?: return null
+            try {
+                codec.configure(encoderFormat(), null, null, MediaCodec.CONFIGURE_FLAG_ENCODE)
+                codec.start()
+                val info = MediaCodec.BufferInfo()
+                val deadline = System.nanoTime() + PROBE_TIMEOUT_US * 1_000
+                var fed = false
+                while (System.nanoTime() < deadline) {
+                    // Certains encodeurs ne rendent leur en-tête qu'après une première trame.
+                    if (!fed) {
+                        val input = codec.dequeueInputBuffer(5_000)
+                        if (input >= 0) {
+                            codec.getInputBuffer(input)!!.apply { clear(); put(ByteArray(FRAME_BYTES)) }
+                            codec.queueInputBuffer(input, 0, FRAME_BYTES, 0, 0)
+                            fed = true
+                        }
+                    }
+                    val index = codec.dequeueOutputBuffer(info, 10_000)
+                    if (index < 0) continue
+                    val buffer = codec.getOutputBuffer(index)!!
+                    val bytes = ByteArray(info.size).also { buffer.position(info.offset); buffer.get(it) }
+                    codec.releaseOutputBuffer(index, false)
+                    if (info.flags and MediaCodec.BUFFER_FLAG_CODEC_CONFIG == 0) continue
+                    return OpusHeader.preSkipSamples(bytes, CallProtocol.MAX_PRE_SKIP)
+                }
+                return null
+            } catch (e: Exception) {
+                return null
+            } finally {
+                runCatching { codec.stop() }
+                codec.release()
+            }
+        }
+
         /** Trames Opus par envoi : 60 ms. */
         private const val GROUP = 3
         /** 240 ms d'avance au démarrage. */

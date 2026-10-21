@@ -31,4 +31,5 @@
     <string name="update_interrupted">توقف التحديث، محاولة جديدة خلال 30 دقيقة</string>
     <string name="update_mandatory_title">التحديث إلزامي</string>
     <string name="update_mandatory_body">يتوفر إصدار أحدث من Whospair منذ أكثر من 5 أيام. ثبّته لمواصلة استخدام التطبيق: جهات اتصالك المحدّثة لم تعد تقبل الإصدارات القديمة.</string>
+    <string name="update_retry_now">أعد المحاولة الآن</string>
 </resources>

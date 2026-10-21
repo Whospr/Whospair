@@ -88,6 +88,7 @@ fun MandatoryUpdateGate(viewModel: SettingsViewModel = hiltViewModel(), content:
                     if (retrying) {
                         Text(stringResource(R.string.update_diffuser_retry), style = MaterialTheme.typography.bodySmall, color = Ink.Ash)
                     }
+                    TextButton(onClick = viewModel::retryUpdateNow) { Text(stringResource(R.string.update_retry_now)) }
                     TextButton(onClick = viewModel::cancelUpdate) { Text(stringResource(R.string.update_cancel), color = Ink.Brick) }
                 }
                 is UpdateManager.State.Installing -> Text(stringResource(R.string.update_state_installing), color = Ink.Chalk)

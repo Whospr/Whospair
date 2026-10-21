@@ -31,4 +31,5 @@
     <string name="update_interrupted">업데이트 중단됨, 30분 후 다시 시도</string>
     <string name="update_mandatory_title">업데이트 필요</string>
     <string name="update_mandatory_body">Whospair의 새 버전이 나온 지 5일이 넘었습니다. 앱을 계속 사용하려면 설치하세요. 최신 버전의 연락처는 더 이상 이전 버전을 받지 않습니다.</string>
+    <string name="update_retry_now">지금 다시 시도</string>
 </resources>

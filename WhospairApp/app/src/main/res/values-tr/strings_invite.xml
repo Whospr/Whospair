@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invite_message">Whospair\'de konuşalım: sunucu yok, numara yok, her şey Tor üzerinden.\nBeni eklemek için dokun: %1$s\nUygulama henüz sende yok mu? İste, sana göndereyim.</string>
+</resources>

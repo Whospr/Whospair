@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invite_message">Hajde da pričamo na Whospair-u: bez servera, bez broja, sve ide preko Tor-a.\nDodirni da me dodaš: %1$s\nJoš nemaš aplikaciju? Pitaj me, poslaću ti je.</string>
+</resources>

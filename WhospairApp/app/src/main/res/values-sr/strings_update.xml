@@ -31,4 +31,5 @@
     <string name="update_interrupted">Ажурирање прекинуто, нови покушај за 30 мин</string>
     <string name="update_mandatory_title">Потребно ажурирање</string>
     <string name="update_mandatory_body">Новија верзија Whospair-a доступна је већ више од 5 дана. Инсталирајте је да бисте наставили да користите апликацију: ваши ажурни контакти више не прихватају старије верзије.</string>
+    <string name="update_retry_now">Покушај поново сада</string>
 </resources>

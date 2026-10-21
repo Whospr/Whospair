@@ -31,4 +31,5 @@
     <string name="update_interrupted">به‌روزرسانی قطع شد، تلاش دوباره تا ۳۰ دقیقهٔ دیگر</string>
     <string name="update_mandatory_title">به‌روزرسانی الزامی است</string>
     <string name="update_mandatory_body">نسخهٔ جدیدتری از Whospair بیش از ۵ روز است که در دسترس است. برای ادامهٔ استفاده آن را نصب کنید: مخاطبان به‌روز شما دیگر نسخه‌های قدیمی را نمی‌پذیرند.</string>
+    <string name="update_retry_now">اکنون دوباره امتحان کن</string>
 </resources>
